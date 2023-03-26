@@ -60,5 +60,9 @@
 \contentsline {section}{\numberline {3}\bgroup \beginL \latintext Conception\endL \egroup }{19}{section.2.3}%
 \select@language {french}
 \contentsline {subsection}{\numberline {3.1}\bgroup \beginL \latintext Diagramme de cas d'utilisation\endL \egroup }{19}{subsection.2.3.1}%
+\select@language {french}
+\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Le pilotage du projet par SCRUM\endL \egroup }{20}{section.2.4}%
+\select@language {french}
+\contentsline {subsection}{\numberline {4.1}\bgroup \beginL \latintext Identification de l'équipe SCRUM\endL \egroup }{20}{subsection.2.4.1}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{20}{section*.25}%
+\contentsline {chapter}{Annexes}{21}{section*.26}%
