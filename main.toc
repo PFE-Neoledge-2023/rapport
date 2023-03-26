@@ -1,9 +1,7 @@
 \selectlanguage *{french}
 \selectlanguage *{french}
 \select@language {french}
-\select@language {french}
-\select@language {french}
-\contentsline {chapter}{Introduction générale}{1}{chapter*.3}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.1}%
 \select@language {french}
 \contentsline {chapter}{\numberline {1}\bgroup \beginL \latintext Cadre général du projet\endL \egroup }{3}{chapter.1}%
 \contentsline {chapter}{Cadre général du projet}{3}{chapter.1}%
@@ -43,67 +41,24 @@
 \contentsline {subsection}{\numberline {5.3}\bgroup \beginL \latintext Technologies utilisées\endL \egroup }{14}{subsection.1.5.3}%
 \select@language {french}
 \contentsline {section}{\numberline {6}\bgroup \beginL \latintext Conclusion\endL \egroup }{15}{section.1.6}%
+\select@language {french}
+\contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext Analyse et conception\endL \egroup }{16}{chapter.2}%
+\contentsline {chapter}{Analyse et conception}{16}{chapter.2}%
+\select@language {french}
+\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Introduction\endL \egroup }{16}{section.2.1}%
+\select@language {french}
+\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Analyse\endL \egroup }{16}{section.2.2}%
+\select@language {french}
+\contentsline {subsection}{\numberline {2.1}\bgroup \beginL \latintext Identifications des acteurs\endL \egroup }{16}{subsection.2.2.1}%
+\select@language {french}
+\contentsline {subsection}{\numberline {2.2}\bgroup \beginL \latintext Spécifications des besoins fonctionnels\endL \egroup }{16}{subsection.2.2.2}%
+\select@language {french}
+\contentsline {subsubsection}{\bgroup \beginL \latintext Besoins fonctionnels des collaborateurs\endL \egroup }{17}{section*.24}%
+\select@language {french}
+\contentsline {subsection}{\numberline {2.3}\bgroup \beginL \latintext Spécifications des besoins non fonctionnels\endL \egroup }{19}{subsection.2.2.3}%
+\select@language {french}
+\contentsline {section}{\numberline {3}\bgroup \beginL \latintext Conception\endL \egroup }{19}{section.2.3}%
+\select@language {french}
+\contentsline {subsection}{\numberline {3.1}\bgroup \beginL \latintext Diagramme de cas d'utilisation\endL \egroup }{19}{subsection.2.3.1}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{16}{section*.25}%
-\select@language {french}
-\contentsline {chapter}{\numberline {A}\bgroup \beginL \latintext Définitions\endL \egroup }{17}{appendix.A}%
-\select@language {french}
-\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Technologies\endL \egroup }{17}{section.A.1}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.1}\bgroup \beginL \latintext Teradata Database\endL \egroup }{17}{subsection.A.1.1}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.2}\bgroup \beginL \latintext Hortonworks\endL \egroup }{17}{subsection.A.1.2}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.3}\bgroup \beginL \latintext Informatica PowerCenter\endL \egroup }{17}{subsection.A.1.3}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.4}\bgroup \beginL \latintext Teradata BTEQ\endL \egroup }{17}{subsection.A.1.4}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.5}\bgroup \beginL \latintext SAP BusinessObjects\endL \egroup }{18}{subsection.A.1.5}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.6}\bgroup \beginL \latintext Qlik Sens\endL \egroup }{18}{subsection.A.1.6}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.7}\bgroup \beginL \latintext Kxen\endL \egroup }{18}{subsection.A.1.7}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.8}\bgroup \beginL \latintext Apache Nifi\endL \egroup }{18}{subsection.A.1.8}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.9}\bgroup \beginL \latintext HDFS\endL \egroup }{18}{subsection.A.1.9}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.10}\bgroup \beginL \latintext Apache Hive\endL \egroup }{19}{subsection.A.1.10}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.11}\bgroup \beginL \latintext Apache Spark\endL \egroup }{19}{subsection.A.1.11}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.12}\bgroup \beginL \latintext Apache Kafka\endL \egroup }{19}{subsection.A.1.12}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.13}\bgroup \beginL \latintext Apache Ignite\endL \egroup }{19}{subsection.A.1.13}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.14}\bgroup \beginL \latintext Apache Cassandra\endL \egroup }{19}{subsection.A.1.14}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.15}\bgroup \beginL \latintext REST\endL \egroup }{19}{subsection.A.1.15}%
-\select@language {french}
-\contentsline {subsection}{\numberline {1.16}\bgroup \beginL \latintext HTTP\endL \egroup }{20}{subsection.A.1.16}%
-\select@language {french}
-\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Analyse de données\endL \egroup }{20}{section.A.2}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.1}\bgroup \beginL \latintext Modèle churn client\endL \egroup }{20}{subsection.A.2.1}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.2}\bgroup \beginL \latintext Modèle d'affinité client\endL \egroup }{20}{subsection.A.2.2}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.3}\bgroup \beginL \latintext Coefficient de corrélation\endL \egroup }{20}{subsection.A.2.3}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.4}\bgroup \beginL \latintext Clustering Hiérarchique\endL \egroup }{20}{subsection.A.2.4}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.5}\bgroup \beginL \latintext K-means\endL \egroup }{21}{subsection.A.2.5}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.6}\bgroup \beginL \latintext Analyse en composantes principales\endL \egroup }{21}{subsection.A.2.6}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.7}\bgroup \beginL \latintext Random Forest\endL \egroup }{21}{subsection.A.2.7}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.8}\bgroup \beginL \latintext SVM\endL \egroup }{21}{subsection.A.2.8}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.9}\bgroup \beginL \latintext Naive Bays\endL \egroup }{21}{subsection.A.2.9}%
-\select@language {french}
-\contentsline {subsection}{\numberline {2.10}\bgroup \beginL \latintext XGBoost\endL \egroup }{22}{subsection.A.2.10}%
-\select@language {french}
-\contentsline {chapter}{\numberline {B}\bgroup \beginL \latintext Partie données\endL \egroup }{23}{appendix.B}%
-\select@language {french}
-\contentsline {chapter}{\numberline {C}\bgroup \beginL \latintext Comptes rendus des réunions\endL \egroup }{24}{appendix.C}%
+\contentsline {chapter}{Annexes}{20}{section*.25}%

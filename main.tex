@@ -8,7 +8,7 @@
 \usepackage{placeins}
 %pour la mise en page des tableaux
 \usepackage{array}
-\usepackage{tabularx}
+\usepackage{tabularx,booktabs,ragged2e}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{wrapfig}
 \usepackage{subcaption}
@@ -254,7 +254,7 @@ urlcolor=blue}
 
 \includepdf[pages=-]{00-Page-de-garde.pdf}
 \pagenumbering{Roman}
-%\include{00-Note}
+% \include{00-Note}
 % \include{01-Dedicace}
 % \include{02-Remerciements}
 % \include{03-Resume}
@@ -267,10 +267,10 @@ urlcolor=blue}
 \clearpage
 \listoftables
 \clearpage
-\listofalgorithms
+% \listofalgorithms
 
 \clearpage
-\include{04-Acronymes}
+% \include{04-Acronymes}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% Content of the report and references %%%
@@ -281,6 +281,8 @@ urlcolor=blue}
 \pagenumbering{arabic}
 \include{05-Introduction}
 \include{06-CadreGeneral}
+\include{07-AnalyseEtConception}
+
 
 % \include{06-Art}
 % \include{07-Existant}
@@ -301,7 +303,7 @@ urlcolor=blue}
 
 \appendix
 \appendixpage
-\input{12-Annexe.tex}
+% \input{12-Annexe.tex}
 
 
 \clearpage
