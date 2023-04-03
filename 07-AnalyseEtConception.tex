@@ -1,6 +1,6 @@
-\chapter{Analyse et conception}
-\addcontentsline{toc}{chapter}{Analyse et conception}
-\markboth{Analyse et conception}{Analyse et conception}
+\chapter{Planification du Backlog Product}
+\addcontentsline{toc}{chapter}{Planification du Backlog Product}
+\markboth{Planification du Backlog Product}{Planification du Backlog Product}
 \label{chap:analyseEtConception}
 % section starts from 1 
 %\minitoc
@@ -9,11 +9,7 @@
 Afin de pouvoir implémentées les fonctionnalités recensées au début de ce projet, nous
 s'intéressons dans ce chapitre à l'étude conceptuelle de notre application. C'est une phase de spécification et de modélisation conceptuelle basée sur le langage UML à travers les diagrammes de cas d'utilisation, les diagrammes de séquences et classes. Ceci nous permet de tracer une meilleure stratégie d'implémentation des besoins fonctionnels tout en respectant les contraintes identifiées. Ensuite, nous exposerons les besoins non fonctionnels ainsi que notre backlog de produit.
 
-\section{Analyse}
-Dans cette phase d'analyse nous allons identifier les acteurs de notre application et les
-différents besoins fonctionnels et non fonctionnels.
-
-\subsection{Identifications des acteurs}
+\section{Identifications des acteurs}
 Un utilisateur est une entité extérieure au système de modélisation qui représente et
 interagit directement avec une personne, un appareil. Chaque acteur dispose d'un ensemble
 d'actions correspondant à la fonction dont il a besoin. Dans notre projet
@@ -42,10 +38,10 @@ Acteur & Rôles \\
   Ces rôles/droits sont définis et appliqués par défaut par le système. Il est possible de les modifier selon les besoins spécifiques du client.
 \end{small}
 
-\subsection{Spécifications des besoins fonctionnels}
+\subsection{Spécifications des besoins}
 Notre application est desinée aux utilisateurs suivants : les collaborateurs, les secrétaires et les chefs de service. Chacun d'eux dispose d'un ensemble d'actions correspondant à la fonction dont il a besoin.
 
-\subsubsection{Besoins fonctionnels des collaborateurs}
+\section{Besoins fonctionnels des collaborateurs}
 \begin{itemize}
 % \item \textbf{Authentification} : L'utilisateur doit pouvoir s'authentifier à l'application pour pouvoir accéder à ses documents.
 % \item \textbf{Consultation de profil} : L'utilisateur doit pouvoir consulter son profil.
@@ -150,33 +146,40 @@ Afin d'optimiser le fonctionnement de notre application, elle doit répondre aux
 \item L'application doit connecter au serveur d'application privée de l'entreprise.
 \end{itemize}
 
-\section{Conception}
-\subsection{Diagramme de cas d'utilisation}
-% \begin{figure}[h]
+% \section{Conception}
+% \subsection{Diagramme de cas d'utilisation}
+% % \begin{figure}[h]
+% % \centering
+% % \includegraphics[width=0.8\textwidth]{cas}
+% % \caption{Diagramme de cas d'utilisation}
+% % \end{figure}
+% % include pdf
+% Pour répondre aux besoins fonctionnels décrits ci-dessus, nous allons présenter le diagramme de cas d'utilisation global illustré dans la figure ci-dessous.
+% \begin{figure}[!h]
 % \centering
-% \includegraphics[width=0.8\textwidth]{cas}
-% \caption{Diagramme de cas d'utilisation}
+% \includegraphics[width=0.6\textwidth]{useCaseGeneral}
+% \caption{Diagramme de cas d'utilisation global}
 % \end{figure}
-% include pdf
-Pour répondre aux besoins fonctionnels décrits ci-dessus, nous allons présenter le diagramme de cas d'utilisation global illustré dans la figure ci-dessous.
-\begin{figure}[!h]
-\centering
-\includegraphics[width=0.6\textwidth]{useCaseGeneral}
-\caption{Diagramme de cas d'utilisation global}
-\end{figure}
 
-\section{Le pilotage du projet par SCRUM}
-Scrum est basé sur un ensemble de concepts permettant d'assurer une bonne gestion des projets : rôle, artefacts, sprint et réunion.
+% \section{Le pilotage du projet par SCRUM}
+% Scrum est basé sur un ensemble de concepts permettant d'assurer une bonne gestion des projets : rôle, artefacts, sprint et réunion.
 
-\subsection{Identification de l'équipe SCRUM}
-L'équipe joue un rôle capital dans Scrum : elle permet d'optimiser la productivité et la
-flexibilité.
+% \subsection{Identification de l'équipe SCRUM}
+% L'équipe joue un rôle capital dans Scrum : elle permet d'optimiser la productivité et la
+% flexibilité.
 
-Afin de parvenir à ces objectifs, elle doit s'auto organiser et être multi compétente. Elle doit également avoir un champ d'action suffisant pour la soutenir dans la réalisation de son travail
-Dans le contexte de notre projet, on trouve :
+% Afin de parvenir à ces objectifs, elle doit s'auto organiser et être multi compétente. Elle doit également avoir un champ d'action suffisant pour la soutenir dans la réalisation de son travail
+% Dans le contexte de notre projet, on trouve :
 
-\begin{itemize}
-  \item \textbf{Product Owner} Quentin DEMARTHE
-  \item \textbf{Scrum Master} Rabii MEJAI
-  \item \textbf{Equipe de développement} : Mohamed Youssef CHLENDI, Raed CHARRAD
-\end{itemize}
+% \begin{itemize}
+%   \item \textbf{Product Owner} Quentin DEMARTHE
+%   \item \textbf{Scrum Master} Rabii MEJAI
+%   \item \textbf{Equipe de développement} : Mohamed Youssef CHLENDI, Raed CHARRAD
+% \end{itemize}
+
+\section{Les User Stories}
+Une user story est une expression qui décrit un point de vue de l'utilisateur et a pour objectif de donner une valeur au travail. Elle contient généralement trois éléments descriptifs de la fonctionnalité : 
+
+  \textbf{Qui est l'utilisateur ? Qu'est-ce qu'il veut faire ? Et pourquoi veut-il le faire ?}
+
+L'expression qui est souvent utilisée pour formuler une user story est « En tant que \textbf{'qui'}, je veux \textbf{'quoi'} afin de \textbf{'pourquoi'} ». Cette structure permet de décrire de manière concise les besoins des utilisateurs et de les prendre en compte dans la planification et le développement du produit.

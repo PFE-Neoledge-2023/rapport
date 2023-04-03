@@ -42,27 +42,19 @@
 \select@language {french}
 \contentsline {section}{\numberline {6}\bgroup \beginL \latintext Conclusion\endL \egroup }{15}{section.1.6}%
 \select@language {french}
-\contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext Analyse et conception\endL \egroup }{16}{chapter.2}%
-\contentsline {chapter}{Analyse et conception}{16}{chapter.2}%
+\contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext Planification du Backlog Product\endL \egroup }{16}{chapter.2}%
+\contentsline {chapter}{Planification du Backlog Product}{16}{chapter.2}%
 \select@language {french}
 \contentsline {section}{\numberline {1}\bgroup \beginL \latintext Introduction\endL \egroup }{16}{section.2.1}%
 \select@language {french}
-\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Analyse\endL \egroup }{16}{section.2.2}%
+\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Identifications des acteurs\endL \egroup }{16}{section.2.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.1}\bgroup \beginL \latintext Identifications des acteurs\endL \egroup }{16}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.1}\bgroup \beginL \latintext Spécifications des besoins\endL \egroup }{17}{subsection.2.2.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.2}\bgroup \beginL \latintext Spécifications des besoins fonctionnels\endL \egroup }{16}{subsection.2.2.2}%
+\contentsline {section}{\numberline {3}\bgroup \beginL \latintext Besoins fonctionnels des collaborateurs\endL \egroup }{17}{section.2.3}%
 \select@language {french}
-\contentsline {subsubsection}{\bgroup \beginL \latintext Besoins fonctionnels des collaborateurs\endL \egroup }{17}{section*.24}%
+\contentsline {subsection}{\numberline {3.1}\bgroup \beginL \latintext Spécifications des besoins non fonctionnels\endL \egroup }{18}{subsection.2.3.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.3}\bgroup \beginL \latintext Spécifications des besoins non fonctionnels\endL \egroup }{19}{subsection.2.2.3}%
-\select@language {french}
-\contentsline {section}{\numberline {3}\bgroup \beginL \latintext Conception\endL \egroup }{19}{section.2.3}%
-\select@language {french}
-\contentsline {subsection}{\numberline {3.1}\bgroup \beginL \latintext Diagramme de cas d'utilisation\endL \egroup }{19}{subsection.2.3.1}%
-\select@language {french}
-\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Le pilotage du projet par SCRUM\endL \egroup }{20}{section.2.4}%
-\select@language {french}
-\contentsline {subsection}{\numberline {4.1}\bgroup \beginL \latintext Identification de l'équipe SCRUM\endL \egroup }{20}{subsection.2.4.1}%
+\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Les User Stories\endL \egroup }{19}{section.2.4}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{21}{section*.26}%
+\contentsline {chapter}{Annexes}{20}{section*.24}%
