@@ -57,4 +57,4 @@
 \select@language {french}
 \contentsline {section}{\numberline {4}\bgroup \beginL \latintext Les User Stories\endL \egroup }{19}{section.2.4}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{20}{section*.24}%
+\contentsline {chapter}{Annexes}{26}{section*.24}%
