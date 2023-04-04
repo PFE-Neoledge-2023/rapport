@@ -6,55 +6,47 @@
 \contentsline {chapter}{\numberline {1}\bgroup \beginL \latintext Cadre général du projet\endL \egroup }{3}{chapter.1}%
 \contentsline {chapter}{Cadre général du projet}{3}{chapter.1}%
 \select@language {french}
-\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Introduction\endL \egroup }{3}{section.1.1}%
+\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Présentation de la société d'accueil\endL \egroup }{3}{section.1.1}%
 \select@language {french}
-\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Présentation de la société d'accueil\endL \egroup }{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.1}\bgroup \beginL \latintext Historique\endL \egroup }{3}{subsection.1.1.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.1}\bgroup \beginL \latintext Historique\endL \egroup }{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2}\bgroup \beginL \latintext Produits présentés par NeoLedge \endL \egroup }{4}{subsection.1.1.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.2}\bgroup \beginL \latintext Produits présentés par NeoLedge \endL \egroup }{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.3}\bgroup \beginL \latintext Contexte du projet\endL \egroup }{4}{subsection.1.1.3}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.3}\bgroup \beginL \latintext Contexte du projet\endL \egroup }{4}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.4}\bgroup \beginL \latintext Motivation\endL \egroup }{5}{subsection.1.1.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.4}\bgroup \beginL \latintext Motivation\endL \egroup }{5}{subsection.1.2.4}%
+\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Étude de l'existant\endL \egroup }{5}{section.1.2}%
 \select@language {french}
-\contentsline {section}{\numberline {3}\bgroup \beginL \latintext Étude de l'existant\endL \egroup }{5}{section.1.3}%
+\contentsline {subsection}{\numberline {2.1}\bgroup \beginL \latintext Description de l'existant\endL \egroup }{5}{subsection.1.2.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {3.1}\bgroup \beginL \latintext Description de l'existant\endL \egroup }{5}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {2.2}\bgroup \beginL \latintext Critique de l'existant\endL \egroup }{10}{subsection.1.2.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {3.2}\bgroup \beginL \latintext Critique de l'existant\endL \egroup }{10}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {2.3}\bgroup \beginL \latintext Solution proposée\endL \egroup }{10}{subsection.1.2.3}%
 \select@language {french}
-\contentsline {subsection}{\numberline {3.3}\bgroup \beginL \latintext Solution proposée\endL \egroup }{10}{subsection.1.3.3}%
+\contentsline {section}{\numberline {3}\bgroup \beginL \latintext Méthodologie de gestion de projet\endL \egroup }{11}{section.1.3}%
 \select@language {french}
-\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Méthodologie de gestion de projet\endL \egroup }{11}{section.1.4}%
+\contentsline {subsection}{\numberline {3.1}\bgroup \beginL \latintext Choix de la méthodologie du développement\endL \egroup }{11}{subsection.1.3.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {4.1}\bgroup \beginL \latintext Choix de la méthodologie du développement\endL \egroup }{11}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {3.2}\bgroup \beginL \latintext Pourquoi Scrum\endL \egroup }{11}{subsection.1.3.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {4.2}\bgroup \beginL \latintext Pourquoi Scrum\endL \egroup }{11}{subsection.1.4.2}%
+\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Environnement de développement\endL \egroup }{12}{section.1.4}%
 \select@language {french}
-\contentsline {section}{\numberline {5}\bgroup \beginL \latintext Environnement de développement\endL \egroup }{12}{section.1.5}%
+\contentsline {subsection}{\numberline {4.1}\bgroup \beginL \latintext Environnement matériel\endL \egroup }{13}{subsection.1.4.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {5.1}\bgroup \beginL \latintext Environnement matériel\endL \egroup }{13}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {4.2}\bgroup \beginL \latintext Environnement logiciel\endL \egroup }{13}{subsection.1.4.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {5.2}\bgroup \beginL \latintext Environnement logiciel\endL \egroup }{13}{subsection.1.5.2}%
-\select@language {french}
-\contentsline {subsection}{\numberline {5.3}\bgroup \beginL \latintext Technologies utilisées\endL \egroup }{14}{subsection.1.5.3}%
-\select@language {french}
-\contentsline {section}{\numberline {6}\bgroup \beginL \latintext Conclusion\endL \egroup }{15}{section.1.6}%
+\contentsline {subsection}{\numberline {4.3}\bgroup \beginL \latintext Technologies utilisées\endL \egroup }{14}{subsection.1.4.3}%
 \select@language {french}
 \contentsline {chapter}{\numberline {2}\bgroup \beginL \latintext Planification du Backlog Product\endL \egroup }{16}{chapter.2}%
 \contentsline {chapter}{Planification du Backlog Product}{16}{chapter.2}%
 \select@language {french}
-\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Introduction\endL \egroup }{16}{section.2.1}%
+\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Identifications des acteurs\endL \egroup }{16}{section.2.1}%
 \select@language {french}
-\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Identifications des acteurs\endL \egroup }{16}{section.2.2}%
+\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Besoins fonctionnels des collaborateurs\endL \egroup }{17}{section.2.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {2.1}\bgroup \beginL \latintext Spécifications des besoins\endL \egroup }{17}{subsection.2.2.1}%
+\contentsline {section}{\numberline {3}\bgroup \beginL \latintext Les User Stories\endL \egroup }{18}{section.2.3}%
 \select@language {french}
-\contentsline {section}{\numberline {3}\bgroup \beginL \latintext Besoins fonctionnels des collaborateurs\endL \egroup }{17}{section.2.3}%
-\select@language {french}
-\contentsline {subsection}{\numberline {3.1}\bgroup \beginL \latintext Spécifications des besoins non fonctionnels\endL \egroup }{18}{subsection.2.3.1}%
-\select@language {french}
-\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Les User Stories\endL \egroup }{19}{section.2.4}%
+\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Spécifications des besoins non fonctionnels\endL \egroup }{25}{section.2.4}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{26}{section*.24}%
+\contentsline {chapter}{Annexes}{26}{section*.28}%

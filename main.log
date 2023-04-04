@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  4 APR 2023 14:53
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  4 APR 2023 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2530,219 +2530,221 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 115.
-LaTeX Info: Redefining \sffamily on input line 115.
-LaTeX Info: Redefining \ttfamily on input line 115.
+LaTeX Info: Redefining \rmfamily on input line 117.
+LaTeX Info: Redefining \sffamily on input line 117.
+LaTeX Info: Redefining \ttfamily on input line 117.
  [17]
-LaTeX Info: Redefining \rmfamily on input line 145.
-LaTeX Info: Redefining \sffamily on input line 145.
-LaTeX Info: Redefining \ttfamily on input line 145.
+LaTeX Info: Redefining \rmfamily on input line 177.
+LaTeX Info: Redefining \sffamily on input line 177.
+LaTeX Info: Redefining \ttfamily on input line 177.
  [18]
-LaTeX Info: Redefining \rmfamily on input line 190.
-LaTeX Info: Redefining \sffamily on input line 190.
-LaTeX Info: Redefining \ttfamily on input line 190.
- [19]
-Underfull \hbox (badness 2564) in paragraph at lines 205--205
+Underfull \hbox (badness 2564) in paragraph at lines 192--192
 [][]|\TU/lmr/m/n/12 Du 8 Fé-[]
  []
 
 
-Overfull \vbox (106.57529pt too high) detected at line 210
+Overfull \vbox (106.57529pt too high) detected at line 197
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 [][]|\TU/lmr/m/n/12 Formation en[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\TU/lmr/m/n/12 développement[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\TU/lmr/m/n/12 mobile avec[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 199--199
 []\TU/lmr/m/n/12 Ionic Vue et[]
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 214--214
+Underfull \hbox (badness 3439) in paragraph at lines 201--201
 []\TU/lmr/m/n/12 gurer l’environ-[]
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 218--218
+Underfull \hbox (badness 1466) in paragraph at lines 205--205
 [][]|\TU/lmr/m/n/12 Création de si-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
 [][]|\TU/lmr/m/n/12 Suppression de[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
 []\TU/lmr/m/n/12 ture à l’aide[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 [][]|\TU/lmr/m/n/12 Vérification[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--231
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []\TU/lmr/m/n/12 d’authenticité[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
 [][]|\TU/lmr/m/n/12 Récupération[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--247
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
 [][]|\TU/lmr/m/n/12 Suppression[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 240--240
 [][]|\TU/lmr/m/n/12 Afficher docu-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 [][]|\TU/lmr/m/n/12 Démarrage[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 [][]|\TU/lmr/m/n/12 Terminaison[]
  []
 
 
-Overfull \vbox (45.67513pt too high) detected at line 265
+Overfull \vbox (45.67513pt too high) detected at line 252
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
 [][]|\TU/lmr/m/n/12 Gestion des[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
 []\TU/lmr/m/n/12 préférences[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 [][]|\TU/lmr/m/n/12 Visualisation[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
+Underfull \hbox (badness 10000) in paragraph at lines 269--269
 [][]|\TU/lmr/m/n/12 Modification[]
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 285--285
+Underfull \hbox (badness 1735) in paragraph at lines 272--272
 [][]|\TU/lmr/m/n/12 Modification de[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 275--275
 [][]|\TU/lmr/m/n/12 Connexion[]
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 288--288
+Underfull \hbox (badness 5050) in paragraph at lines 275--275
 []\TU/lmr/m/n/12 simple avec le[]
  []
 
 
-Overfull \hbox (7.4025pt too wide) in paragraph at lines 288--288
+Overfull \hbox (7.4025pt too wide) in paragraph at lines 275--275
 []\TU/lmr/m/n/12 authentifica-[] 
  []
 
 
-Overfull \vbox (30.4501pt too high) detected at line 288
+Overfull \vbox (30.4501pt too high) detected at line 275
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 [][]|\TU/lmr/m/n/12 Connexion à[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--297
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
 [][]|\TU/lmr/m/n/12 Déclaration[]
  []
 
 
-Overfull \vbox (15.22508pt too high) detected at line 297
+Overfull \vbox (15.22508pt too high) detected at line 284
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 [][]|\TU/lmr/m/n/12 Annulation[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--300
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 []\TU/lmr/m/n/12 d’une déclara-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 [][]|\TU/lmr/m/n/12 Suppression[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 []\TU/lmr/m/n/12 d’un délégué[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
 []\TU/lmr/m/n/12 pendant l’ab-[]
  []
 
 
-Overfull \hbox (24.67612pt too wide) in alignment at lines 198--319
+Overfull \hbox (24.67612pt too wide) in alignment at lines 185--306
  [] [] [] [] [] [] [] [] 
  []
 
-LaTeX Info: Redefining \rmfamily on input line 319.
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Info: Redefining \ttfamily on input line 319.
-[20
+LaTeX Info: Redefining \rmfamily on input line 306.
+LaTeX Info: Redefining \sffamily on input line 306.
+LaTeX Info: Redefining \ttfamily on input line 306.
+[19
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 319.
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Info: Redefining \ttfamily on input line 319.
+LaTeX Info: Redefining \rmfamily on input line 306.
+LaTeX Info: Redefining \sffamily on input line 306.
+LaTeX Info: Redefining \ttfamily on input line 306.
+ [20]
+LaTeX Info: Redefining \rmfamily on input line 306.
+LaTeX Info: Redefining \sffamily on input line 306.
+LaTeX Info: Redefining \ttfamily on input line 306.
  [21]
-LaTeX Info: Redefining \rmfamily on input line 319.
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Info: Redefining \ttfamily on input line 319.
+LaTeX Info: Redefining \rmfamily on input line 306.
+LaTeX Info: Redefining \sffamily on input line 306.
+LaTeX Info: Redefining \ttfamily on input line 306.
  [22]
-LaTeX Info: Redefining \rmfamily on input line 319.
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Info: Redefining \ttfamily on input line 319.
+LaTeX Info: Redefining \rmfamily on input line 306.
+LaTeX Info: Redefining \sffamily on input line 306.
+LaTeX Info: Redefining \ttfamily on input line 306.
  [23]
-LaTeX Info: Redefining \rmfamily on input line 319.
-LaTeX Info: Redefining \sffamily on input line 319.
-LaTeX Info: Redefining \ttfamily on input line 319.
- [24]
-LaTeX Info: Redefining \rmfamily on input line 321.
-LaTeX Info: Redefining \sffamily on input line 321.
-LaTeX Info: Redefining \ttfamily on input line 321.
- [25])
+LaTeX Info: Redefining \rmfamily on input line 308.
+LaTeX Info: Redefining \sffamily on input line 308.
+LaTeX Info: Redefining \ttfamily on input line 308.
+ [24])
+LaTeX Info: Redefining \rmfamily on input line 287.
+LaTeX Info: Redefining \sffamily on input line 287.
+LaTeX Info: Redefining \ttfamily on input line 287.
+ [25
+
+]
 
 LaTeX Warning: Empty bibliography on input line 299.
 
@@ -2753,7 +2755,6 @@ Package biblatex Warning: Type 'misc' not found on input line 301.
 LaTeX Warning: Empty bibliography on input line 301.
 
 [26
-
 
 
 
@@ -2878,8 +2879,17 @@ Package polyglossia Warning: Failed to patch part for French on input line 28.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 785FF30EB153C165736FC8D7F42B25AA;1008.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 8888F06920293EB8A328932AFBDE3A18;1008
+(rerunfilecheck)             After:  3AEE157B48AB65350C10F1DD696CA137;1008.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 

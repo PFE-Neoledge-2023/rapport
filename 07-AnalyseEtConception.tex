@@ -6,7 +6,7 @@
 % section starts from 1 
 %\minitoc
 
-\section{Introduction}
+\section*{Introduction}
 Afin de pouvoir implémentées les fonctionnalités recensées au début de ce projet, nous
 s'intéressons dans ce chapitre à l'étude conceptuelle de notre application. C'est une phase de spécification et de modélisation conceptuelle basée sur le langage UML à travers les diagrammes de cas d'utilisation, les diagrammes de séquences et classes. Ceci nous permet de tracer une meilleure stratégie d'implémentation des besoins fonctionnels tout en respectant les contraintes identifiées. Ensuite, nous exposerons les besoins non fonctionnels ainsi que notre backlog de produit.
 
@@ -39,10 +39,10 @@ Acteur  &  Rôles \\
   Ces rôles/droits sont définis et appliqués par défaut par le système. Il est possible de les modifier selon les besoins spécifiques du client.
 \end{small}
 
-\subsection{Spécifications des besoins}
-Notre application est desinée aux utilisateurs suivants : les collaborateurs, les secrétaires et les chefs de service. Chacun d'eux dispose d'un ensemble d'actions correspondant à la fonction dont il a besoin.
 
 \section{Besoins fonctionnels des collaborateurs}
+Notre application est desinée aux utilisateurs suivants : les collaborateurs, les secrétaires et les chefs de service. Chacun d'eux dispose d'un ensemble d'actions correspondant à la fonction dont il a besoin.
+
 \begin{itemize}
 % \item \textbf{Authentification} : L'utilisateur doit pouvoir s'authentifier à l'application pour pouvoir accéder à ses documents.
 % \item \textbf{Consultation de profil} : L'utilisateur doit pouvoir consulter son profil.
@@ -132,20 +132,7 @@ Notre application est desinée aux utilisateurs suivants : les collaborateurs, l
 
 \end{itemize}
 
-\subsection{Spécifications des besoins non fonctionnels}
-Afin d'optimiser le fonctionnement de notre application, elle doit répondre aux différents besoins non fonctionnels présentés ci-dessous que nous devons prendre en compte afin d'assurer une meilleure utilisation et une meilleure gestion :
 
-\begin{itemize}
-\item \textbf{Performance} : L'application doit être capable de répondre aux besoins des utilisateurs en temps réel.
-\item \textbf{Fiabilité} : L'application doit être fiable et ne pas présenter de dysfonctionnement, et les données fournies par l'application doivent être fiables.
-\item \textbf{Usabilité} : L'application doit être facilement utilisable et compréhensible par les utilisateurs.
-\item \textbf{Sécurité} : L'application doit être sécurisée et ne pas présenter de faille de sécurité.
-\item \textbf{Disponibilité} : L'application doit être disponible 24h/24 et 7j/7.
-\item \textbf{Maintenabilité} : L'application doit être facilement maintenable.
-\item \textbf{Interopérabilité} : L'application doit être compatible avec les différents systèmes d'exploitation.
-\item \textbf{Portabilité} : L'application doit être facilement portable.
-\item L'application doit connecter au serveur d'application privée de l'entreprise.
-\end{itemize}
 
 % \section{Conception}
 % \subsection{Diagramme de cas d'utilisation}
@@ -319,3 +306,22 @@ Gestion des documents}&\\
       \end{longtable}
     \end{adjustwidth}
 \end{landscape}
+
+\section{Spécifications des besoins non fonctionnels}
+Afin d'optimiser le fonctionnement de notre application, elle doit répondre aux différents besoins non fonctionnels présentés ci-dessous que nous devons prendre en compte afin d'assurer une meilleure utilisation et une meilleure gestion :
+
+\begin{itemize}
+\item \textbf{Performance} : L'application doit être capable de répondre aux besoins des utilisateurs en temps réel.
+\item \textbf{Fiabilité} : L'application doit être fiable et ne pas présenter de dysfonctionnement, et les données fournies par l'application doivent être fiables.
+\item \textbf{Usabilité} : L'application doit être facilement utilisable et compréhensible par les utilisateurs.
+\item \textbf{Sécurité} : L'application doit être sécurisée et ne pas présenter de faille de sécurité.
+\item \textbf{Disponibilité} : L'application doit être disponible 24h/24 et 7j/7.
+\item \textbf{Maintenabilité} : L'application doit être facilement maintenable.
+\item \textbf{Interopérabilité} : L'application doit être compatible avec les différents systèmes d'exploitation.
+\item \textbf{Portabilité} : L'application doit être facilement portable.
+\item L'application doit connecter au serveur d'application privée de l'entreprise.
+\end{itemize}
+
+% Conclusion
+\section*{Conclusion}
+Au cours de ce chapitre nous avons présenté les différents acteurs qui vont interagir avec notre application. Ensuite, nous avons cité les User stories, regroupées dans le Product Backlog qui décrit les fonctionnalités de chaque acteur et la répartition de ces User Stories en sprints et en différents releases. Et enfin nous avons défini les besoins non fonctionnels de notre solution.
