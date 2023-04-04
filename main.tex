@@ -251,7 +251,11 @@ urlcolor=blue}
 
 \renewcommand{\thesection}{\arabic{section}}
 \setcounter{section}{1}
-
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\def\thesection{\Roman{section}}
+\def\thesubsection{\Roman{section}.\arabic{subsection}}
+\def\thesubsubsection{\Roman{section}.\arabic{subsection}.\arabic{subsubsection}}
 \begin{document}
 
 
@@ -285,6 +289,7 @@ urlcolor=blue}
 \include{05-Introduction}
 \include{06-CadreGeneral}
 \include{07-AnalyseEtConception}
+\include{08-Release1}
 
 
 % \include{06-Art}

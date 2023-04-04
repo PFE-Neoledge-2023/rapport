@@ -12,3 +12,12 @@
 \setforeignlanguage {french}
 \addvspace {10\p@ }
 \setforeignlanguage {french}
+\addvspace {10\p@ }
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »\relax }}{29}{figure.caption.29}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de classe de conception de CU d'user story 1 : « Gestion des signatures »\relax }}{31}{figure.caption.30}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Interface de création d'une signature\relax }}{32}{figure.caption.31}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Interface de saisie du titre de la signature\relax }}{33}{figure.caption.32}%

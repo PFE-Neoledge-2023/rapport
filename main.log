@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  4 APR 2023 21:07
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  4 APR 2023 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2031,46 +2031,47 @@ LaTeX Info: Redefining \ttfamily on input line 28.
 
 Package polyglossia Warning: Failed to patch part for French on input line 28.
 
-(05-Introduction.aux) (06-CadreGeneral.aux) (07-AnalyseEtConception.aux))
+(05-Introduction.aux) (06-CadreGeneral.aux) (07-AnalyseEtConception.aux)
+(08-Release1.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 255.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 259.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-55.
+59.
 
 (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 255.
-LaTeX Font Info:    ... okay on input line 255.
-LaTeX Info: Redefining \rmfamily on input line 255.
-LaTeX Info: Redefining \sffamily on input line 255.
-LaTeX Info: Redefining \ttfamily on input line 255.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for LAE/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Info: Redefining \rmfamily on input line 259.
+LaTeX Info: Redefining \sffamily on input line 259.
+LaTeX Info: Redefining \ttfamily on input line 259.
 
 
-Package polyglossia Warning: Failed to patch part for French on input line 255.
+Package polyglossia Warning: Failed to patch part for French on input line 259.
 
 
-LaTeX Info: Redefining \up on input line 255.
+LaTeX Info: Redefining \up on input line 259.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: changepage package is loaded.
 \caption@adjustwidth@hsize=\dimen353
@@ -2089,57 +2090,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 255.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 255.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 255.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 255.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 255.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 255.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 255.
-LaTeX Font Info:    Redeclaring math accent \check on input line 255.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 255.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 255.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 255.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 255.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 259.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 259.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 259.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 259.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 259.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 259.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 259.
+LaTeX Font Info:    Redeclaring math accent \check on input line 259.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 259.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 259.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 259.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 259.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 255.
+(Font)              `operators' in the math version `normal' on input line 259.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 255.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 259.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 255.
+(Font)              `operators' in the math version `bold' on input line 259.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 255.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 259.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 255.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 259.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 255.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 259.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 255.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 259.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 255.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 259.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 255.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 259.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 255.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 259.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 255.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 259.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 255.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 259.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 255.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 259.
 The property list \__xpg_alias contains the pairs (without outer braces):
 >  {latex/target}  =>  {latex}
 >  {french/target}  =>  {french}
@@ -2189,7 +2190,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {apd/options}  =>  {locale=default}
 >  {ar-PS/target}  =>  {arabic}
 >  {ar-PS/options}  =>  {locale=mashriq}.
-Package hyperref Info: Link coloring ON on input line 255.
+Package hyperref Info: Link coloring ON on input line 259.
 
 (main.out) (main.out)
 \@outlinefile=\write5
@@ -2234,7 +2235,7 @@ Package biblatex Info: Trying to load language 'arabic'...
 Package biblatex Info: ... file 'arabic.lbx' not found.
 
 Package biblatex Warning: Language 'arabic' not supported.
-(biblatex)                Using dummy definitions on input line 255.
+(biblatex)                Using dummy definitions on input line 259.
 
 Package biblatex Info: Trying to load language 'french'...
 Package biblatex Info: ... file 'french.lbx' found.
@@ -2251,13 +2252,13 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 255.
-Package biblatex Info: Reference segment=0 on input line 255.
-LaTeX Info: Redefining \rmfamily on input line 255.
-LaTeX Info: Redefining \sffamily on input line 255.
-LaTeX Info: Redefining \ttfamily on input line 255.
+Package biblatex Info: Reference section=0 on input line 259.
+Package biblatex Info: Reference segment=0 on input line 259.
+LaTeX Info: Redefining \rmfamily on input line 259.
+LaTeX Info: Redefining \sffamily on input line 259.
+LaTeX Info: Redefining \ttfamily on input line 259.
 
-Package polyglossia Warning: Failed to patch part for French on input line 255.
+Package polyglossia Warning: Failed to patch part for French on input line 259.
 
 
 File: 00-Page-de-garde.pdf Graphic file (type pdf)
@@ -2298,12 +2299,15 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
+LaTeX Info: Redefining \rmfamily on input line 272.
+LaTeX Info: Redefining \sffamily on input line 272.
+LaTeX Info: Redefining \ttfamily on input line 272.
 
-[1] (main.lof
+[2] (main.lof
 LaTeX Info: Redefining \rmfamily on input line 2.
 LaTeX Info: Redefining \sffamily on input line 2.
 LaTeX Info: Redefining \ttfamily on input line 2.
@@ -2325,11 +2329,23 @@ LaTeX Info: Redefining \ttfamily on input line 12.
 LaTeX Info: Redefining \rmfamily on input line 14.
 LaTeX Info: Redefining \sffamily on input line 14.
 LaTeX Info: Redefining \ttfamily on input line 14.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+LaTeX Info: Redefining \rmfamily on input line 22.
+LaTeX Info: Redefining \sffamily on input line 22.
+LaTeX Info: Redefining \ttfamily on input line 22.
 )
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [2
+ [3
 
 ] (main.lot
 LaTeX Info: Redefining \rmfamily on input line 2.
@@ -2353,11 +2369,23 @@ LaTeX Info: Redefining \ttfamily on input line 7.
 LaTeX Info: Redefining \rmfamily on input line 10.
 LaTeX Info: Redefining \sffamily on input line 10.
 LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 17.
+LaTeX Info: Redefining \sffamily on input line 17.
+LaTeX Info: Redefining \ttfamily on input line 17.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
 )
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [3
+ [4
 
 ]
 \openout2 = `05-Introduction.aux'.
@@ -2369,9 +2397,9 @@ LaTeX Info: Redefining \ttfamily on input line 10.
 
 
 ])
-LaTeX Info: Redefining \rmfamily on input line 285.
-LaTeX Info: Redefining \sffamily on input line 285.
-LaTeX Info: Redefining \ttfamily on input line 285.
+LaTeX Info: Redefining \rmfamily on input line 289.
+LaTeX Info: Redefining \sffamily on input line 289.
+LaTeX Info: Redefining \ttfamily on input line 289.
  [2]
 \openout2 = `06-CadreGeneral.aux'.
 
@@ -2500,9 +2528,9 @@ File: images_pfe//capacitor.png Graphic file (type bmp)
 File: images_pfe//typescript.png Graphic file (type bmp)
 <images_pfe//typescript.png>
 )
-LaTeX Info: Redefining \rmfamily on input line 286.
-LaTeX Info: Redefining \sffamily on input line 286.
-LaTeX Info: Redefining \ttfamily on input line 286.
+LaTeX Info: Redefining \rmfamily on input line 290.
+LaTeX Info: Redefining \sffamily on input line 290.
+LaTeX Info: Redefining \ttfamily on input line 290.
  [15]
 \openout2 = `07-AnalyseEtConception.aux'.
 
@@ -2739,22 +2767,153 @@ LaTeX Info: Redefining \rmfamily on input line 308.
 LaTeX Info: Redefining \sffamily on input line 308.
 LaTeX Info: Redefining \ttfamily on input line 308.
  [24])
-LaTeX Info: Redefining \rmfamily on input line 287.
-LaTeX Info: Redefining \sffamily on input line 287.
-LaTeX Info: Redefining \ttfamily on input line 287.
+LaTeX Info: Redefining \rmfamily on input line 291.
+LaTeX Info: Redefining \sffamily on input line 291.
+LaTeX Info: Redefining \ttfamily on input line 291.
  [25
 
 ]
+\openout2 = `08-Release1.aux'.
 
-LaTeX Warning: Empty bibliography on input line 299.
+ (08-Release1.tex
+Chapitre 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\beginL' on input line 1.
 
 
-Package biblatex Warning: Type 'misc' not found on input line 301.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 1.
 
 
-LaTeX Warning: Empty bibliography on input line 301.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\encodingdefault' on input line 1.
 
-[26
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endL' on input line 1.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[][]\TU/lmr/m/n/12 Se former en[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[][]\TU/lmr/m/n/12 Se former en[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[]\TU/lmr/m/n/12 développement[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[]\TU/lmr/m/n/12 mobile avec[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+[]\TU/lmr/m/n/12 Ionic Vue et[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[][]\TU/lmr/m/n/12 Installer et[]
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 91--92
+[][]\TU/lmr/m/n/12 Suivre une formation préparée[]
+ []
+
+
+Overfull \hbox (24.5472pt too wide) in alignment at lines 74--117
+ [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 3039) has occurred while \output is active []
+
+ [26
+
+
+
+
+]
+LaTeX Info: Redefining \rmfamily on input line 117.
+LaTeX Info: Redefining \sffamily on input line 117.
+LaTeX Info: Redefining \ttfamily on input line 117.
+
+[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 144.
+LaTeX Info: Redefining \sffamily on input line 144.
+LaTeX Info: Redefining \ttfamily on input line 144.
+ [28]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+[][]\TU/lmr/m/n/12 Supprimer[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[][]\TU/lmr/m/n/12 Visualiser une[]
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 164--165
+[][]\TU/lmr/m/n/12 Développer une interface pour[]
+ []
+
+
+Overfull \hbox (24.5472pt too wide) in alignment at lines 146--178
+ [] [] [] [] 
+ []
+
+File: images_pfe//use_case_signature_sprint_2.png Graphic file (type bmp)
+<images_pfe//use_case_signature_sprint_2.png>
+LaTeX Info: Redefining \rmfamily on input line 227.
+LaTeX Info: Redefining \sffamily on input line 227.
+LaTeX Info: Redefining \ttfamily on input line 227.
+[29]
+LaTeX Info: Redefining \rmfamily on input line 282.
+LaTeX Info: Redefining \sffamily on input line 282.
+LaTeX Info: Redefining \ttfamily on input line 282.
+ [30]
+File: images_pfe//class_diagram_signatures.jpg Graphic file (type bmp)
+<images_pfe//class_diagram_signatures.jpg>
+LaTeX Info: Redefining \rmfamily on input line 311.
+LaTeX Info: Redefining \sffamily on input line 311.
+LaTeX Info: Redefining \ttfamily on input line 311.
+ [31]
+File: images_pfe//signature_creation.png Graphic file (type bmp)
+<images_pfe//signature_creation.png>
+LaTeX Info: Redefining \rmfamily on input line 323.
+LaTeX Info: Redefining \sffamily on input line 323.
+LaTeX Info: Redefining \ttfamily on input line 323.
+ [32]
+File: images_pfe//signature_form.png Graphic file (type bmp)
+<images_pfe//signature_form.png>
+LaTeX Info: Redefining \rmfamily on input line 350.
+LaTeX Info: Redefining \sffamily on input line 350.
+LaTeX Info: Redefining \ttfamily on input line 350.
+ [33])
+LaTeX Info: Redefining \rmfamily on input line 292.
+LaTeX Info: Redefining \sffamily on input line 292.
+LaTeX Info: Redefining \ttfamily on input line 292.
+ [34]
+
+LaTeX Warning: Empty bibliography on input line 304.
+
+
+Package biblatex Warning: Type 'misc' not found on input line 306.
+
+
+LaTeX Warning: Empty bibliography on input line 306.
+
+[35
 
 
 
@@ -2875,32 +3034,24 @@ LaTeX Info: Redefining \ttfamily on input line 28.
 
 Package polyglossia Warning: Failed to patch part for French on input line 28.
 
-(05-Introduction.aux) (06-CadreGeneral.aux) (07-AnalyseEtConception.aux))
+(05-Introduction.aux) (06-CadreGeneral.aux) (07-AnalyseEtConception.aux)
+(08-Release1.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 8888F06920293EB8A328932AFBDE3A18;1008
-(rerunfilecheck)             After:  3AEE157B48AB65350C10F1DD696CA137;1008.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 135AFD2DFCDFEF11FF6DDE0EBA991F0C;1190.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40996 strings out of 411472
- 837574 string characters out of 5818873
+ 41115 strings out of 411472
+ 841211 string characters out of 5818873
  1927012 words of memory out of 5000000
- 60498 multiletter control sequences out of 15000+600000
+ 60606 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,92p,1409b,5413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (30 pages).
+Output written on main.pdf (40 pages).
