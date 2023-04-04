@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  3 APR 2023 23:14
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  4 APR 2023 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2606,130 +2606,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--241
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
-[][]|\TU/lmr/m/n/12 Afficher docu-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--252
-[][]|\TU/lmr/m/n/12 Démarrage[]
- []
-
-
-Overfull \vbox (30.45009pt too high) detected at line 256
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[][]|\TU/lmr/m/n/12 Gestion des[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[]\TU/lmr/m/n/12 préférences[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--270
-[][]|\TU/lmr/m/n/12 Visualisation[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
-[][]|\TU/lmr/m/n/12 Modification[]
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 276--276
-[][]|\TU/lmr/m/n/12 Modification de[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--279
-[][]|\TU/lmr/m/n/12 Connexion[]
- []
-
-
-Underfull \hbox (badness 5050) in paragraph at lines 279--279
-[]\TU/lmr/m/n/12 simple avec le[]
- []
-
-
-Overfull \hbox (7.4025pt too wide) in paragraph at lines 279--279
-[]\TU/lmr/m/n/12 authentifica-[] 
- []
-
-
-Overfull \vbox (30.4501pt too high) detected at line 279
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--282
-[][]|\TU/lmr/m/n/12 Connexion à[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
-[][]|\TU/lmr/m/n/12 Déclaration[]
- []
-
-
-Overfull \vbox (15.22508pt too high) detected at line 288
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[][]|\TU/lmr/m/n/12 Annulation[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]\TU/lmr/m/n/12 d’une déclara-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 [][]|\TU/lmr/m/n/12 Suppression[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 253--253
+[][]|\TU/lmr/m/n/12 Afficher docu-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+[][]|\TU/lmr/m/n/12 Démarrage[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+[][]|\TU/lmr/m/n/12 Terminaison[]
+ []
+
+
+Overfull \vbox (45.67513pt too high) detected at line 265
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[][]|\TU/lmr/m/n/12 Gestion des[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]\TU/lmr/m/n/12 préférences[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
+[][]|\TU/lmr/m/n/12 Visualisation[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[][]|\TU/lmr/m/n/12 Modification[]
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 285--285
+[][]|\TU/lmr/m/n/12 Modification de[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
+[][]|\TU/lmr/m/n/12 Connexion[]
+ []
+
+
+Underfull \hbox (badness 5050) in paragraph at lines 288--288
+[]\TU/lmr/m/n/12 simple avec le[]
+ []
+
+
+Overfull \hbox (7.4025pt too wide) in paragraph at lines 288--288
+[]\TU/lmr/m/n/12 authentifica-[] 
+ []
+
+
+Overfull \vbox (30.4501pt too high) detected at line 288
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+[][]|\TU/lmr/m/n/12 Connexion à[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
+[][]|\TU/lmr/m/n/12 Déclaration[]
+ []
+
+
+Overfull \vbox (15.22508pt too high) detected at line 297
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[][]|\TU/lmr/m/n/12 Annulation[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[]\TU/lmr/m/n/12 d’une déclara-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[][]|\TU/lmr/m/n/12 Suppression[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 []\TU/lmr/m/n/12 d’un délégué[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
 []\TU/lmr/m/n/12 pendant l’ab-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[][]|\TU/lmr/m/n/12 Supprimer les[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]\TU/lmr/m/n/12 widgets exis-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--299
-[]\TU/lmr/m/n/12 tants sur ma[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
-[][]|\TU/lmr/m/n/12 Modifier les[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
-[]\TU/lmr/m/n/12 paramètres de[]
- []
-
-
-Underfull \hbox (badness 6910) in paragraph at lines 305--305
-[][]|\TU/lmr/m/n/12 Réorganiser les[]
  []
 
 
@@ -2907,7 +2887,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  40996 strings out of 411472
  837574 string characters out of 5818873
- 1930012 words of memory out of 5000000
+ 1927012 words of memory out of 5000000
  60498 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
