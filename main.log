@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  4 APR 2023 23:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  5 APR 2023 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2341,6 +2341,12 @@ LaTeX Info: Redefining \ttfamily on input line 20.
 LaTeX Info: Redefining \rmfamily on input line 22.
 LaTeX Info: Redefining \sffamily on input line 22.
 LaTeX Info: Redefining \ttfamily on input line 22.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
 )
 \tf@lof=\write7
 \openout7 = `main.lof'.
@@ -2381,6 +2387,12 @@ LaTeX Info: Redefining \ttfamily on input line 18.
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
 )
 \tf@lot=\write8
 \openout8 = `main.lot'.
@@ -2890,15 +2902,19 @@ LaTeX Info: Redefining \ttfamily on input line 311.
  [31]
 File: images_pfe//signature_creation.png Graphic file (type bmp)
 <images_pfe//signature_creation.png>
-LaTeX Info: Redefining \rmfamily on input line 323.
-LaTeX Info: Redefining \sffamily on input line 323.
-LaTeX Info: Redefining \ttfamily on input line 323.
- [32]
 File: images_pfe//signature_form.png Graphic file (type bmp)
 <images_pfe//signature_form.png>
-LaTeX Info: Redefining \rmfamily on input line 350.
-LaTeX Info: Redefining \sffamily on input line 350.
-LaTeX Info: Redefining \ttfamily on input line 350.
+LaTeX Info: Redefining \rmfamily on input line 334.
+LaTeX Info: Redefining \sffamily on input line 334.
+LaTeX Info: Redefining \ttfamily on input line 334.
+ [32]
+File: images_pfe//signature_preview.png Graphic file (type bmp)
+<images_pfe//signature_preview.png>
+File: images_pfe//signature_delete.png Graphic file (type bmp)
+<images_pfe//signature_delete.png>
+LaTeX Info: Redefining \rmfamily on input line 365.
+LaTeX Info: Redefining \sffamily on input line 365.
+LaTeX Info: Redefining \ttfamily on input line 365.
  [33])
 LaTeX Info: Redefining \rmfamily on input line 292.
 LaTeX Info: Redefining \sffamily on input line 292.
@@ -3040,16 +3056,16 @@ Package polyglossia Warning: Failed to patch part for French on input line 28.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 135AFD2DFCDFEF11FF6DDE0EBA991F0C;1190.
+(rerunfilecheck)             Checksum: 2149831CE1A3E1798899C9D5D06D4753;1190.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41115 strings out of 411472
- 841211 string characters out of 5818873
+ 41153 strings out of 411472
+ 842357 string characters out of 5818873
  1927012 words of memory out of 5000000
- 60606 multiletter control sequences out of 15000+600000
+ 60644 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,92p,1409b,5413s stack positions out of 10000i,1000n,20000p,200000b,200000s
