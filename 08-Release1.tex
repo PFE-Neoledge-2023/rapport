@@ -20,7 +20,6 @@ Release 1 : (Du 8 Février Au 19 Avril)
     \item \textbf{Sprint 2:} Gestion des signatures.
     \item \textbf{Sprint 3:} Gestion des documents.
     \item \textbf{Sprint 4:} Visualisation et signature de fichiers.
-    \item \textbf{Sprint 5:} Gestion du Profile.
   \end{itemize}
 \end{minipage}}
 
@@ -112,6 +111,7 @@ L'objectif de ce sprint est de préparer l'environnement de travail et d'étudie
   \\
   \hline
   \caption{Product Backlog Sprint 1}
+  \label{tab:product-backlog-sprint-1}
 
 
 \end{longtable}
@@ -173,6 +173,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
   \\
   \hline
   \caption{Product Backlog Sprint 2}
+  \label{tab:product-backlog-sprint-2}
 
 
 \end{longtable}
@@ -290,21 +291,22 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 
 \subsubsection{Conception}
 
-Après la présentation des diagrammes d'analyse de CU, nous avons présenté dans cette partie le diagramme de classe de conception de CU d'user story 1.
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 2.
 
-\textbf{•	Diagramme de classe de conception de CU d'user story 1 : « Gestion des signatures »}
+\textbf{•	Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
 
 % add image
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.4\textwidth]{class_diagram_signatures}
-  \caption{Diagramme de classe de conception de CU d'user story 1 : « Gestion des signatures »}
+  \caption{Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
   \label{fig:UseCaseDiagramSignatures}
 \end{figure}
 
 \subsubsection{Réalisation}
 
-Après la présentation des diagrammes d'analyse de CU, nous avons présenté dans cette partie des captures d'écran de l'application.
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
 
 \textbf{•	Interface de création d'une signature:}
 
@@ -354,7 +356,7 @@ Cette capture d'écran, représente l'interface de suppression d'une signature p
 
 
 
-\subsection{Sprint review:}
+\subsection{Sprint Review:}
 A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
 
 Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
@@ -381,3 +383,595 @@ Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la 
   \item Un problème rencontré lors de la sauvegarde de la signature était que l'image enregistrée occupait la totalité de l'espace du pad, ce qui nécessitait ensuite une étape de découpe pour obtenir uniquement la partie signée.
 \end{itemize}
 
+% sprint =3
+\section{Sprint 3}
+\subsection{Sprint Goal:}
+
+L'objectif de ce sprint est de développer et mettre en place un système de gestion des documents permettant aux utilisateurs de consulter les informations du document, consulter et gérer un fichier dans un document, consulter et gérer les tâches dans un document, chercher un document et consulter la liste des documents en favoris
+
+\pagebreak
+\subsection{Sprint Backlog « Gestion des documents »}
+
+\begin{longtable}{|p{4cm}|p{7cm}|p{2cm}|p{2cm}|}
+  \hline
+  \textbf{Les items} &\textbf{Les tâches} & \textbf{Période} & \textbf{Sprint} \\
+  \hline
+  \vspace{-\baselineskip}
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+    \itemsep0em 
+      \item Accéder à un document.
+      \item Consulter la liste des fichiers d'un document
+      \item Ajoutez un fichier à un document.
+      \item Supprimer un fichier d'un document.
+      \item Consulter la liste des tâches d'un document.
+      \item Démarrer une tâche.
+      \item Terminer une tâche.
+      \item Consulter la liste des documents en favoris.
+      \item Chercher un document.
+      
+
+  \end{enumerate}
+  &
+  \vspace{-\baselineskip}
+  \begin{itemize}
+    \itemsep0em 
+    \item Préparer les interfaces sur Figma.
+    \item Développer l'interface des favoris.
+    \item Développer l'interface des documents.
+    \item Développer l'interface de recherche de documents.
+    \item Développer l'interface de liste des fichiers.
+    \item Développer l'interface de liste des tâches.
+    \item Développer une fonction qui permet de récupérer la liste des documents d'une base de donner.
+    \item Développer une fonction qui permet de récupérer la liste des documents en favoris.
+    \item Développer une fonction qui permet de chercher un document.
+    \item Développer une fonction qui permet ajouter un fichier à un document.
+    \item Développer une fonction qui permet de supprimer un fichier.
+    \item Développer une fonction qui permet de démarrer une tâche d'un document.
+    \item Développé une fonction qui permet de terminer une tâche.
+
+  \end{itemize}
+  &
+  De 8 à 15 février  
+  &
+  1
+  \\
+  \hline
+  \caption{Product Backlog Sprint 3}
+  \label{tab:product_backlog_sprint_3}
+
+
+
+\end{longtable}
+
+
+\subsection{Implémentation du Sprint 3}
+\textbf{•	Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{use_case_documents_sprint_3}
+  \caption{Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
+  \label{fig:UseCaseDiagramSprint3}
+\end{figure}
+
+
+\subsubsection{Analyse des besoins:}
+\textbf{•	Description textuelle de cas d'utilisation « Accéder à un document »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Accéder à un document\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&Le document existe\\
+\hline
+\textbf{Post Condition}&Consultation d'un document\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le document.
+    \item Le système affiche l'interface de document.
+    
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{2}
+    \item Aucun résultat.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Consulter la liste des fichiers d'un document\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&Le document existe\\
+\hline
+\textbf{Post Condition}&Consultation de la liste des fichiers\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton fichier.
+    \item Le système affiche l'interface de la liste des fichiers.
+    
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{2}
+    \item Aucun résultat.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « ajouter un fichier à un document »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Ajouter un fichier à un document\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&Le document existe\\
+\hline
+\textbf{Post Condition}&Fichier ajouté\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton ajouter.
+    \item Le système affiche l'interface d'ajout des fichiers.
+    \item L'utilisateur ajoute le fichier et clique sur le bouton confirmer.
+    \item le système affiche un message des succès.
+    
+    
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item L'utilisateur annule l'ajout du fichier.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « supprimer un fichier dans un document »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Supprimer un fichier d'un document\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&Le document existe\\
+\hline
+\textbf{Post Condition}&Fichier supprimé\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton supprimer.
+    \item Le système affiche une alerte de confirmation.
+    \item L'utilisateur clique sur le bouton confirmer.
+    \item le système supprime le fichier et affiche un message des succès.
+    
+    
+    
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item L'utilisateur annule la suppression du fichier.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+
+\textbf{•	Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Consulter la liste des tâches d'un document\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&Le document existe\\
+\hline
+\textbf{Post Condition}&Consultation des tâches\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton tâches.
+    \item Le système affiche l'interface de la liste des tâches.
+    
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item Aucun tâche trouvée.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Demander une tâche »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Demander une tâche\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&La document a au moins une tâche\\
+\hline
+\textbf{Post Condition}&Tâche demandée\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton demander.
+    \item Le système affiche un modal de demande de tâche.
+    \item L'utilistauer rempli le formulaire.
+    \item L'utilisateur clique sur le bouton confirmer.
+    \item Le système cache le modal de demande de tâche.
+    \item Le système affiche un message de succès.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item L'utilisateur annule la demande de tâche.
+    \item Le système cache le modal de demande de tâche.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Tranférer une tâche »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Tranférer une tâche\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&La document a au moins une tâche\\
+\hline
+\textbf{Post Condition}&Tâche transférée\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton transférer.
+    \item Le système affiche un modal de transfert de tâche.
+    \item L'utilistauer rempli le formulaire.
+    \item L'utilisateur clique sur le bouton confirmer.
+    \item Le système cache le modal de transfert de tâche.
+    \item Le système affiche un message de succès.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item L'utilisateur annule la transfert de tâche.
+    \item Le système cache le modal de transfert de tâche.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Terminer une tâche »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Terminer une tâche\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&La document a au moins une tâche\\
+\hline
+\textbf{Post Condition}&Tâche terminée\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton terminer.
+    \item Le système affiche un modal de confirmation de terminaison de tâche.
+    \item L'utilisateur clique sur le bouton confirmer.
+    \item Le système cache le modal de confirmation de terminaison de tâche.
+    \item Le système affiche un message de succès.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item L'utilisateur annule la terminaison de tâche.
+    \item Le système cache le modal de confirmation de terminaison de tâche.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris  »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Consulter la liste des documents en favoris\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur a au moins un document en favoris\\
+\hline
+\textbf{Post Condition}&Affichage de la liste des documents en favoris\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton favoris.
+    \item Le système affiche la liste des documents en favoris.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{2}
+    \item Aucun document en favoris.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Chercher un document »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Chercher un document\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&\\
+\hline
+\textbf{Post Condition}&Liste des documents correspondant à la recherche\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton rechercher.
+    \item Le système affiche l'inteface de recherche des documents.
+    \item L'utilisateur rempli le formulaire de recherche.
+    \item Le système affiche la liste des documents correspondant à la recherche.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item Aucun document correspondant à la recherche.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\end{longtable}
+
+
+% Analyse detaillée 
+\subsubsection{Analyse détaillée}
+TODO: Add diagrams d'analyse
+
+\subsubsection{Conception}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 3.
+
+\textbf{•	Diagramme de classe de conception de sprint 3 : « Gestion des documents »}
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{class_diagram_documents.png}
+  \caption{Diagramme de classe de conception de sprint 3 : « Gestion des documents »}
+  \label{fig:diagramme_de_classe_de_conception_de_sprint_3_gestion_des_documents}
+\end{figure}
+
+
+\subsubsection{Réalisation}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
+
+\textbf{•	Accès aux documents:}
+
+Cette capture d'écran, représente l'interface d'accès aux documents par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{acces_aux_document}
+  \caption{Interface d'accès aux documents}
+  \label{fig:acces_aux_document}
+\end{figure}
+
+\textbf{•	Consulter les fichiers d'un document:}
+
+Cette capture d'écran, représente l'interface de consultation des fichiers d'un document par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{consult_document_files}
+  \caption{Interface de consultation des fichiers d'un document}
+  \label{fig:consult_document_files}
+\end{figure}
+
+\textbf{•	Consulter les tâches d'un document:}
+
+Cette capture d'écran, représente l'interface de consultation des tâches d'un document par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{consult_document_tasks}
+  \caption{Interface de consultation des tâches d'un document}
+  \label{fig:consult_document_tasks}
+\end{figure}
+
+\textbf{•	Ajout de fichiers à un document:}
+
+Cette capture d'écran, représente l'interface d'ajout de fichiers à un document par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{add_document_files}
+  \caption{Interface d'ajout de fichiers à un document}
+  \label{fig:add_document_files}
+\end{figure}
+
+\textbf{• Suppression de fichiers d'un document:}
+
+Cette capture d'écran, représente l'interface de suppression de fichiers d'un document par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{delete_document_files}
+  \caption{Interface de suppression de fichiers d'un document}
+  \label{fig:delete_document_files}
+\end{figure}
+
+
+\textbf{•	Recherche d'un document:}
+
+Cette capture d'écran, représente l'interface de recherche d'un document par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{search_document}
+  \caption{Interface de recherche d'un document}
+  \label{fig:search_document}
+\end{figure}
+
+\textbf{•	Consulter les documents en favoris:}
+
+Cette capture d'écran, représente l'interface de consultation des documents en favoris par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{consult_favoris_documents}
+  \caption{Interface de consultation des documents en favoris}
+  \label{fig:consult_favoris_documents}
+\end{figure}
+
+\textbf{•	Demander une tâche:}
+
+Cette capture d'écran, représente l'interface de demande d'une tâche par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{ask_task}
+  \caption{Interface de demande d'une tâche}
+  \label{fig:ask_task}
+\end{figure}
+
+\textbf{•	Transférer une tâche:}
+
+Cette capture d'écran, représente l'interface de transfert d'une tâche par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{transfer_task}
+  \caption{Interface de transfert d'une tâche}
+  \label{fig:transfer_task}
+\end{figure}
+
+\textbf{•	Terminaison d'une tâche dans un document:}
+
+Cette capture d'écran, représente l'interface de terminaison d'une tâche dans un document par un utilisateur
+
+% add image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.3\textwidth,keepaspectratio=true, height=0.3\textheight]{end_task}
+  \caption{Interface de terminaison d'une tâche dans un document}
+  \label{fig:end_task}
+\end{figure}
+
+
+
+
+\subsection{Sprint Review:}
+A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge avec le vise avis à Lille, France afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
+Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
+\begin{itemize}
+  \item La consultation d'un document.
+  \item La gestion des fichiers d'un document.
+  \item La gestion des taches d'un document.
+  \item La recherche d'un document.
+  \item La consultation de la liste des documents en favoris.
+\end{itemize}
+
+\subsection{Sprint Retrospective:}
+
+Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.
+\noindent\textbf{•	Ce qui a bien passé :}
+Nous avons terminé le sprint dans le délai.
+\noindent\textbf{•	Ce qui s'est mal passé :}
+Manque de documentation de l'ionic 
