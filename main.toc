@@ -80,7 +80,7 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {II.4}\bgroup \beginL \latintext Sprint Review:\endL \egroup }{35}{subsection.3.2.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {II.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{36}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {II.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{35}{subsection.3.2.5}%
 \select@language {french}
 \contentsline {section}{\numberline {III}\bgroup \beginL \latintext Sprint 3 « Gestion des documents »\endL \egroup }{36}{section.3.3}%
 \select@language {french}
