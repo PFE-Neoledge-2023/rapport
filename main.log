@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  14 APR 2023 16:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  15 APR 2023 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2017,7 +2017,26 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count537
 \@quotereset=\count538
-No file main.aux.
+(main.aux
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+
+
+Package polyglossia Warning: Failed to patch part for French on input line 24.
+
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+
+Package polyglossia Warning: Failed to patch part for French on input line 28.
+
+(05-Introduction.aux) (06-CadreGeneral.aux) (07-AnalyseEtConception.aux)
+(08-Release1.aux
+
+LaTeX Warning: Label `fig:UseCaseDiagram' multiply defined.
+
+))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 259.
@@ -2031,7 +2050,7 @@ LaTeX Font Info:    ... okay on input line 259.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 259.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 59.
-(C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+ (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 259.
@@ -2175,12 +2194,11 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {ar-PS/target}  =>  {arabic}
 >  {ar-PS/options}  =>  {locale=mashriq}.
 Package hyperref Info: Link coloring ON on input line 259.
+
+(main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2262,24 +2280,211 @@ File: 00-Page-de-garde.pdf Graphic file (type pdf)
 <use 00-Page-de-garde.pdf, page 1>
 [1
 
-]
-No file main.toc.
+] (main.toc
+LaTeX Info: Redefining \rmfamily on input line 1.
+LaTeX Info: Redefining \sffamily on input line 1.
+LaTeX Info: Redefining \ttfamily on input line 1.
+
+
+Package polyglossia Warning: Failed to patch part for French on input line 1.
+
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+
+Package polyglossia Warning: Failed to patch part for French on input line 2.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-[1]
-No file main.lof.
+LaTeX Info: Redefining \rmfamily on input line 272.
+LaTeX Info: Redefining \sffamily on input line 272.
+LaTeX Info: Redefining \ttfamily on input line 272.
+
+[2] (main.lof
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \sffamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 14.
+LaTeX Info: Redefining \sffamily on input line 14.
+LaTeX Info: Redefining \ttfamily on input line 14.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+LaTeX Info: Redefining \rmfamily on input line 22.
+LaTeX Info: Redefining \sffamily on input line 22.
+LaTeX Info: Redefining \ttfamily on input line 22.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+LaTeX Info: Redefining \rmfamily on input line 30.
+LaTeX Info: Redefining \sffamily on input line 30.
+LaTeX Info: Redefining \ttfamily on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
+LaTeX Info: Redefining \rmfamily on input line 34.
+LaTeX Info: Redefining \sffamily on input line 34.
+LaTeX Info: Redefining \ttfamily on input line 34.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 36.
+LaTeX Info: Redefining \ttfamily on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 38.
+LaTeX Info: Redefining \sffamily on input line 38.
+LaTeX Info: Redefining \ttfamily on input line 38.
+LaTeX Info: Redefining \rmfamily on input line 40.
+LaTeX Info: Redefining \sffamily on input line 40.
+LaTeX Info: Redefining \ttfamily on input line 40.
+LaTeX Info: Redefining \rmfamily on input line 42.
+LaTeX Info: Redefining \sffamily on input line 42.
+LaTeX Info: Redefining \ttfamily on input line 42.
+LaTeX Info: Redefining \rmfamily on input line 44.
+LaTeX Info: Redefining \sffamily on input line 44.
+LaTeX Info: Redefining \ttfamily on input line 44.
+LaTeX Info: Redefining \rmfamily on input line 46.
+LaTeX Info: Redefining \sffamily on input line 46.
+LaTeX Info: Redefining \ttfamily on input line 46.
+LaTeX Info: Redefining \rmfamily on input line 48.
+LaTeX Info: Redefining \sffamily on input line 48.
+LaTeX Info: Redefining \ttfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 50.
+LaTeX Info: Redefining \sffamily on input line 50.
+LaTeX Info: Redefining \ttfamily on input line 50.
+LaTeX Info: Redefining \rmfamily on input line 52.
+LaTeX Info: Redefining \sffamily on input line 52.
+LaTeX Info: Redefining \ttfamily on input line 52.
+LaTeX Info: Redefining \rmfamily on input line 54.
+LaTeX Info: Redefining \sffamily on input line 54.
+LaTeX Info: Redefining \ttfamily on input line 54.
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
-[2
+ [3
 
-]
-No file main.lot.
+] (main.lot
+LaTeX Info: Redefining \rmfamily on input line 2.
+LaTeX Info: Redefining \sffamily on input line 2.
+LaTeX Info: Redefining \ttfamily on input line 2.
+LaTeX Info: Redefining \rmfamily on input line 3.
+LaTeX Info: Redefining \sffamily on input line 3.
+LaTeX Info: Redefining \ttfamily on input line 3.
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+LaTeX Info: Redefining \rmfamily on input line 5.
+LaTeX Info: Redefining \sffamily on input line 5.
+LaTeX Info: Redefining \ttfamily on input line 5.
+LaTeX Info: Redefining \rmfamily on input line 6.
+LaTeX Info: Redefining \sffamily on input line 6.
+LaTeX Info: Redefining \ttfamily on input line 6.
+LaTeX Info: Redefining \rmfamily on input line 7.
+LaTeX Info: Redefining \sffamily on input line 7.
+LaTeX Info: Redefining \ttfamily on input line 7.
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \sffamily on input line 10.
+LaTeX Info: Redefining \ttfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
+LaTeX Info: Redefining \rmfamily on input line 17.
+LaTeX Info: Redefining \sffamily on input line 17.
+LaTeX Info: Redefining \ttfamily on input line 17.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \sffamily on input line 18.
+LaTeX Info: Redefining \ttfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 19.
+LaTeX Info: Redefining \sffamily on input line 19.
+LaTeX Info: Redefining \ttfamily on input line 19.
+LaTeX Info: Redefining \rmfamily on input line 20.
+LaTeX Info: Redefining \sffamily on input line 20.
+LaTeX Info: Redefining \ttfamily on input line 20.
+LaTeX Info: Redefining \rmfamily on input line 21.
+LaTeX Info: Redefining \sffamily on input line 21.
+LaTeX Info: Redefining \ttfamily on input line 21.
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \sffamily on input line 24.
+LaTeX Info: Redefining \ttfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 25.
+LaTeX Info: Redefining \sffamily on input line 25.
+LaTeX Info: Redefining \ttfamily on input line 25.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
+LaTeX Info: Redefining \rmfamily on input line 27.
+LaTeX Info: Redefining \sffamily on input line 27.
+LaTeX Info: Redefining \ttfamily on input line 27.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
+LaTeX Info: Redefining \rmfamily on input line 29.
+LaTeX Info: Redefining \sffamily on input line 29.
+LaTeX Info: Redefining \ttfamily on input line 29.
+LaTeX Info: Redefining \rmfamily on input line 30.
+LaTeX Info: Redefining \sffamily on input line 30.
+LaTeX Info: Redefining \ttfamily on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \sffamily on input line 31.
+LaTeX Info: Redefining \ttfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 32.
+LaTeX Info: Redefining \sffamily on input line 32.
+LaTeX Info: Redefining \ttfamily on input line 32.
+LaTeX Info: Redefining \rmfamily on input line 33.
+LaTeX Info: Redefining \sffamily on input line 33.
+LaTeX Info: Redefining \ttfamily on input line 33.
+LaTeX Info: Redefining \rmfamily on input line 34.
+LaTeX Info: Redefining \sffamily on input line 34.
+LaTeX Info: Redefining \ttfamily on input line 34.
+LaTeX Info: Redefining \rmfamily on input line 36.
+LaTeX Info: Redefining \sffamily on input line 36.
+LaTeX Info: Redefining \ttfamily on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 37.
+LaTeX Info: Redefining \sffamily on input line 37.
+LaTeX Info: Redefining \ttfamily on input line 37.
+)
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
-[3
+ [4
 
 ]
 \openout2 = `05-Introduction.aux'.
@@ -2297,7 +2502,8 @@ LaTeX Info: Redefining \ttfamily on input line 289.
  [2]
 \openout2 = `06-CadreGeneral.aux'.
 
- (06-CadreGeneral.tex
+
+(06-CadreGeneral.tex
 Chapitre 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -2315,136 +2521,24 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 11.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 11.
-
 File: images_pfe//neoledge_big_logo.png Graphic file (type bmp)
 <images_pfe//neoledge_big_logo.png>
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 27.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 27.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 27.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 27.
-
 [3
 
 
 
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 38.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 38.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 38.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 38.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 56.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 56.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 56.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 56.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 61.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 61.
-
 LaTeX Info: Redefining \rmfamily on input line 64.
 LaTeX Info: Redefining \sffamily on input line 64.
 LaTeX Info: Redefining \ttfamily on input line 64.
-[4]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 65.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 65.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 65.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 65.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 67.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 67.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 67.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 67.
-
+ [4]
 File: images_pfe//elise_logo.png Graphic file (type bmp)
 <images_pfe//elise_logo.png>
 LaTeX Info: Redefining \rmfamily on input line 83.
 LaTeX Info: Redefining \sffamily on input line 83.
 LaTeX Info: Redefining \ttfamily on input line 83.
-[5]
+ [5]
 File: images_pfe//elise.png Graphic file (type bmp)
 <images_pfe//elise.png>
 LaTeX Info: Redefining \rmfamily on input line 110.
@@ -2465,98 +2559,18 @@ LaTeX Info: Redefining \rmfamily on input line 184.
 LaTeX Info: Redefining \sffamily on input line 184.
 LaTeX Info: Redefining \ttfamily on input line 184.
 [8]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 221.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 221.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 221.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 221.
-
 LaTeX Info: Redefining \rmfamily on input line 226.
 LaTeX Info: Redefining \sffamily on input line 226.
 LaTeX Info: Redefining \ttfamily on input line 226.
-[9]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 232.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 232.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 232.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 232.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 252.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 252.
-
+ [9]
 LaTeX Info: Redefining \rmfamily on input line 254.
 LaTeX Info: Redefining \sffamily on input line 254.
 LaTeX Info: Redefining \ttfamily on input line 254.
-[10]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 255.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 255.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 255.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 255.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 257.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 257.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 257.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 257.
-
+ [10]
 LaTeX Info: Redefining \rmfamily on input line 275.
 LaTeX Info: Redefining \sffamily on input line 275.
 LaTeX Info: Redefining \ttfamily on input line 275.
-[11]
+ [11]
 Overfull \hbox (2.59184pt too wide) in paragraph at lines 277--279
 [][]\TU/lmr/bx/n/12 L’équipe de développement \TU/lmr/m/n/12 (L’équipe de proje
 t) : L’équipe de réalisation contient[]
@@ -2564,49 +2578,6 @@ t) : L’équipe de réalisation contient[]
 
 File: images_pfe//cycle_de_vie_scrum.png Graphic file (type bmp)
 <images_pfe//cycle_de_vie_scrum.png>
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 288.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 288.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 288.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 288.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 291.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 291.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 291.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 291.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 296
-.
-(C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 296
-.
-
-(C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 File: images_pfe//pc.jpg Graphic file (type bmp)
 <images_pfe//pc.jpg>
 
@@ -2616,22 +2587,6 @@ LaTeX Info: Redefining \rmfamily on input line 323.
 LaTeX Info: Redefining \sffamily on input line 323.
 LaTeX Info: Redefining \ttfamily on input line 323.
  [12]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 324.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 324.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 324.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 324.
-
 File: images_pfe//win10.jpg Graphic file (type bmp)
 <images_pfe//win10.jpg>
 File: images_pfe//vscode.png Graphic file (type bmp)
@@ -2645,6 +2600,7 @@ File: images_pfe//postman.jpg Graphic file (type bmp)
 LaTeX Info: Redefining \rmfamily on input line 385.
 LaTeX Info: Redefining \sffamily on input line 385.
 LaTeX Info: Redefining \ttfamily on input line 385.
+
 [13]
 File: images_pfe//git.jpg Graphic file (type bmp)
 <images_pfe//git.jpg>
@@ -2658,29 +2614,12 @@ File: images_pfe//teams.png Graphic file (type bmp)
 <images_pfe//teams.png>
 File: images_pfe//latex.png Graphic file (type bmp)
 <images_pfe//latex.png>
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 447.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 447.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 447.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 447.
-
 File: images_pfe//ionic.png Graphic file (type bmp)
 <images_pfe//ionic.png>
 LaTeX Info: Redefining \rmfamily on input line 461.
 LaTeX Info: Redefining \sffamily on input line 461.
 LaTeX Info: Redefining \ttfamily on input line 461.
-[14]
+ [14]
 File: images_pfe//vue.png Graphic file (type bmp)
 <images_pfe//vue.png>
 File: images_pfe//capacitor.png Graphic file (type bmp)
@@ -2712,38 +2651,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 13.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 43.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 43.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 43.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 43.
-
 [16
 
 
@@ -2754,26 +2661,10 @@ LaTeX Info: Redefining \rmfamily on input line 117.
 LaTeX Info: Redefining \sffamily on input line 117.
 LaTeX Info: Redefining \ttfamily on input line 117.
  [17]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 168.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 168.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 168.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 168.
-
 LaTeX Info: Redefining \rmfamily on input line 177.
 LaTeX Info: Redefining \sffamily on input line 177.
 LaTeX Info: Redefining \ttfamily on input line 177.
-[18]
+ [18]
 Underfull \hbox (badness 2564) in paragraph at lines 192--192
 [][]|\TU/lmr/m/n/12 Du 8 Fé-[]
  []
@@ -3002,24 +2893,7 @@ LaTeX Info: Redefining \ttfamily on input line 332.
 LaTeX Info: Redefining \rmfamily on input line 334.
 LaTeX Info: Redefining \sffamily on input line 334.
 LaTeX Info: Redefining \ttfamily on input line 334.
- [25]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 336.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 336.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 336.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 336.
-
-)
+ [25])
 LaTeX Info: Redefining \rmfamily on input line 291.
 LaTeX Info: Redefining \sffamily on input line 291.
 LaTeX Info: Redefining \ttfamily on input line 291.
@@ -3045,54 +2919,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 26.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 26.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 26.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 26.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 28.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 28.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 28.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 28.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 31.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 31.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
@@ -3140,101 +2966,18 @@ Overfull \hbox (24.5472pt too wide) in alignment at lines 73--117
 
 
 ]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 119.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 119.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 119.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 119.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 122.
 LaTeX Info: Redefining \sffamily on input line 122.
 LaTeX Info: Redefining \ttfamily on input line 122.
  [28]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 122.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 137.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 137.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 137.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 137.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 139.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 139.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 139.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 139.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 144.
 LaTeX Info: Redefining \sffamily on input line 144.
 LaTeX Info: Redefining \ttfamily on input line 144.
  [29]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 144.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 [][]\TU/lmr/m/n/12 Supprimer[]
  []
@@ -3254,40 +2997,8 @@ Overfull \hbox (24.5472pt too wide) in alignment at lines 146--179
  [] [] [] [] 
  []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 181.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 181.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 181.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 181.
-
 File: images_pfe//use_case_signature_sprint_2.png Graphic file (type bmp)
 <images_pfe//use_case_signature_sprint_2.png>
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 192.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 192.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 192.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 192.
-
 LaTeX Info: Redefining \rmfamily on input line 228.
 LaTeX Info: Redefining \sffamily on input line 228.
 LaTeX Info: Redefining \ttfamily on input line 228.
@@ -3296,444 +3007,260 @@ LaTeX Info: Redefining \rmfamily on input line 283.
 LaTeX Info: Redefining \sffamily on input line 283.
 LaTeX Info: Redefining \ttfamily on input line 283.
  [31]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 285.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 292.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 292.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 292.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 292.
-
 File: images_pfe//class_diagram_signatures.jpg Graphic file (type bmp)
 <images_pfe//class_diagram_signatures.jpg>
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 307.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 307.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 307.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 307.
-
-LaTeX Info: Redefining \rmfamily on input line 313.
-LaTeX Info: Redefining \sffamily on input line 313.
-LaTeX Info: Redefining \ttfamily on input line 313.
-[32]
+LaTeX Info: Redefining \rmfamily on input line 306.
+LaTeX Info: Redefining \sffamily on input line 306.
+LaTeX Info: Redefining \ttfamily on input line 306.
+ [32]
 File: images_pfe//signature_creation.png Graphic file (type bmp)
 <images_pfe//signature_creation.png>
 File: images_pfe//signature_form.png Graphic file (type bmp)
 <images_pfe//signature_form.png>
+LaTeX Info: Redefining \rmfamily on input line 331.
+LaTeX Info: Redefining \sffamily on input line 331.
+LaTeX Info: Redefining \ttfamily on input line 331.
+
+[33]
 LaTeX Info: Redefining \rmfamily on input line 336.
 LaTeX Info: Redefining \sffamily on input line 336.
 LaTeX Info: Redefining \ttfamily on input line 336.
- [33]
+ [34]
 File: images_pfe//signature_preview.png Graphic file (type bmp)
 <images_pfe//signature_preview.png>
 File: images_pfe//signature_delete.png Graphic file (type bmp)
 <images_pfe//signature_delete.png>
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 359.
-
-LaTeX Info: Redefining \rmfamily on input line 367.
-LaTeX Info: Redefining \sffamily on input line 367.
-LaTeX Info: Redefining \ttfamily on input line 367.
-[34]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 370.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 370.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 370.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 370.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 387.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 388.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 388.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Info: Redefining \rmfamily on input line 362.
+LaTeX Info: Redefining \sffamily on input line 362.
+LaTeX Info: Redefining \ttfamily on input line 362.
+ [35]
+Underfull \vbox (badness 1910) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 393.
 LaTeX Info: Redefining \sffamily on input line 393.
 LaTeX Info: Redefining \ttfamily on input line 393.
- [35]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 393.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 393.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 393.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 393.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
+ [36]
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 [][]\TU/lmr/m/n/12 Consulter la[]
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 405--406
+Underfull \hbox (badness 3396) in paragraph at lines 406--407
 [][]\TU/lmr/m/n/12 Ajoutez un fi-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
-[][]\TU/lmr/m/n/12 Consulter la[]
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 408--409
-[][]\TU/lmr/m/n/12 Démarrer une[]
+[][]\TU/lmr/m/n/12 Consulter la[]
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 409--410
+[][]\TU/lmr/m/n/12 Démarrer une[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
 [][]\TU/lmr/m/n/12 Terminer une[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 [][]\TU/lmr/m/n/12 Consulter la[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 []\TU/lmr/m/n/12 liste des do-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 []\TU/lmr/m/n/12 cuments en[]
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 422--423
+Underfull \hbox (badness 6910) in paragraph at lines 423--424
 [][]\TU/lmr/m/n/12 Développer l’interface de re-[]
  []
 
 
-Overfull \hbox (24.5472pt too wide) in alignment at lines 395--445
+Overfull \hbox (24.5472pt too wide) in alignment at lines 396--446
  [] [] [] [] 
  []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 448.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 448.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 448.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 448.
 
 File: images_pfe//use_case_documents_sprint_3.png Graphic file (type bmp)
 <images_pfe//use_case_documents_sprint_3.png>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 460.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 460.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 460.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 460.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 491.
-LaTeX Info: Redefining \sffamily on input line 491.
-LaTeX Info: Redefining \ttfamily on input line 491.
- [36]
-LaTeX Info: Redefining \rmfamily on input line 559.
-LaTeX Info: Redefining \sffamily on input line 559.
-LaTeX Info: Redefining \ttfamily on input line 559.
+LaTeX Info: Redefining \rmfamily on input line 459.
+LaTeX Info: Redefining \sffamily on input line 459.
+LaTeX Info: Redefining \ttfamily on input line 459.
+ [37]
+LaTeX Info: Redefining \rmfamily on input line 525.
+LaTeX Info: Redefining \sffamily on input line 525.
+LaTeX Info: Redefining \ttfamily on input line 525.
 
-[37]
-LaTeX Info: Redefining \rmfamily on input line 630.
-LaTeX Info: Redefining \sffamily on input line 630.
-LaTeX Info: Redefining \ttfamily on input line 630.
- [38]
-LaTeX Info: Redefining \rmfamily on input line 705.
-LaTeX Info: Redefining \sffamily on input line 705.
-LaTeX Info: Redefining \ttfamily on input line 705.
+[38]
+LaTeX Info: Redefining \rmfamily on input line 631.
+LaTeX Info: Redefining \sffamily on input line 631.
+LaTeX Info: Redefining \ttfamily on input line 631.
  [39]
-LaTeX Info: Redefining \rmfamily on input line 773.
-LaTeX Info: Redefining \sffamily on input line 773.
-LaTeX Info: Redefining \ttfamily on input line 773.
+LaTeX Info: Redefining \rmfamily on input line 706.
+LaTeX Info: Redefining \sffamily on input line 706.
+LaTeX Info: Redefining \ttfamily on input line 706.
  [40]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 813.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 813.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 813.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 813.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 816.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 816.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 816.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 816.
-
-LaTeX Info: Redefining \rmfamily on input line 822.
-LaTeX Info: Redefining \sffamily on input line 822.
-LaTeX Info: Redefining \ttfamily on input line 822.
-[41]
+LaTeX Info: Redefining \rmfamily on input line 774.
+LaTeX Info: Redefining \sffamily on input line 774.
+LaTeX Info: Redefining \ttfamily on input line 774.
+ [41]
+LaTeX Info: Redefining \rmfamily on input line 823.
+LaTeX Info: Redefining \sffamily on input line 823.
+LaTeX Info: Redefining \ttfamily on input line 823.
+ [42]
 File: images_pfe//class_diagram_documents.png Graphic file (type bmp)
 <images_pfe//class_diagram_documents.png>
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 832.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 832.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 832.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 832.
-
 File: images_pfe//acces_aux_document.jpg Graphic file (type bmp)
 <images_pfe//acces_aux_document.jpg>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+LaTeX Info: Redefining \rmfamily on input line 848.
+LaTeX Info: Redefining \sffamily on input line 848.
+LaTeX Info: Redefining \ttfamily on input line 848.
+ [43]
 File: images_pfe//consult_document_files.jpg Graphic file (type bmp)
 <images_pfe//consult_document_files.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: images_pfe//consult_document_tasks.jpg Graphic file (type bmp)
 <images_pfe//consult_document_tasks.jpg>
-LaTeX Info: Redefining \rmfamily on input line 870.
-LaTeX Info: Redefining \sffamily on input line 870.
-LaTeX Info: Redefining \ttfamily on input line 870.
-[42]
+LaTeX Info: Redefining \rmfamily on input line 872.
+LaTeX Info: Redefining \sffamily on input line 872.
+LaTeX Info: Redefining \ttfamily on input line 872.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[44]
 File: images_pfe//add_document_files.jpg Graphic file (type bmp)
 <images_pfe//add_document_files.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: images_pfe//delete_document_files.jpg Graphic file (type bmp)
 <images_pfe//delete_document_files.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+LaTeX Info: Redefining \rmfamily on input line 896.
+LaTeX Info: Redefining \sffamily on input line 896.
+LaTeX Info: Redefining \ttfamily on input line 896.
+ [45]
 File: images_pfe//search_document.jpg Graphic file (type bmp)
 <images_pfe//search_document.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: images_pfe//consult_favoris_documents.jpg Graphic file (type bmp)
 <images_pfe//consult_favoris_documents.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+LaTeX Info: Redefining \rmfamily on input line 921.
+LaTeX Info: Redefining \sffamily on input line 921.
+LaTeX Info: Redefining \ttfamily on input line 921.
+ [46]
 File: images_pfe//ask_task.jpg Graphic file (type bmp)
 <images_pfe//ask_task.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: images_pfe//transfer_task.jpg Graphic file (type bmp)
 <images_pfe//transfer_task.jpg>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 1817) has occurred while \output is active []
 
+LaTeX Info: Redefining \rmfamily on input line 945.
+LaTeX Info: Redefining \sffamily on input line 945.
+LaTeX Info: Redefining \ttfamily on input line 945.
+ [47]
 File: images_pfe//end_task.jpg Graphic file (type bmp)
 <images_pfe//end_task.jpg>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 964.
+LaTeX Info: Redefining \sffamily on input line 964.
+LaTeX Info: Redefining \ttfamily on input line 964.
+ [48]
+Underfull \hbox (badness 3375) in paragraph at lines 998--999
+[][]\TU/lmr/m/n/12 Signer à main[]
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 960.
+Underfull \hbox (badness 1221) in paragraph at lines 999--1000
+[]\TU/lmr/m/n/12 et déposer une[]
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 960.
+Underfull \hbox (badness 1354) in paragraph at lines 999--1000
+[]\TU/lmr/m/n/12 image dans un[]
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 960.
+Underfull \hbox (badness 7064) in paragraph at lines 1001--1002
+[][]\TU/lmr/m/n/12 Supprimer une[]
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 960.
+Underfull \hbox (badness 10000) in paragraph at lines 1001--1002
+[]\TU/lmr/m/n/12 signature dans[]
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+[][]\TU/lmr/m/n/12 Confirmer ou[]
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 1002--1003
+[]\TU/lmr/m/n/12 annuler la si-[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1002--1003
+[]\TU/lmr/m/n/12 gnature d’un[]
+ []
+
+
+Overfull \hbox (24.5472pt too wide) in alignment at lines 989--1033
+ [] [] [] [] 
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 1033.
+LaTeX Info: Redefining \sffamily on input line 1033.
+LaTeX Info: Redefining \ttfamily on input line 1033.
+[49]
+File: images_pfe//use_case_documents_sprint_4.png Graphic file (type bmp)
+<images_pfe//use_case_documents_sprint_4.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 963.
-LaTeX Info: Redefining \sffamily on input line 963.
-LaTeX Info: Redefining \ttfamily on input line 963.
- [43]
+LaTeX Info: Redefining \rmfamily on input line 1046.
+LaTeX Info: Redefining \sffamily on input line 1046.
+LaTeX Info: Redefining \ttfamily on input line 1046.
+ [50]
+LaTeX Info: Redefining \rmfamily on input line 1114.
+LaTeX Info: Redefining \sffamily on input line 1114.
+LaTeX Info: Redefining \ttfamily on input line 1114.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\beginL' on input line 971.
+[51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+LaTeX Info: Redefining \rmfamily on input line 1153.
+LaTeX Info: Redefining \sffamily on input line 1153.
+LaTeX Info: Redefining \ttfamily on input line 1153.
+ [52]
+LaTeX Info: Redefining \rmfamily on input line 1247.
+LaTeX Info: Redefining \sffamily on input line 1247.
+LaTeX Info: Redefining \ttfamily on input line 1247.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<def>-command' on input line 971.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\encodingdefault' on input line 971.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endL' on input line 971.
-
-)
+[53]
+File: images_pfe//class_diagram_sprint4.png Graphic file (type bmp)
+<images_pfe//class_diagram_sprint4.png>
+LaTeX Info: Redefining \rmfamily on input line 1301.
+LaTeX Info: Redefining \sffamily on input line 1301.
+LaTeX Info: Redefining \ttfamily on input line 1301.
+ [54])
 LaTeX Info: Redefining \rmfamily on input line 292.
 LaTeX Info: Redefining \sffamily on input line 292.
 LaTeX Info: Redefining \ttfamily on input line 292.
- [44]
-LaTeX Info: Redefining \rmfamily on input line 292.
-LaTeX Info: Redefining \sffamily on input line 292.
-LaTeX Info: Redefining \ttfamily on input line 292.
- [45]
-LaTeX Info: Redefining \rmfamily on input line 292.
-LaTeX Info: Redefining \sffamily on input line 292.
-LaTeX Info: Redefining \ttfamily on input line 292.
- [46]
-LaTeX Info: Redefining \rmfamily on input line 292.
-LaTeX Info: Redefining \sffamily on input line 292.
-LaTeX Info: Redefining \ttfamily on input line 292.
- [47]
-LaTeX Info: Redefining \rmfamily on input line 292.
-LaTeX Info: Redefining \sffamily on input line 292.
-LaTeX Info: Redefining \ttfamily on input line 292.
- [48]
+ [55]
 
 LaTeX Warning: Empty bibliography on input line 304.
 
@@ -3743,7 +3270,7 @@ Package biblatex Warning: Type 'misc' not found on input line 306.
 
 LaTeX Warning: Empty bibliography on input line 306.
 
-[49
+[56
 
 
 
@@ -3870,35 +3397,21 @@ Package polyglossia Warning: Failed to patch part for French on input line 28.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7EA465D209251E58A16A126BB168CF62;9276.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9BBD4BF9D12A2B4448C559D561F771EF;1190.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41402 strings out of 411472
- 850342 string characters out of 5818873
+ 41473 strings out of 411472
+ 852159 string characters out of 5818873
  1946012 words of memory out of 5000000
- 60912 multiletter control sequences out of 15000+600000
+ 60963 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,17n,92p,1409b,5402s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,17n,92p,1409b,5413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (53 pages).
+Output written on main.pdf (61 pages).
