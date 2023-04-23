@@ -14,42 +14,46 @@
 \setforeignlanguage {french}
 \addvspace {10\p@ }
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »\relax }}{30}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »\relax }}{31}{figure.caption.29}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagramme de classe de conception de sprint 2 : « Gestion des signatures »\relax }}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Maquette de la page des signatures\relax }}{35}{figure.caption.30}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Interface de création d'une signature\relax }}{33}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Maquette de la page de visualisation et de suppression d'une signature\relax }}{35}{figure.caption.31}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Interface de saisie du titre de la signature\relax }}{34}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagramme de classe de conception de sprint 2 : « Gestion des signatures »\relax }}{36}{figure.caption.32}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Interface de visualisation d'une signature\relax }}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Interface de création d'une signature\relax }}{37}{figure.caption.33}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Interface de suppression d'une signature\relax }}{35}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Interface de saisie du titre de la signature\relax }}{37}{figure.caption.34}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »\relax }}{38}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Interface de visualisation d'une signature\relax }}{38}{figure.caption.35}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Diagramme de classe de conception de sprint 3 : « Gestion des documents »\relax }}{43}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Interface de suppression d'une signature\relax }}{38}{figure.caption.36}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Interface d'accès aux documents\relax }}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »\relax }}{41}{figure.caption.37}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Interface de consultation des fichiers d'un document\relax }}{44}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagramme de classe de conception de sprint 3 : « Gestion des documents »\relax }}{46}{figure.caption.38}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Interface de consultation des tâches d'un document\relax }}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Interface d'accès aux documents\relax }}{47}{figure.caption.39}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface d'ajout de fichiers à un document\relax }}{45}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Interface de consultation des fichiers d'un document\relax }}{47}{figure.caption.40}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Interface de suppression de fichiers d'un document\relax }}{46}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Interface de consultation des tâches d'un document\relax }}{48}{figure.caption.41}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Interface de recherche d'un document\relax }}{46}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Interface d'ajout de fichiers à un document\relax }}{48}{figure.caption.42}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface de consultation des documents en favoris\relax }}{47}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Interface de suppression de fichiers d'un document\relax }}{49}{figure.caption.43}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Interface de demande d'une tâche\relax }}{47}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Interface de recherche d'un document\relax }}{49}{figure.caption.44}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Interface de transfert d'une tâche\relax }}{48}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Interface de consultation des documents en favoris\relax }}{50}{figure.caption.45}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Interface de terminaison d'une tâche dans un document\relax }}{48}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Interface de demande d'une tâche\relax }}{50}{figure.caption.46}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »\relax }}{51}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Interface de transfert d'une tâche\relax }}{51}{figure.caption.47}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Diagramme de classe de conception de sprint 2 : « Visualisation et signature d'un fichier »\relax }}{54}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Interface de terminaison d'une tâche dans un document\relax }}{51}{figure.caption.48}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »\relax }}{54}{figure.caption.49}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Diagramme de classe de conception de sprint 2 : « Visualisation et signature d'un fichier »\relax }}{57}{figure.caption.50}%
