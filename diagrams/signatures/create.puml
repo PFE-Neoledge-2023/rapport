@@ -1,0 +1,31 @@
+@startuml create_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande l'interface de signature
+activate system
+system -> user : affiche l'interface de signature
+user -> system : dessine la signature sur l'espace de signature
+user -> system : clique sur le bouton "enregistrer"
+alt Utilisateur a dessiné une signature
+system -> user : affiche le panneau de creation de signature
+user -> system : entre le nom de la signature
+user -> system : clique sur le bouton "enregistrer"
+alt Utilisateur a entré un nom de signature
+system -> user : enregistre la signature
+system -> user : cache l'interface de création de signature
+else Utilisateur n'a pas entré de nom de signature
+system -> user : affiche un message d'erreur
+end
+else Utilisateur n'a pas dessiné de signature
+system -> user : affiche un message d'erreur
+end
+deactivate system
+deactivate user
