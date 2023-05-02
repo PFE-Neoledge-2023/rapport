@@ -45,6 +45,18 @@ delete -> user : cache l'interface de suppression
 delete -> liste : afficher ListeSignature
 deactivate delete
 activate liste
+liste -> vm : RecupererListeSignature()
+activate vm
+vm -> ws : GetPersonnalSignatureList()
+activate ws
+ws -> vm : GetPersonnalSignatureList
+deactivate ws
+vm -> model : RecupererListeSignature()
+activate model
+model -> vm : RecupererListeSignature
+deactivate model
+vm -> liste : RecupererListeSignature
+deactivate vm
 liste -> user : affiche la liste des signatures
 deactivate liste
 deactivate user

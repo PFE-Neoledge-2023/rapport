@@ -4,45 +4,22 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "System" as system << Controller >>
 participant "ListeSignature" as liste << View >>
-participant "ViewSignature" as view << View >>
+participant "VisualiserSignature" as view << View >>
 participant "ListeSignature" as vm << ViewModel >>
 participant "Signature" as model << Model >>
 participant "EliseWebService" as ws << Service >>
 
 
-ref over user, system : Authentification
+ref over user,liste,view,vm,model,ws : Authentification
 activate user
-user -> liste : ClickViewSignature()
+user -> liste : ClickVisualiserSignature()
 activate liste
 liste -> view : afficher fenêtre de confirmation
 deactivate liste
 activate view
-view -> user : affiche la fenêtre de confirmation
-user -> view : Choisit l'action
-alt Oui
-    view -> vm : ViewSignature()
-    activate vm
-    vm -> ws : ViewSignature()
-    activate ws
-    ws -> vm : ViewSignature
-    deactivate ws
-    vm -> model : ViewSignature()
-    activate model
-    model -> vm : ViewSignature
-    deactivate model
-    vm -> view : ViewSignature
-    deactivate vm
-    alt Succès
-        view -> user : affiche message de succès
-    else Echec
-        view -> user : affiche message d'erreur
-    end
-else Non
-    view -> user : AnnulerViewSignature()
-end
-view -> user : cache l'interface de suppression
+user -> view : ClickFermer()
+view -> user : cache l'interface de visualisation
 view -> liste : afficher ListeSignature
 deactivate view
 activate liste
