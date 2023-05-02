@@ -4,7 +4,6 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "System" as system << Controller >>
 participant "ListeSignature" as liste << View >>
 participant "SupprimerSignature" as delete << View >>
 participant "ListeSignature" as vm << ViewModel >>
@@ -12,7 +11,7 @@ participant "Signature" as model << Model >>
 participant "EliseWebService" as ws << Service >>
 
 
-ref over user, system : Authentification
+ref over user,liste,delete,vm,model,ws : Authentification
 activate user
 user -> liste : ClickSupprimerSignature()
 activate liste
