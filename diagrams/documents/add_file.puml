@@ -13,7 +13,7 @@ user -> system : clique sur le bouton "liste des action"
 activate system
 system -> user : affiche la liste des actions
 user -> system : clique sur le bouton "ajouter un fichier"
-system -> user : affiche le formulaire d'ajout de fichier
+system -> user : affiche le panneau d'ajout de fichier
 user -> system : clique sur le bouton "choisir un fichier"
 system -> user : affiche la fenêtre de choix de fichier
 user -> system : sélectionne un fichier
@@ -25,6 +25,6 @@ alt fichier ajouté
 else fichier non ajouté
   system -> user : affiche le message "fichier non ajouté"
 end
-system -> user : cache le formulaire d'ajout de fichier
+system -> user : cache le panneau d'ajout de fichier
 deactivate system
 deactivate user

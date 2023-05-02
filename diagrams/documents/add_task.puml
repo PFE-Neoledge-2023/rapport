@@ -11,7 +11,7 @@ ref over user, system : Authentification
 activate user
 user -> system : Clique sur le bouton "Demander une tâche"
 activate system
-system -> user : Affiche l'interface de demande de tâche
+system -> user : Affiche le panneau du demande de tâche
 user -> system : Rempli le formulaire
 user -> system : Choisir de confirmer ou d'annuler la demande
 alt confirmer
@@ -24,6 +24,6 @@ end
 else annuler
   system -> user : Affiche message d'annulation
 end
-system -> user : Cache l'interface de demande de tâche
+system -> user : Cache le panneau de demande de tâche
 deactivate system
 deactivate user

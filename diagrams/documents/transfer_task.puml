@@ -11,7 +11,7 @@ ref over user, system : Authentification
 activate user
 user -> system : Clique sur le bouton "Transférer"
 activate system
-system -> user : Affiche l'interface de transfert
+system -> user : Affiche le panneau de transfert
 user -> system : remplit les champs
 user -> system : Choisir de confirmer ou d'annuler le transfert
 alt confirmer
@@ -24,6 +24,6 @@ end
 else annuler
 system -> user : Affiche un message d'annulation
 end
-system -> user : Cache l'interface de transfert
+system -> user : Cache le panneau de transfert
 deactivate system
 deactivate user

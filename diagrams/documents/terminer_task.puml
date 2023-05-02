@@ -11,8 +11,8 @@ ref over user, system : Authentification
 activate user
 user -> system : cliquer sur l'une bouton de terminaison
 activate system
-system -> user : afficher l'interface de terminaison
-user -> system : rempli le formulaire
+system -> user : afficher le panneau de terminaison
+user -> system : remplit le formulaire
 user -> system : choisir de confirmer ou d'annuler
 alt confirmer
 system -> system : terminer la tâche
@@ -24,7 +24,7 @@ end
 else annuler
   system -> user : afficher un message d'annulation
 end
-system -> user : cacher l'interface de terminaison
+system -> user : cacher le panneau de terminaison
 
 
 
