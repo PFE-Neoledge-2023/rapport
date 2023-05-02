@@ -403,9 +403,9 @@ Les objets de diagramme d'analyse sont les suivants :
   \item \textbf{EliseWebService} : représente le web service de l'application Elise.
 \end{itemize}
 
+\textbf{•	Diagramme de classe d'analyse de sprint 2 }
 \newpage
 
-\textbf{•	Diagramme de classe d'analyse de sprint 2 }
 \begin{figure}
   \centering
   \includegraphics[width=1\textwidth]{dca_sprint2}
@@ -559,9 +559,10 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
       \item Accéder à un document.
       \item Consulter la liste des fichiers d'un document
       \item Ajoutez un fichier à un document.
-      \item Supprimer un fichier d'un document.
+      % \item Supprimer un fichier d'un document.
       \item Consulter la liste des tâches d'un document.
       % \item Démarrer une tâche.
+      \item Transférer une tâche.
       \item Terminer une tâche.
       \item Consulter la liste des documents en favoris.
       \item Chercher un document.
@@ -584,6 +585,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
     \item Développer une fonction qui permet ajouter un fichier à un document.
     \item Développer une fonction qui permet de supprimer un fichier.
     \item Développer une fonction qui permet de démarrer une tâche d'un document.
+    \item Développer une fonction qui permet de transférer une tâche.
     \item Développé une fonction qui permet de terminer une tâche.
 
   \end{itemize}
@@ -965,9 +967,75 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \end{longtable}
 
 
-% Analyse detaillée 
+% Add sequence system
+\textbf{•	Diagramme de séquence de cas d'utilisation « Accéder à un document  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/preview/preview_document}
+  \caption{Diagramme de séquence de cas d'utilisation « Accéder à un document  »}
+  \label{fig:sequence_Accederaundocument}
+\end{figure}
+\textbf{•	Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/previewFiles/preview_files_document}
+  \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document  »}
+  \label{fig:sequence_previewFiles}
+\end{figure}
+\textbf{•	Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/documents/add_file/add_file}
+  \caption{Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document  »}
+  \label{fig:sequence_add_file}
+\end{figure}
+\textbf{•	Diagramme de séquence de cas d'utilisation « Consulter la liste des tâches d'un document  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/previewTasks/preview_tasks_document}
+  \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des tâches d'un document  »}
+  \label{fig:sequence_previewTasks}
+\end{figure}
+\textbf{•	Diagramme de séquence de cas d'utilisation « Transferer une tâche  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/documents/transfer_task/transfer_task}
+  \caption{Diagramme de séquence de cas d'utilisation « Transferer une tâche  »}
+  \label{fig:sequence_transfer_task}
+\end{figure}
+\textbf{•	Diagramme de séquence de cas d'utilisation « Terminer une tâche  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/documents/terminer_task/terminer_task}
+  \caption{Diagramme de séquence de cas d'utilisation « Terminer une tâche  »}
+  \label{fig:sequence_terminer_task}
+\end{figure}
+\textbf{•	Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/favoris/favorit_document}
+  \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris  »}
+  \label{fig:sequence_favorit_document}
+\end{figure}
+\textbf{•	Diagramme de séquence de cas d'utilisation « Chercher un document  »}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/chercher/charcher_document}
+  \caption{Diagramme de séquence de cas d'utilisation « Chercher un document  »}
+  \label{fig:sequence_charcher_document}
+\end{figure}
+
 \subsubsection{Analyse détaillée}
-TODO: Add diagrams d'analyse
+\textbf{•	Diagramme de classe d'analyse de sprint "3" }
+\newpage
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{dca_sprint3}
+  \caption{Diagramme de classe d'analyse de sprint 3}
+  \label{fig:class_analyse_signatures3}
+\end{figure}
+
 
 \subsubsection{Conception}
 
@@ -976,14 +1044,12 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \textbf{•	Diagramme de classe de conception de sprint 3 : « Gestion des documents »}
 
-% add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{class_diagram_documents.png}
-  \caption{Diagramme de classe de conception de sprint 3 : « Gestion des documents »}
-  \label{fig:diagramme_de_classe_de_conception_de_sprint_3_gestion_des_documents}
+  \includegraphics[width=1\textwidth]{dcc_spint3}
+  \caption{Diagramme de classe de conception de sprint 3 : « Gestion des signatures »}
+  \label{fig:class_diagram_signatures3}
 \end{figure}
-
 
 \subsubsection{Réalisation}
 
