@@ -24,9 +24,9 @@ user -> delete : Choisit l'action
 alt Oui
     delete -> vm : SupprimerSignature()
     activate vm
-    vm -> ws : SupprimerSignature()
+    vm -> ws : DeletePersonnalSignature()
     activate ws
-    ws -> vm : SupprimerSignature
+    ws -> vm : DeletePersonnalSignature
     deactivate ws
     vm -> model : SupprimerSignature()
     activate model
