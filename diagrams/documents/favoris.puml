@@ -1,0 +1,23 @@
+@startuml favorit_document
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande l'interface des favoris
+activate system
+system -> user : affiche l'interface des favoris
+system -> system : récupère les favoris de l'utilisateur
+alt utilisateur a des documents en favoris
+    system -> user : affiche les documents en favoris de l'utilisateur
+else utilisateur n'a pas de favoris
+    system -> user : affiche le message "Vous n'avez pas de favoris"
+end
+
+deactivate system
+deactivate user

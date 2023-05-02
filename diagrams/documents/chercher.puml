@@ -1,0 +1,24 @@
+@startuml charcher_document
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande l'interface de recherche
+activate system
+system -> user : affiche l'interface de recherche
+user -> system : saisie le critère de recherche
+system -> system : recherche des documents
+' system -> user : affiche les résultats de la recherche
+alt documents trouvés
+    system -> user : affiche les documents
+else documents non trouvés
+    system -> user : affiche le message "aucun document trouvé"
+end
+deactivate system
+deactivate user

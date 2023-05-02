@@ -1,0 +1,21 @@
+@startuml preview_files_document
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton fichiers
+activate system
+system -> system : cherche les fichiers attachés au document
+alt le document a des fichiers attachés
+    system -> user : affiche les fichiers attachés
+else le document n'a pas des fichiers attachés
+    system -> user : affiche le message "aucun fichier attaché"
+end
+deactivate system
+deactivate user
