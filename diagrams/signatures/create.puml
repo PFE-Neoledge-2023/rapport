@@ -9,9 +9,9 @@ participant "système" as system
 
 ref over user, system : Authentification
 activate user
-user -> system : demande l'interface de signature
+user -> system : demande l'interface de signatures
 activate system
-system -> user : affiche l'interface de signature
+system -> user : affiche l'interface de signatures
 user -> system : dessine la signature sur l'espace de signature
 user -> system : clique sur le bouton "enregistrer"
 alt Utilisateur a dessiné une signature

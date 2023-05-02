@@ -1,0 +1,51 @@
+@startuml sequence_delete_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "System" as system << Controller >>
+participant "ListeSignature" as liste << View >>
+participant "SupprimerSignature" as delete << View >>
+participant "ListeSignature" as vm << ViewModel >>
+participant "Signature" as model << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+ref over user, system : Authentification
+activate user
+user -> liste : ClickSupprimerSignature()
+activate liste
+liste -> delete : afficher fenêtre de confirmation
+deactivate liste
+activate delete
+delete -> user : affiche la fenêtre de confirmation
+user -> delete : Choisit l'action
+alt Oui
+    delete -> vm : SupprimerSignature()
+    activate vm
+    vm -> ws : SupprimerSignature()
+    activate ws
+    ws -> vm : SupprimerSignature
+    deactivate ws
+    vm -> model : SupprimerSignature()
+    activate model
+    model -> vm : SupprimerSignature
+    deactivate model
+    vm -> delete : SupprimerSignature
+    deactivate vm
+    alt Succès
+        delete -> user : affiche message de succès
+    else Echec
+        delete -> user : affiche message d'erreur
+    end
+else Non
+    delete -> user : AnnulerSupprimerSignature()
+end
+delete -> user : cache l'interface de suppression
+delete -> liste : afficher ListeSignature
+deactivate delete
+activate liste
+liste -> user : affiche la liste des signatures
+deactivate liste
+deactivate user

@@ -1,0 +1,33 @@
+@startuml delete_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande l'interface de signatures
+activate system
+system -> user : affiche l'interface de signatures
+user -> system : clique sur le bouton "supprimer"
+system -> user : affiche une fenêtre de confirmation
+user -> system : clique sur l'un des boutons de confirmation
+alt utilisateur clique sur le bouton "oui"
+    activate system
+    system -> system : supprime la signature
+    deactivate system
+alt signature supprimée
+    system -> user : affiche un message de succès
+else signature non supprimée
+    system -> user : affiche un message d'erreur
+end
+else utilisateur clique sur le bouton "non"
+    system -> user : affiche un message d'annulation
+end
+system -> user : cache la fenêtre de confirmation
+
+deactivate system
+deactivate user

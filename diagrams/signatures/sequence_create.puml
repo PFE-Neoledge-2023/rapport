@@ -1,0 +1,60 @@
+@startuml sequence_create_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "ListeSignature" as liste << View >>
+participant "CréerSignature" as create << View >>
+participant "ListeSignature" as vm << ViewModel >>
+participant "Signature" as model << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+ref over user, liste,create,vm,model,ws : Authentification
+activate user
+user -> liste : ClickCreerSignature()
+activate liste
+alt Utilisateur a dessiné une signature
+liste -> create : afficher CréerSignature
+deactivate liste
+activate create
+create -> user : affiche l'interface de création de signature
+user -> create : ClickValider()
+alt Utilisateur a entré un nom de signature
+create -> vm : AjouterSignature()
+activate vm
+vm -> ws : UploadFile()
+activate ws
+ws -> vm : UploadFileResponse
+deactivate ws
+vm -> ws : AddPersonnalSignature()
+activate ws
+ws -> vm : AddPersonnalSignatureResponse
+deactivate ws
+vm -> model : AjouterSignature()
+activate model
+model -> vm : AjouterSignature
+deactivate model
+vm -> create : AjouterSignature
+deactivate vm
+alt signature enregistrée
+
+create -> user : affiche un message de succès
+else Erreur lors de l'enregistrement de la signature
+create -> user : affiche un message d'erreur
+end
+else Utilisateur n'a pas entré de nom de signature
+create -> user : affiche un message d'erreur
+end
+else Utilisateur n'a pas dessiné de signature
+create -> user : affiche un message d'erreur
+end
+create -> user : cache l'interface de création de signature
+create -> liste : afficher ListeSignature
+deactivate create
+activate liste
+liste -> user : affiche la liste des signatures
+deactivate liste
+deactivate user

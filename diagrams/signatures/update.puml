@@ -1,0 +1,32 @@
+@startuml update_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande l'interface de signatures
+activate system
+system -> user : affiche l'interface de signatures
+user -> system : clique sur le bouton "modifier"
+system -> user : affiche le panneau de modification de la signature
+user -> system : change les informations (Titre, Description, Par defaut) 
+alt utilisateur clique sur la bouton "sauvegarder"
+    alt utilisateur a rempli tous les champs requis
+        user -> system : envoie les informations de la signature
+        activate system
+        system -> system : modifie la signature
+        deactivate system
+        system -> user : affiche un message de succès
+    else utilisateur n'a pas rempli tous les champs requis
+        system -> user : affiche un message d'erreur
+    end
+else utilisateur clique sur la bouton "annuler"
+    system -> user : affiche un message d'annulation
+end
+deactivate system
+deactivate user

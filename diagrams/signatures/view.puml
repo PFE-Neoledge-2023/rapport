@@ -1,0 +1,20 @@
+@startuml view_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande l'interface de signatures
+activate system
+system -> user : affiche l'interface de signatures
+user -> system : clique sur l'image d'une signature
+system -> user : affiche un panneau contenant les informations de la signature
+user -> system : clique sur le bouton "fermer"
+system -> user : ferme le panneau
+deactivate system
+deactivate user
