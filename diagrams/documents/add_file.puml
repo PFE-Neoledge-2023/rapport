@@ -1,0 +1,30 @@
+@startuml add_file
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "liste des action"
+activate system
+system -> user : affiche la liste des actions
+user -> system : clique sur le bouton "ajouter un fichier"
+system -> user : affiche le formulaire d'ajout de fichier
+user -> system : clique sur le bouton "choisir un fichier"
+system -> user : affiche la fenêtre de choix de fichier
+user -> system : sélectionne un fichier
+system -> user : affiche le nom du fichier
+user -> system : clique sur le bouton "ajouter"
+system -> system : ajoute le fichier
+alt fichier ajouté
+  system -> user : affiche le message "fichier ajouté"
+else fichier non ajouté
+  system -> user : affiche le message "fichier non ajouté"
+end
+system -> user : cache le formulaire d'ajout de fichier
+deactivate system
+deactivate user

@@ -1,0 +1,29 @@
+@startuml add_task
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : Clique sur le bouton "Demander une tâche"
+activate system
+system -> user : Affiche l'interface de demande de tâche
+user -> system : Rempli le formulaire
+user -> system : Choisir de confirmer ou d'annuler la demande
+alt confirmer
+system -> system : Ajoute la tâche
+alt Tâche ajoutée
+  system -> user : Affiche un message de confirmation
+else Tâche non ajoutée
+  system -> user : Affiche un message d'erreur
+end
+else annuler
+  system -> user : Affiche message d'annulation
+end
+system -> user : Cache l'interface de demande de tâche
+deactivate system
+deactivate user
