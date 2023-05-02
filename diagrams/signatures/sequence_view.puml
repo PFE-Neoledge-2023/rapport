@@ -15,11 +15,20 @@ ref over user,liste,view,vm,model,ws : Authentification
 activate user
 user -> liste : ClickVisualiserSignature()
 activate liste
-liste -> view : afficher fenêtre de confirmation
+liste -> view : afficher le panneau de visualisation
 deactivate liste
 activate view
+view -> vm : RecupererSignature()
+activate vm
+vm -> model : RecupererSignature()
+activate model
+model -> vm : RecupererSignature
+deactivate model
+vm -> view : RecupererSignature
+deactivate vm
+view -> user : affiche la signature
 user -> view : ClickFermer()
-view -> user : cache l'interface de visualisation
+view -> user : cache le panneau de visualisation
 view -> liste : afficher ListeSignature
 deactivate view
 activate liste

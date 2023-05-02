@@ -36,10 +36,6 @@ update -> user : affiche l'interface de modification de signature
 user -> update : ClickValider()
 update -> vm : ModifierSignature()
 activate vm
-vm -> ws : UploadFile()
-activate ws
-ws -> vm : UploadFileResponse
-deactivate ws
 vm -> ws : EditPersonnalSignature()
 activate ws
 ws -> vm : EditPersonnalSignatureResponse
