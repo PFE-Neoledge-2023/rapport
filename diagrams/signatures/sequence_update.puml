@@ -1,0 +1,79 @@
+@startuml sequence_update_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "ListeSignature" as liste << View >>
+participant "ModifierSignature" as update << View >>
+participant "ListeSignature" as vm << ViewModel >>
+participant "Signature" as model << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+ref over user, liste,update,vm,model,ws : Authentification
+activate user
+user -> liste : ClickModifierSignature()
+activate liste
+liste -> update : afficher ModifierSignature
+deactivate liste
+activate update
+update -> vm : RecupererSignature()
+activate vm
+vm -> ws : GetPersonnalSignature()
+activate ws
+ws -> vm : GetPersonnalSignatureResponse
+deactivate ws
+vm -> model : RecupererSignature()
+activate model
+model -> vm : RecupererSignature
+deactivate model
+vm -> update : RecupererSignature
+deactivate vm
+update -> user : affiche la signature
+update -> user : affiche l'interface de modification de signature
+user -> update : ClickValider()
+update -> vm : ModifierSignature()
+activate vm
+vm -> ws : UploadFile()
+activate ws
+ws -> vm : UploadFileResponse
+deactivate ws
+vm -> ws : EditPersonnalSignature()
+activate ws
+ws -> vm : EditPersonnalSignatureResponse
+deactivate ws
+vm -> model : ModifierSignature()
+activate model
+model -> vm : ModifierSignature
+deactivate model
+vm -> update : ModifierSignature
+deactivate vm
+alt signature modifiée
+
+update -> user : affiche un message de succès
+else Erreur lors de la modification de la signature
+update -> user : affiche un message d'erreur
+end
+
+
+update -> user : cache l'interface de modification de signature
+update -> liste : afficher ListeSignature
+deactivate update
+activate liste
+liste -> vm : RecupererListeSignature()
+activate vm
+vm -> ws : GetPersonnalSignatureList()
+activate ws
+ws -> vm : GetPersonnalSignatureList
+deactivate ws
+vm -> model : RecupererListeSignature()
+activate model
+model -> vm : RecupererListeSignature
+deactivate model
+vm -> liste : RecupererListeSignature
+deactivate vm
+liste -> user : affiche la liste des signatures
+deactivate liste
+deactivate user
