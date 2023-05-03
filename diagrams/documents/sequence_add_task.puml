@@ -1,0 +1,65 @@
+@startuml sequence_add_task
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "Document" as docView << View >>
+participant "AjouterTâche" as addTask << View >>
+participant "Tâches" as taskVm << ViewModel >>
+participant "Document" as docM << Model >>
+participant "Tâche" as taskM << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+ref over user, system,docView,addTask,taskVm,docM,taskM,ws : Authentification
+activate user
+user -> docView: ClickAjouterTâche()
+activate docView
+docView -> addTask: Afficher le panneau
+deactivate docView
+activate addTask
+addTask -> user: Afficher le panneau 
+user -> addTask: Remplir le formulaire
+user -> addTask: Choisi de confirmer ou d'annuler la demande
+
+alt confirmer
+addTask -> addTask: Vérifier les données
+alt Données valide
+addTask -> taskVm: addNewTask()
+activate taskVm
+taskVm -> ws: AddTasksNew()
+activate ws
+ws -> taskVm: Retourne le résultat
+deactivate ws
+taskVm -> taskM: Ajoute la tâche
+activate taskM
+taskM -> taskVm: Retourne le résultat
+deactivate taskM
+taskVm -> docM: Lie la tâche au document
+activate docM
+docM -> taskVm: Retourne le résultat
+deactivate docM
+taskVm -> addTask: Retourne le résultat
+deactivate taskVm
+alt Succès
+addTask -> user : Affiche un message de succès
+else Erreur
+addTask -> user : Affiche un message d'erreur
+end
+else Données non valide
+activate addTask
+addTask -> user : Affiche un message d'erreur
+end
+else annuler
+  addTask -> user : Affiche message d'annulation
+end
+
+addTask -> user : Cache le panneau
+addTask -> docView : Afficher l'interface
+deactivate addTask
+activate docView
+docView -> user : Affiche l'interface
+deactivate docView
+deactivate user

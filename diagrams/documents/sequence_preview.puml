@@ -1,0 +1,35 @@
+@startuml sequence_preview
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "Document" as docView << View >>
+participant "Documents" as documentVm << ViewModel >>
+participant "Document" as documentM << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+ref over user, docView,docView,documentVm,documentM,ws : Authentification
+activate user
+user -> docView : Demande l'interface de document
+activate docView
+docView -> documentVm : getOneDocument()
+activate documentVm
+documentVm -> ws: GetCompleteEliseMail()
+activate ws
+ws -> documentVm: document
+deactivate ws
+documentVm -> documentM: setdocument()
+activate documentM
+documentM -> documentVm: document
+deactivate documentM
+documentVm -> docView: document
+deactivate documentVm
+alt le document existe
+    docView -> user : affiche le document
+else le document n'existe pas
+    docView -> user : affiche le message "le document n'existe pas"
+end
+deactivate user

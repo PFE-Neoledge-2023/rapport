@@ -1,0 +1,48 @@
+@startuml sequence_chercher
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "Recherche" as docView << View >>
+participant "Documents" as documentVm << ViewModel >>
+participant "Document" as documentM << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+ref over user, docView,docView,documentVm,documentM,ws : Authentification
+activate user
+user -> docView : Demande l'interface de recherche
+activate docView
+docView -> user : Affiche l'interface de recherche
+user -> docView : RemplirLeChamp()
+group Attendre 500ms après la dernière frappe
+    docView -> docView : Attendre 500ms
+    ref over user, docView,docView,documentVm,documentM,ws : Recherche
+end
+
+user -> docView : ClickChercher()
+ref over user, docView,docView,documentVm,documentM,ws : Recherche
+
+group Recherche
+docView -> documentVm : searchDocuments()
+activate documentVm
+documentVm -> ws: SimpleSearch()
+activate ws
+ws -> documentVm: Liste de documents
+deactivate ws
+documentVm -> documentM: setDocuments()
+activate documentM
+documentM -> documentVm: Liste de documents
+deactivate documentM
+documentVm -> docView: Liste de documents
+deactivate documentVm
+alt Liste de documents non vide
+    docView -> user: Affiche la liste de documents
+else Liste de documents vide
+    docView -> user: Affiche un message d'erreur
+end
+end
+
+deactivate user

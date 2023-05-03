@@ -1,0 +1,64 @@
+@startuml sequence_terminer_task
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+participant "TâchesDocument" as tasksDocument << View >>
+participant "Tâches" as taskVm << ViewModel >>
+participant "Tâche" as taskM << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+ref over user, system : Authentification
+activate user
+user -> tasksDocument : ClickTerminer()
+activate tasksDocument
+tasksDocument -> user : afficher le panneau de terminaison
+user -> tasksDocument : remplir le formulaire
+user -> tasksDocument: choisir de confirmer ou d'annuler
+alt confirmer
+tasksDocument -> tasksDocument : valider le formulaire
+alt formulaire valide
+tasksDocument -> taskVm : changeTaskStatus()
+activate taskVm
+taskVm -> ws : ProcessTask()
+activate ws
+ws -> taskVm : ProcessTask
+deactivate ws
+taskVm -> taskM : UpdateTask()
+activate taskM
+taskM -> taskVm : UpdateTask
+deactivate taskM
+taskVm -> tasksDocument : changeTaskStatus
+deactivate taskVm
+alt action avec succès
+  tasksDocument -> user : afficher un message de succès
+else action échouée
+  tasksDocument -> user : afficher un message d'erreur
+end
+else formulaire invalide
+  tasksDocument -> user : afficher un message d'erreur
+end
+
+else annuler
+  tasksDocument -> user : afficher un message d'annulation
+end
+
+tasksDocument -> tasksDocument : Refresh()
+tasksDocument -> taskVm : getDocumentTasks()
+activate taskVm
+taskVm -> ws : GetTodoTasks()
+activate ws
+ws -> taskVm : GetTodoTasks
+deactivate ws
+taskVm -> taskM : GetTodoTasks()
+activate taskM
+taskM -> taskVm : GetTodoTasks
+deactivate taskM
+taskVm -> tasksDocument : getDocumentTasks
+deactivate taskVm
+tasksDocument -> user : afficher les tâches
+deactivate tasksDocument
+deactivate user

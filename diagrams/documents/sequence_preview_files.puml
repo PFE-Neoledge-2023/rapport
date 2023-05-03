@@ -1,0 +1,34 @@
+@startuml sequence_preview_files
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "Document" as docView << View >>
+participant "FichiersDocument" as taskView << View >>
+participant "Document" as documentVm << ViewModel >>
+participant "Document" as documentM << Model >>
+
+
+
+ref over user, docView,taskView,documentVm,documentM : Authentification
+activate user
+user -> docView : ClickFichier()
+activate docView
+docView -> taskView : afficher les fichiers
+deactivate docView
+activate taskView
+taskView -> documentVm : getDocumentFiles()
+activate documentVm
+documentVm -> documentM: getFiles()
+activate documentM
+documentM -> documentVm: files
+deactivate documentM
+documentVm -> taskView: files
+deactivate documentVm
+alt le document a des fichiers
+    taskView -> user : affiche les fichiers
+else le document n'a pas des fichiers
+    taskView -> user : affiche le message "vous n'avez pas des fichiers"
+end
+deactivate user

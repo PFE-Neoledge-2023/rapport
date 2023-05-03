@@ -54,41 +54,41 @@
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document »\relax }}{52}{figure.caption.48}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document »\relax }}{53}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des tâches d'un document »\relax }}{52}{figure.caption.49}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des tâches d'un document »\relax }}{54}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Diagramme de séquence de cas d'utilisation « Transferer une tâche »\relax }}{53}{figure.caption.50}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Diagramme de séquence de cas d'utilisation « Transferer une tâche »\relax }}{55}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Diagramme de séquence de cas d'utilisation « Terminer une tâche »\relax }}{54}{figure.caption.51}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagramme de séquence de cas d'utilisation « Terminer une tâche »\relax }}{56}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document »\relax }}{55}{figure.caption.52}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{57}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{56}{figure.caption.53}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Diagramme de séquence de cas d'utilisation « Chercher un document »\relax }}{57}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Diagramme de séquence de cas d'utilisation « Chercher un document »\relax }}{56}{figure.caption.54}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Diagramme de classe d'analyse de sprint 3\relax }}{58}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Diagramme de classe d'analyse de sprint 3\relax }}{57}{figure.caption.55}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.28}{\ignorespaces Diagramme de classe de conception de sprint 3 : « Gestion des signatures »\relax }}{58}{figure.caption.56}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.29}{\ignorespaces Interface d'accès aux documents\relax }}{59}{figure.caption.57}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Interface de consultation des fichiers d'un document\relax }}{59}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Interface de consultation des fichiers d'un document\relax }}{60}{figure.caption.58}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.31}{\ignorespaces Interface de consultation des tâches d'un document\relax }}{60}{figure.caption.59}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces Interface d'ajout de fichiers à un document\relax }}{60}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Interface d'ajout de fichiers à un document\relax }}{61}{figure.caption.60}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.33}{\ignorespaces Interface de suppression de fichiers d'un document\relax }}{61}{figure.caption.61}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Interface de recherche d'un document\relax }}{61}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Interface de recherche d'un document\relax }}{62}{figure.caption.62}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.35}{\ignorespaces Interface de consultation des documents en favoris\relax }}{62}{figure.caption.63}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Interface de demande d'une tâche\relax }}{62}{figure.caption.64}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Interface de demande d'une tâche\relax }}{63}{figure.caption.64}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.37}{\ignorespaces Interface de transfert d'une tâche\relax }}{63}{figure.caption.65}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.38}{\ignorespaces Interface de terminaison d'une tâche dans un document\relax }}{63}{figure.caption.66}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Interface de terminaison d'une tâche dans un document\relax }}{64}{figure.caption.66}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.39}{\ignorespaces Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »\relax }}{66}{figure.caption.67}%
 \setforeignlanguage {french}

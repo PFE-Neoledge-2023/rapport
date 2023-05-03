@@ -1,0 +1,39 @@
+@startuml sequence_preview_tasks
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "Document" as docView << View >>
+participant "TâchesDocument" as taskView << View >>
+participant "Tâches" as taskVm << ViewModel >>
+participant "Taches" as taskM << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+ref over user, docView,taskView,taskVm,taskM,ws : Authentification
+activate user
+user -> docView : ClickTâches()
+activate docView
+docView -> taskView : afficher les taches
+deactivate docView
+activate taskView
+taskView -> taskVm : getDocumentTasks()
+activate taskVm
+taskVm -> ws: GetTodoTasks()
+activate ws
+ws -> taskVm: tasks
+deactivate ws
+taskVm -> taskM: setTasks()
+activate taskM
+taskM -> taskVm: tasks
+deactivate taskM
+taskVm -> taskView: tasks
+deactivate taskVm
+alt l'utilisateur a des taches
+    taskView -> user : affiche les taches
+else l'utilisateur n'a pas des taches
+    taskView -> user : affiche le message "vous n'avez pas des taches"
+end
+deactivate user
