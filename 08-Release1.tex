@@ -1511,6 +1511,14 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
 \begin{enumerate}
   \item [4.1] Le système n'arrive pas à télécharger le fichier.
   \item [4.2] Le système affiche un message d'erreur.
+  % second alternative
+  \item [4.1] La fichier a des signatures non enregistrées.
+  \item [4.2] Le système demande si l'utilisateur veut télécharger le fichier sans les signatures.
+  \item [4.3.1] L'utilisateur clique sur oui.
+  \item [4.3.2] Le système continue de la point 4 du scénario nominal.
+  \item [4.3.1] L'utilisateur clique sur non.
+  \item [4.3.2] Le système annule le téléchargement.
+
 \end{enumerate}\\
 \hline
 \textbf{Scénario d'exception}&
@@ -1549,8 +1557,8 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
 \textbf{Scénario Alternatif}&
 \vspace{-\baselineskip}
 \begin{enumerate}
-    \setcounter{enumi}{4}
-    \item L'utilisateur dépose la signature hors du fichier.
+    \item [4.1] L'utilisateur dépose la signature hors du fichier.
+    \item [4.2] Le système ne place pas la signature dans le fichier.
 \end{enumerate}\\
 \hline
 \end{longtable}
@@ -1578,7 +1586,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
   \item L'utilisateur trace sa signature.
   \item Le système affiche les 2 boutons confirmer et annuler
   \item L'utilisateur clique sur le bouton confirmer
-  \item Le système signe le fichier et affiche un message des succès
+  \item Le système place la signature dans le fichier.
 \end{enumerate}\\
 \hline
 \textbf{Scénario Alternatif}&

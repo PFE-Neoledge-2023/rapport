@@ -1,0 +1,24 @@
+@startuml sign_by_hand
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : longue clique sur le fichier
+user -> system : clique sur afficher les actions
+system -> user : affiche les actions possibles
+user -> system : clique sur le bouton signature à main
+user -> system : trace sa signature
+system -> user : affiche les deux boutons confirmer et annuler
+alt confirmer
+    system -> user : place la signature dans le fichier
+else annuler
+    system -> user : efface la signature
+end
+deactivate system
+deactivate user

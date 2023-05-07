@@ -1,0 +1,26 @@
+@startuml save_cancel_siganture
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur afficher les actions
+system -> user : affiche les actions
+alt utilisateur selectionne de valider les signatures
+    system -> user : Demande de confirmation
+    alt l'utilisateur confirme
+        system -> system : Enregistre les signatures
+        system -> user : redirige vers la page de document
+    else utilisateur annule
+        system -> user : annule l'opération
+    end
+else utilisateur selectionne d'annuler les signatures
+    system -> user : annule l'opération
+end
+deactivate system
+deactivate user

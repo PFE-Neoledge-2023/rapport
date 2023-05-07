@@ -1,0 +1,21 @@
+@startuml delete_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur la signature
+activate system
+user -> system : deplace et dépose la signature
+alt signature dépose dans le champ de suppression
+    system -> user : supprime la signature
+else signature dépose dans la zone de signature
+    system -> user : annule l'opération
+end
+deactivate system
+deactivate user
