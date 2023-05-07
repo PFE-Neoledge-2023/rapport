@@ -13,7 +13,7 @@ participant "EliseWebService" as ws << Service >>
 
 ref over user, system : Authentification
 activate user
-user -> tasksDocument : ClickTransférer()
+user -> tasksDocument : CliqueTransférer()
 activate tasksDocument
 tasksDocument -> user : afficher le panneau de transfert
 user -> tasksDocument : remplir le formulaire

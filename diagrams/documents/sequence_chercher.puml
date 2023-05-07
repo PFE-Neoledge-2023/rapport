@@ -22,7 +22,7 @@ group Attendre 500ms après la dernière frappe
     ref over user, docView,docView,documentVm,documentM,ws : Recherche
 end
 
-user -> docView : ClickChercher()
+user -> docView : CliqueChercher()
 ref over user, docView,docView,documentVm,documentM,ws : Recherche
 
 group Recherche

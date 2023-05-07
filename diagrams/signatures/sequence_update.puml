@@ -14,7 +14,7 @@ participant "EliseWebService" as ws << Service >>
 
 ref over user, liste,update,vm,model,ws : Authentification
 activate user
-user -> liste : ClickModifierSignature()
+user -> liste : CliqueModifierSignature()
 activate liste
 liste -> update : afficher ModifierSignature
 deactivate liste
@@ -33,7 +33,7 @@ vm -> update : RecupererSignature
 deactivate vm
 update -> user : affiche la signature
 update -> user : affiche l'interface de modification de signature
-user -> update : ClickValider()
+user -> update : CliqueValider()
 update -> vm : ModifierSignature()
 activate vm
 vm -> ws : EditPersonnalSignature()

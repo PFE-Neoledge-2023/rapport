@@ -13,7 +13,7 @@ participant "Document" as documentM << Model >>
 
 ref over user, docView,taskView,documentVm,documentM : Authentification
 activate user
-user -> docView : ClickFichier()
+user -> docView : CliqueFichier()
 activate docView
 docView -> taskView : afficher les fichiers
 deactivate docView
