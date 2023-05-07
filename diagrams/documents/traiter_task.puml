@@ -1,0 +1,32 @@
+@startuml traiter_task
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : cliquer sur l'une bouton de traitement
+activate system
+system -> user : afficher le panneau de traitement
+user -> system : remplit le formulaire
+user -> system : choisir de confirmer ou d'annuler
+alt confirmer
+system -> system : traiter la tâche
+alt action avec succès
+  system -> user : afficher un message de succès
+else action échouée
+  system -> user : afficher un message d'erreur
+end
+else annuler
+  system -> user : afficher un message d'annulation
+end
+system -> user : cacher le panneau de traitement
+
+
+
+deactivate system
+deactivate user

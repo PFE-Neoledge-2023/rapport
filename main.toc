@@ -66,60 +66,60 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {II.1}\bgroup \beginL \latintext Sprint Goal\endL \egroup }{29}{subsection.3.2.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {II.2}\bgroup \beginL \latintext Sprint Backlog\endL \egroup }{29}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {II.2}\bgroup \beginL \latintext Sprint Backlog\endL \egroup }{30}{subsection.3.2.2}%
 \select@language {french}
 \contentsline {subsection}{\numberline {II.3}\bgroup \beginL \latintext Implémentation du Sprint 2\endL \egroup }{31}{subsection.3.2.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {II.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{31}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {II.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{32}{subsubsection.3.2.3.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {II.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{38}{subsubsection.3.2.3.2}%
+\contentsline {subsubsection}{\numberline {II.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{39}{subsubsection.3.2.3.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {II.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{39}{subsubsection.3.2.3.3}%
+\contentsline {subsubsection}{\numberline {II.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{40}{subsubsection.3.2.3.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {II.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{42}{subsubsection.3.2.3.4}%
+\contentsline {subsubsection}{\numberline {II.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{43}{subsubsection.3.2.3.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {II.4}\bgroup \beginL \latintext Sprint Review:\endL \egroup }{45}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {II.4}\bgroup \beginL \latintext Sprint Review:\endL \egroup }{46}{subsection.3.2.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {II.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{46}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {II.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{47}{subsection.3.2.5}%
 \select@language {french}
-\contentsline {section}{\numberline {III}\bgroup \beginL \latintext Sprint 3 « Gestion des documents »\endL \egroup }{46}{section.3.3}%
+\contentsline {section}{\numberline {III}\bgroup \beginL \latintext Sprint 3 « Gestion des documents »\endL \egroup }{47}{section.3.3}%
 \select@language {french}
-\contentsline {subsection}{\numberline {III.1}\bgroup \beginL \latintext Sprint Goal:\endL \egroup }{46}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {III.1}\bgroup \beginL \latintext Sprint Goal:\endL \egroup }{47}{subsection.3.3.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {III.2}\bgroup \beginL \latintext Sprint Backlog « Gestion des documents »\endL \egroup }{47}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {III.2}\bgroup \beginL \latintext Sprint Backlog « Gestion des documents »\endL \egroup }{48}{subsection.3.3.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {III.3}\bgroup \beginL \latintext Implémentation du Sprint 3\endL \egroup }{47}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {III.3}\bgroup \beginL \latintext Implémentation du Sprint 3\endL \egroup }{50}{subsection.3.3.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {III.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{48}{subsubsection.3.3.3.1}%
+\contentsline {subsubsection}{\numberline {III.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{50}{subsubsection.3.3.3.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {III.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{58}{subsubsection.3.3.3.2}%
+\contentsline {subsubsection}{\numberline {III.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{61}{subsubsection.3.3.3.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {III.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{59}{subsubsection.3.3.3.3}%
+\contentsline {subsubsection}{\numberline {III.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{62}{subsubsection.3.3.3.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {III.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{66}{subsubsection.3.3.3.4}%
+\contentsline {subsubsection}{\numberline {III.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{69}{subsubsection.3.3.3.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {III.4}\bgroup \beginL \latintext Sprint Review:\endL \egroup }{71}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {III.4}\bgroup \beginL \latintext Sprint Review:\endL \egroup }{74}{subsection.3.3.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {III.5}\bgroup \beginL \latintext Sprint Retrospective:\endL \egroup }{71}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {III.5}\bgroup \beginL \latintext Sprint Retrospective:\endL \egroup }{74}{subsection.3.3.5}%
 \select@language {french}
-\contentsline {section}{\numberline {IV}\bgroup \beginL \latintext Sprint 4 (Visualisation et signature d'un fichier)\endL \egroup }{72}{section.3.4}%
+\contentsline {section}{\numberline {IV}\bgroup \beginL \latintext Sprint 4 (Visualisation et signature d'un fichier)\endL \egroup }{75}{section.3.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {IV.1}\bgroup \beginL \latintext Sprint Goal:\endL \egroup }{72}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {IV.1}\bgroup \beginL \latintext Sprint Goal:\endL \egroup }{75}{subsection.3.4.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {IV.2}\bgroup \beginL \latintext Sprint Backlog « Visualisation et signature d'un fichier »:\endL \egroup }{72}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {IV.2}\bgroup \beginL \latintext Sprint Backlog « Visualisation et signature d'un fichier »:\endL \egroup }{75}{subsection.3.4.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {IV.3}\bgroup \beginL \latintext Implémentation du Sprint 4\endL \egroup }{73}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {IV.3}\bgroup \beginL \latintext Implémentation du Sprint 4\endL \egroup }{76}{subsection.3.4.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{73}{subsubsection.3.4.3.1}%
+\contentsline {subsubsection}{\numberline {IV.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{76}{subsubsection.3.4.3.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{76}{subsubsection.3.4.3.2}%
+\contentsline {subsubsection}{\numberline {IV.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{79}{subsubsection.3.4.3.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{76}{subsubsection.3.4.3.3}%
+\contentsline {subsubsection}{\numberline {IV.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{79}{subsubsection.3.4.3.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{77}{subsubsection.3.4.3.4}%
+\contentsline {subsubsection}{\numberline {IV.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{80}{subsubsection.3.4.3.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {IV.4}\bgroup \beginL \latintext Sprint review:\endL \egroup }{77}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {IV.4}\bgroup \beginL \latintext Sprint review:\endL \egroup }{80}{subsection.3.4.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {IV.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{77}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {IV.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{80}{subsection.3.4.5}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{78}{section*.81}%
+\contentsline {chapter}{Annexes}{82}{section*.81}%
