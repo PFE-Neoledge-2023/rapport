@@ -110,16 +110,16 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {IV.3}\bgroup \beginL \latintext Implémentation du Sprint 4\endL \egroup }{76}{subsection.3.4.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{76}{subsubsection.3.4.3.1}%
+\contentsline {subsubsection}{\numberline {IV.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{77}{subsubsection.3.4.3.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{79}{subsubsection.3.4.3.2}%
+\contentsline {subsubsection}{\numberline {IV.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{80}{subsubsection.3.4.3.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{79}{subsubsection.3.4.3.3}%
+\contentsline {subsubsection}{\numberline {IV.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{80}{subsubsection.3.4.3.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {IV.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{80}{subsubsection.3.4.3.4}%
+\contentsline {subsubsection}{\numberline {IV.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{81}{subsubsection.3.4.3.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {IV.4}\bgroup \beginL \latintext Sprint review:\endL \egroup }{80}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {IV.4}\bgroup \beginL \latintext Sprint review:\endL \egroup }{81}{subsection.3.4.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {IV.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{80}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {IV.5}\bgroup \beginL \latintext Sprint retrospective:\endL \egroup }{81}{subsection.3.4.5}%
 \setcounter {tocdepth}{0}
 \contentsline {chapter}{Annexes}{82}{section*.81}%
