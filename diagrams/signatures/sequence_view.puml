@@ -13,7 +13,7 @@ participant "EliseWebService" as ws << Service >>
 
 ref over user,liste,view,vm,model,ws : Authentification
 activate user
-user -> liste : ClickVisualiserSignature()
+user -> liste : CliqueVisualiserSignature()
 activate liste
 liste -> view : afficher le panneau de visualisation
 deactivate liste
@@ -27,7 +27,7 @@ deactivate model
 vm -> view : RecupererSignature
 deactivate vm
 view -> user : affiche la signature
-user -> view : ClickFermer()
+user -> view : CliqueFermer()
 view -> user : cache le panneau de visualisation
 view -> liste : afficher ListeSignature
 deactivate view

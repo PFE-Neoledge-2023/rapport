@@ -13,7 +13,7 @@ participant "EliseWebService" as ws << Service >>
 
 ref over user,liste,delete,vm,model,ws : Authentification
 activate user
-user -> liste : ClickSupprimerSignature()
+user -> liste : CliqueSupprimerSignature()
 activate liste
 liste -> delete : afficher fenêtre de confirmation
 deactivate liste

@@ -1,0 +1,16 @@
+@startuml view_file
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande l'interface de fichier
+activate system
+system -> user : affiche l'interface de fichier
+deactivate system
+deactivate user

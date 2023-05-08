@@ -14,14 +14,14 @@ participant "EliseWebService" as ws << Service >>
 
 ref over user, liste,create,vm,model,ws : Authentification
 activate user
-user -> liste : ClickCreerSignature()
+user -> liste : CliqueCreerSignature()
 activate liste
 alt Utilisateur a dessiné une signature
 liste -> create : afficher CréerSignature
 deactivate liste
 activate create
 create -> user : affiche l'interface de création de signature
-user -> create : ClickValider()
+user -> create : CliqueValider()
 alt Utilisateur a entré un nom de signature
 create -> vm : AjouterSignature()
 activate vm

@@ -9,7 +9,7 @@ participant "système" as system
 
 ref over user, system : Authentification
 activate user
-user -> system : click sur le bouton taches
+user -> system : clique sur le bouton taches
 activate system
 system -> system : cherche les taches de l'utilisateur à ce document
 alt l'utilisateur a des taches

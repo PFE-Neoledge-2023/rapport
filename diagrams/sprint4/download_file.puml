@@ -1,0 +1,32 @@
+@startuml download_file
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : demande la liste des actions
+activate system
+system -> user : affiche la liste des actions
+user -> system : clique sur le bouton "télécharger"
+alt Le système n'a pas le droit de télécharger
+    system -> user : affiche un message d'erreur
+else Le système a le droit de télécharger
+    alt Le fichier n'a pas des signatures non sauvegardées
+      system -> user : télécharge le fichier
+    else Le fichier a  des signatures non sauvegardées
+      system -> user : demande si il veut télécharger le fichier quand même
+      alt L'utilisateur veut télécharger le fichier quand même
+        system -> user : télécharge le fichier
+      else L'utilisateur ne veut pas télécharger le fichier
+        system -> system : annule le téléchargement
+      end
+  end
+end
+
+deactivate system
+deactivate user

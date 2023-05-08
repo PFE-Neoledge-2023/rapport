@@ -1,0 +1,23 @@
+@startuml sign_by_image
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : glisse/clique sur le bouton d'affichage du panneau des signatrures.
+activate system
+system -> system : affiche le panneau des signatures.
+user -> system : glisse une signature.
+user -> system : dépose la signature.
+alt signature déposée dans le fichier
+    system -> user : modifie la position de la signature
+else signature déposée hors de fichier
+    system -> system : ne place pas la signature dans le fichier.
+end
+deactivate system
+deactivate user

@@ -14,7 +14,7 @@ participant "EliseWebService" as ws << Service >>
 
 ref over user, docView,taskView,taskVm,taskM,ws : Authentification
 activate user
-user -> docView : ClickTâches()
+user -> docView : CliqueTâches()
 activate docView
 docView -> taskView : afficher les taches
 deactivate docView

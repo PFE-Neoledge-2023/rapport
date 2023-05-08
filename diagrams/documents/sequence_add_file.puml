@@ -15,15 +15,15 @@ participant "EliseWebService" as ws << Service >>
 
 ref over user, docView, addFile, docVm, docM, fileM, ws : Authentification
 activate user
-user -> docView : clickListeActions()
+user -> docView : cliqueListeActions()
 activate docView
 docView -> user : affiche la liste des actions
-user -> docView : clickAjouterFichier()
+user -> docView : cliqueAjouterFichier()
 docView -> addFile : affiche le panneau
 deactivate docView
 activate addFile
 addFile -> user : affiche le panneau d'ajout de fichier
-user -> addFile : ClickChoisir()
+user -> addFile : CliqueChoisir()
 addFile -> user : affiche la fenêtre de choix de fichier
 user -> addFile : sélectionne un fichier
 addFile -> user : affiche le nom du fichier
