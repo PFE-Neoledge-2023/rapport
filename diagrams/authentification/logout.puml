@@ -1,0 +1,16 @@
+@startuml logout
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+user -> system : cliquer sur le bouton logout
+activate user
+activate system
+system -> system : logout
+system -> user : afficher la page de login
+deactivate system
+deactivate user
