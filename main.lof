@@ -56,11 +56,11 @@
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.21}{\ignorespaces Maquette de l'affichage des documents\relax }}{54}{figure.caption.49}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Maquette de l'affichage de contenu d'un document\relax }}{54}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Maquette de l'affichage de contenu d'un document\relax }}{55}{figure.caption.50}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.23}{\ignorespaces Maquette de l'affichage de gestion des tâches\relax }}{55}{figure.caption.51}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagramme de séquence de cas d'utilisation « Accéder à un document »\relax }}{55}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Diagramme de séquence de cas d'utilisation « Accéder à un document »\relax }}{56}{figure.caption.52}%
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.25}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document »\relax }}{56}{figure.caption.53}%
 \setforeignlanguage {french}
@@ -116,4 +116,18 @@
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.51}{\ignorespaces Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »\relax }}{76}{figure.caption.79}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.52}{\ignorespaces Diagramme de classe de conception de sprint 2 : « Visualisation et signature d'un fichier »\relax }}{81}{figure.caption.80}%
+\contentsline {figure}{\numberline {3.52}{\ignorespaces Diagramme de séquence de cas d'utilisation « Visualiser un fichier »\relax }}{80}{figure.caption.80}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.53}{\ignorespaces Diagramme de séquence de cas d'utilisation « Télécharger un fichier »\relax }}{81}{figure.caption.81}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.54}{\ignorespaces Diagramme de séquence de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{81}{figure.caption.82}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.55}{\ignorespaces Diagramme de séquence de cas d'utilisation « Signer à main un fichier »\relax }}{82}{figure.caption.83}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.56}{\ignorespaces Diagramme de séquence de cas d'utilisation « Modifier la position d’une signature d’un fichier »\relax }}{83}{figure.caption.84}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.57}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer une signature d’un fichier »\relax }}{83}{figure.caption.85}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.58}{\ignorespaces Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d’un fichier »\relax }}{84}{figure.caption.86}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.59}{\ignorespaces Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »\relax }}{85}{figure.caption.87}%
