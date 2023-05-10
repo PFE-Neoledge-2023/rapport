@@ -1,0 +1,22 @@
+@startuml download
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "liste des action"
+activate system
+system -> user : affiche la liste des actions
+user -> system : clique sur le bouton "télécharger ce fichier"
+system -> system : télécharger le fichier du document
+alt fichier téléchargé
+    system -> user : affiche le message "fichier téléchargé"
+else fichier non téléchargé
+    system -> user : affiche le message "une erreur lors du téléchargement du fichier"
+end
+deactivate system
+deactivate user

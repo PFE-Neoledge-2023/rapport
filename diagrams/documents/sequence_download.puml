@@ -1,0 +1,44 @@
+@startuml sequence_download
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "Document" as docView << View >>
+participant "DocumentStore" as docVm << ViewModel >>
+participant "Document" as docM << Model >>
+participant "Filesystem" as fs << System >>
+
+
+
+ref over user, docView, docVm, docM, fs : Authentification
+activate user
+user -> docView : cliqueListeActions()
+activate docView
+docView -> user : affiche la liste des actions
+user -> docView : cliqueDownloadDocument()
+docView -> docVm : downloadDocumentFiles()
+activate docVm
+loop pour chaque fichier du document
+    docVm -> docM : getDocumentFile()
+    activate docM
+    docM -> fs : writeFile()
+    activate fs
+    alt fichier téléchargé
+        fs --> docM : fichier téléchargé
+        docM --> docVm : fichier téléchargé
+        docVm -> docView : affiche le fichier téléchargé
+    else fichier non téléchargé
+        fs --> docM : fichier non téléchargé
+        deactivate fs
+        docM -> docVm : fichier non téléchargé
+        deactivate docM
+        docVm -> docView : fichier non téléchargé
+        deactivate docVm
+    end
+end
+    docView -> user : affiche le le message
+    deactivate docView
+
+deactivate docView
+deactivate user
