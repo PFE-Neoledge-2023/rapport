@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  9 MAY 2023 20:39
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  10 MAY 2023 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2521,7 +2521,14 @@ Underfull \vbox (badness 2644) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 133.
 LaTeX Info: Redefining \sffamily on input line 133.
 LaTeX Info: Redefining \ttfamily on input line 133.
- [4])
+ [4]
+LaTeX Info: Redefining \rmfamily on input line 134.
+LaTeX Info: Redefining \sffamily on input line 134.
+LaTeX Info: Redefining \ttfamily on input line 134.
+LaTeX Info: Redefining \rmfamily on input line 136.
+LaTeX Info: Redefining \sffamily on input line 136.
+LaTeX Info: Redefining \ttfamily on input line 136.
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
@@ -2611,33 +2618,6 @@ LaTeX Info: Redefining \ttfamily on input line 39.
 LaTeX Info: Redefining \rmfamily on input line 41.
 LaTeX Info: Redefining \sffamily on input line 41.
 LaTeX Info: Redefining \ttfamily on input line 41.
-LaTeX Info: Redefining \rmfamily on input line 42.
-LaTeX Info: Redefining \sffamily on input line 42.
-LaTeX Info: Redefining \ttfamily on input line 42.
-LaTeX Info: Redefining \rmfamily on input line 43.
-LaTeX Info: Redefining \sffamily on input line 43.
-LaTeX Info: Redefining \ttfamily on input line 43.
-LaTeX Info: Redefining \rmfamily on input line 44.
-LaTeX Info: Redefining \sffamily on input line 44.
-LaTeX Info: Redefining \ttfamily on input line 44.
-LaTeX Info: Redefining \rmfamily on input line 45.
-LaTeX Info: Redefining \sffamily on input line 45.
-LaTeX Info: Redefining \ttfamily on input line 45.
-LaTeX Info: Redefining \rmfamily on input line 46.
-LaTeX Info: Redefining \sffamily on input line 46.
-LaTeX Info: Redefining \ttfamily on input line 46.
-LaTeX Info: Redefining \rmfamily on input line 47.
-LaTeX Info: Redefining \sffamily on input line 47.
-LaTeX Info: Redefining \ttfamily on input line 47.
-LaTeX Info: Redefining \rmfamily on input line 48.
-LaTeX Info: Redefining \sffamily on input line 48.
-LaTeX Info: Redefining \ttfamily on input line 48.
-LaTeX Info: Redefining \rmfamily on input line 49.
-LaTeX Info: Redefining \sffamily on input line 49.
-LaTeX Info: Redefining \ttfamily on input line 49.
-LaTeX Info: Redefining \rmfamily on input line 50.
-LaTeX Info: Redefining \sffamily on input line 50.
-LaTeX Info: Redefining \ttfamily on input line 50.
 LaTeX Info: Redefining \rmfamily on input line 51.
 LaTeX Info: Redefining \sffamily on input line 51.
 LaTeX Info: Redefining \ttfamily on input line 51.
@@ -2701,40 +2681,81 @@ LaTeX Info: Redefining \ttfamily on input line 70.
 LaTeX Info: Redefining \rmfamily on input line 71.
 LaTeX Info: Redefining \sffamily on input line 71.
 LaTeX Info: Redefining \ttfamily on input line 71.
+LaTeX Info: Redefining \rmfamily on input line 72.
+LaTeX Info: Redefining \sffamily on input line 72.
+LaTeX Info: Redefining \ttfamily on input line 72.
 LaTeX Info: Redefining \rmfamily on input line 73.
 LaTeX Info: Redefining \sffamily on input line 73.
 LaTeX Info: Redefining \ttfamily on input line 73.
-LaTeX Info: Redefining \rmfamily on input line 81.
-LaTeX Info: Redefining \sffamily on input line 81.
-LaTeX Info: Redefining \ttfamily on input line 81.
+LaTeX Info: Redefining \rmfamily on input line 74.
+LaTeX Info: Redefining \sffamily on input line 74.
+LaTeX Info: Redefining \ttfamily on input line 74.
+LaTeX Info: Redefining \rmfamily on input line 75.
+LaTeX Info: Redefining \sffamily on input line 75.
+LaTeX Info: Redefining \ttfamily on input line 75.
+LaTeX Info: Redefining \rmfamily on input line 76.
+LaTeX Info: Redefining \sffamily on input line 76.
+LaTeX Info: Redefining \ttfamily on input line 76.
+LaTeX Info: Redefining \rmfamily on input line 77.
+LaTeX Info: Redefining \sffamily on input line 77.
+LaTeX Info: Redefining \ttfamily on input line 77.
+LaTeX Info: Redefining \rmfamily on input line 78.
+LaTeX Info: Redefining \sffamily on input line 78.
+LaTeX Info: Redefining \ttfamily on input line 78.
+LaTeX Info: Redefining \rmfamily on input line 79.
+LaTeX Info: Redefining \sffamily on input line 79.
+LaTeX Info: Redefining \ttfamily on input line 79.
+LaTeX Info: Redefining \rmfamily on input line 80.
+LaTeX Info: Redefining \sffamily on input line 80.
+LaTeX Info: Redefining \ttfamily on input line 80.
 LaTeX Info: Redefining \rmfamily on input line 82.
 LaTeX Info: Redefining \sffamily on input line 82.
 LaTeX Info: Redefining \ttfamily on input line 82.
-LaTeX Info: Redefining \rmfamily on input line 83.
-LaTeX Info: Redefining \sffamily on input line 83.
-LaTeX Info: Redefining \ttfamily on input line 83.
-LaTeX Info: Redefining \rmfamily on input line 84.
-LaTeX Info: Redefining \sffamily on input line 84.
-LaTeX Info: Redefining \ttfamily on input line 84.
-LaTeX Info: Redefining \rmfamily on input line 85.
-LaTeX Info: Redefining \sffamily on input line 85.
-LaTeX Info: Redefining \ttfamily on input line 85.
-LaTeX Info: Redefining \rmfamily on input line 86.
-LaTeX Info: Redefining \sffamily on input line 86.
-LaTeX Info: Redefining \ttfamily on input line 86.
-LaTeX Info: Redefining \rmfamily on input line 87.
-LaTeX Info: Redefining \sffamily on input line 87.
-LaTeX Info: Redefining \ttfamily on input line 87.
-LaTeX Info: Redefining \rmfamily on input line 88.
-LaTeX Info: Redefining \sffamily on input line 88.
-LaTeX Info: Redefining \ttfamily on input line 88.
-)
-\tf@lot=\write8
-\openout8 = `main.lot'.
+
+Underfull \vbox (badness 1253) has occurred while \output is active []
 
  [6
 
 ]
+LaTeX Info: Redefining \rmfamily on input line 90.
+LaTeX Info: Redefining \sffamily on input line 90.
+LaTeX Info: Redefining \ttfamily on input line 90.
+LaTeX Info: Redefining \rmfamily on input line 91.
+LaTeX Info: Redefining \sffamily on input line 91.
+LaTeX Info: Redefining \ttfamily on input line 91.
+LaTeX Info: Redefining \rmfamily on input line 92.
+LaTeX Info: Redefining \sffamily on input line 92.
+LaTeX Info: Redefining \ttfamily on input line 92.
+LaTeX Info: Redefining \rmfamily on input line 93.
+LaTeX Info: Redefining \sffamily on input line 93.
+LaTeX Info: Redefining \ttfamily on input line 93.
+LaTeX Info: Redefining \rmfamily on input line 94.
+LaTeX Info: Redefining \sffamily on input line 94.
+LaTeX Info: Redefining \ttfamily on input line 94.
+LaTeX Info: Redefining \rmfamily on input line 95.
+LaTeX Info: Redefining \sffamily on input line 95.
+LaTeX Info: Redefining \ttfamily on input line 95.
+LaTeX Info: Redefining \rmfamily on input line 96.
+LaTeX Info: Redefining \sffamily on input line 96.
+LaTeX Info: Redefining \ttfamily on input line 96.
+LaTeX Info: Redefining \rmfamily on input line 97.
+LaTeX Info: Redefining \sffamily on input line 97.
+LaTeX Info: Redefining \ttfamily on input line 97.
+LaTeX Info: Redefining \rmfamily on input line 98.
+LaTeX Info: Redefining \sffamily on input line 98.
+LaTeX Info: Redefining \ttfamily on input line 98.
+LaTeX Info: Redefining \rmfamily on input line 99.
+LaTeX Info: Redefining \sffamily on input line 99.
+LaTeX Info: Redefining \ttfamily on input line 99.
+)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+LaTeX Info: Redefining \rmfamily on input line 276.
+LaTeX Info: Redefining \sffamily on input line 276.
+LaTeX Info: Redefining \ttfamily on input line 276.
+
+[7]
 \openout2 = `05-Introduction.aux'.
 
  (05-Introduction.tex [1
@@ -3756,24 +3777,31 @@ LaTeX Info: Redefining \sffamily on input line 1781.
 LaTeX Info: Redefining \ttfamily on input line 1781.
 
 [83]
-File: images_pfe//class_diagram_sprint4.png Graphic file (type bmp)
-<images_pfe//class_diagram_sprint4.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \rmfamily on input line 1804.
-LaTeX Info: Redefining \sffamily on input line 1804.
-LaTeX Info: Redefining \ttfamily on input line 1804.
+File: images_pfe//dca_sprint4.png Graphic file (type bmp)
+<images_pfe//dca_sprint4.png>
+LaTeX Info: Redefining \rmfamily on input line 1801.
+LaTeX Info: Redefining \sffamily on input line 1801.
+LaTeX Info: Redefining \ttfamily on input line 1801.
  [84]
-LaTeX Info: Redefining \rmfamily on input line 1832.
-LaTeX Info: Redefining \sffamily on input line 1832.
-LaTeX Info: Redefining \ttfamily on input line 1832.
+File: images_pfe//dcc_spint4.png Graphic file (type bmp)
+<images_pfe//dcc_spint4.png>
 
-[85])
+Overfull \hbox (55.93127pt too wide) in paragraph at lines 1808--1809
+ [][][][][][] 
+ []
+
+LaTeX Info: Redefining \rmfamily on input line 1812.
+LaTeX Info: Redefining \sffamily on input line 1812.
+LaTeX Info: Redefining \ttfamily on input line 1812.
+[85
+
+])
 LaTeX Info: Redefining \rmfamily on input line 292.
 LaTeX Info: Redefining \sffamily on input line 292.
 LaTeX Info: Redefining \ttfamily on input line 292.
- [86]
+ [86
+
+]
 
 LaTeX Warning: Empty bibliography on input line 304.
 
@@ -3912,19 +3940,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 471B15B4D9EF184E560BE72215D89F4E;1190.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D596D40985381DCACBF84585E1249F49;1190
+(rerunfilecheck)             After:  4E529C1F7513819A212B29C69C7A0C86;1190.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42337 strings out of 411472
- 896977 string characters out of 5818873
+ 42357 strings out of 411472
+ 897274 string characters out of 5818873
  1953012 words of memory out of 5000000
- 61705 multiletter control sequences out of 15000+600000
+ 61725 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,92p,1409b,5413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (94 pages).
+Output written on main.pdf (95 pages).

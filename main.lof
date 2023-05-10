@@ -130,4 +130,6 @@
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.58}{\ignorespaces Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d’un fichier »\relax }}{84}{figure.caption.86}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.59}{\ignorespaces Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »\relax }}{85}{figure.caption.87}%
+\contentsline {figure}{\numberline {3.59}{\ignorespaces Diagramme de classe d'analyse de sprint 4\relax }}{84}{figure.caption.87}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.60}{\ignorespaces Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »\relax }}{85}{figure.caption.88}%
