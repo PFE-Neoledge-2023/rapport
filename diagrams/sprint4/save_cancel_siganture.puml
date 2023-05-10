@@ -10,6 +10,7 @@ participant "système" as system
 ref over user, system : Authentification
 activate user
 user -> system : clique sur afficher les actions
+activate system
 system -> user : affiche les actions
 alt utilisateur selectionne de valider les signatures
     system -> user : Demande de confirmation

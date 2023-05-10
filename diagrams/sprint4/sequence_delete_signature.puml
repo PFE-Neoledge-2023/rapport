@@ -1,0 +1,32 @@
+@startuml sequence_delete_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+
+ref over user,fileviewer,documentsstore,filesignature : Authentification
+ref over user,fileviewer,documentsstore,filesignature : Visualisation de fichier
+
+activate user
+activate fileviewer
+
+user -> fileviewer : glisse une signature.
+fileviewer -> user : affiche la signature à l'endroit où l'utilisateur la glisse.
+fileviewer -> user : affiche la zone de suppression.
+user -> fileviewer : dépose la signature.
+alt signature déposée dans la zone de suppression
+    fileviewer -> documentsstore : removeSignature()
+    activate documentsstore
+    documentsstore -> filesignature : removeSignatureFromFile()
+    activate filesignature
+    filesignature -> documentsstore : removeSignatureFromFileResponse
+    deactivate filesignature
+    documentsstore --> fileviewer 
+    deactivate documentsstore
+    fileviewer -> user : supprime la signature.
+end
+deactivate user

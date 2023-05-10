@@ -1,0 +1,79 @@
+@startuml sequence_save_cancel_siganture
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+participant "PreviewFile" as previewfile << View >>
+participant "FileViewer" as fileviewer << View >>
+participant "SignaturePanel" as signaturepanel << View >>
+participant "DocumentsStore" as documentsstore << ViewModel >>
+participant "FileSignature" as filesignature << Model >>
+participant "EliseWebService" as elisewebservice << Service >>
+
+ref over user, system : Authentification
+ref over user,fileviewer,signaturepanel,documentsstore,filesignature : Visualisation de fichier
+activate user
+activate fileviewer
+activate previewfile
+user -> fileviewer : clique sur afficher les actions
+fileviewer -> user : affiche les actions possibles
+alt L'utilisateur confirme la signature
+user -> fileviewer : finishSigning()
+fileviewer -> previewfile : finishSigning()
+previewfile -> user : demande de confirmation
+alt L'utilisateur confirme
+    user -> previewfile : confirme
+    previewfile -> documentsstore : finishSigningDocument()
+    activate documentsstore
+    documentsstore -> filesignature : getFileSignatures()
+    activate filesignature
+    filesignature -> documentsstore : retourne les signatures
+    deactivate filesignature
+    documentsstore -> elisewebservice : LockMail()
+    activate elisewebservice
+    elisewebservice -> documentsstore : LockMailResponse
+    documentsstore -> elisewebservice : SignDocumentListItems()
+    elisewebservice -> documentsstore : SignDocumentListItemsResponse
+    documentsstore -> elisewebservice : UnlockMail()
+    elisewebservice -> documentsstore : UnlockMailResponse
+    deactivate elisewebservice
+    alt L'opération est un succès
+        documentsstore -> filesignature : clearFileSignatures()
+        activate filesignature
+        filesignature --> documentsstore 
+        deactivate filesignature
+        documentsstore --> previewfile 
+        previewfile -> user : affiche un message de succès
+        previewfile -> user : redirige vers la page de document
+    else L'opération est un échec
+        documentsstore --> previewfile 
+        previewfile -> user : affiche un message d'erreur
+        deactivate documentsstore
+    end
+else L'utilisateur annule
+    previewfile -> user : message d'annulation
+end
+else L'utilisateur annule la signature
+    user -> fileviewer : cancelSigning()
+    fileviewer -> previewfile : cancelSigning()
+    previewfile -> user : demande de confirmation
+    alt L'utilisateur confirme
+        user -> previewfile : confirme
+        previewfile -> documentsstore : cancelSigningDocument()
+        activate documentsstore
+        documentsstore -> filesignature : clearFileSignatures()
+        activate filesignature
+        filesignature --> documentsstore
+        deactivate filesignature
+        documentsstore --> previewfile
+        previewfile -> user : affiche un message de succès
+    else L'utilisateur annule
+        user -> previewfile : annule
+        previewfile -> user : message d'annulation
+    end
+end
+
+deactivate system
+deactivate user

@@ -1,0 +1,39 @@
+@startuml sequence_sign_by_image
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+participant "FileViewer" as fileviewer << View >>
+participant "SignaturePanel" as signaturepanel << View >>
+participant "DocumentsStore" as documentsstore << ViewModel >>
+participant "FileSignature" as filesignature << Model >>
+
+
+
+ref over user,fileviewer,signaturepanel,documentsstore,filesignature : Authentification
+ref over user,fileviewer,signaturepanel,documentsstore,filesignature : Visualisation de fichier
+
+activate user
+activate signaturepanel
+activate fileviewer
+
+user -> signaturepanel : toggle()
+signaturepanel -> signaturepanel : affiche le panneau des signatures.
+user -> signaturepanel : glisse une signature.
+signaturepanel -> user : affiche la signature à l'endroit où l'utilisateur la glisse.
+user -> fileviewer : dépose la signature.
+alt signature déposée dans le fichier
+    fileviewer -> documentsstore : signDocument()
+    activate documentsstore
+    documentsstore -> filesignature : addSignatureToFile()
+    activate filesignature
+    filesignature -> documentsstore : addSignatureToFileResponse
+    deactivate filesignature
+    documentsstore -> fileviewer : signDocumentResponse
+    deactivate documentsstore
+    fileviewer -> user : modifie la position de la signature
+end
+deactivate system
+deactivate user
