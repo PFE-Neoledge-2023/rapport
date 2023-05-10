@@ -1,0 +1,38 @@
+@startuml sequence_move_signature
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "FileViewer" as fileviewer << View >>
+participant "DocumentsStore" as documentsstore << ViewModel >>
+participant "FileSignature" as filesignature << Model >>
+
+
+
+ref over user,fileviewer,documentsstore,filesignature : Authentification
+ref over user,fileviewer,documentsstore,filesignature : Visualisation de fichier
+
+activate user
+activate fileviewer
+
+user -> fileviewer : glisse une signature.
+fileviewer -> user : affiche la signature à l'endroit où l'utilisateur la glisse.
+user -> fileviewer : dépose la signature.
+alt signature déposée dans le fichier
+    fileviewer -> documentsstore : removeSignature()
+    activate documentsstore
+    documentsstore -> filesignature : removeSignatureFromFile()
+    activate filesignature
+    filesignature -> documentsstore : removeSignatureFromFileResponse
+    deactivate filesignature
+    documentsstore --> fileviewer 
+    documentsstore -> filesignature : addSignatureToFile()
+    activate filesignature
+    filesignature -> documentsstore : addSignatureToFileResponse
+    deactivate filesignature
+    documentsstore -> fileviewer : signDocumentResponse
+    deactivate documentsstore
+    fileviewer -> user : modifie la position de la signature
+end
+deactivate user

@@ -1,0 +1,49 @@
+@startuml sequence_sign_by_hand
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "PreviewFile" as previewfile << View >>
+participant "FileViewer" as fileviewer << View >>
+participant "SignaturePanel" as signaturepanel << View >>
+participant "DocumentsStore" as documentsstore << ViewModel >>
+participant "FileSignature" as filesignature << Model >>
+
+
+ref over user, previewfile,fileviewer,signaturepanel,documentsstore,filesignature : Authentification
+activate user
+activate fileviewer
+activate previewfile
+activate signaturepanel
+user -> fileviewer : longue clique sur le fichier
+fileviewer -> previewfile : selectPage()
+previewfile -> signaturepanel : close()
+signaturepanel -> previewfile : closeResponse
+deactivate signaturepanel
+fileviewer -> user : page selectionnée
+user -> fileviewer : clique sur afficher les actions
+fileviewer -> user : affiche les actions possibles
+user -> fileviewer : signByHand()
+fileviewer -> user : signByHandResponse
+user -> fileviewer : trace sa signature
+alt validateSignByHand()
+    fileviewer -> documentsstore : signDocument()
+    activate documentsstore
+    documentsstore -> filesignature : signDocument()
+    activate filesignature
+    filesignature -> documentsstore : signDocumentResponse
+    deactivate filesignature
+    documentsstore -> fileviewer : signDocumentResponse
+    deactivate documentsstore
+    alt success
+        fileviewer -> user : affiche la signature
+    else error
+        fileviewer -> user : affiche une erreur
+    end
+else annuler
+    fileviewer -> user : efface la signature
+    deactivate fileviewer
+    deactivate previewfile
+end
+deactivate user

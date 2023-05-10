@@ -1,0 +1,85 @@
+@startuml sequence_view_file
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "FilesPage" as filespage << View >>
+participant "PreviewFile" as previewfile << View >>
+participant "FileViewer" as fileviewer << View >>
+participant "SignaturePanel" as signaturepanel << View >>
+participant "SignaturesStore" as signaturesstore << ViewModel >>
+participant "DocumentsStore" as documentsstore << ViewModel >>
+participant "Signature" as signature << Model >>
+participant "Document" as document << Model >>
+participant "File" as file << Model >>
+participant "FileSignature" as filesignature << Model >>
+participant "EliseWebService" as elisewebservice << Service >>
+
+
+
+
+ref over user, filespage, previewfile,fileviewer,signaturepanel,signaturesstore,documentsstore,signature,document,file,filesignature,elisewebservice : Authentification
+activate user
+user -> filespage : CliqueFichier()
+activate filespage
+filespage -> previewfile : demander l'interface
+deactivate filespage
+activate previewfile
+par 
+previewfile -> documentsstore : getOneDocumentFile()
+activate documentsstore
+documentsstore -> elisewebservice : GetAttachment()
+activate elisewebservice
+elisewebservice -> documentsstore : GetAttachmentResponse
+deactivate elisewebservice
+documentsstore -> file : addFile()
+activate file
+file -> documentsstore : addFileResponse
+deactivate file
+documentsstore -> document : setFileInDocument()
+activate document
+document -> documentsstore : setFileInDocumentResponse
+deactivate document
+documentsstore -> filesignature : getFileSignatures()
+activate filesignature
+filesignature -> documentsstore : getFileSignaturesResponse
+deactivate filesignature
+documentsstore -> previewfile : getOneDocumentFileResponse
+deactivate documentsstore
+
+else
+previewfile -> signaturesstore : GetSignatureList()
+activate signaturesstore
+signaturesstore -> elisewebservice : GetSignatureList()
+activate elisewebservice
+elisewebservice -> signaturesstore : GetSignatureListResponse
+deactivate elisewebservice
+signaturesstore -> signature : setSignatureList()
+activate signature
+signature -> signaturesstore : setSignatureListResponse
+deactivate signature
+signaturesstore -> previewfile : GetSignatureListResponse
+deactivate signaturesstore
+end par
+
+alt fileFoundSuccess
+  alt Format de fichier pris en charge
+    previewfile -> fileviewer : afficher le fichier
+    activate fileviewer
+    fileviewer -> previewfile : afficher le fichier
+    previewfile -> signaturepanel : afficher le panneau de signature
+    activate signaturepanel
+    signaturepanel -> previewfile : afficher le panneau de signature
+    previewfile -> user : afficher le fichier
+    deactivate signaturepanel
+    deactivate fileviewer
+  else Format de fichier non pris en charge
+    previewfile -> user : afficher le message d'erreur
+  end
+else fileFoundError
+previewfile -> user : afficher le message d'erreur
+end
+
+
+deactivate user

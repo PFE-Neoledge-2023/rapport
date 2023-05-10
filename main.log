@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  10 MAY 2023 12:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  10 MAY 2023 22:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2525,9 +2525,6 @@ LaTeX Info: Redefining \ttfamily on input line 133.
 LaTeX Info: Redefining \rmfamily on input line 134.
 LaTeX Info: Redefining \sffamily on input line 134.
 LaTeX Info: Redefining \ttfamily on input line 134.
-LaTeX Info: Redefining \rmfamily on input line 136.
-LaTeX Info: Redefining \sffamily on input line 136.
-LaTeX Info: Redefining \ttfamily on input line 136.
 )
 \tf@lof=\write7
 \openout7 = `main.lof'.
@@ -2744,9 +2741,6 @@ LaTeX Info: Redefining \ttfamily on input line 97.
 LaTeX Info: Redefining \rmfamily on input line 98.
 LaTeX Info: Redefining \sffamily on input line 98.
 LaTeX Info: Redefining \ttfamily on input line 98.
-LaTeX Info: Redefining \rmfamily on input line 99.
-LaTeX Info: Redefining \sffamily on input line 99.
-LaTeX Info: Redefining \ttfamily on input line 99.
 )
 \tf@lot=\write8
 \openout8 = `main.lot'.
@@ -3779,29 +3773,96 @@ LaTeX Info: Redefining \ttfamily on input line 1781.
 [83]
 File: images_pfe//dca_sprint4.png Graphic file (type bmp)
 <images_pfe//dca_sprint4.png>
+
+Underfull \vbox (badness 7944) has occurred while \output is active []
+
 LaTeX Info: Redefining \rmfamily on input line 1801.
 LaTeX Info: Redefining \sffamily on input line 1801.
 LaTeX Info: Redefining \ttfamily on input line 1801.
  [84]
+LaTeX Info: Redefining \rmfamily on input line 1801.
+LaTeX Info: Redefining \sffamily on input line 1801.
+LaTeX Info: Redefining \ttfamily on input line 1801.
+
+[85]
 File: images_pfe//dcc_spint4.png Graphic file (type bmp)
 <images_pfe//dcc_spint4.png>
-
-Overfull \hbox (55.93127pt too wide) in paragraph at lines 1808--1809
- [][][][][][] 
- []
-
 LaTeX Info: Redefining \rmfamily on input line 1812.
 LaTeX Info: Redefining \sffamily on input line 1812.
 LaTeX Info: Redefining \ttfamily on input line 1812.
-[85
-
-])
-LaTeX Info: Redefining \rmfamily on input line 292.
-LaTeX Info: Redefining \sffamily on input line 292.
-LaTeX Info: Redefining \ttfamily on input line 292.
  [86
 
 ]
+File: out/diagrams/sprint4/sequence_view_file/sequence_view_file.png Graphic fi
+le (type bmp)
+<out/diagrams/sprint4/sequence_view_file/sequence_view_file.png>
+File: out/diagrams/sprint4/sequence_download_file/sequence_download_file.png Gr
+aphic file (type bmp)
+<out/diagrams/sprint4/sequence_download_file/sequence_download_file.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 1829.
+LaTeX Info: Redefining \sffamily on input line 1829.
+LaTeX Info: Redefining \ttfamily on input line 1829.
+ [87
+
+]
+File: out/diagrams/sprint4/sequence_sign_by_image/sequence_sign_by_image.png Gr
+aphic file (type bmp)
+<out/diagrams/sprint4/sequence_sign_by_image/sequence_sign_by_image.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 1836.
+LaTeX Info: Redefining \sffamily on input line 1836.
+LaTeX Info: Redefining \ttfamily on input line 1836.
+ [88]
+File: out/diagrams/sprint4/sequence_sign_by_hand/sequence_sign_by_hand.png Grap
+hic file (type bmp)
+<out/diagrams/sprint4/sequence_sign_by_hand/sequence_sign_by_hand.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 1843.
+LaTeX Info: Redefining \sffamily on input line 1843.
+LaTeX Info: Redefining \ttfamily on input line 1843.
+ [89]
+File: out/diagrams/sprint4/sequence_move_signature/sequence_move_signature.png 
+Graphic file (type bmp)
+<out/diagrams/sprint4/sequence_move_signature/sequence_move_signature.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 1850.
+LaTeX Info: Redefining \sffamily on input line 1850.
+LaTeX Info: Redefining \ttfamily on input line 1850.
+ [90]
+File: out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature.
+png Graphic file (type bmp)
+<out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature.png>
+File: out/diagrams/sprint4/sequence_save_cancel_siganture/sequence_save_cancel_
+siganture.png Graphic file (type bmp)
+<out/diagrams/sprint4/sequence_save_cancel_siganture/sequence_save_cancel_sigan
+ture.png>
+
+Underfull \vbox (badness 5954) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 1864.
+LaTeX Info: Redefining \sffamily on input line 1864.
+LaTeX Info: Redefining \ttfamily on input line 1864.
+ [91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 1873.
+LaTeX Info: Redefining \sffamily on input line 1873.
+LaTeX Info: Redefining \ttfamily on input line 1873.
+ [92])
+LaTeX Info: Redefining \rmfamily on input line 292.
+LaTeX Info: Redefining \sffamily on input line 292.
+LaTeX Info: Redefining \ttfamily on input line 292.
+
+[93]
 
 LaTeX Warning: Empty bibliography on input line 304.
 
@@ -3811,7 +3872,7 @@ Package biblatex Warning: Type 'misc' not found on input line 306.
 
 LaTeX Warning: Empty bibliography on input line 306.
 
-[87
+[94
 
 
 
@@ -3946,19 +4007,19 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D596D40985381DCACBF84585E1249F49;1190
-(rerunfilecheck)             After:  4E529C1F7513819A212B29C69C7A0C86;1190.
+(rerunfilecheck)             Before: 4E529C1F7513819A212B29C69C7A0C86;1190
+(rerunfilecheck)             After:  A8B09443DAAD1D4E244DB3B79A542B04;1190.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42357 strings out of 411472
- 897274 string characters out of 5818873
- 1953012 words of memory out of 5000000
- 61725 multiletter control sequences out of 15000+600000
+ 42508 strings out of 411472
+ 907871 string characters out of 5818873
+ 1952012 words of memory out of 5000000
+ 61849 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,92p,1409b,5413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (95 pages).
+Output written on main.pdf (102 pages).

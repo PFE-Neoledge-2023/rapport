@@ -132,4 +132,18 @@
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {3.59}{\ignorespaces Diagramme de classe d'analyse de sprint 4\relax }}{84}{figure.caption.87}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {3.60}{\ignorespaces Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »\relax }}{85}{figure.caption.88}%
+\contentsline {figure}{\numberline {3.60}{\ignorespaces Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »\relax }}{86}{figure.caption.88}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.61}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Visualiser un fichier »\relax }}{87}{figure.caption.89}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.62}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Télécharger un fichier »\relax }}{88}{figure.caption.90}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.63}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{89}{figure.caption.91}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.64}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Signer à main un fichier »\relax }}{90}{figure.caption.92}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.65}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Modifier la position d’une signature d’un fichier »\relax }}{91}{figure.caption.93}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.66}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature d’un fichier »\relax }}{91}{figure.caption.94}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {3.67}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Confirmer ou annuler les changements d’un fichier »\relax }}{92}{figure.caption.95}%
