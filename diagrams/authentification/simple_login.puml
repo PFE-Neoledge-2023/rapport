@@ -1,0 +1,30 @@
+@startuml simple_login
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+activate user
+user -> system : saisie l'adresse du serveur
+activate system
+user -> system : clique sur le bouton "connexion"
+system -> system : serveur isAvailable
+alt serveur disponible
+    system -> user : affiche la page de login
+    user -> system : saisie l'identifient et le mot de passe
+    user -> system : clique sur le bouton "connexion"
+    system -> system : vérifie les informations
+    alt informations valides
+        system -> user : affiche la page d'accueil
+        system -> user : affiche le message "bienvenue"
+    else informations invalides
+        system -> user : affiche le message d'erreur
+    end
+else serveur indisponible
+    system -> user : affiche le message "serveur indisponible"
+end
+deactivate system
+deactivate user

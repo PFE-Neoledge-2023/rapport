@@ -6,20 +6,19 @@ hide footbox
 actor "Utilisateur" as user
 participant "settingsPage" as setView << View >>
 participant "authStore" as auth << ViewModel >>
-participant "localStorage" as localStorage << Model >>
-
+participant "Session" as session << Model >>
 user -> setView : clique sur le bouton "déconnecter"
 activate user
 activate setView
 setView -> auth : logout()
 activate auth
-auth -> localStorage : logout()
-activate localStorage
-localStorage -> localStorage : removeSession()
-localStorage --> auth : user logged out
-deactivate localStorage
+auth -> session : clearAll()
+activate session
+session --> auth
+deactivate session
 auth --> setView : user logged out
 deactivate auth
 setView --> user : affiche le message "vous êtes déconnecté"
-
+deactivate setView
+deactivate user
 
