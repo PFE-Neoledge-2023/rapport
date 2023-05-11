@@ -41,14 +41,15 @@
 \contentsline {table}{\numberline {3.9}{\ignorespaces Sprint backlog du Sprint 3\relax }}{49}{table.3.9}%
 \setforeignlanguage {french}
 \contentsline {table}{\numberline {3.10}{\ignorespaces Description textuelle de cas d'utilisation « Accéder à un document »\relax }}{50}{table.3.10}%
-\contentsline {table}{\numberline {3.11}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »\relax }}{51}{table.3.11}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »\relax }}{50}{table.3.11}%
 \contentsline {table}{\numberline {3.12}{\ignorespaces Description textuelle de cas d'utilisation « ajouter un fichier à un document »\relax }}{51}{table.3.12}%
-\contentsline {table}{\numberline {3.13}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »\relax }}{52}{table.3.13}%
-\contentsline {table}{\numberline {3.14}{\ignorespaces Description textuelle de cas d'utilisation « Demander une tâche »\relax }}{52}{table.3.14}%
-\contentsline {table}{\numberline {3.15}{\ignorespaces Description textuelle de cas d'utilisation « Tranférer une tâche »\relax }}{53}{table.3.15}%
-\contentsline {table}{\numberline {3.16}{\ignorespaces Description textuelle de cas d'utilisation « Traiter une tâche »\relax }}{53}{table.3.16}%
-\contentsline {table}{\numberline {3.17}{\ignorespaces Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{54}{table.3.17}%
-\contentsline {table}{\numberline {3.18}{\ignorespaces Description textuelle de cas d'utilisation « Chercher des documents »\relax }}{54}{table.3.18}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Description textuelle de cas d'utilisation « ajouter un fichier à un document »\relax }}{53}{table.3.13}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »\relax }}{53}{table.3.14}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Description textuelle de cas d'utilisation « Demander une tâche »\relax }}{54}{table.3.15}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Description textuelle de cas d'utilisation « Tranférer une tâche »\relax }}{54}{table.3.16}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Description textuelle de cas d'utilisation « Traiter une tâche »\relax }}{55}{table.3.17}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{55}{table.3.18}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Description textuelle de cas d'utilisation « Chercher des documents »\relax }}{56}{table.3.19}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
@@ -79,15 +80,15 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {3.19}{\ignorespaces Sprint backlog du Sprint 4\relax }}{76}{table.3.19}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces Sprint backlog du Sprint 4\relax }}{77}{table.3.20}%
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {3.20}{\ignorespaces Description textuelle de cas d'utilisation « Visualiser un fichier »\relax }}{77}{table.3.20}%
-\contentsline {table}{\numberline {3.21}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un fichier »\relax }}{78}{table.3.21}%
-\contentsline {table}{\numberline {3.22}{\ignorespaces Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{79}{table.3.22}%
-\contentsline {table}{\numberline {3.23}{\ignorespaces Description textuelle de cas d'utilisation « Signer à main un fichier »\relax }}{80}{table.3.23}%
-\contentsline {table}{\numberline {3.24}{\ignorespaces Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{80}{table.3.24}%
-\contentsline {table}{\numberline {3.25}{\ignorespaces Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{80}{table.3.25}%
-\contentsline {table}{\numberline {3.26}{\ignorespaces Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{81}{table.3.26}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Description textuelle de cas d'utilisation « Visualiser un fichier »\relax }}{78}{table.3.21}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un fichier »\relax }}{79}{table.3.22}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{80}{table.3.23}%
+\contentsline {table}{\numberline {3.24}{\ignorespaces Description textuelle de cas d'utilisation « Signer à main un fichier »\relax }}{81}{table.3.24}%
+\contentsline {table}{\numberline {3.25}{\ignorespaces Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{81}{table.3.25}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{81}{table.3.26}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{82}{table.3.27}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}

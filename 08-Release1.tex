@@ -830,6 +830,61 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 
 \end{longtable}
 
+\textbf{•	Description textuelle de cas d'utilisation « Scanner un fichier »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Scanner un fichier\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&Le document existe\\
+\hline
+\textbf{Post Condition}&Fichier ajouté\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton "liste des actions".
+    \item Le système affiche la liste des actions.
+    \item L'utilisateur clique sur le bouton "scanner un fichier".
+    \item Le système affiche la page de scan.
+    \item L'utilisateur clique sur le bouton "ajouter"
+    \item Le système affiche la caméra de l'appareil.
+    \item L'utilisateur prend une photo.
+    \item Le système affiche la photo prise.
+    \item L'utilisateur clique sur le bouton "valider".
+    \item Le système scanne la photo.
+    \item Le système affiche la photo avec un cadre jaune autour du fichier.
+    \item L'utilisateur recadre le'image
+    \item L'utilisateur valide le scan.
+    \item Le système affiche la liste des images scannées.
+    \item L'utilisateur peut supprimer une image.
+    \item L'utilisateur clique sur le bouton "suivant".
+    \item Le système affiche la liste des images scannés sous forme de vignettes.
+    \item L'utilisateur peut changer l'ordre des images.
+    \item L'utilisateur clique sur le bouton "valider".
+    \item Le système affiche le panneau de création de fichier.
+    \item L'utilisateur clique sur le bouton "valider".
+    \item Le système enregistre les images scannées.
+    \item Le système affiche un message de succès.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{3}
+    \item L'utilisateur annule l'ajout du fichier.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle de cas d'utilisation « ajouter un fichier à un document »}
+\label{tab:DescriptionTextuelleDeCasDUtilisationAjouterUnFichierAUnDocument}
+
+\end{longtable}
+
 
 % \textbf{•	Description textuelle de cas d'utilisation « supprimer un fichier dans un document »}
 

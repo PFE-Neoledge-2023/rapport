@@ -23,7 +23,7 @@ alt valider
     user -> system : clique sur le bouton "valider"
     system -> system : scanne la photo
     system --> user : affiche la photo avec un cadre jaune autour du fichier
-    user -> system : recadre le image
+    user -> system : recadre l'image
     alt Utilisateur veut ajouter une autre photo
         ref over user, system : scanne de fichier
     else Utilisateur veut valider l'image
