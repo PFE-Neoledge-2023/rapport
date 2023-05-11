@@ -1,0 +1,58 @@
+@startuml sequence_simple_login
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "serverPage" as serView << View >>
+participant "authStore" as auth << ViewModel >>
+participant "Session" as session << Model >>
+participant "EliseWebService" as ws << Service >>
+activate user
+user -> serView : saisie l'adresse du serveur
+activate serView
+serView -> auth : setServerUrl()
+activate auth
+auth -> ws : IsAvailable()
+activate ws
+    ws --> auth : IsAvailableResponse
+    deactivate ws
+alt server is available
+    ' auth -> session : setServerUrl()
+    ' activate session
+    ' session --> auth : server stored
+    ' deactivate session
+    ' auth --> serView : server is available
+    ' deactivate auth
+    auth --> serView : server est disponible
+    deactivate auth
+    serView --> user : affiche le formulaire de connexion
+    user -> serView : saisie identifiant/password
+    user -> serView : submitForm()
+    serView -> auth : login()
+    activate auth
+    auth -> ws : UserIsAvailable()
+    activate ws
+        ws --> auth : UserIsAvailableResponse
+    deactivate ws
+    alt Utilisateur disponible
+        auth -> auth : extractSession()
+        auth -> session : setSession()
+        activate session
+        session --> auth : session enregistrée
+        deactivate session
+        auth --> serView : succes
+        serView --> user : redirige vers la page d'accueil
+        serView --> user : affiche le message "bienvenue"
+    else Utilisateur n'est pas disponible
+        auth --> serView : erreur d'authentification
+        serView --> user : affiche le message d'erreur
+    end
+else server n'est pas disponible
+    activate auth
+    auth --> serView : server n'est pas disponible
+    deactivate auth
+    serView --> user : affiche le message d'erreur
+end
+deactivate serView
+deactivate user
