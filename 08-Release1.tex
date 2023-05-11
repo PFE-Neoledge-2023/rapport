@@ -629,68 +629,78 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
       \cline{3-4}
       & & 1.3 & Développer une fonction qui permet de chercher des documents. & \\
       \cline{1-5}
+      % Recherche a l'aide de code QR
+      2 & En tant qu'utilisateur, je veux rechercher un document en scannant son code QR, afin de le trouver rapidement. & 2.1 & Développer une fonction qui permet de rechercher un document à l'aide d'un code QR. & 2 Jour \\
+      \cline{1-5}
       % Consulter la liste des documents en favoris
-      \multirow{3}{*}{2} & En tant qu'utilisateur, je veux afficher les favoris, afin de trouver rapidement les documents dont j'ai besoin. &&& \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{3} & En tant qu'utilisateur, je veux afficher les favoris, afin de trouver rapidement les documents dont j'ai besoin.  & 3.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 2.2 & Développer l'interface des favoris. & \\
+      & & 3.2 & Développer l'interface des favoris. & \\
       \cline{3-4}
-      & & 2.3 & Développer une fonction qui permet de récupérer la liste des documents en favoris. & \\
+      & & 3.3 & Développer une fonction qui permet de récupérer la liste des documents en favoris. & \\
       \cline{1-5}
       % Accéder à un document
-      \multirow{3}{*}{3} & En tant qu'utilisateur, je veux récupérer les informations relatives à un document, telles que la date de création, les utilisateurs qui ont accédé au document et les tâches associées, afin de suivre l'historique du document et de mieux comprendre son contexte, les modifier ou de les signer. & 3.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{4}{*}{3} & En tant qu'utilisateur, je veux récupérer les informations relatives à un document, telles que la date de création, les utilisateurs qui ont accédé au document et les tâches associées, afin de suivre l'historique du document et de mieux comprendre son contexte, les modifier ou de les signer. & 4.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 3.2 & Développer l'interface des documents. & \\
+      & & 4.2 & Développer l'interface des documents. & \\
       \cline{3-4}
-      & & 3.3 & Développer une fonction qui permet d'accéder à un document. & \\
+      & & 4.3 & Développer une fonction qui permet d'accéder à un document. & \\
       \cline{1-5}
       % Télécharger les fichiers d'un document
-      \multirow{3}{*}{4} & En tant qu'utilisateur, je veux télécharger les fichiers attachés à un document, afin de garder une copie locale.. & 4.1 & Préparer l'interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{5} & En tant qu'utilisateur, je veux télécharger les fichiers attachés à un document, afin de garder une copie locale.. & 5.1 & Préparer l'interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 4.2 & Développer l'interface de téléchargement des fichiers. & \\
+      & & 5.2 & Développer l'interface de téléchargement des fichiers. & \\
       \cline{3-4}
-      & & 4.3 & Développer une fonction qui permet de télécharger les fichiers d'un document. & \\
+      & & 5.3 & Développer une fonction qui permet de télécharger les fichiers d'un document. & \\
       \cline{1-5}
       % Consulter la liste des fichiers d'un document
-      \multirow{3}{*}{5} & En tant qu’utilisateur, je veux consulter la liste des fichiers attachés à un document, afin de les visualiser. & 5.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{6} & En tant qu’utilisateur, je veux consulter la liste des fichiers attachés à un document, afin de les visualiser. & 6.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 5.2 & Développer l'interface de liste des fichiers. & \\
+      & & 6.2 & Développer l'interface de liste des fichiers. & \\
       \cline{3-4}
-      & & 5.3 & Développer une fonction qui permet de récupérer la liste des fichiers d'un document. & \\
+      & & 6.3 & Développer une fonction qui permet de récupérer la liste des fichiers d'un document. & \\
       \cline{1-5}
       % Ajouter un fichier à un document
-      \multirow{3}{*}{6} & En tant qu'utilisateur, je veux ajouter un fichier à un document, afin de le partager avec les autres utilisateurs. & 6.1 & Préparer l'interface sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{7} & En tant qu'utilisateur, je veux ajouter un fichier à un document, afin de le partager avec les autres utilisateurs. & 7.1 & Préparer l'interface sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 6.2 & Développer l'interface d'ajout des fichiers. & \\
+      & & 7.2 & Développer l'interface d'ajout des fichiers. & \\
       \cline{3-4}
-      & & 6.3 & Développer une fonction qui permet ajouter un fichier à un document. & \\
+      & & 7.3 & Développer une fonction qui permet ajouter un fichier à un document. & \\
+      \cline{1-5}
+      % Scanner un fichier
+      \multirow{3}{*}{8} & En tant qu'utilisateur, je veux scanner un fichier à l'aide de la caméra de mon appareil, afin de le joindre à un document. & 8.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \cline{3-4}
+      & & 8.2 & Développer l'interface de scan des fichiers. & \\
+      \cline{3-4}
+      & & 8.3 & Développer une fonction qui permet de scanner un fichier. & \\
       \cline{1-5}
       % Consulter la liste des tâches d'un document
-      \multirow{3}{*}{7} & En tant qu'utilisateur, je veux consulter la liste des tâches associées à un document, afin de suivre l'état d'avancement des tâches et de savoir qui est responsable de chaque tâche. & 7.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{9} & En tant qu'utilisateur, je veux consulter la liste des tâches associées à un document, afin de suivre l'état d'avancement des tâches et de savoir qui est responsable de chaque tâche. & 9.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 7.2 & Développer l'interface de liste des tâches. & \\
+      & & 9.2 & Développer l'interface de liste des tâches. & \\
       \cline{3-4}
-      & & 7.3 & Développer une fonction qui permet de récupérer la liste des tâches d'un document. & \\
+      & & 9.3 & Développer une fonction qui permet de récupérer la liste des tâches d'un document. & \\
       \cline{1-5}
       % Ajouter une tâche à un document
-      \multirow{3}{*}{8} & En tant qu'utilisateur, je veux demander une tâche dans un document en assignant une personne responsable, afin de faciliter la collaboration et le suivi des tâches. & 8.1 & Préparer l'interface sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{10} & En tant qu'utilisateur, je veux demander une tâche dans un document en assignant une personne responsable, afin de faciliter la collaboration et le suivi des tâches. & 10.1 & Préparer l'interface sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 8.2 & Développer l'interface d'ajout des tâches. & \\
+      & & 10.2 & Développer l'interface d'ajout des tâches. & \\
       \cline{3-4}
-      & & 8.3 & Développer une fonction qui permet d'ajouter une tâche à un document. & \\
+      & & 10.3 & Développer une fonction qui permet d'ajouter une tâche à un document. & \\
       \cline{1-5}
       % Transférer une tâche 
-      \multirow{3}{*}{9} & En tant qu'utilisateur, je veux transferer une tâche dans un document a un autre utilisateur, afin que ce dernier puisse la prendre en charge. & 9.1 & Préparer l'interface sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{11} & En tant qu'utilisateur, je veux transferer une tâche dans un document a un autre utilisateur, afin que ce dernier puisse la prendre en charge. & 11.1 & Préparer l'interface sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 9.2 & Développer l'interface de transfert des tâches. & \\
+      & & 11.2 & Développer l'interface de transfert des tâches. & \\
       \cline{3-4}
-      & & 9.3 & Développer une fonction qui permet de transférer une tâche dans un document à un autre utilisateur. & \\
+      & & 11.3 & Développer une fonction qui permet de transférer une tâche dans un document à un autre utilisateur. & \\
       \cline{1-5}
       % traitement d'une tâche
-      \multirow{3}{*}{10} &En tant qu'utilisateur, je veux terminer une tâche dans un document, afin de clôturer la tâche et de faciliter le suivi du projet. & 10.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{12} &En tant qu'utilisateur, je veux terminer une tâche dans un document, afin de clôturer la tâche et de faciliter le suivi du projet. & 12.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
-      & & 10.2 & Développer les interfaces de traitement des tâches. & \\
+      & & 12.2 & Développer les interfaces de traitement des tâches. & \\
       \cline{3-4}
-      & & 10.3 & Développer une fonction qui permet de traiter une tâche dans un document. & \\
+      & & 12.3 & Développer une fonction qui permet de traiter une tâche dans un document. & \\
       \cline{1-5}
   \hline
   \caption{Sprint backlog du Sprint 3}
