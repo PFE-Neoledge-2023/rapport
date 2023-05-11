@@ -257,6 +257,44 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \label{tab:use_case_view_signature}
 \end{longtable}
 
+\textbf{•	Description textuelle de cas d'utilisation « Modifier une signature »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Modifier une signature\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié et avoir des signatures\\
+\hline
+\textbf{Post Condition}&Modification d'une signature\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton modifier.
+  \item Le système affiche un panneau de modification.
+  \item L'utilisateur modifie le nom, description ou si la signature est par défaut.
+  \item L'utilisateur clique sur le bouton enregistrer.
+  \item Le système enregistre la modification.
+  \item Le système affiche un message de succès.
+  \item Le system cache le panneau de modification.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+      \item [4.1] L'utilisateur ne remplit pas tous les champs.
+      \item [4.2] Le système affiche un message d'erreur pour s'assurer de remplir tous les champs.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Créer une signature »}
+\label{tab:use_case_create_signature}
+\end{longtable}
+
 
 \textbf{•	Description textuelle de cas d'utilisation « Supprimer une signature »}
 
