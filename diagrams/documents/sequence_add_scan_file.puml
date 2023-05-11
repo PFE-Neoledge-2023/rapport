@@ -1,0 +1,67 @@
+@startuml sequence_add_file
+
+hide footbox
+
+' mezeeeeeeeeeeel
+actor "Utilisateur" as user
+participant "Document" as docView << View >>
+participant "AjouterFichier" as addFile << View >>
+participant "Document" as docVm << ViewModel >>
+participant "Document" as docM << Model >>
+participant "Fichier" as fileM << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+ref over user, docView, addFile, docVm, docM, fileM, ws : Authentification
+activate user
+user -> docView : cliqueListeActions()
+activate docView
+docView -> user : affiche la liste des actions
+user -> docView : cliqueAjouterFichier()
+docView -> addFile : affiche le panneau
+deactivate docView
+activate addFile
+addFile -> user : affiche le panneau d'ajout de fichier
+user -> addFile : CliqueChoisir()
+addFile -> user : affiche la fenêtre de choix de fichier
+user -> addFile : sélectionne un fichier
+addFile -> user : affiche le nom du fichier
+
+alt user AnnuleLeChoix()
+  addFile -> user : remettre a zéro le choix du fichier
+end
+
+user -> addFile : choisir l'un de confirmer ou annuler
+alt confirmer
+  addFile -> docVm : addFile()
+  activate docVm
+  docVm -> ws : UploadFile()
+  activate ws
+  ws -> docVm : retourne le fichier
+  deactivate ws
+  docVm -> fileM : addFile()
+  activate fileM
+  fileM -> docVm : addFile
+  deactivate fileM
+  docVm -> docM : linkFile()
+  activate docM
+  docM -> docVm : linkFile
+  deactivate docM
+  docVm -> addFile : addFile
+  deactivate docVm
+  addFile -> user : addFile
+alt fichier ajouté
+  addFile -> user : affiche le message "fichier ajouté"
+else fichier non ajouté
+  addFile -> user : affiche le message "fichier non ajouté"
+end
+else annuler
+  addFile -> user : cache le panneau d'ajout de fichier
+end
+addFile -> docView : cache le panneau d'ajout de fichier
+deactivate addFile
+activate docView
+docView -> user : affiche le document
+deactivate docView
+deactivate user

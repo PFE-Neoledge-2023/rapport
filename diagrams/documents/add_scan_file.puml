@@ -1,0 +1,57 @@
+@startuml add_scan_file
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "liste des action"
+activate system
+system --> user : affiche la liste des actions
+user -> system : clique sur le bouton "scanner un fichier"
+system -> user : affiche la page de scan
+user -> system : clique sur le bouton "ajouter une image"
+system --> user : affiche la camera de l'appareil
+group scanne de fichier
+user -> system : clique sur le bouton "prendre une photo"
+system --> user : affiche la photo prise
+alt valider
+    user -> system : clique sur le bouton "valider"
+    system -> system : scanne la photo
+    system --> user : affiche la photo avec un cadre jaune autour du fichier
+    user -> system : recadre le image
+    alt Utilisateur veut ajouter une autre photo
+        ref over user, system : scanne de fichier
+    else Utilisateur veut valider l'image
+        user -> system : clique sur le bouton "valider"
+        system --> user : affiche la liste des images scannés
+        alt  Utilisateur veut supprimer une image 
+            user -> system : clique sur le bouton "supprimer"
+            system --> user : l'image est supprimé
+        end
+            user -> system : clique sur le bouton "suivant"
+            system -> user : affiche la liste des images scannés
+            note right : Sous forme de vignette 
+            user -> system : change la position des images
+            user -> system : clique sur le bouton "valider"
+            system -> user : affiche le paneau de creation
+            user -> system : clique sur le bouton "valider"
+            system -> system : enregistre le fichier
+                alt  fichier enregistré
+                    system -> user : affiche un message de succes
+                else fichier non enregistré
+                    system -> user : affiche un message d'erreur
+                end
+    end
+
+else annuler
+    user -> system : clique sur le bouton "annuler"
+    system -> user : affiche la liste des actions
+end
+end
+deactivate system
+deactivate user
