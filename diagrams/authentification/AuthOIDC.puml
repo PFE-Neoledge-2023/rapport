@@ -1,0 +1,28 @@
+@startuml auth_OIDC
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+activate user
+user -> system : saisie l'adresse du serveur
+activate system
+user -> system : clique sur le bouton "connexion"
+system -> system : serveur isAvailable
+alt serveur disponible
+    system -> user : affiche la page de login
+    user -> system : clique sur le bouton "Microsoft"
+    system -> user : affiche la page de login du microsoft
+    user -> system : connecte avec son compte microsoft
+    system -> user : affiche la page de connexion 
+    system -> system : vérifie le token
+    alt token valide
+        system -> user : affiche la page d'accueil
+    else token invalide
+        system -> user : affiche un message d'erreur
+    end
+end
+deactivate system
+deactivate user
