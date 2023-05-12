@@ -13,33 +13,42 @@ participant "FileSystem" as FileSystem <<  >>
 ref over user, previewfile, documentsstore, file : Authentification
 ref over user, previewfile, documentsstore, file : Visualisation de fichier
 activate user
-group Télécharger fichier
 user -> previewfile : demande la liste des actions
 activate previewfile
-previewfile -> user : affiche la liste des actions
+previewfile --> user : affiche la liste des actions
 user -> previewfile : downloadFile()
-previewfile -> documentsstore : downloadFile()
-activate documentsstore
-documentsstore -> FileSystem : writeFile()
-activate FileSystem
-FileSystem -> documentsstore : writeFileResponse
-documentsstore -> previewfile : downloadFileResponse()
-alt Le système n'a pas le droit de télécharger
-    previewfile -> user : affiche un message d'erreur
-end
+group Télécharger fichier
+      previewfile -> documentsstore : downloadFile()
+      activate documentsstore
+      documentsstore -> FileSystem : getPermissions()
+      activate FileSystem
+      FileSystem --> documentsstore : getPermissionsResponse
+      deactivate FileSystem
+
+  alt Le système n'a pas le droit de télécharger
+      documentsstore --> previewfile : utilisateur n'a pas le droit de télécharger
+      previewfile --> user : affiche un message d'erreur
+    else Le système a le droit de télécharger
+      documentsstore -> FileSystem : writeFile()
+      activate FileSystem
+      FileSystem --> documentsstore : writeFileResponse
+      deactivate FileSystem
+      documentsstore -> previewfile : writeFileResponse
+      deactivate documentsstore
+  end
 end
 
 alt Le fichier n'a pas des signatures non sauvegardées
-  ref over user, previewfile, documentsstore, file : Télécharger fichier
+  ref over user, previewfile, documentsstore, file ,FileSystem: Télécharger fichier
 else Le fichier a  des signatures non sauvegardées
   previewfile -> user : demande si il veut télécharger le fichier quand même
   alt L'utilisateur veut télécharger le fichier quand même
-    ref over user, previewfile, documentsstore, file : Télécharger fichier
+    ref over user, previewfile, documentsstore, file,FileSystem : Télécharger fichier
   else L'utilisateur ne veut pas télécharger le fichier
     previewfile -> user : affiche un message d'annulation
+deactivate previewfile
   end
 end
 
 
-deactivate previewfile
 deactivate user

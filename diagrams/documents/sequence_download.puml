@@ -10,35 +10,45 @@ participant "Document" as docM << Model >>
 participant "Filesystem" as fs << System >>
 
 
-
 ref over user, docView, docVm, docM, fs : Authentification
 activate user
 user -> docView : cliqueListeActions()
 activate docView
-docView -> user : affiche la liste des actions
+docView --> user : affiche la liste des actions
 user -> docView : cliqueDownloadDocument()
 docView -> docVm : downloadDocumentFiles()
 activate docVm
-loop pour chaque fichier du document
-    docVm -> docM : getDocumentFile()
-    activate docM
-    docM -> fs : writeFile()
-    activate fs
-    alt fichier téléchargé
-        fs --> docM : fichier téléchargé
-        docM --> docVm : fichier téléchargé
-        docVm -> docView : affiche le fichier téléchargé
-    else fichier non téléchargé
-        fs --> docM : fichier non téléchargé
-        deactivate fs
-        docM -> docVm : fichier non téléchargé
-        deactivate docM
-        docVm -> docView : fichier non téléchargé
-        deactivate docVm
+   activate docVm
+      docVm -> fs : getPermissions()
+      activate fs
+      fs --> docVm : getPermissionsResponse
+      deactivate fs
+
+alt Le système n'a pas le droit de télécharger
+    docVm --> docView : affiche un message d'erreur
+      docView --> user : affiche un message d'erreur
+    else Le système a le droit de télécharger
+    loop pour chaque fichier du document
+        docVm -> docM : getDocumentFile()
+        activate docM
+        docM -> fs : writeFile()
+        activate fs
+        alt fichier téléchargé
+            fs --> docM : fichier téléchargé
+            docM --> docVm : fichier téléchargé
+            docVm --> docView : affiche le fichier téléchargé
+        else fichier non téléchargé
+            fs --> docM : fichier non téléchargé
+            deactivate fs
+            docM --> docVm : fichier non téléchargé
+            deactivate docM
+            docVm --> docView : fichier non téléchargé
+            deactivate docVm
+        end
     end
-end
-    docView -> user : affiche le le message
-    deactivate docView
+docView --> user : affiche le message de succès
+  end
+deactivate docView
 
 deactivate docView
 deactivate user
