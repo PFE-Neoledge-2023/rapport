@@ -1,0 +1,31 @@
+@startuml verification_biometrique
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+activate user
+user -> system : fait une action sensible
+activate system
+system -> system : verifie derniere date de verification
+alt derniere verification < 5 minutes
+    system -> system : execute action sensible
+    system -> user : action effectuée
+else derniere verification > 5 minutes
+    system -> system : demande verification biometrique
+    system -> user : demande verification biometrique
+    activate user
+    user -> system : verifie son identité
+    deactivate user
+    system -> system : verifie identité
+    alt identité verifiée
+        system -> system : met a jour derniere date de verification
+        system -> system : execute action sensible
+        system -> user : action effectuée
+    else identité non verifiée
+        system -> user : action annulée
+    end
+end
+deactivate user

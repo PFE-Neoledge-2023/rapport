@@ -1,0 +1,18 @@
+@startuml docs_quick_filter
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+ref over user, system : Consulter les statistiques
+activate user
+user -> system : clique sur un widget
+activate system
+system -> system : récupère les données des documents
+system -> user : affiche les données
+deactivate system
+deactivate user

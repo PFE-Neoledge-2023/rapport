@@ -16,7 +16,7 @@ Release 2 : (Du 3 Avril au 27 Mai 2023)
   \textbf{Organisation des sprints :} \\
   Cette release contient les quatre sprints:
   \begin{itemize}
-    \item \textbf{Sprint 5:} Gestion d'authentification OIDC et verification biometrique.
+    \item \textbf{Sprint 7:} Gestion d'authentification OIDC et verification biometrique.
     \item \textbf{Sprint 6:} Gestion du Profile, d'absence et de délégué.
     \item \textbf{Sprint 7:} Consultation des statistique
     \item \textbf{Sprint 8:} .....
@@ -59,21 +59,21 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
       & & 3.2 & Développer la fonction qui permet de rafraichir les données de chaque page. & \\
       \cline{1-5}
   \hline
-  \caption{Sprint backlog du Sprint 5}
-  \label{tab:sprint-backlog-5}
+  \caption{Sprint backlog du Sprint 7}
+  \label{tab:sprint-backlog-7}
 \end{longtable}
 \end{adjustwidth}
 
 
-\subsection{Implémentation du Sprint 5}
-\textbf{•	Diagramme de cas d'utilisation du sprint 5}
+\subsection{Implémentation du Sprint 7}
+\textbf{•	Diagramme de cas d'utilisation du sprint 7}
 
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{use_case_sprint_5}
-  \caption{Diagramme de cas d'utilisation du sprint 5}
-  \label{fig:UseCaseDiagramSp51}
+  \includegraphics[width=0.4\textwidth]{use_case_sprint_7}
+  \caption{Diagramme de cas d'utilisation du sprint 7}
+  \label{fig:UseCaseDiagramSp71}
 \end{figure}
 
 \subsubsection{Analyse des besoins:}
@@ -166,26 +166,19 @@ des données »}
   \label{fig:design_statistique}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth]{design_statistique}
-  \caption{Maquette de la page de statistique}
-  \label{fig:design_statistique}
-\end{figure}
-
 
 Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/view_stats/view_stats}
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/view_stats/view_stats}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les statistiques »}
   \label{fig:sequence_view_stats}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/docs_quick_filter/docs_quick_filter}
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/docs_quick_filter/docs_quick_filter}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_docs_quick_filter}
 \end{figure}
@@ -193,7 +186,7 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 \textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/refresh_data/refresh_data}
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/refresh_data/refresh_data}
   \caption{Diagramme de séquence de cas d'utilisation « Refraichissement des données »}
   \label{fig:sequence_refresh_data}
 \end{figure}
@@ -209,35 +202,35 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 % spacing left
 \setlength{\parindent}{0em}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 5 }
+\textbf{•	Diagramme de classe d'analyse de sprint 7 }
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint5}
-  \caption{Diagramme de classe d'analyse de sprint 5}
-  \label{fig:class_analyse_sprint5}
+  \includegraphics[width=1\textwidth]{dca_sprint7}
+  \caption{Diagramme de classe d'analyse de sprint 7}
+  \label{fig:class_analyse_sprint7}
 \end{figure}
 
 
 \subsubsection{Conception}
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 5. \\
-\textbf{•	Diagramme de classe de conception de sprint 5}
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 7. \\
+\textbf{•	Diagramme de classe de conception de sprint 7}
 
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dcc_sprint5}
-  \caption{Diagramme de classe de conception de sprint 5}
+  \includegraphics[width=1\textwidth]{dcc_sprint7}
+  \caption{Diagramme de classe de conception de sprint 7}
   \label{fig:class_diagram_5}
 \end{figure}
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_view_stats/sequence_view_stats}
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_view_stats/sequence_view_stats}
   \caption{Diagramme de séquence de conception de cas d'utilisation « S'Consulter les statistiques »}
   \label{fig:sequence_conception_consulter_statistiques}
 \end{figure}
@@ -246,14 +239,14 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_docs_quick_filter/sequence_docs_quick_filter}
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filter}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_conception_consulter_documents_filtre_rapide}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_refresh_data/sequence_refresh_data}
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_refresh_data/sequence_refresh_data}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »}
   \label{fig:sequence_conception_refraichissement_donnees}
 \end{figure}
@@ -265,27 +258,30 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_sprint5}
+  \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_sprint7}
   \caption{Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide}
-  \label{fig:realisation_sprint5}
+  \label{fig:realisation_sprint7}
 \end{figure}
 
 \subsection{Sprint Review}
-Suite à cette Technical Story, nous avons préparé notre environnement de travail où nous aurons les possibilités de traiter les prochains sprints.
+Suite à cette Technical Story, nous avons pu réaliser les fonctionnalités suivantes :
+\begin{itemize}
+  \item \textbf{Consulter les statistiques :} Cette fonctionnalité permet à l'utilisateur de consulter les statistiques des documents et des signatures.
+  \item \textbf{Consulter les documents à l'aide de filtre rapide :} Cette fonctionnalité permet à l'utilisateur de consulter les documents à l'aide de filtre rapide.
+  \item \textbf{Rafraichissement des données :} Cette fonctionnalité permet à l'utilisateur de rafraichir les données.
+\end{itemize}
 
 \subsection{Sprint Retrospective}
 
 \begin{itemize}
   \item \textbf{Ce qui a bien fonctionné :}
   \begin{itemize}
-    \item Nous avons pu suivre les formations préparées par la société.
-    \item Nous avons pu suivre les formations sur Youtube.
-    \item Nous avons pu installer les outils nécessaires pour le développement.
-    \item Nous avons bien mis nos connaissances en pratique dans certains projets préparatoires (Application 1, 2, 3 et 4).
-    \item Nous avons pu bien initialiser le projet.
-    \item Nous avons pu développer la fonctionnalité d'authentification.
+    \item Nous avons pu réaliser toutes les fonctionnalités prévues pour ce sprint.
   \end{itemize}
-  \item \textbf{Ce qui n'a pas bien fonctionné :}
-  
-  Nous avons remarqué que le temps de formation est très réduit, nous avons donc décidé de suivre des formations sur Youtube pour nous former sur les technologies à utiliser en plus de la formation préparée par la société.
+
+    \item \textbf{Ce qui n'a pas bien fonctionné :}
+    \begin{itemize}
+      \item Nous avons eu des difficultés à réaliser la fonctionnalité de consultation des statistiques.
+    \end{itemize}
+      
 \end{itemize}

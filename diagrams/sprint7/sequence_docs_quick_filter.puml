@@ -1,0 +1,44 @@
+@startuml sequence_docs_quick_filter
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+participant "HomePage" as home << View >>
+participant "DocumentsPage" as documents << View >>
+participant "StatsStore" as statsstore << ViewModel >>
+participant "DocumentsStore" as Documentsstore << ViewModel >>
+participant "Stats" as stats << Model >>
+participant "StatsPositioned" as statsPositioned << Model >>
+participant "Document" as Document << Model >>
+participant "EliseWebService" as elise << Service >>
+
+
+
+ref over user, home,statsstore,Documentsstore,stats,statsPositioned,Document,elise : Authentification
+ref over user, home,statsstore,Documentsstore,stats,statsPositioned,Document,elise : Consulter les statistiques
+
+activate user
+user -> home : clique sur un widget
+activate home
+home -> documents : demande l'interface
+activate documents
+documents -> Documentsstore : getDocumentsByTray()
+activate Documentsstore
+Documentsstore -> elise : GetTrayCompleteMails()
+activate elise
+elise --> Documentsstore
+deactivate elise
+Documentsstore -> Document :  setDocuments()
+activate Document
+Document --> Documentsstore
+deactivate Document
+alt documents trouvés
+Documentsstore --> documents 
+documents -> user : affiche les documents
+else documents non trouvés
+Documentsstore --> documents
+documents -> user : affiche un message d'erreur
+deactivate Documentsstore
+end

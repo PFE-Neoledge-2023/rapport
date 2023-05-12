@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  12 MAY 2023 21:41
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  12 MAY 2023 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2032,11 +2032,7 @@ LaTeX Info: Redefining \ttfamily on input line 28.
 Package polyglossia Warning: Failed to patch part for French on input line 28.
 
 (05-Introduction.aux) (06-CadreGeneral.aux) (07-AnalyseEtConception.aux)
-(08-Release1.aux) (09-Release2.aux
-
-LaTeX Warning: Label `fig:design_statistique' multiply defined.
-
-))
+(08-Release1.aux) (09-Release2.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 259.
@@ -2050,7 +2046,8 @@ LaTeX Font Info:    ... okay on input line 259.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 259.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 59.
- (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+
+(C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 259.
@@ -2601,22 +2598,22 @@ LaTeX Info: Redefining \ttfamily on input line 183.
 LaTeX Info: Redefining \rmfamily on input line 185.
 LaTeX Info: Redefining \sffamily on input line 185.
 LaTeX Info: Redefining \ttfamily on input line 185.
-LaTeX Info: Redefining \rmfamily on input line 187.
-LaTeX Info: Redefining \sffamily on input line 187.
-LaTeX Info: Redefining \ttfamily on input line 187.
 )
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
+
+Underfull \vbox (badness 7451) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 274.
+LaTeX Info: Redefining \sffamily on input line 274.
+LaTeX Info: Redefining \ttfamily on input line 274.
+ [6]
 LaTeX Info: Redefining \rmfamily on input line 274.
 LaTeX Info: Redefining \sffamily on input line 274.
 LaTeX Info: Redefining \ttfamily on input line 274.
 
-[6]
-LaTeX Info: Redefining \rmfamily on input line 274.
-LaTeX Info: Redefining \sffamily on input line 274.
-LaTeX Info: Redefining \ttfamily on input line 274.
- [7] (main.lot
+[7] (main.lot
 LaTeX Info: Redefining \rmfamily on input line 2.
 LaTeX Info: Redefining \sffamily on input line 2.
 LaTeX Info: Redefining \ttfamily on input line 2.
@@ -2899,9 +2896,6 @@ LaTeX Info: Redefining \ttfamily on input line 133.
 LaTeX Info: Redefining \rmfamily on input line 134.
 LaTeX Info: Redefining \sffamily on input line 134.
 LaTeX Info: Redefining \ttfamily on input line 134.
-LaTeX Info: Redefining \rmfamily on input line 135.
-LaTeX Info: Redefining \sffamily on input line 135.
-LaTeX Info: Redefining \ttfamily on input line 135.
 )
 \tf@lot=\write8
 \openout8 = `main.lot'.
@@ -4156,8 +4150,8 @@ Overfull \hbox (27.80093pt too wide) in alignment at lines 37--64
 
 
 ]
-File: images_pfe//use_case_sprint_5.png Graphic file (type bmp)
-<images_pfe//use_case_sprint_5.png>
+File: images_pfe//use_case_sprint_7.png Graphic file (type bmp)
+<images_pfe//use_case_sprint_7.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -4179,81 +4173,72 @@ LaTeX Info: Redefining \rmfamily on input line 168.
 LaTeX Info: Redefining \sffamily on input line 168.
 LaTeX Info: Redefining \ttfamily on input line 168.
  [107]
-File: images_pfe//design_statistique.png Graphic file (type bmp)
-<images_pfe//design_statistique.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \rmfamily on input line 175.
-LaTeX Info: Redefining \sffamily on input line 175.
-LaTeX Info: Redefining \ttfamily on input line 175.
- [108]
-File: out/diagrams/sprint5/view_stats/view_stats.png Graphic file (type bmp)
-<out/diagrams/sprint5/view_stats/view_stats.png>
-File: out/diagrams/sprint5/docs_quick_filter/docs_quick_filter.png Graphic file
+File: out/diagrams/sprint7/view_stats/view_stats.png Graphic file (type bmp)
+<out/diagrams/sprint7/view_stats/view_stats.png>
+File: out/diagrams/sprint7/docs_quick_filter/docs_quick_filter.png Graphic file
  (type bmp)
-<out/diagrams/sprint5/docs_quick_filter/docs_quick_filter.png>
+<out/diagrams/sprint7/docs_quick_filter/docs_quick_filter.png>
 
 Underfull \vbox (badness 2229) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 192.
-LaTeX Info: Redefining \sffamily on input line 192.
-LaTeX Info: Redefining \ttfamily on input line 192.
- [109]
-File: out/diagrams/sprint5/refresh_data/refresh_data.png Graphic file (type bmp
+LaTeX Info: Redefining \rmfamily on input line 185.
+LaTeX Info: Redefining \sffamily on input line 185.
+LaTeX Info: Redefining \ttfamily on input line 185.
+ [108]
+File: out/diagrams/sprint7/refresh_data/refresh_data.png Graphic file (type bmp
 )
-<out/diagrams/sprint5/refresh_data/refresh_data.png>
+<out/diagrams/sprint7/refresh_data/refresh_data.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 205.
-LaTeX Info: Redefining \sffamily on input line 205.
-LaTeX Info: Redefining \ttfamily on input line 205.
- [110]
-File: images_pfe//dca_sprint5.png Graphic file (type bmp)
-<images_pfe//dca_sprint5.png>
-File: images_pfe//dcc_sprint5.png Graphic file (type bmp)
-<images_pfe//dcc_sprint5.png>
-File: out/diagrams/sprint5/sequence_view_stats/sequence_view_stats.png Graphic 
+LaTeX Info: Redefining \rmfamily on input line 198.
+LaTeX Info: Redefining \sffamily on input line 198.
+LaTeX Info: Redefining \ttfamily on input line 198.
+ [109]
+File: images_pfe//dca_sprint7.png Graphic file (type bmp)
+<images_pfe//dca_sprint7.png>
+File: images_pfe//dcc_sprint7.png Graphic file (type bmp)
+<images_pfe//dcc_sprint7.png>
+File: out/diagrams/sprint7/sequence_view_stats/sequence_view_stats.png Graphic 
 file (type bmp)
-<out/diagrams/sprint5/sequence_view_stats/sequence_view_stats.png>
-LaTeX Info: Redefining \rmfamily on input line 244.
-LaTeX Info: Redefining \sffamily on input line 244.
-LaTeX Info: Redefining \ttfamily on input line 244.
+<out/diagrams/sprint7/sequence_view_stats/sequence_view_stats.png>
+LaTeX Info: Redefining \rmfamily on input line 237.
+LaTeX Info: Redefining \sffamily on input line 237.
+LaTeX Info: Redefining \ttfamily on input line 237.
 
-[111]
-File: out/diagrams/sprint5/sequence_docs_quick_filter/sequence_docs_quick_filte
+[110]
+File: out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filte
 r.png Graphic file (type bmp)
-<out/diagrams/sprint5/sequence_docs_quick_filter/sequence_docs_quick_filter.png
+<out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filter.png
 >
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 253.
-LaTeX Info: Redefining \sffamily on input line 253.
-LaTeX Info: Redefining \ttfamily on input line 253.
- [112]
-File: out/diagrams/sprint5/sequence_refresh_data/sequence_refresh_data.png Grap
+LaTeX Info: Redefining \rmfamily on input line 246.
+LaTeX Info: Redefining \sffamily on input line 246.
+LaTeX Info: Redefining \ttfamily on input line 246.
+ [111]
+File: out/diagrams/sprint7/sequence_refresh_data/sequence_refresh_data.png Grap
 hic file (type bmp)
-<out/diagrams/sprint5/sequence_refresh_data/sequence_refresh_data.png>
-File: images_pfe//realisation_sprint5.png Graphic file (type bmp)
-<images_pfe//realisation_sprint5.png>
+<out/diagrams/sprint7/sequence_refresh_data/sequence_refresh_data.png>
+File: images_pfe//realisation_sprint7.png Graphic file (type bmp)
+<images_pfe//realisation_sprint7.png>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 271.
-LaTeX Info: Redefining \sffamily on input line 271.
-LaTeX Info: Redefining \ttfamily on input line 271.
- [113]
-LaTeX Info: Redefining \rmfamily on input line 285.
-LaTeX Info: Redefining \sffamily on input line 285.
-LaTeX Info: Redefining \ttfamily on input line 285.
+LaTeX Info: Redefining \rmfamily on input line 264.
+LaTeX Info: Redefining \sffamily on input line 264.
+LaTeX Info: Redefining \ttfamily on input line 264.
+ [112]
+LaTeX Info: Redefining \rmfamily on input line 279.
+LaTeX Info: Redefining \sffamily on input line 279.
+LaTeX Info: Redefining \ttfamily on input line 279.
 
-[114])
+[113])
 LaTeX Info: Redefining \rmfamily on input line 293.
 LaTeX Info: Redefining \sffamily on input line 293.
 LaTeX Info: Redefining \ttfamily on input line 293.
- [115]
+ [114]
 
 LaTeX Warning: Empty bibliography on input line 305.
 
@@ -4263,7 +4248,7 @@ Package biblatex Warning: Type 'misc' not found on input line 307.
 
 LaTeX Warning: Empty bibliography on input line 307.
 
-[116
+[115
 
 
 
@@ -4390,21 +4375,27 @@ Package polyglossia Warning: Failed to patch part for French on input line 28.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4F5C45CED83264F0FAF2CA34E8A0300B;1374.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 3FBC5C2B23274B526FAD4CE2561E4E42;13976
+(rerunfilecheck)             After:  E60CCCBA6AD87018AD2A72D1FC295924;1374.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42897 strings out of 411472
- 927486 string characters out of 5818873
+ 42915 strings out of 411472
+ 927737 string characters out of 5818873
  1957012 words of memory out of 5000000
- 62180 multiletter control sequences out of 15000+600000
+ 62198 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,92p,1409b,5810s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (126 pages).
+Output written on main.pdf (125 pages).
