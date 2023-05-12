@@ -1,0 +1,70 @@
+@startuml sequence_OIDC
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "serverPage" as serView << View >>
+participant "Browser" as broser << ViewModel >>
+participant "OIDC server" as mServer << Server >>
+participant "authStore" as auth << ViewModel >>
+participant "Session" as session << Model >>
+participant "EliseWebService" as ws << Service >>
+activate user
+user -> serView : loginOIDC()
+activate serView
+serView -> broser : open()
+deactivate serView
+activate broser
+broser -> mServer : openOIDCServer()
+activate mServer
+mServer --> broser : redirection vers la page de connexion OIDC
+deactivate mServer
+broser --> user : redirection vers la page de connexion OIDC
+
+user -> broser : S'authentifie sur le serveur OIDC
+broser -> mServer : login()
+activate mServer
+mServer ->mServer : verification des identifiants
+alt identifiants valides
+    mServer --> broser : token 
+    broser -> broser : close()
+    broser --> serView : token
+    deactivate broser
+    activate serView
+    serView -> auth : loginOIDC()
+    activate auth
+    auth -> ws : ProviderAuthentication()
+    activate ws
+    ws --> auth : ProviderAuthenticationResponse
+    deactivate ws
+    alt authentification réussie
+        auth -> auth :extractSession()
+        auth -> session : createSession()
+        activate session
+        session --> auth : session
+        deactivate session
+        auth --> serView : utilisateur authentifié
+        serView --> user : affichage de la page d'accueil
+        serView --> user : affichage le message de bienvenue
+        deactivate serView
+        else authentification échouée
+        auth --> serView : message d'erreur
+        deactivate auth
+        activate serView
+        serView --> user : affiche le message d'erreur
+        deactivate serView
+    end
+else identifiants invalides
+        mServer --> broser : message d'erreur
+        deactivate mServer
+        activate broser
+        broser -> broser : close()
+        broser --> serView : message d'erreur
+        deactivate broser
+        activate serView
+        serView --> user : affiche le message d'erreur
+        deactivate serView
+
+end
+deactivate user
