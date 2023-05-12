@@ -197,18 +197,23 @@ L'expression qui est souvent utilisée pour formuler une user story est « En ta
     % \hline
     % 1  &  Gestion d'accès et de profil  &  Texte sur une seule ligne  &  Ligne 1  &  1 \\
     \hline
-    TS1  &  Formation sur la solution Elise  &  En tant que membre de l'équipe scrum, je souhaite comprendre pleinement la fonctionnalité du système Elise afin de reproduire sa logique dans une application mobile.   &  Moyenne  &  2  &  Du 8  à 12  Février  &  \multirow{3}{2cm}{
+    TS1  &  Formation sur la solution Elise  &  En tant que membre de l'équipe scrum, je souhaite comprendre pleinement la fonctionnalité du système Elise afin de reproduire sa logique dans une application mobile.   &  Moyenne  &  2  &  Du 8  à 12  Février  &  \multirow{5}{2cm}{
       \begin{center}
         
         \textbf{Sprint 1 :} Préparation de l’environnement du travail et étude de la solution
       \end{center}
-      }  &  \multirow{19}{2.5cm}[-10.5ex]{\textbf{Release 1}}  \\
+      }  &  \multirow{21}{2.5cm}[-10.5ex]{\textbf{Release 1}}  \\
     \cline{1-6}
     TS2  &  Formation en développement mobile avec Ionic Vue et Capacitor  &  En tant que scrum team, je souhaite me former au développement mobile en utilisant les technologies Ionic Vue et Capacitor. Cette formation doit me permettre de maîtriser les compétences essentielles pour créer des applications mobiles multiplateformes de qualité.  &  Moyenne  &  1  &  Du 13  à 16 Février  &  &  \\
     \cline{1-6}
     TS3  &  Installer et configurer l'environnement de développement  &  En tant que développeur, je veux installer et configurer le logiciel Visual Studio Code et Android studio pour travailler sur le projet en utilisant les technologies suivantes: Ionic Vue, .NET Core 6 et Capacitor.  &  Facile  &  1  &  16 Février  &  & \\
     \cline{1-6}
     TS4  &  Développer des prototypes  &  En tant que développeur, je veux développer des prototypes de l'application mobile afin de tester les fonctionnalités et de valider les choix techniques.  &  Moyenne  &  1  &  Du 17  à 22 Février  &  & \\
+    \cline{1-6}
+    US21&Connexion simple avec le mot de passe et l'email&En tant qu'utilisateur, je veux connecter à l'application Elise Mobile en utilisant mes identifiants (adresse e-mail et mot de passe).&Moyenne&2&du 4 à 5 Avril&&\\
+    \cline{1-6}
+    US22&Déconnexion&En tant qu'utilisateur, je veux déconnecter de l'application Elise Mobile afin de protéger mes informations et données personnelles. La déconnexion doit être facile d'accès et rapide.&Moyenne&2&6 Avril&&\\
+    \cline{1-6}
 
     \cline{1-7}
 
@@ -301,21 +306,14 @@ Gestion des signatures}  & \\
     
 
     \cline{1-8}
-    US21&Connexion simple avec le mot de passe et l'email&En tant qu'utilisateur, je veux connecter à l'application Elise Mobile en utilisant mes identifiants (adresse e-mail et mot de passe).&Moyenne&2&du 4 à 5 Avril&\multirow{3}{2cm}{\textbf{Sprint 5 :} Gestion d' authentification simple }&\multirow{11}{2.5cm}{Release 2}\\
-
-    \cline{1-6}
-    US22&Déconnexion&En tant qu'utilisateur, je veux déconnecter de l'application Elise Mobile afin de protéger mes informations et données personnelles en cas de perte ou de vol de mon téléphone portable. La déconnexion doit être facile d'accès et rapide.&Moyenne&2&6 Avril&&\\
-    \cline{1-6}
-    US23&Formation sur le protocole OIDC&En tant que scrum team, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.&&&du 6 à 7 Avril&&\\
+    US23&Formation sur le protocole OIDC&En tant que scrum team, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.&&&du 6 à 7 Avril&\multirow{3}{2cm}{\textbf{Sprint 5 :} Gestion d' authentification OIDC et verification biometrique }&\multirow{11}{2.5cm}{Release 2}\\
     \cline{1-6}
     US24&Connexion à l'aide du protocole OIDC&En tant qu'utilisateur, je veux pouvoir me connecter à l'application Elise Mobile en utilisant mon compte Microsoft.&Difficle&2&du 10 à 17 Avril&&\\
-
     \cline{1-6}
-    US25&Déconnexion&En tant qu'utilisateur, je veux déconnecter de l'application Elise Mobile afin de protéger mes informations et données personnelles en cas de perte ou de vol de mon téléphone portable. La déconnexion doit être facile d'accès et rapide.&Moyenne&2&18 Avril&&\\
-
+      US25&Vérification biométrique&En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).&Difficile&2&du 10 à 17 Avril&&\\
      \cline{1-7}
 
-    US26&Gestion des préférences d'affichage&En tant qu'utilisateur, je veux gérer mes préférences d'affichage de l'application la couleur du thème  afin de personnaliser l'expérience utilisateur.&Moyenne&2&19 Avril&\multirow{5}{2cm}{\textbf{Sprint 7 : }Gestion du Profile, d'absence et de délégué}&\\
+    US26&Gestion des préférences d'affichage&En tant qu'utilisateur, je veux gérer mes préférences d'affichage de l'application la couleur du thème  afin de personnaliser l'expérience utilisateur.&Moyenne&2&19 Avril&\multirow{5}{2cm}{\textbf{Sprint 6 : }Gestion du Profile, d'absence et de délégué}&\\
 
     \cline{1-6}
     US27&Gestion des préférences de notification&En tant qu'utilisateur, je veux gérer mes préférences de notification pour choisir les types de notifications que je souhaite recevoir et ceux que je ne souhaite pas recevoir afin de contrôler les informations qui me sont envoyées.&Moyenne&2&du 22 à 23 Avril &&\\
@@ -340,7 +338,7 @@ Gestion des signatures}  & \\
     US34&Suppression d'un délégué pendant l'absence&En tant qu'utilisateur, je veux supprimer un délégué que j'avais désigné pendant mon absence, en cas de besoin ou si je ne suis plus d'accord avec mon choix initial.&Moyenne&2&3 Mai&&\\
 
     \cline{1-7}
-    US35&Visualisation des statistiques&En tant qu'utilisateur, je veux pouvoir visualiser les statistiques de l'application afin de suivre l'évolution de l'application.&Moyenne&2&&\multirow{4}{2cm}{\textbf{Sprint 8 :}Consultation des statistique}&\\
+    US35&Visualisation des statistiques&En tant qu'utilisateur, je veux pouvoir visualiser les statistiques de l'application afin de suivre l'évolution de l'application.&Moyenne&2&&\multirow{4}{2cm}{\textbf{Sprint 7 :}Consultation des statistique}&\\
     
     \cline{1-6}
     US36&Refraichissement des données&En tant qu'utilisateur, je veux pouvoir refraichir les données de l'application afin de voir les dernières informations.&Moyenne&2&&&\\
