@@ -87,7 +87,7 @@ L'objectif de ce sprint est de préparer l'environnement de travail et d'étudie
   \label{tab:sprint-backlog-1}
 \end{longtable}
 \end{adjustwidth}
-\subsection{Implémentation du Sprint 2}
+\subsection{Implémentation du Sprint 1}
 \textbf{•	Diagramme de cas d'utilisation du sprint 1}
 
 % add image
@@ -170,47 +170,28 @@ Pour créer notre plateforme, nous avons pensé qu'il était nécessaire de réa
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{design_signatures}
-  \caption{Maquette de la page des signatures}
-  \label{fig:design_signatures}
+  \includegraphics[width=0.7\textwidth]{design_auth}
+  \caption{Maquette de la d'authentification}
+  \label{fig:design_auth}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\textwidth]{preview_delete_signature}
-  \caption{Maquette de la page de visualisation et de suppression d'une signature}
-  \label{fig:design_preview_delete_signature}
-\end{figure}
 
 Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/create/create_signature}
-  \caption{Diagramme de séquence de cas d'utilisation « Créer une signature  »}
-  \label{fig:sequence_create_signature}
+  \includegraphics[width=0.7\textwidth]{out/diagrams/authentification/simple_login/simple_login}
+  \caption{Diagramme de séquence de cas d'utilisation « S'authentifier »}
+  \label{fig:sequence_login}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/delete/delete_signature}
-  \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature  »}
-  \label{fig:sequence_delete_signature}
+  \includegraphics[width=0.7\textwidth]{out/diagrams/authentification/logout/logout}
+  \caption{Diagramme de séquence de cas d'utilisation « Se déconnecter »}
+  \label{fig:sequence_logout}
 \end{figure}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/view/view_signature}
-  \caption{Diagramme de séquence de cas d'utilisation « Visualiser une signature  »}
-  \label{fig:sequence_view_signature}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/update/update_signature}
-  \caption{Diagramme de séquence de cas d'utilisation « Modifier une signature  »}
-  \label{fig:sequence_update_signature}
-\end{figure}
 
 \subsubsection{Analyse détaillée}
 La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
@@ -225,129 +206,62 @@ Les objets de diagramme d'analyse sont les suivants :
   \item \textbf{EliseWebService} : représente le web service de l'application Elise.
 \end{itemize}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 2 }
-\newpage
+% spacing between paragraphs
+\setlength{\parskip}{1em}
+% spacing left
+\setlength{\parindent}{0em}
 
-\begin{figure}
+\textbf{•	Diagramme de classe d'analyse de sprint 1 }
+
+
+\begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint2}
-  \caption{Diagramme de classe d'analyse de sprint 2}
-  \label{fig:class_analyse_signatures}
+  \includegraphics[width=1\textwidth]{dca_sprint1}
+  \caption{Diagramme de classe d'analyse de sprint 1}
+  \label{fig:class_analyse_auth}
 \end{figure}
 
 
 \subsubsection{Conception}
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 2. \\
-\textbf{•	Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 1. \\
+\textbf{•	Diagramme de classe de conception de sprint 1}
 
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dcc_spint2}
-  \caption{Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
-  \label{fig:class_diagram_signatures}
+  \includegraphics[width=1\textwidth]{dcc_sprint1}
+  \caption{Diagramme de classe de conception de sprint 1}
+  \label{fig:class_diagram_auth}
 \end{figure}
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/signatures/sequence_create/sequence_create_signature}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Créer une signature  »}
-  \label{fig:sequence_conception_create_signature}
+  \includegraphics[width=1\textwidth]{out/diagrams/authentification/sequence_simple_login/sequence_simple_login}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « S'authentifier »}
+  \label{fig:sequence_conception_login}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/signatures/sequence_delete/sequence_delete_signature}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature  »}
-  \label{fig:sequence_conception_delete_signature}
+  \includegraphics[width=1\textwidth]{out/diagrams/authentification/sequence_logout/sequence_logout}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Se déconnecter »}
+  \label{fig:sequence_conception_logout}
 \end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_view/sequence_view_signature}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Visualiser une signature  »}
-  \label{fig:sequence_conception_view_signature}
-\end{figure}
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/signatures/sequence_update/sequence_update_signature}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Modifier une signature  »}
-  \label{fig:sequence_conception_update_signature}
-\end{figure}
-
-
-
-
 
 \subsubsection{Réalisation}
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
 
-\textbf{•	Interface de création d'une signature:}
-
-Cette capture d'écran, représente l'interface de création d'une signature par un utilisateur
-
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_creation}
-  \caption{Interface de création d'une signature}
-  \label{fig:signature_creation}
+  \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realision_auth}
+  \caption{Les interfaces d'authentification}
+  \label{fig:realision_auth}
 \end{figure}
-
-\textbf{•	Signer puis cliquer sur « save » : Interface de saisie du titre:}\\
-Cette capture d'écran, représente l'interface de saisie du titre de la signature par un utilisateur
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_form}
-  \caption{Interface de saisie du titre de la signature}
-  \label{fig:signature_title}
-\end{figure}
-
-\textbf{•	Interface de visualisation d'une signature:}\\
-Cette capture d'écran, représente l'interface de visualisation d'une signature par un utilisateur
-
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_preview}
-  \caption{Interface de visualisation d'une signature}
-  \label{fig:signature_view}
-\end{figure}
-
-\textbf{•	Interface de suppression d'une signature:}\\
-Cette capture d'écran, représente l'interface de suppression d'une signature par un utilisateur
-
-% add image
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_delete}
-  \caption{Interface de suppression d'une signature}
-  \label{fig:signature_delete}
-\end{figure}
-% add image
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_delete_confirm}
-  \caption{Interface de confirmation de suppression d'une signature}
-  \label{fig:signature_delete_confirm}
-\end{figure}
-% add image
-
-\textbf{•	Interface de modification d'une signature:}\\
-Cette capture d'écran, représente l'interface de modification d'une signature par un utilisateur
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_update}
-  \caption{Interface de modification d'une signature}
-  \label{fig:signature_update}
-\end{figure}
-
 
 \subsection{Sprint Review}
 Suite à cette Technical Story, nous avons préparé notre environnement de travail où nous aurons les possibilités de traiter les prochains sprints.
@@ -361,6 +275,8 @@ Suite à cette Technical Story, nous avons préparé notre environnement de trav
     \item Nous avons pu suivre les formations sur Youtube.
     \item Nous avons pu installer les outils nécessaires pour le développement.
     \item Nous avons bien mis nos connaissances en pratique dans certains projets préparatoires (Application 1, 2, 3 et 4).
+    \item Nous avons pu bien initialiser le projet.
+    \item Nous avons pu développer la fonctionnalité d'authentification.
   \end{itemize}
   \item \textbf{Ce qui n'a pas bien fonctionné :}
   
@@ -658,17 +574,18 @@ Pour créer notre plateforme, nous avons pensé qu'il était nécessaire de réa
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{design_signatures}
-  \caption{Maquette de la page des signatures}
+  \includegraphics[width=0.7\textwidth]{design_signatures1}
+  \caption{Maquette de la page des signatures (Lister, créer et supprimer)}
   \label{fig:design_signatures}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{preview_delete_signature}
-  \caption{Maquette de la page de visualisation et de suppression d'une signature}
+  \includegraphics[width=0.7\textwidth]{design_signatures2}
+  \caption{Maquette de la page des signatures (Visualiser et supprimer)}
   \label{fig:design_preview_delete_signature}
 \end{figure}
+
 
 Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
 
@@ -778,62 +695,18 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 \textbf{•	Interface de création d'une signature:}
 
 Cette capture d'écran, représente l'interface de création d'une signature par un utilisateur
-
-% add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_creation}
-  \caption{Interface de création d'une signature}
-  \label{fig:signature_creation}
+  \includegraphics[width=0.7\textwidth]{realisation_signatures1}
+  \caption{Maquette de la page des signatures (Lister, créer et supprimer)}
+  \label{fig:realisation_signatures}
 \end{figure}
 
-\textbf{•	Signer puis cliquer sur « save » : Interface de saisie du titre:}\\
-Cette capture d'écran, représente l'interface de saisie du titre de la signature par un utilisateur
-% add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_form}
-  \caption{Interface de saisie du titre de la signature}
-  \label{fig:signature_title}
-\end{figure}
-
-\textbf{•	Interface de visualisation d'une signature:}\\
-Cette capture d'écran, représente l'interface de visualisation d'une signature par un utilisateur
-
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_preview}
-  \caption{Interface de visualisation d'une signature}
-  \label{fig:signature_view}
-\end{figure}
-
-\textbf{•	Interface de suppression d'une signature:}\\
-Cette capture d'écran, représente l'interface de suppression d'une signature par un utilisateur
-
-% add image
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_delete}
-  \caption{Interface de suppression d'une signature}
-  \label{fig:signature_delete}
-\end{figure}
-% add image
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_delete_confirm}
-  \caption{Interface de confirmation de suppression d'une signature}
-  \label{fig:signature_delete_confirm}
-\end{figure}
-% add image
-
-\textbf{•	Interface de modification d'une signature:}\\
-Cette capture d'écran, représente l'interface de modification d'une signature par un utilisateur
-\begin{figure}[h!]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_update}
-  \caption{Interface de modification d'une signature}
-  \label{fig:signature_update}
+  \includegraphics[width=0.7\textwidth]{realisation_signatures2}
+  \caption{Maquette de la page des signatures (Visualiser et supprimer)}
+  \label{fig:realisation_preview_delete_signature}
 \end{figure}
 
 
@@ -902,7 +775,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
       & & 3.3 & Développer une fonction qui permet de récupérer la liste des documents en favoris. & \\
       \cline{1-5}
       % Accéder à un document
-      \multirow{4}{*}{3} & En tant qu'utilisateur, je veux récupérer les informations relatives à un document, telles que la date de création, les utilisateurs qui ont accédé au document et les tâches associées, afin de suivre l'historique du document et de mieux comprendre son contexte, les modifier ou de les signer. & 4.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{4}{*}{4} & En tant qu'utilisateur, je veux récupérer les informations relatives à un document, telles que la date de création, les utilisateurs qui ont accédé au document et les tâches associées, afin de suivre l'historique du document et de mieux comprendre son contexte, les modifier ou de les signer. & 4.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
       & & 4.2 & Développer l'interface des documents. & \\
       \cline{3-4}
@@ -1051,8 +924,8 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Accéder à un document »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationAccéderAUnDocument}
+\caption{Description textuelle de cas d'utilisation « Télécharger un document »}
+\label{tab:DescriptionTextuelleDeCasDUtilisationTéléchargerUnDocument}
 \end{longtable}
 
 
@@ -1178,8 +1051,8 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « ajouter un fichier à un document »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationAjouterUnFichierAUnDocument}
+\caption{Description textuelle de cas d'utilisation « Scanner un fichier »}
+\label{tab:DescriptionTextuelleDeCasDUtilisationScannerUnFichier}
 
 \end{longtable}
 
@@ -1511,6 +1384,12 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \end{figure}
 \begin{figure}[H]
   \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/download/download}
+  \caption{Diagramme de séquence de cas d'utilisation « Télécharger un document  »}
+  \label{fig:sequence_telechargerundocument}
+\end{figure}
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/documents/previewFiles/preview_files_document}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document  »}
   \label{fig:sequence_previewFiles}
@@ -1541,6 +1420,12 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \end{figure}
 \begin{figure}[H]
   \centering
+  \includegraphics[height=1\textheight]{out/diagrams/documents/add_scan_file/add_scan_file}
+  \caption{Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document via scan  »}
+  \label{fig:sequence_add_scan_file}
+\end{figure}
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/documents/favoris/favorit_document}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris  »}
   \label{fig:sequence_favorit_document}
@@ -1551,12 +1436,17 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
   \caption{Diagramme de séquence de cas d'utilisation « Chercher des documents  »}
   \label{fig:sequence_charcher_document}
 \end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/scan_qr/scan_qr}
+  \caption{Diagramme de séquence de cas d'utilisation « Recherche a l'aide de code QR »}
+  \label{fig:sequence_scan_qr}
+\end{figure}
 
 \subsubsection{Analyse détaillée}
 \textbf{•	Diagramme de classe d'analyse de sprint "3" }
-\newpage
 
-\begin{figure}
+\begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{dca_sprint3}
   \caption{Diagramme de classe d'analyse de sprint 3}
@@ -1634,128 +1524,32 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
 
-\textbf{•	Accès aux documents:}
-
-Cette capture d'écran, représente l'interface d'accès aux documents par un utilisateur
-
-% add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{acces_aux_document}
-  \caption{Interface d'accès aux documents}
-  \label{fig:acces_aux_document}
+  \includegraphics[width=0.7\textwidth]{realisation_documents1}
+  \caption{Réalisation de la page des documents (Favoris et recherche(Simple et code QR))}
+  \label{fig:realisation_documents1}
 \end{figure}
 
-\textbf{•	Consulter les fichiers d'un document:}
-
-Cette capture d'écran, représente l'interface de consultation des fichiers d'un document par un utilisateur
-
-% add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{consult_document_files}
-  \caption{Interface de consultation des fichiers d'un document}
-  \label{fig:consult_document_files}
+  \includegraphics[width=0.7\textwidth]{realisation_documents2}
+  \caption{Réalisation de la page de document (Fichier, Info et Tâches)}
+  \label{fig:realisation_documents2}
 \end{figure}
 
-\textbf{•	Consulter les tâches d'un document:}
-
-Cette capture d'écran, représente l'interface de consultation des tâches d'un document par un utilisateur
-
-% add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{consult_document_tasks}
-  \caption{Interface de consultation des tâches d'un document}
-  \label{fig:consult_document_tasks}
+  \includegraphics[width=0.7\textwidth]{realisation_documents3}
+  \caption{Réalisation de la page de document (Ajouter un fichier (Importer et Scanner))}
+  \label{fig:realisation_documents3}
 \end{figure}
 
-\textbf{•	Demander une tâche:}
-
-Cette capture d'écran, représente l'interface de demande d'une tâche par un utilisateur
-
-% add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{ask_task}
-  \caption{Interface de demande d'une tâche}
-  \label{fig:ask_task}
-\end{figure}
-
-\textbf{•	Transférer une tâche:}
-
-Cette capture d'écran, représente l'interface de transfert d'une tâche par un utilisateur
-
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{transfer_task}
-  \caption{Interface de transfert d'une tâche}
-  \label{fig:transfer_task}
-\end{figure}
-
-\textbf{•	Traitement d'une tâche dans un document:}
-
-Cette capture d'écran, représente l'interface de traitement d'une tâche dans un document par un utilisateur
-
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{end_task}
-  \caption{Interface de traitement d'une tâche dans un document}
-  \label{fig:end_task}
-\end{figure}
-
-
-
-
-\textbf{•	Ajout de fichiers à un document:}
-
-Cette capture d'écran, représente l'interface d'ajout de fichiers à un document par un utilisateur
-
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{add_document_files}
-  \caption{Interface d'ajout de fichiers à un document}
-  \label{fig:add_document_files}
-\end{figure}
-
-% \textbf{• Suppression de fichiers d'un document:}
-
-% Cette capture d'écran, représente l'interface de suppression de fichiers d'un document par un utilisateur
-
-% % add image
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{delete_document_files}
-%   \caption{Interface de suppression de fichiers d'un document}
-%   \label{fig:delete_document_files}
-% \end{figure}
-
-
-\textbf{•	Recherche d'un document:}
-
-Cette capture d'écran, représente l'interface de recherche d'un document par un utilisateur
-
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{search_document}
-  \caption{Interface de recherche d'un document}
-  \label{fig:search_document}
-\end{figure}
-
-\textbf{•	Consulter les documents en favoris:}
-
-Cette capture d'écran, représente l'interface de consultation des documents en favoris par un utilisateur
-
-% add image
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{consult_favoris_documents}
-  \caption{Interface de consultation des documents en favoris}
-  \label{fig:consult_favoris_documents}
+  \includegraphics[width=0.7\textwidth]{realisation_documents4}
+  \caption{Réalisation de la page de document (ajouter, transférer et traiter une tâche)}
+  \label{fig:realisation_documents4}
 \end{figure}
 
 
@@ -1895,7 +1689,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
       
   \hline
   \caption{Sprint backlog du Sprint 4}
-  \label{tab:sprint-backlog-3}
+  \label{tab:sprint-backlog-4}
 \end{longtable}
 \end{adjustwidth}
 
@@ -2166,6 +1960,13 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
 
 \begin{figure}[H]
   \centering
+  \includegraphics[width=1\textwidth]{design_file}
+  \caption{Maquette de l'affichage d'un fichier}
+  \label{fig:design_file_preview}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/view_file/view_file}
   \caption{Diagramme de séquence de cas d'utilisation « Visualiser un fichier   »}
   \label{fig:sequence_view_file}
@@ -2206,7 +2007,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
   \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/delete_signature/delete_signature}
   \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature d'un fichier »}
-  \label{fig:sequence_move_signature}
+  \label{fig:sequence_delete_signature_sp4}
 \end{figure}
 % Confirmer ou annuler les changements d'un fichier 
 \begin{figure}[H]
@@ -2289,7 +2090,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
   \centering
   \includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature d'un fichier »}
-  \label{fig:sequence_conception_delete_signature}
+  \label{fig:sequence_conception_delete_signature_from_foile}
 \end{figure}
 
 \begin{figure}[H]
@@ -2302,6 +2103,25 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 
 \subsubsection{Réalisation}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{realisation_file1}
+  \caption{Maquette de l'affichage d'un fichier (par page ou par liste)}
+  \label{fig:realisation_file_1}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{realisation_file2}
+  \caption{Maquette de l'affichage d'un fichier (partie signature)}
+  \label{fig:realisation_file_2}
+\end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{realisation_file3}
+  \caption{Maquette de l'affichage d'un fichier (validation/annulation des signatures et téléchargement)}
+  \label{fig:realisation_file_3}
+\end{figure}
 
 \subsection{Sprint review:}
 
