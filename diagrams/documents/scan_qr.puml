@@ -1,0 +1,22 @@
+@startuml scan_qr
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton scanner
+system -> user : affiche l'interface de scan de code QR
+user -> system : scan le code QR
+system -> system : recherche le document correspondant au code QR
+alt document trouvé
+    system -> user : affiche le document correspondant au code QR
+else document non trouvé
+    system -> user : affiche un message d'erreur
+end
+deactivate system
+deactivate user
