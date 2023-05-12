@@ -87,6 +87,268 @@ L'objectif de ce sprint est de préparer l'environnement de travail et d'étudie
   \label{tab:sprint-backlog-1}
 \end{longtable}
 \end{adjustwidth}
+\subsection{Implémentation du Sprint 2}
+\textbf{•	Diagramme de cas d'utilisation du sprint 1}
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{use_case_documents_sprint_1}
+  \caption{Diagramme de cas d'utilisation du sprint }
+  \label{fig:UseCaseDiagram1}
+\end{figure}
+
+\subsubsection{Analyse des besoins:}
+\textbf{•	Description textuelle de cas d'utilisation « S'authentifier »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&S'authentifier (authentification simple)\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit avoir un compte\\
+\hline
+\textbf{Post Condition}&Authentification\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+  \item L'utilisateur saisie l'adresse du serveur
+  \item L'utilisateur clique sur le bouton connexion
+  \item Le système vérifie si le serveur existe
+  \item Le système affiche le formulaire d'authentification
+  \item L'utilisateur saisie son identifiant et son mot de passe
+  \item L'utilisateur clique sur le bouton connexion
+  \item Le système vérifie les cordonnées
+  \item Le système redirige l'utilisateur vers la page d'accueil
+  \item Le système affiche le message « bienvenue »
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+      \item [4.1] Le serveur n'est pas disponible
+      \item [4.2] Le système affiche le message « le serveur n'est pas disponible »
+      \item [7.1] Les cordonnées sont incorrectes
+      \item [7.2] Le système affiche un message d'erreur
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « S'authentifier »}
+\label{tab:use_case_simple_authentification}
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Se déconnecter »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Se déconnecter\\
+\hline
+\textbf{Acteurs}&Utilisateur \\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Déconnexion\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton Déconnecté
+    \item Le système redirige l'utilisateur vers la page d'authentification
+
+\end{enumerate}\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Se déconnecter »}
+\label{tab:use_case_logout}
+\end{longtable}
+
+Pour créer notre plateforme, nous avons pensé qu'il était nécessaire de réaliser une maquette. Les maquettes nous aident à concevoir des interfaces qui répondent aux attentes et aux besoins du client. Elles permettent également de s'assurer que les besoins du client sont adaptés au projet. Nous avons réalisé un prototype de notre système, comme le montrent les figures ci-dessous. Tout au long de notre projet, nous présenterons des maquettes.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{design_signatures}
+  \caption{Maquette de la page des signatures}
+  \label{fig:design_signatures}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{preview_delete_signature}
+  \caption{Maquette de la page de visualisation et de suppression d'une signature}
+  \label{fig:design_preview_delete_signature}
+\end{figure}
+
+Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/create/create_signature}
+  \caption{Diagramme de séquence de cas d'utilisation « Créer une signature  »}
+  \label{fig:sequence_create_signature}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/delete/delete_signature}
+  \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature  »}
+  \label{fig:sequence_delete_signature}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/view/view_signature}
+  \caption{Diagramme de séquence de cas d'utilisation « Visualiser une signature  »}
+  \label{fig:sequence_view_signature}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/update/update_signature}
+  \caption{Diagramme de séquence de cas d'utilisation « Modifier une signature  »}
+  \label{fig:sequence_update_signature}
+\end{figure}
+
+\subsubsection{Analyse détaillée}
+La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
+Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
+
+Les objets de diagramme d'analyse sont les suivants :
+% View
+\begin{itemize}
+  \item \textbf{View} : représente la vue de l'application.
+  \item \textbf{ViewModel} : représente le modèle de la vue.
+  \item \textbf{Model} : représente le modèle de l'application.
+  \item \textbf{EliseWebService} : représente le web service de l'application Elise.
+\end{itemize}
+
+\textbf{•	Diagramme de classe d'analyse de sprint 2 }
+\newpage
+
+\begin{figure}
+  \centering
+  \includegraphics[width=1\textwidth]{dca_sprint2}
+  \caption{Diagramme de classe d'analyse de sprint 2}
+  \label{fig:class_analyse_signatures}
+\end{figure}
+
+
+\subsubsection{Conception}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 2. \\
+\textbf{•	Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{dcc_spint2}
+  \caption{Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
+  \label{fig:class_diagram_signatures}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/signatures/sequence_create/sequence_create_signature}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Créer une signature  »}
+  \label{fig:sequence_conception_create_signature}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/signatures/sequence_delete/sequence_delete_signature}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature  »}
+  \label{fig:sequence_conception_delete_signature}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_view/sequence_view_signature}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Visualiser une signature  »}
+  \label{fig:sequence_conception_view_signature}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/signatures/sequence_update/sequence_update_signature}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Modifier une signature  »}
+  \label{fig:sequence_conception_update_signature}
+\end{figure}
+
+
+
+
+
+\subsubsection{Réalisation}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
+
+\textbf{•	Interface de création d'une signature:}
+
+Cette capture d'écran, représente l'interface de création d'une signature par un utilisateur
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_creation}
+  \caption{Interface de création d'une signature}
+  \label{fig:signature_creation}
+\end{figure}
+
+\textbf{•	Signer puis cliquer sur « save » : Interface de saisie du titre:}\\
+Cette capture d'écran, représente l'interface de saisie du titre de la signature par un utilisateur
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_form}
+  \caption{Interface de saisie du titre de la signature}
+  \label{fig:signature_title}
+\end{figure}
+
+\textbf{•	Interface de visualisation d'une signature:}\\
+Cette capture d'écran, représente l'interface de visualisation d'une signature par un utilisateur
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_preview}
+  \caption{Interface de visualisation d'une signature}
+  \label{fig:signature_view}
+\end{figure}
+
+\textbf{•	Interface de suppression d'une signature:}\\
+Cette capture d'écran, représente l'interface de suppression d'une signature par un utilisateur
+
+% add image
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_delete}
+  \caption{Interface de suppression d'une signature}
+  \label{fig:signature_delete}
+\end{figure}
+% add image
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_delete_confirm}
+  \caption{Interface de confirmation de suppression d'une signature}
+  \label{fig:signature_delete_confirm}
+\end{figure}
+% add image
+
+\textbf{•	Interface de modification d'une signature:}\\
+Cette capture d'écran, représente l'interface de modification d'une signature par un utilisateur
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.35\textwidth, height=0.35\textheight,keepaspectratio=true]{signature_update}
+  \caption{Interface de modification d'une signature}
+  \label{fig:signature_update}
+\end{figure}
+
+
 \subsection{Sprint Review}
 Suite à cette Technical Story, nous avons préparé notre environnement de travail où nous aurons les possibilités de traiter les prochains sprints.
 
@@ -654,7 +916,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
       & & 5.3 & Développer une fonction qui permet de télécharger les fichiers d'un document. & \\
       \cline{1-5}
       % Consulter la liste des fichiers d'un document
-      \multirow{3}{*}{6} & En tant qu’utilisateur, je veux consulter la liste des fichiers attachés à un document, afin de les visualiser. & 6.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{6} & En tant qu'utilisateur, je veux consulter la liste des fichiers attachés à un document, afin de les visualiser. & 6.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
       & & 6.2 & Développer l'interface de liste des fichiers. & \\
       \cline{3-4}
@@ -1609,7 +1871,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
       & & 3.4 & Développer une fonction qui permet de signer par glisser et déposer une image dans un fichier. & \\
       \cline{1-5}
 
-      \multirow{3}{*}{4} & En tant qu’utilisateur, je souhaite signer des fichiers a main. Je veux signer le document directement en utilisant une méthode de signature manuscrite, en dessinant ma signature. & 4.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{3}{*}{4} & En tant qu'utilisateur, je souhaite signer des fichiers a main. Je veux signer le document directement en utilisant une méthode de signature manuscrite, en dessinant ma signature. & 4.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
       \cline{3-4}
       & & 4.2 & Développer une fonction qui permet de signer à main un fichier. & \\
       \cline{1-5}
@@ -1924,33 +2186,33 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
   \label{fig:sequence_sign_by_image}
 \end{figure}
 
-% Signer à main un fichier Modifier la position d’une signature d’un fichier 
+% Signer à main un fichier Modifier la position d'une signature d'un fichier 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sign_by_hand/sign_by_hand}
   \caption{Diagramme de séquence de cas d'utilisation « Signer à main un fichier   »}
   \label{fig:sequence_sign_by_hand}
 \end{figure}
-% Modifier la position d’une signature d’un fichier 
+% Modifier la position d'une signature d'un fichier 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/move_signature/move_signature}
-  \caption{Diagramme de séquence de cas d'utilisation « Modifier la position d’une signature d’un fichier »}
+  \caption{Diagramme de séquence de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
   \label{fig:sequence_move_signature}
 \end{figure}
 
-% Supprimer une signature d’un fichier 
+% Supprimer une signature d'un fichier 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/delete_signature/delete_signature}
-  \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature d’un fichier »}
+  \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature d'un fichier »}
   \label{fig:sequence_move_signature}
 \end{figure}
-% Confirmer ou annuler les changements d’un fichier 
+% Confirmer ou annuler les changements d'un fichier 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/save_cancel_siganture/save_cancel_siganture}
-  \caption{Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d’un fichier »}
+  \caption{Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
   \label{fig:sequence_save_cancel_siganture}
 \end{figure}
 
@@ -2019,21 +2281,21 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_move_signature/sequence_move_signature}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Modifier la position d’une signature d’un fichier »}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
   \label{fig:sequence_conception_move_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature d’un fichier »}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature d'un fichier »}
   \label{fig:sequence_conception_delete_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_save_cancel_siganture/sequence_save_cancel_siganture}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Confirmer ou annuler les changements d’un fichier »}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
   \label{fig:sequence_conception_save_cancel_siganture}
 \end{figure}
 
