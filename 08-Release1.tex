@@ -757,6 +757,42 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \label{tab:DescriptionTextuelleDeCasDUtilisationAccéderAUnDocument}
 \end{longtable}
 
+\textbf{•	Description textuelle de cas d'utilisation « Télécharger un document »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}& Télécharger un document\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&Le document existe\\
+\hline
+\textbf{Post Condition}&Téléchargement d'un document\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton des actions.
+    \item Le système affiche le menu des actions.
+    \item L'utilisateur clique sur le bouton de téléchargement.
+    \item Le système télécharge tout les fichiers du document.
+    \item Le système affiche un message de succès.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \item [4.1] Le système n'a pas le droit de télécharger les fichiers.
+  \item [4.2] Le système affiche un message d'erreur.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle de cas d'utilisation « Accéder à un document »}
+\label{tab:DescriptionTextuelleDeCasDUtilisationAccéderAUnDocument}
+\end{longtable}
+
 
 \textbf{•	Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »}
 
@@ -1145,6 +1181,41 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \hline
 \caption{Description textuelle de cas d'utilisation « Chercher des documents »}
 \label{tab:DescriptionTextuelleDeCasDUtilisationChercherDesDocuments}
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Recherche a l'aide de code QR »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Recherche a l'aide de code QR\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&\\
+\hline
+\textbf{Post Condition}&Document affiché\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton scanner.
+    \item Le système affiche l'inteface de scan de code QR.
+    \item L'utilisateur scan le code QR.
+    \item Le système affiche le document correspondant au code QR.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{4}
+    \item Aucun document correspondant au code QR.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle de cas d'utilisation « Chercher des documents »}
+\label{tab:DescriptionTextuelleDeCasDUtilisationChercherDesDocumentsQR}
 \end{longtable}
 
 \begin{figure}[H]
