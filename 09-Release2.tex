@@ -129,9 +129,46 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 \label{tab:use_case_consulter_documents_filtre_rapide}
 \end{longtable}
 
+\textbf{•	Description textuelle de cas d'utilisation « Refraichissement
+des données »}
+
+% Note:
+\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter la description textuelle de ce cas d'utilisation.}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Refraichissement des données\\
+\hline
+\textbf{Acteurs}&Utilisateur \\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Refraichissement des données\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+      \item L'utilisateur glisse son doigt vers le bas sur l'écran
+      \item Le système affiche les dernières données
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Refraichissement des données »}
+\label{tab:use_case_refraichissement_donnees}
+\end{longtable}
+
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{design_statistique}
+  \includegraphics[width=0.35\textwidth]{design_statistique}
+  \caption{Maquette de la page de statistique}
+  \label{fig:design_statistique}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.35\textwidth]{design_statistique}
   \caption{Maquette de la page de statistique}
   \label{fig:design_statistique}
 \end{figure}
@@ -151,6 +188,14 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/docs_quick_filter/docs_quick_filter}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_docs_quick_filter}
+\end{figure}
+
+\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/refresh_data/refresh_data}
+  \caption{Diagramme de séquence de cas d'utilisation « Refraichissement des données »}
+  \label{fig:sequence_refresh_data}
 \end{figure}
 
 
@@ -190,19 +235,28 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \end{figure}
 
 
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[width=1\textwidth]{out/diagrams/authentification/sequence_simple_login/sequence_simple_login}
-%   \caption{Diagramme de séquence de conception de cas d'utilisation « S'authentifier »}
-%   \label{fig:sequence_conception_login}
-% \end{figure}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_view_stats/sequence_view_stats}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « S'Consulter les statistiques »}
+  \label{fig:sequence_conception_consulter_statistiques}
+\end{figure}
 
-% \begin{figure}[H]
-%   \centering
-%   \includegraphics[width=1\textwidth]{out/diagrams/authentification/sequence_logout/sequence_logout}
-%   \caption{Diagramme de séquence de conception de cas d'utilisation « Se déconnecter »}
-%   \label{fig:sequence_conception_logout}
-% \end{figure}
+\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_docs_quick_filter/sequence_docs_quick_filter}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
+  \label{fig:sequence_conception_consulter_documents_filtre_rapide}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_refresh_data/sequence_refresh_data}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »}
+  \label{fig:sequence_conception_refraichissement_donnees}
+\end{figure}
 
 \subsubsection{Réalisation}
 

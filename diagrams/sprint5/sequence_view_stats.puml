@@ -1,0 +1,62 @@
+@startuml sequence_view_stats
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "HomePage" as home << View >>
+participant "StatsStore" as statsstore << ViewModel >>
+participant "Stats" as stats << Model >>
+participant "StatsPositioned" as statsPositioned << Model >>
+participant "EliseWebService" as elise << Service >>
+
+
+ref over user, home,statsstore,stats,statsPositioned,elise: Authentification
+activate user
+user -> home : demande page d'accueil
+activate home
+home -> statsstore : getTrayList()
+activate statsstore
+statsstore -> stats : getAll()
+activate stats
+stats --> statsstore 
+deactivate stats
+statsstore -> statsPositioned : getAll()
+activate statsPositioned
+statsPositioned --> statsstore
+deactivate statsPositioned
+alt Les stats sont vides
+  statsstore -> elise : GetTrayList()
+  activate elise
+  elise --> statsstore : GetTrayListResponse
+  deactivate elise
+  alt Resultat vide
+    statsstore -> home : retourne une liste vide
+    home --> user : affiche message pas de stats
+  end
+  loop Pour chaque tray
+    statsstore -> elise : GetTrayMailByIdCount(tray)
+    activate elise
+    elise --> statsstore : GetTrayMailByIdCount
+    deactivate elise
+    alt Stats admettent des sous stats
+      statsstore -> stats : addStats(stats)
+      activate stats
+      stats --> statsstore
+      deactivate stats
+    else Stats n'admettent pas de sous stats
+      statsstore -> statsPositioned : addStats(stats)
+      activate statsPositioned
+      statsPositioned --> statsstore
+      deactivate statsPositioned
+    end
+  end
+  statsstore -> home : retourne la liste des stats
+  home --> user : affiche la liste des stats
+else Les stats ne sont pas vides
+  statsstore --> home : retourne la liste des stats
+  deactivate statsstore
+  home --> user : retourne la liste des stats
+  deactivate home
+end
+
