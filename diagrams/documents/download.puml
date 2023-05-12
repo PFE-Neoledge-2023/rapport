@@ -10,13 +10,17 @@ ref over user, system : Authentification
 activate user
 user -> system : clique sur le bouton "liste des action"
 activate system
-system -> user : affiche la liste des actions
+system --> user : affiche la liste des actions
 user -> system : clique sur le bouton "télécharger le document"
-system -> system : télécharger les fichiers du document
+alt Le système n'a pas le droit de télécharger
+    system --> user : affiche un message d'erreur
+else Le système a le droit de télécharger
+    system -> system : télécharge les fichiers du document
 alt document téléchargé
-    system -> user : affiche le message "document téléchargé"
+    system --> user : affiche le message "document téléchargé"
 else document non téléchargé
-    system -> user : affiche le message "une erreur lors du téléchargement du document"
+    system --> user : affiche le message "une erreur lors du téléchargement du document"
+end
 end
 deactivate system
 deactivate user
