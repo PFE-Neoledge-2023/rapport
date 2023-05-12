@@ -7,9 +7,9 @@ actor "Utilisateur" as user
 participant "DocumentPage" as docView << View >>
 participant "ScanFile" as ScanFile << View >>
 participant "DocumentScanner" as scanner << Service >>
-participant "Document" as docVm << ViewModel >>
+participant "DocumentStore" as docVm << ViewModel >>
 participant "Document" as docM << Model >>
-participant "Fichier" as fileM << Model >>
+participant "File" as fileM << Model >>
 participant "EliseWebService" as ws << Service >>
 
 

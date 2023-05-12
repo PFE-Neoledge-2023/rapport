@@ -4,8 +4,8 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "Document" as docView << View >>
-participant "DocumentStore" as docVm << ViewModel >>
+participant "DocumentPage" as docView << View >>
+participant "DocumentsStore" as docVm << ViewModel >>
 participant "Document" as docM << Model >>
 participant "Filesystem" as fs << System >>
 

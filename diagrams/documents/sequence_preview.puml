@@ -4,8 +4,8 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "Document" as docView << View >>
-participant "Documents" as documentVm << ViewModel >>
+participant "DocumentPage" as docView << View >>
+participant "DocumentsStore" as documentVm << ViewModel >>
 participant "Document" as documentM << Model >>
 participant "EliseWebService" as ws << Service >>
 

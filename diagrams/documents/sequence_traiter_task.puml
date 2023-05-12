@@ -4,14 +4,13 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "système" as system
 participant "TâchesDocument" as tasksDocument << View >>
 participant "Tâches" as taskVm << ViewModel >>
 participant "Tâche" as taskM << Model >>
 participant "EliseWebService" as ws << Service >>
 
 
-ref over user, system : Authentification
+ref over user, tasksDocument,taskVm,taskM,ws : Authentification
 activate user
 user -> tasksDocument : CliqueTraiter()
 activate tasksDocument
