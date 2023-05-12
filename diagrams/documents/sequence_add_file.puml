@@ -52,9 +52,9 @@ alt confirmer
   activate docM
   docM -> docVm : linkFile
   deactivate docM
-  docVm -> addFile : addFile
+  docVm --> addFile 
   deactivate docVm
-  addFile -> user : addFile
+  addFile --> user 
 alt fichier ajouté
   addFile -> user : affiche le message "fichier ajouté"
 else fichier non ajouté

@@ -23,13 +23,13 @@ taskView -> taskVm : getDocumentTasks()
 activate taskVm
 taskVm -> ws: GetTodoTasks()
 activate ws
-ws -> taskVm: tasks
+ws -> taskVm : GetTodoTasks()
 deactivate ws
 taskVm -> taskM: setTasks()
 activate taskM
-taskM -> taskVm: tasks
+taskM --> taskVm
 deactivate taskM
-taskVm -> taskView: tasks
+taskVm --> taskView
 deactivate taskVm
 alt l'utilisateur a des taches
     taskView -> user : affiche les taches

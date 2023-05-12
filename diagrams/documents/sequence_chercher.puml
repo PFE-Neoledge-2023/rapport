@@ -30,13 +30,13 @@ docView -> documentVm : searchDocuments()
 activate documentVm
 documentVm -> ws: SimpleSearch()
 activate ws
-ws -> documentVm: Liste de documents
+ws -> documentVm: SimpleSearchResponse
 deactivate ws
 documentVm -> documentM: setDocuments()
 activate documentM
-documentM -> documentVm: Liste de documents
+documentM --> documentVm
 deactivate documentM
-documentVm -> docView: Liste de documents
+documentVm --> docView
 deactivate documentVm
 alt Liste de documents non vide
     docView -> user: Affiche la liste de documents
