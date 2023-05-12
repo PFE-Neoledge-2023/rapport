@@ -38,7 +38,11 @@ alt confirmer
   activate docVm
   docVm -> ws : UploadFile()
   activate ws
-  ws -> docVm : retourne le fichier
+  ws -> docVm : UploadFileResponse
+  deactivate ws
+  docVm -> ws: AddAttachmentToMail()
+  activate ws
+  ws -> docVm : AddAttachmentToMailResponse
   deactivate ws
   docVm -> fileM : addFile()
   activate fileM
