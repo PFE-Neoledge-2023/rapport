@@ -4,31 +4,31 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "Document" as docView << View >>
-participant "FichiersDocument" as taskView << View >>
-participant "Document" as documentVm << ViewModel >>
+participant "DocumentPage" as docView << View >>
+participant "DocumentContentPage" as fileView << View >>
+participant "DocumentsStore" as documentVm << ViewModel >>
 participant "Document" as documentM << Model >>
 
 
 
-ref over user, docView,taskView,documentVm,documentM : Authentification
+ref over user, docView,fileView,documentVm,documentM : Authentification
 activate user
 user -> docView : CliqueFichier()
 activate docView
-docView -> taskView : afficher les fichiers
+docView -> fileView : afficher les fichiers
 deactivate docView
-activate taskView
-taskView -> documentVm : getDocumentFiles()
+activate fileView
+fileView -> documentVm : getDocumentFiles()
 activate documentVm
 documentVm -> documentM: getFiles()
 activate documentM
 documentM -> documentVm: files
 deactivate documentM
-documentVm -> taskView: files
+documentVm -> fileView: files
 deactivate documentVm
 alt le document a des fichiers
-    taskView -> user : affiche les fichiers
+    fileView -> user : affiche les fichiers
 else le document n'a pas des fichiers
-    taskView -> user : affiche le message "vous n'avez pas des fichiers"
+    fileView -> user : affiche le message "vous n'avez pas des fichiers"
 end
 deactivate user

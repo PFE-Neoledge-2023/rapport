@@ -4,11 +4,11 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "Document" as docView << View >>
-participant "AjouterFichier" as addFile << View >>
-participant "Document" as docVm << ViewModel >>
+participant "DocumentPage" as docView << View >>
+participant "AddFile" as addFile << View >>
+participant "DocumentsStore" as docVm << ViewModel >>
 participant "Document" as docM << Model >>
-participant "Fichier" as fileM << Model >>
+participant "File" as fileM << Model >>
 participant "EliseWebService" as ws << Service >>
 
 
@@ -38,7 +38,11 @@ alt confirmer
   activate docVm
   docVm -> ws : UploadFile()
   activate ws
-  ws -> docVm : retourne le fichier
+  ws -> docVm : UploadFileResponse
+  deactivate ws
+  docVm -> ws: AddAttachmentToMail()
+  activate ws
+  ws -> docVm : AddAttachmentToMailResponse
   deactivate ws
   docVm -> fileM : addFile()
   activate fileM

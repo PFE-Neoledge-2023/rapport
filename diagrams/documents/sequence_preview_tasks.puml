@@ -5,9 +5,9 @@ hide footbox
 
 actor "Utilisateur" as user
 participant "Document" as docView << View >>
-participant "TâchesDocument" as taskView << View >>
-participant "Tâches" as taskVm << ViewModel >>
-participant "Taches" as taskM << Model >>
+participant "DocumentTasksPage" as taskView << View >>
+participant "TasksStore" as taskVm << ViewModel >>
+participant "Tasks" as taskM << Model >>
 participant "EliseWebService" as ws << Service >>
 
 

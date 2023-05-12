@@ -4,11 +4,11 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "Document" as docView << View >>
-participant "AjouterTâche" as addTask << View >>
-participant "Tâches" as taskVm << ViewModel >>
+participant "DocumentPage" as docView << View >>
+participant "AddTask" as addTask << View >>
+participant "TaskStore" as taskVm << ViewModel >>
 participant "Document" as docM << Model >>
-participant "Tâche" as taskM << Model >>
+participant "Task" as taskM << Model >>
 participant "EliseWebService" as ws << Service >>
 
 

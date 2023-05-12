@@ -1,66 +1,81 @@
-@startuml sequence_add_file
+@startuml sequence_add_scan_file
 
 hide footbox
 
+
 actor "Utilisateur" as user
-participant "Document" as docView << View >>
-participant "AjouterFichier" as addFile << View >>
-participant "Document" as docVm << ViewModel >>
+participant "DocumentPage" as docView << View >>
+participant "ScanFile" as ScanFile << View >>
+participant "DocumentScanner" as scanner << Service >>
+participant "DocumentStore" as docVm << ViewModel >>
 participant "Document" as docM << Model >>
-participant "Fichier" as fileM << Model >>
+participant "File" as fileM << Model >>
 participant "EliseWebService" as ws << Service >>
 
 
 
-ref over user, docView, addFile, docVm, docM, fileM, ws : Authentification
+ref over user, ScanFile : Authentification
 activate user
-user -> docView : cliqueListeActions()
+user -> docView : clique sur le bouton "liste des action"
 activate docView
-docView -> user : affiche la liste des actions
-user -> docView : cliqueAjouterFichier()
-docView -> addFile : affiche le panneau
+docView --> user : affiche la liste des actions
+user -> docView : clique sur le bouton "scanner un fichier"
+' docView instancie un objet de type ScanFile
+docView -> ScanFile : demande la page de scan
 deactivate docView
-activate addFile
-addFile -> user : affiche le panneau d'ajout de fichier
-user -> addFile : CliqueChoisir()
-addFile -> user : affiche la fenêtre de choix de fichier
-user -> addFile : sélectionne un fichier
-addFile -> user : affiche le nom du fichier
+activate ScanFile
+ScanFile --> user : affiche la page de scan
+user -> ScanFile : scanDocument()
+ScanFile -> scanner : demande l'activation du scanner
+activate scanner
+scanner --> ScanFile 
+alt camera disponible
+user -> scanner : scanne le document
+scanner -> ScanFile : retourne le document scanné
+        ScanFile --> user : affiche la liste des images scannés
+        alt  Utilisateur veut supprimer une image 
+            user -> ScanFile : deleteImage()
+            ScanFile --> user 
+        end
+            user -> ScanFile : goToOrder()
+            ScanFile -> user : affiche la liste des images scannés
+            note right : Sous forme de vignette 
+            user -> ScanFile : change la position des images
+            user -> ScanFile : save()
+            ScanFile -> user : affiche le paneau de creation
+            user -> ScanFile : clique sur le bouton "valider"
+            alt Nom de fichier valide
+            ScanFile -> docVm : addFile()
+            activate docVm
+            docVm -> ws : UploadFile()
+            activate ws
+            ws -> docVm : UploadFileResponse
+            deactivate ws
+            docVm -> ws: AddAttachmentToMail()
+            activate ws
+            ws -> docVm : AddAttachmentToMailResponse
+            deactivate ws
+            docVm -> fileM : addFile()
+            activate fileM
+            fileM --> docVm 
+            deactivate fileM
+            docVm -> docM : linkFile()
+            activate docM
+            docM --> docVm 
+            deactivate docM
+            docVm --> ScanFile
+            deactivate docVm
+            alt  fichier enregistré
+                    ref over user,docView,ScanFile,scanner,docVm,docM,fileM,ws : Accéder à un document 
 
-alt user AnnuleLeChoix()
-  addFile -> user : remettre a zéro le choix du fichier
+            else fichier non enregistré
+                ScanFile -> user : affiche un message d'erreur
+              end
+              else Nom de fichier non valide
+                ScanFile -> user : affiche un message d'erreur
+            end
+else camera non disponible
+    ScanFile --> user : affiche un message d'erreur
 end
-
-user -> addFile : choisir l'un de confirmer ou annuler
-alt confirmer
-  addFile -> docVm : addFile()
-  activate docVm
-  docVm -> ws : UploadFile()
-  activate ws
-  ws -> docVm : retourne le fichier
-  deactivate ws
-  docVm -> fileM : addFile()
-  activate fileM
-  fileM -> docVm : addFile
-  deactivate fileM
-  docVm -> docM : linkFile()
-  activate docM
-  docM -> docVm : linkFile
-  deactivate docM
-  docVm -> addFile : addFile
-  deactivate docVm
-  addFile -> user : addFile
-alt fichier ajouté
-  addFile -> user : affiche le message "fichier ajouté"
-else fichier non ajouté
-  addFile -> user : affiche le message "fichier non ajouté"
-end
-else annuler
-  addFile -> user : cache le panneau d'ajout de fichier
-end
-addFile -> docView : cache le panneau d'ajout de fichier
-deactivate addFile
-activate docView
-docView -> user : affiche le document
-deactivate docView
+deactivate ScanFile
 deactivate user

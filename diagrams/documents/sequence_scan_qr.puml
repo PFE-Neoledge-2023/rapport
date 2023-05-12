@@ -1,0 +1,41 @@
+@startuml sequence_scan_qr
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "SearchPage" as docView << View >>
+participant "Camera" as camera 
+participant "DocumentsStore" as documentVm << ViewModel >>
+participant "Document" as documentM << Model >>
+participant "EliseWebService" as ws << Service >>
+
+
+
+
+
+ref over user, docView,camera,documentVm,documentM,ws : Authentification
+activate user
+user -> docView : clickScan()
+activate docView
+docView -> camera : demande l'accès à la caméra
+activate camera
+camera --> docView 
+alt Accès autorisé
+docView -> user : affiche l'interface de scan de code QR
+user -> docView : scan le code QR
+docView -> documentVm : getOneDocumentByChrono()
+activate documentVm
+documentVm -> ws : SimpleSearch()
+activate ws
+ws -> documentVm : SimpleSearchResponse
+documentVm --> docView 
+alt document trouvé
+    docView -> user : affiche le document correspondant au code QR
+else document non trouvé
+    docView -> user : affiche un message d'erreur
+end
+else Accès refusé
+    docView -> user : affiche un message d'erreur
+end
+deactivate user
