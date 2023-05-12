@@ -4,9 +4,9 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "ListeSignature" as liste << View >>
-participant "CréerSignature" as create << View >>
-participant "ListeSignature" as vm << ViewModel >>
+participant "SignaturesPage" as liste << View >>
+participant "CreateSignature" as create << View >>
+participant "SignaturesStore" as vm << ViewModel >>
 participant "Signature" as model << Model >>
 participant "EliseWebService" as ws << Service >>
 
@@ -17,13 +17,13 @@ activate user
 user -> liste : CliqueCreerSignature()
 activate liste
 alt Utilisateur a dessiné une signature
-liste -> create : afficher CréerSignature
+liste -> create : affiche l'interface de création de signature
 deactivate liste
 activate create
-create -> user : affiche l'interface de création de signature
+create --> user
 user -> create : CliqueValider()
 alt Utilisateur a entré un nom de signature
-create -> vm : AjouterSignature()
+create -> vm : AddSignature()
 activate vm
 vm -> ws : UploadFile()
 activate ws
@@ -35,9 +35,9 @@ ws -> vm : AddPersonnalSignatureResponse
 deactivate ws
 vm -> model : AjouterSignature()
 activate model
-model -> vm : AjouterSignature
+model --> vm 
 deactivate model
-vm -> create : AjouterSignature
+vm --> create 
 deactivate vm
 alt signature enregistrée
 
@@ -55,17 +55,17 @@ create -> user : cache l'interface de création de signature
 create -> liste : afficher ListeSignature
 deactivate create
 activate liste
-liste -> vm : RecupererListeSignature()
+liste -> vm : GetSignatureList()
 activate vm
 vm -> ws : GetPersonnalSignatureList()
 activate ws
-ws -> vm : GetPersonnalSignatureList
+ws -> vm : GetPersonnalSignatureListResponse
 deactivate ws
 vm -> model : RecupererListeSignature()
 activate model
-model -> vm : RecupererListeSignature
+model -> vm : ChargerListeSignature
 deactivate model
-vm -> liste : RecupererListeSignature
+vm --> liste 
 deactivate vm
 liste -> user : affiche la liste des signatures
 deactivate liste

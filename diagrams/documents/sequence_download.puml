@@ -34,15 +34,15 @@ alt Le système n'a pas le droit de télécharger
         docM -> fs : writeFile()
         activate fs
         alt fichier téléchargé
-            fs --> docM : fichier téléchargé
-            docM --> docVm : fichier téléchargé
-            docVm --> docView : affiche le fichier téléchargé
+            fs --> docM 
+            docM --> docVm
+            docVm --> docView
         else fichier non téléchargé
-            fs --> docM : fichier non téléchargé
+            fs --> docM 
             deactivate fs
-            docM --> docVm : fichier non téléchargé
+            docM --> docVm 
             deactivate docM
-            docVm --> docView : fichier non téléchargé
+            docVm --> docView 
             deactivate docVm
         end
     end

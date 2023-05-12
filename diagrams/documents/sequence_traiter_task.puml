@@ -24,13 +24,13 @@ tasksDocument -> taskVm : changeTaskStatus()
 activate taskVm
 taskVm -> ws : ProcessTask()
 activate ws
-ws -> taskVm : ProcessTask
+ws -> taskVm : ProcessTaskResponse
 deactivate ws
 taskVm -> taskM : UpdateTask()
 activate taskM
-taskM -> taskVm : UpdateTask
+taskM --> taskVm 
 deactivate taskM
-taskVm -> tasksDocument : changeTaskStatus
+taskVm --> tasksDocument 
 deactivate taskVm
 alt action avec succès
   tasksDocument -> user : afficher un message de succès

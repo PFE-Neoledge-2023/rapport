@@ -4,11 +4,10 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "ListeSignature" as liste << View >>
-participant "VisualiserSignature" as view << View >>
-participant "ListeSignature" as vm << ViewModel >>
+participant "SignaturesPage" as liste << View >>
+participant "ViewSignature" as view << View >>
+participant "SignaturesStore" as vm << ViewModel >>
 participant "Signature" as model << Model >>
-participant "EliseWebService" as ws << Service >>
 
 
 ref over user,liste,view,vm,model,ws : Authentification
@@ -18,13 +17,13 @@ activate liste
 liste -> view : afficher le panneau de visualisation
 deactivate liste
 activate view
-view -> vm : RecupererSignature()
+view -> vm : GetSignatureById()
 activate vm
-vm -> model : RecupererSignature()
+vm -> model : GetSignatureById()
 activate model
-model -> vm : RecupererSignature
+model --> vm
 deactivate model
-vm -> view : RecupererSignature
+vm --> view 
 deactivate vm
 view -> user : affiche la signature
 user -> view : CliqueFermer()

@@ -22,9 +22,9 @@ fileView -> documentVm : getDocumentFiles()
 activate documentVm
 documentVm -> documentM: getFiles()
 activate documentM
-documentM -> documentVm: files
+documentM --> documentVm
 deactivate documentM
-documentVm -> fileView: files
+documentVm --> fileView
 deactivate documentVm
 alt le document a des fichiers
     fileView -> user : affiche les fichiers

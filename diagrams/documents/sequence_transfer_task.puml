@@ -24,13 +24,13 @@ tasksDocument -> taskVm : transferTask()
 activate taskVm
 taskVm -> ws : TransferTask()
 activate ws
-ws -> taskVm : TransferTask
+ws -> taskVm : TransferTaskResponse
 deactivate ws
 taskVm -> taskM : UpdateTask()
 activate taskM
-taskM -> taskVm : UpdateTask
+taskM --> taskVm
 deactivate taskM
-taskVm -> tasksDocument : transferTask
+taskVm --> tasksDocument
 deactivate taskVm
 alt action avec succès
   tasksDocument -> user : afficher un message de succès

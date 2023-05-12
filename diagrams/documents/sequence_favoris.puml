@@ -19,13 +19,13 @@ docView -> documentVm : getFavoriteDocuments()
 activate documentVm
 documentVm -> ws: GetFavoriteDocuments()
 activate ws
-ws -> documentVm: documents
+ws -> documentVm: GetFavoriteDocumentsResponse
 deactivate ws
 documentVm -> documentM: setdocuments()
 activate documentM
-documentM -> documentVm: documents
+documentM --> documentVm
 deactivate documentM
-documentVm -> docView: documents
+documentVm --> docView
 deactivate documentVm
 alt l'utilisateur a des favoris
     docView -> user : affiche les documents

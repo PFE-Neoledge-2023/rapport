@@ -31,17 +31,17 @@ addTask -> taskVm: addNewTask()
 activate taskVm
 taskVm -> ws: AddTasksNew()
 activate ws
-ws -> taskVm: Retourne le résultat
+ws -> taskVm: AddTasksNewResponse
 deactivate ws
 taskVm -> taskM: Ajoute la tâche
 activate taskM
-taskM -> taskVm: Retourne le résultat
+taskM --> taskVm
 deactivate taskM
 taskVm -> docM: Lie la tâche au document
 activate docM
-docM -> taskVm: Retourne le résultat
+docM --> taskVm
 deactivate docM
-taskVm -> addTask: Retourne le résultat
+taskVm --> addTask
 deactivate taskVm
 alt Succès
 addTask -> user : Affiche un message de succès

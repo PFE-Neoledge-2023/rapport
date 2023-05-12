@@ -4,9 +4,9 @@ hide footbox
 
 
 actor "Utilisateur" as user
-participant "ListeSignature" as liste << View >>
-participant "ModifierSignature" as update << View >>
-participant "ListeSignature" as vm << ViewModel >>
+participant "SignaturesPage" as liste << View >>
+participant "UpdateSignature" as update << View >>
+participant "SignaturesStore" as vm << ViewModel >>
 participant "Signature" as model << Model >>
 participant "EliseWebService" as ws << Service >>
 
@@ -19,7 +19,7 @@ activate liste
 liste -> update : afficher ModifierSignature
 deactivate liste
 activate update
-update -> vm : RecupererSignature()
+update -> vm : GetSignatureById()
 activate vm
 vm -> ws : GetPersonnalSignature()
 activate ws
@@ -27,14 +27,13 @@ ws -> vm : GetPersonnalSignatureResponse
 deactivate ws
 vm -> model : RecupererSignature()
 activate model
-model -> vm : RecupererSignature
+model --> vm 
 deactivate model
-vm -> update : RecupererSignature
+vm --> update
 deactivate vm
-update -> user : affiche la signature
 update -> user : affiche l'interface de modification de signature
 user -> update : CliqueValider()
-update -> vm : ModifierSignature()
+update -> vm : EditPersonnalSignature()
 activate vm
 vm -> ws : EditPersonnalSignature()
 activate ws
@@ -42,9 +41,9 @@ ws -> vm : EditPersonnalSignatureResponse
 deactivate ws
 vm -> model : ModifierSignature()
 activate model
-model -> vm : ModifierSignature
+model --> vm
 deactivate model
-vm -> update : ModifierSignature
+vm --> update
 deactivate vm
 alt signature modifiée
 
@@ -58,17 +57,17 @@ update -> user : cache l'interface de modification de signature
 update -> liste : afficher ListeSignature
 deactivate update
 activate liste
-liste -> vm : RecupererListeSignature()
+liste -> vm : GetSignatureList()
 activate vm
 vm -> ws : GetPersonnalSignatureList()
 activate ws
-ws -> vm : GetPersonnalSignatureList
+ws -> vm : GetPersonnalSignatureListResponse
 deactivate ws
 vm -> model : RecupererListeSignature()
 activate model
-model -> vm : RecupererListeSignature
+model -> vm : ChargerListeSignature
 deactivate model
-vm -> liste : RecupererListeSignature
+vm --> liste 
 deactivate vm
 liste -> user : affiche la liste des signatures
 deactivate liste
