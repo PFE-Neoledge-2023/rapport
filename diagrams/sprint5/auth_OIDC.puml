@@ -23,6 +23,8 @@ alt serveur disponible
     else token invalide
         system -> user : affiche un message d'erreur
     end
+else serveur indisponible
+    system -> user : affiche un message d'erreur
 end
 deactivate system
 deactivate user

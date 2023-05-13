@@ -1,0 +1,134 @@
+@startuml sequence_verification_biometrique
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "ActionPage" as liste << View >>
+' participant "CreateSignature" as liste << View >>
+participant "ActionStore" as vm << ViewModel >>
+' participant "Signature" as model << Model >>
+' participant "EliseWebService" as ws << Service >>
+participant "BiometricStore" as biometricVm << ViewModel >>
+participant "biometrics" as biometric << system >>
+participant "NativeBiometric" as native << system >>
+
+ref over user, liste : Authentification
+activate user
+user -> liste : faire une action sensible
+activate liste
+            liste -> biometricVm : verifyBiometrics()
+            activate biometricVm
+            biometricVm-> biometricVm : isVerified()
+            alt derniere verification biometrique est superieur a 5 minutes
+                biometricVm -> biometric : verifyBiometric()
+                activate biometric
+                biometric -> native : verifyIdentity()
+                activate native
+                native --> biometric : reponse
+                deactivate native
+                alt Identité non vérifiée
+                    biometric -> native : verifyIdentity()
+                    activate native
+                    native --> biometric : response
+                    deactivate native
+                    alt Identité non vérifiée
+                        biometric -> native : verifyIdentity()
+                        activate native
+                        native --> biometric : response
+                        deactivate native
+                        alt Identité non vérifiée
+                            biometric --> biometricVm : response
+                            biometricVm --> vm : affiche un message d'erreur et annule l'action
+                            activate vm
+                            vm --> liste : affiche un message d'erreur et annule l'action
+                            deactivate vm
+                            liste --> user : affiche un message "action annulée"
+
+                        else Identité vérifiée
+                            note across
+                                executer le group identité vérifiée
+                            end note
+                        end
+                    else Identité vérifiée
+                        note across
+                            executer le group identité vérifiée
+                        end note
+                    end
+                else Identité vérifiée
+                    note across
+                        executer le group identité vérifiée
+                    end note
+                end
+                
+                biometric --> biometricVm : response
+
+            else derniere verification biometrique est inferieur a 5 minutes
+                biometricVm --> liste : utilisateur vérifié
+                liste -> vm : executeAction()
+                activate vm
+                vm --> liste : action exécutée
+                deactivate vm
+                liste --> user : affiche le message de succès
+                deactivate liste
+            end
+            group identité vérifiée
+                biometricVm -> biometricVm : setLastVerificationDateTime
+                biometricVm --> liste : utilisateur vérifié
+                liste -> vm : executeAction()
+                activate vm
+                vm --> liste : action exécutée
+                deactivate vm
+                liste --> user : affiche le message de succès
+                deactivate liste
+            end
+
+
+        ' create -> vm : AddSignature()
+        ' activate vm
+        ' vm -> ws : UploadFile()
+        ' activate ws
+        ' ws -> vm : UploadFileResponse
+        ' deactivate ws
+        ' vm -> ws : AddPersonnalSignature()
+        ' activate ws
+        ' ws -> vm : AddPersonnalSignatureResponse
+        ' deactivate ws
+        ' vm -> model : AjouterSignature()
+        ' activate model
+        ' model --> vm 
+        ' deactivate model
+        ' vm --> create 
+        ' deactivate vm
+        ' alt signature enregistrée
+
+        ' create -> user : affiche un message de succès
+        ' else Erreur lors de l'enregistrement de la signature
+        ' create -> user : affiche un message d'erreur
+        ' end
+        ' else Utilisateur n'a pas entré de nom de signature
+        ' create -> user : affiche un message d'erreur
+        ' end
+        ' else Utilisateur n'a pas dessiné de signature
+        ' create -> user : affiche un message d'erreur
+    ' create -> user : cache l'interface de création de signature
+    ' create -> liste : afficher ListeSignature
+    ' deactivate create
+    ' activate liste
+    ' liste -> vm : GetSignatureList()
+    ' activate vm
+    ' vm -> ws : GetPersonnalSignatureList()
+    ' activate ws
+    ' ws -> vm : GetPersonnalSignatureListResponse
+    ' deactivate ws
+    ' vm -> model : RecupererListeSignature()
+    ' activate model
+    ' model -> vm : ChargerListeSignature
+    ' deactivate model
+    ' vm --> liste 
+    ' deactivate vm
+    ' liste -> user : affiche la liste des signatures
+    ' deactivate liste
+    deactivate user
+' end
+' @enduml

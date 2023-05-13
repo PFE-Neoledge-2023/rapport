@@ -5,7 +5,7 @@ hide footbox
 
 actor "Utilisateur" as user
 participant "serverPage" as serView << View >>
-participant "Browser" as broser << ViewModel >>
+participant "Browser" as broser << View >>
 participant "OIDC server" as mServer << Server >>
 participant "authStore" as auth << ViewModel >>
 participant "Session" as session << Model >>

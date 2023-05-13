@@ -14,7 +14,6 @@ alt derniere verification < 5 minutes
     system -> system : execute action sensible
     system -> user : action effectuée
 else derniere verification > 5 minutes
-    system -> system : demande verification biometrique
     system -> user : demande verification biometrique
     activate user
     user -> system : verifie son identité
