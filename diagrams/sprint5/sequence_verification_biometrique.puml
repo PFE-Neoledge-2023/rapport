@@ -13,7 +13,7 @@ participant "BiometricStore" as biometricVm << ViewModel >>
 participant "biometrics" as biometric << system >>
 participant "NativeBiometric" as native << system >>
 
-ref over user, liste : Authentification
+ref over user, liste,vm,biometricVm,biometric,native : Authentification
 activate user
 user -> liste : faire une action sensible
 activate liste
@@ -46,19 +46,15 @@ activate liste
                             liste --> user : affiche un message "action annulée"
 
                         else Identité vérifiée
-                            note across
-                                executer le group identité vérifiée
-                            end note
+                            ref over user, liste,vm,biometricVm,biometric,native : identité vérifiée
                         end
                     else Identité vérifiée
-                        note across
-                            executer le group identité vérifiée
-                        end note
+                            ref over user, liste,vm,biometricVm,biometric,native : identité vérifiée
+
                     end
                 else Identité vérifiée
-                    note across
-                        executer le group identité vérifiée
-                    end note
+                        ref over user, liste,vm,biometricVm,biometric,native : identité vérifiée
+
                 end
                 
                 biometric --> biometricVm : response
