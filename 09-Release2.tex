@@ -16,13 +16,252 @@ Release 2 : (Du 3 Avril au 27 Mai 2023)
   \textbf{Organisation des sprints :} \\
   Cette release contient les quatre sprints:
   \begin{itemize}
-    \item \textbf{Sprint 7:} Gestion d'authentification OIDC et verification biometrique.
+    \item \textbf{Sprint 5:} Gestion d'authentification OIDC et verification biometrique.
     \item \textbf{Sprint 6:} Gestion du Profile, d'absence et de délégué.
     \item \textbf{Sprint 7:} Consultation des statistique
     \item \textbf{Sprint 8:} .....
   \end{itemize}
 \end{minipage}}
 
+\section{Sprint 5 (Gestion d'authentification OIDC et verification biometrique)}
+
+\subsection{Sprint Goal}
+Le sprint actuel a pour objectif de présenter une analyse approfondie de l'authentification OIDC et de la vérification biométrique en tant que méthodes d'identification de l'utilisateur.
+
+\subsection{Sprint Backlog}
+
+
+\begin{adjustwidth}{-1cm}{}
+  % \usepackage{longtable}
+    
+    \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      % \centering
+      \hline
+      \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
+      \hline
+      \multirow{2}{*}{1} & En tant que membre scrum , je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
+      & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{2.5 Jour} \\
+      \cline{1-5}
+      \multirow{2}{*}{2} & En En tant qu'utilisateur, je veux pouvoir me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter . &  \multirow{3}{*}{2.5 Jour} \\
+      \cline{1-5}
+      \multirow{2}{*}{3} & En En tant qu’utilisateur, je veux sécuriser les actions sensibles de l’application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale). & 3.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
+      \cline{3-4}
+      & & 3.2 & Intégrer les fonctions de vérification biométrique dans certaines actions sensibles tels que la gestion de signature, la signature du document et la gestion des taches. & \\
+      \cline{1-5}
+  \hline
+  \caption{Sprint backlog du Sprint 5}
+  \label{tab:sprint-backlog-5}
+\end{longtable}
+\end{adjustwidth}
+
+
+\subsection{Implémentation du Sprint 5}
+\textbf{•	Diagramme de cas d'utilisation du sprint 5}
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{OIDC_use_case}
+  \caption{Diagramme de cas d'utilisation du sprint 5}
+  \label{fig:UseCaseDiagramSp51}
+\end{figure}
+
+\subsubsection{Analyse des besoins:}
+\textbf{•	Description textuelle de cas d'utilisation « Connexion à l’aide du protocole OIDC  »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Connexion à l’aide du protocole OIDC\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L’utilisateur doit avoir un compte OIDC\\
+\hline
+\textbf{Post Condition}&Authentification\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+    \item L’utilisateur saisie le serveur
+    \item L’utilisateur clique sur le bouton connexion
+    \item Le système vérifie si le serveur existe
+    \item Le système affiche la page de login de l’application
+    \item L'utilisateur clique sur le bouton « OIDC »
+    \item Le système affiche la page login de son serveur d'authentification
+    \item L’utilisateur connecte avec son compte
+    \item Le système affiche la page de connexion 
+    \item Le système vérifie le token
+    \item Le système affiche la page d’accueil 
+  
+\end{enumerate}\\
+\hline
+\textbf{Scénario alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \item [4.1] Le système affiche le message « le serveur n'existe pas »
+  \item [10.1] Le système affiche un message d’erreur
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »}
+\label{tab:use_case_oidc_connect}
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Vérification biométrique  »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Vérification biométrique \\
+\hline
+\textbf{Acteurs}&Utilisateur \\
+\hline
+\textbf{Pré Condition}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L’utilisateur doit posséder un appareil compatible avec la vérification biométrique
+  \item L’utilisateur doit permettre à l’application d’utiliser la vérification biométrique
+\end{enumerate}\\
+\hline
+\textbf{Post Condition}&Vérification biométrique\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+    \setcounter{enumi}{1}
+    \item L’utilisateur faire l’une des actions sensibles.
+    \item Le système vérifie que la dernière date de vérification est supérieure à 5 minutes 
+    \item Le système demande une vérification biométrique
+    \item L’utilisateur vérifie son identité
+    \item Le système vérifie L’identité 
+    \item Le système met à jour la date de vérification
+    \item Le système exécute L’action
+    \item Le système affiche le message de succès
+    
+\end{enumerate}\\
+\hline
+\textbf{Scénario alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \item [4.1] Le système passe directement à la 7-ème étape 
+  \item [6.1] Le système empêche l’action  
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'exception}&Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
+\label{tab:use_case_biometric_verification}
+\end{longtable}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{design_OIDC}
+  \caption{Maquette de la page de connexion à l’aide du protocole OIDC}
+  \label{fig:design_OIDC}
+\end{figure}
+
+
+Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/auth_OIDC/auth_OIDC}
+  \caption{Diagramme de séquence de cas d'utilisation « Connexion à l’aide du protocole OIDC »}
+  \label{fig:sequence_auth_OIDC}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/verification_biometrique/verification_biometrique}
+  \caption{Diagramme de séquence de cas d'utilisation « Vérification biométrique »}
+  \label{fig:sequence_verification_biometrique}
+\end{figure}  
+\textbf{Note: C'est un diagramme général qui illustre le processus de vérification biométrique pour différentes actions qui nécessitent une authentification sécurisée, telles que la gestion de signatures, la gestion des tâches et la signature de documents. Ce diagramme montre comment l'utilisateur doit effectuer une vérification biométrique en utilisant des technologies telles que la reconnaissance faciale ou la reconnaissance d'empreintes digitales, pour accéder à des fonctionnalités sensibles de l'application.}
+
+
+\subsubsection{Analyse détaillée}
+La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
+Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
+
+
+% spacing between paragraphs
+\setlength{\parskip}{1em}
+% spacing left
+\setlength{\parindent}{0em}
+
+\textbf{•	Diagramme de classe d'analyse de sprint 5 }
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{dca_sprint5}
+  \caption{Diagramme de classe d'analyse de sprint 5}
+  \label{fig:class_analyse_sprint5}
+\end{figure}
+
+
+\subsubsection{Conception}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 5. \\
+\textbf{•	Diagramme de classe de conception de sprint 5}
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{dcc_sprint5}
+  \caption{Diagramme de classe de conception de sprint 5}
+  \label{fig:class_diagram_51}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_OIDC/sequence_OIDC}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Connexion à l’aide du protocole OIDC »}
+  \label{fig:sequence_conception_auth_OIDC}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_verification_biometrique/sequence_verification_biometrique}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Vérification biométrique »}
+  \label{fig:sequence_conception_verification_biometrique}
+\end{figure}
+
+\subsubsection{Réalisation}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_OIDC}
+  \caption{Les interfaces de la page de connexion à l’aide du protocole OIDC}
+  \label{fig:realisation_OIDC}
+\end{figure}
+
+\subsection{Sprint Review}
+Dans ce sprint, nous avons travaillé sur la gestion de l'authentification OIDC et de la vérification biométrique en tant que méthodes d'identification de l'utilisateur.
+\subsection{Sprint Retrospective}
+Nous avons atteint tous les objectifs fixés pour ce sprint :
+\begin{itemize}
+  \item \textbf{Ce qui a bien fonctionné :}
+  \begin{itemize}
+    \item Nous avons produit une analyse complète de l'authentification OIDC et de la vérification biométrique, qui a permis d'identifier les avantages et les limites de chaque méthode d'identification de l'utilisateur.
+    \item Offrir une solution plus robuste et plus fiable pour les applications qui requièrent un haut niveau de sécurité.
+    
+  \end{itemize}
+
+    \item \textbf{Ce qui n'a pas bien fonctionné :}
+    \begin{itemize}
+      \item Nous avons rencontré des difficultés lors de la mise en œuvre de la fonctionnalité de vérification biométrique et l’authentification OIDC dans l'application Elise Mobile,
+    \end{itemize}
+      
+\end{itemize}
 \section{Sprint 7 (Consultation des statistique)}
 
 \subsection{Sprint Goal}

@@ -135,24 +135,44 @@
 \contentsline {chapter}{\numberline {4}\bgroup \beginL \latintext Release 2\endL \egroup }{104}{chapter.4}%
 \contentsline {chapter}{Release 2}{104}{chapter.4}%
 \select@language {french}
-\contentsline {section}{\numberline {I}\bgroup \beginL \latintext Sprint 7 (Consultation des statistique)\endL \egroup }{104}{section.4.1}%
+\contentsline {section}{\numberline {I}\bgroup \beginL \latintext Sprint 5 (Gestion d'authentification OIDC et verification biometrique)\endL \egroup }{105}{section.4.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {I.1}\bgroup \beginL \latintext Sprint Goal\endL \egroup }{104}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {I.1}\bgroup \beginL \latintext Sprint Goal\endL \egroup }{105}{subsection.4.1.1}%
 \select@language {french}
 \contentsline {subsection}{\numberline {I.2}\bgroup \beginL \latintext Sprint Backlog\endL \egroup }{105}{subsection.4.1.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {I.3}\bgroup \beginL \latintext Implémentation du Sprint 7\endL \egroup }{105}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {I.3}\bgroup \beginL \latintext Implémentation du Sprint 5\endL \egroup }{106}{subsection.4.1.3}%
 \select@language {french}
 \contentsline {subsubsection}{\numberline {I.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{106}{subsubsection.4.1.3.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {I.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{110}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {I.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{111}{subsubsection.4.1.3.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {I.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{110}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {I.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{112}{subsubsection.4.1.3.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {I.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{113}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {I.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{114}{subsubsection.4.1.3.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {I.4}\bgroup \beginL \latintext Sprint Review\endL \egroup }{113}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {I.4}\bgroup \beginL \latintext Sprint Review\endL \egroup }{115}{subsection.4.1.4}%
 \select@language {french}
-\contentsline {subsection}{\numberline {I.5}\bgroup \beginL \latintext Sprint Retrospective\endL \egroup }{114}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {I.5}\bgroup \beginL \latintext Sprint Retrospective\endL \egroup }{115}{subsection.4.1.5}%
+\select@language {french}
+\contentsline {section}{\numberline {II}\bgroup \beginL \latintext Sprint 7 (Consultation des statistique)\endL \egroup }{116}{section.4.2}%
+\select@language {french}
+\contentsline {subsection}{\numberline {II.1}\bgroup \beginL \latintext Sprint Goal\endL \egroup }{116}{subsection.4.2.1}%
+\select@language {french}
+\contentsline {subsection}{\numberline {II.2}\bgroup \beginL \latintext Sprint Backlog\endL \egroup }{116}{subsection.4.2.2}%
+\select@language {french}
+\contentsline {subsection}{\numberline {II.3}\bgroup \beginL \latintext Implémentation du Sprint 7\endL \egroup }{117}{subsection.4.2.3}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {II.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{117}{subsubsection.4.2.3.1}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {II.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{121}{subsubsection.4.2.3.2}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {II.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{121}{subsubsection.4.2.3.3}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {II.3.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{124}{subsubsection.4.2.3.4}%
+\select@language {french}
+\contentsline {subsection}{\numberline {II.4}\bgroup \beginL \latintext Sprint Review\endL \egroup }{124}{subsection.4.2.4}%
+\select@language {french}
+\contentsline {subsection}{\numberline {II.5}\bgroup \beginL \latintext Sprint Retrospective\endL \egroup }{125}{subsection.4.2.5}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{115}{section*.115}%
+\contentsline {chapter}{Annexes}{126}{section*.124}%
