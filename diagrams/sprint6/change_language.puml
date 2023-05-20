@@ -1,0 +1,21 @@
+@startuml change_language
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+ref over user, system : Authentification
+
+activate user
+user -> system : clique sur le bouton "Langues"
+activate system
+system -> system : affiche la liste des langues disponibles
+system --> user : affiche la liste des langues disponibles
+user -> system : clique sur la langue souhaitée
+system -> system : change la langue de l'application
+system --> user : change la langue de l'application
+
+
+deactivate system
+deactivate user

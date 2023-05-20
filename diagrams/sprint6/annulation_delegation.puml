@@ -1,0 +1,20 @@
+@startuml annulation_delegation
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+ref over user, system : Authentification
+
+activate user
+user -> system : clique sur le bouton "annuler"
+activate system
+system --> user : affiche le panneau de confirmation
+deactivate system
+user -> system : clique sur le bouton "confirmer"
+activate system
+system --> user : annule la delegation
+deactivate system
+
+deactivate user

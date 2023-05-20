@@ -1,0 +1,16 @@
+@startuml annule_absence
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+ref over user, system : Authentification
+
+activate user
+user -> system : clique sur le bouton "Annuler une absence"
+activate system
+system --> user : utilisateur present 
+
+deactivate system
+deactivate user

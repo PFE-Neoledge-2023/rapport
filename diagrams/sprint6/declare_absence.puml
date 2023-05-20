@@ -1,0 +1,16 @@
+@startuml declare_absence
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+ref over user, system : Authentification
+
+activate user
+user -> system : clique sur le bouton "Déclarer une absence"
+activate system
+system --> user : utilisateur absent 
+
+deactivate system
+deactivate user

@@ -1,0 +1,18 @@
+@startuml edit_profile_avatar
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "camera"
+activate system
+system --> user : ouvre la caméra de l'appareil
+
+
+
+deactivate system
+deactivate user
