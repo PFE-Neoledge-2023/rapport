@@ -5,34 +5,33 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {1.1}{\ignorespaces Environnement matériel\relax }}{13}{table.caption.8}%
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {1.1}{\ignorespaces Environnement matériel\relax }}{14}{table.caption.9}%
 \addvspace {10\p@ }
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {2.1}{\ignorespaces Acteurs de l'application\relax }}{16}{table.caption.26}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Product Backlog\relax }}{24}{table.2.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Acteurs de l'application\relax }}{17}{table.caption.27}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Product Backlog\relax }}{23}{table.2.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Sprint Backlog du Sprint 1\relax }}{28}{table.3.1}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Sprint Backlog du Sprint 1\relax }}{27}{table.3.1}%
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « S'authentifier »\relax }}{29}{table.3.2}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Se déconnecter »\relax }}{29}{table.3.3}%
-\setforeignlanguage {french}
-\setforeignlanguage {french}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « S'authentifier »\relax }}{28}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Se déconnecter »\relax }}{28}{table.3.3}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Sprint backlog du Sprint 2\relax }}{37}{table.3.4}%
-\setforeignlanguage {french}
-\contentsline {table}{\numberline {3.5}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Créer une signature »\relax }}{38}{table.3.5}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Afficher les signatures »\relax }}{39}{table.3.6}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Créer une signature »\relax }}{39}{table.3.7}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Supprimer une signature »\relax }}{40}{table.3.8}%
-\contentsline {table}{\numberline {3.9}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Visualiser une signature »\relax }}{40}{table.3.9}%
-\contentsline {table}{\numberline {3.10}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Créer une signature a l'aide du caméra ou d'image »\relax }}{41}{table.3.10}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Sprint backlog du Sprint 2\relax }}{36}{table.3.4}%
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Créer une signature »\relax }}{37}{table.3.5}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Afficher les signatures »\relax }}{38}{table.3.6}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Créer une signature »\relax }}{38}{table.3.7}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Supprimer une signature »\relax }}{39}{table.3.8}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Visualiser une signature »\relax }}{39}{table.3.9}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Créer une signature a l'aide du caméra ou d'image »\relax }}{40}{table.3.10}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
@@ -45,22 +44,22 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {3.11}{\ignorespaces Sprint backlog du Sprint 3\relax }}{54}{table.3.11}%
-\setforeignlanguage {french}
-\contentsline {table}{\numberline {3.12}{\ignorespaces Description textuelle de cas d'utilisation « Accéder à un document »\relax }}{55}{table.3.12}%
-\contentsline {table}{\numberline {3.13}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un document »\relax }}{55}{table.3.13}%
-\contentsline {table}{\numberline {3.14}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »\relax }}{56}{table.3.14}%
-\contentsline {table}{\numberline {3.15}{\ignorespaces Description textuelle de cas d'utilisation « ajouter un fichier à un document »\relax }}{56}{table.3.15}%
-\contentsline {table}{\numberline {3.16}{\ignorespaces Description textuelle de cas d'utilisation « Scanner un fichier »\relax }}{59}{table.3.16}%
-\contentsline {table}{\numberline {3.17}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »\relax }}{59}{table.3.17}%
-\contentsline {table}{\numberline {3.18}{\ignorespaces Description textuelle de cas d'utilisation « Demander une tâche »\relax }}{60}{table.3.18}%
-\contentsline {table}{\numberline {3.19}{\ignorespaces Description textuelle de cas d'utilisation « Tranférer une tâche »\relax }}{60}{table.3.19}%
-\contentsline {table}{\numberline {3.20}{\ignorespaces Description textuelle de cas d'utilisation « Traiter une tâche »\relax }}{61}{table.3.20}%
-\contentsline {table}{\numberline {3.21}{\ignorespaces Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{61}{table.3.21}%
-\contentsline {table}{\numberline {3.22}{\ignorespaces Description textuelle de cas d'utilisation « Chercher des documents »\relax }}{62}{table.3.22}%
-\contentsline {table}{\numberline {3.23}{\ignorespaces Description textuelle de cas d'utilisation « Chercher des documents »\relax }}{62}{table.3.23}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
+\contentsline {table}{\numberline {3.11}{\ignorespaces Sprint backlog du Sprint 3\relax }}{53}{table.3.11}%
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {3.12}{\ignorespaces Description textuelle de cas d'utilisation « Accéder à un document »\relax }}{54}{table.3.12}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un document »\relax }}{54}{table.3.13}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »\relax }}{55}{table.3.14}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Description textuelle de cas d'utilisation « ajouter un fichier à un document »\relax }}{55}{table.3.15}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Description textuelle de cas d'utilisation « Scanner un fichier »\relax }}{58}{table.3.16}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »\relax }}{58}{table.3.17}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Description textuelle de cas d'utilisation « Demander une tâche »\relax }}{59}{table.3.18}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces Description textuelle de cas d'utilisation « Tranférer une tâche »\relax }}{59}{table.3.19}%
+\contentsline {table}{\numberline {3.20}{\ignorespaces Description textuelle de cas d'utilisation « Traiter une tâche »\relax }}{60}{table.3.20}%
+\contentsline {table}{\numberline {3.21}{\ignorespaces Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{60}{table.3.21}%
+\contentsline {table}{\numberline {3.22}{\ignorespaces Description textuelle de cas d'utilisation « Chercher des documents »\relax }}{61}{table.3.22}%
+\contentsline {table}{\numberline {3.23}{\ignorespaces Description textuelle de cas d'utilisation « Chercher des documents »\relax }}{61}{table.3.23}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
@@ -87,15 +86,17 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {3.24}{\ignorespaces Sprint backlog du Sprint 4\relax }}{83}{table.3.24}%
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {3.25}{\ignorespaces Description textuelle de cas d'utilisation « Visualiser un fichier »\relax }}{84}{table.3.25}%
-\contentsline {table}{\numberline {3.26}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un fichier »\relax }}{84}{table.3.26}%
-\contentsline {table}{\numberline {3.27}{\ignorespaces Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{85}{table.3.27}%
-\contentsline {table}{\numberline {3.28}{\ignorespaces Description textuelle de cas d'utilisation « Signer à main un fichier »\relax }}{86}{table.3.28}%
-\contentsline {table}{\numberline {3.29}{\ignorespaces Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{86}{table.3.29}%
-\contentsline {table}{\numberline {3.30}{\ignorespaces Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{87}{table.3.30}%
-\contentsline {table}{\numberline {3.31}{\ignorespaces Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{87}{table.3.31}%
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {3.24}{\ignorespaces Sprint backlog du Sprint 4\relax }}{82}{table.3.24}%
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {3.25}{\ignorespaces Description textuelle de cas d'utilisation « Visualiser un fichier »\relax }}{83}{table.3.25}%
+\contentsline {table}{\numberline {3.26}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un fichier »\relax }}{83}{table.3.26}%
+\contentsline {table}{\numberline {3.27}{\ignorespaces Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{84}{table.3.27}%
+\contentsline {table}{\numberline {3.28}{\ignorespaces Description textuelle de cas d'utilisation « Signer à main un fichier »\relax }}{85}{table.3.28}%
+\contentsline {table}{\numberline {3.29}{\ignorespaces Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{85}{table.3.29}%
+\contentsline {table}{\numberline {3.30}{\ignorespaces Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{86}{table.3.30}%
+\contentsline {table}{\numberline {3.31}{\ignorespaces Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{86}{table.3.31}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
@@ -117,23 +118,23 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Sprint backlog du Sprint 5\relax }}{105}{table.4.1}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Sprint backlog du Sprint 5\relax }}{104}{table.4.1}%
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »\relax }}{107}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{108}{table.4.3}%
-\setforeignlanguage {french}
-\setforeignlanguage {french}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »\relax }}{106}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{107}{table.4.3}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Sprint backlog du Sprint 7\relax }}{116}{table.4.4}%
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »\relax }}{118}{table.4.5}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{118}{table.4.6}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Refraichissement des données »\relax }}{118}{table.4.7}%
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Sprint backlog du Sprint 7\relax }}{115}{table.4.4}%
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »\relax }}{117}{table.4.5}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{117}{table.4.6}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Refraichissement des données »\relax }}{117}{table.4.7}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}

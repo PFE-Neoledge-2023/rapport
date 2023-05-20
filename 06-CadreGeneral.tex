@@ -223,8 +223,8 @@ L'étude de l'application existante nous a permis de porter des jugements object
 
 Parmi les lacunes rencontrées, nous citons :
 \begin{itemize}
-  \item Elise est une solution développée de base en ASP. Net Back et front de l'ancienne version d'Asp. Net c'est pour cela l'application actuelle est non responsive et c'est à partir de la version 6 de Elise que NeoLedge a décidé de migrer le front vers les nouvelles technologies. 
-  \item Elise utilise une base de données locale qui est SIMWebPack et qui est une solution proposée par NeoLedge pour enregistrer les documents sous la forme de XML.
+  % \item Elise est une solution développée de base en ASP. Net Back et front de l'ancienne version d'Asp. Net c'est pour cela l'application actuelle est non responsive et c'est à partir de la version 6 de Elise que NeoLedge a décidé de migrer le front vers les nouvelles technologies. 
+  % \item Elise utilise une base de données locale qui est SIMWebPack et qui est une solution proposée par NeoLedge pour enregistrer les documents sous la forme de XML.
   \item La version actuelle d'Elise mobile ne répond pas aux besoins des utilisateurs par rapport à Elise web ce qui invoque de mauvaises expériences utilisateurs.
   \item La version actuelle d'Elise mobile ne renferme pas toutes les fonctionnalités du Elise version web.
 \end{itemize}
@@ -249,13 +249,36 @@ Notre solution consiste à mettre en place une solution responsive de Elise qui 
   \item Notifications push : Possibilité de recevoir des notifications push pour les mises à jour de documents ou les tâches à effectuer.
 \end{itemize}
 
+\section{Étude technique}
+\subsection{Architecture système}
+Elise est une solution d'architecture architecture 3 tiers, illustrée par la figure ci-dessous 
+% image architecture_elise
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{architecture_elise}
+  \caption{Architecture Elise}
+  \ref{fig:architecture_elise}
+\end{figure}
+Cette architecture est composée de trois couches (3 tiers) :
+
+\subsubsection{La couche client (ou la couche présentation)}
+C'est la couche frontale de l'application. Elle comprend l'interface utilisateur. Pour notre solution c'est l'application Elise web et les autres applications de ECS : Elise Cloud Service. Et nous allons intégrons notre application mobile à cette couche. Ou toutes les applications de cette couche communiquent avec les autres couches avec des appels web services.
+
+\subsubsection{La couche applicative}
+Contient la logique métier fonctionnelle qui pilote les fonctionnalités essentielles d'une application. Dans notre cas, c'est le serveur d'application Elise.
+
+\subsubsection{	La couche d'accès aux données}
+Elle contient les données de l'application. Pour notre solution nous avons deux types de base de données ; une base de données relationnelles et une base de données Xml.
+
+Cette architecture nous offre la séparation entre l'interface utilisateur, la logique métier et la couche de stockage de données. Cela donne une plus grande flexibilité aux équipes de développement en leur permettant de mettre à jour une partie spécifique d'une application indépendamment des autres parties.
+
 \section{Méthodologie de gestion de projet}
 Avec les progrès en technologie de l'information et les investissements dans les infrastructures, beaucoup de méthodes de gestion de projet ont vu le jour. Certes, ces méthodes jouent un rôle primordial dans la réussite ou l'échec d'un projet, d'où le choix, représente une décision importante pour les entreprises. Dans cette partie, nous allons expliquer notre choix de la méthode. Il existe en fait deux grandes familles de méthodes de la gestion du projet : les méthodes dites classiques et les méthodes agiles. On privilégiera plutôt les méthodes classiques lorsqu'on a une idée précise du projet, avec un planning bien détaillé et où on a anticipé tous les risques possibles. Quant aux méthodes Agiles, on les choisira plutôt pour les gros projets, celles-ci permettent une meilleure adaptabilité, visibilité et gestion des risques. On privilégiera également les méthodes Agiles pour les projets où il n'y a pas de documents détaillés, ou quand le client est indécis. Le client pourra alors voir l'évolution du projet et l'adapter à ses besoins sans pour autant vous obliger à recommencer tout le travail que vous avez fourni depuis le début. Elles sont menées dans un esprit collaboratif et elles s'adaptent aux approches incrémentales. Elles engendrent des produits de haute qualité tout en tenant compte de l'évolution des besoins du client.
 
-\subsection{Choix de la méthodologie du développement}
-Notre choix méthodologique et en convenance à notre projet, nous avons opté pour l'utilisation de la méthode SCRUM. C'est en fait la méthode la plus utilisée, la plus éprouvée, documentée et supportée. Il s'agit d'un cadre de travail en équipe pluridisciplinaire permettant de répondre à des problèmes complexes et changeant, centré sur l'architecture.
+\subsection{Choix méthodologique}
+Notre choix méthodologique et en convenance à notre projet, nous avons opté pour l'utilisation du framework Scrum. C'est en fait le framework le plus utilisé, le plus éprouvé, documenté et supporté. Il s'agit d'un cadre de travail en équipe pluridisciplinaire permettant de répondre à des problèmes complexes et changeants, centré sur l'architecture.
 \subsection{Pourquoi Scrum}
-Dans le cadre de notre projet et afin d'assurer le bon déroulement des différentes phases de ce dernier, nous avons opté pour la méthode agile Scrum pour la conception et le développement de notre système pour des raisons bien déterminées. En effet, le processus Scrum s'adapte parfaitement à la décomposition du notre projet de fin d'études.
+Dans le cadre de notre projet et afin d'assurer le bon déroulement des différentes phases de ce dernier, nous avons opté pour le framework agile Scrum pour la conception et le développement de notre système pour des raisons bien déterminées. En effet, le framework Scrum s'adapte parfaitement à la décomposition de notre projet de fin d'études.
 
 Il se base sur les avantages suivants :
 

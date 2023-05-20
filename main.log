@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  14 MAY 2023 14:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  20 MAY 2023 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2299,12 +2299,13 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (C:\Users\pc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1]
+)
+Missing character: There is no  in font [lmroman12-regular]:mapping=tex-text;!
+[1]
 LaTeX Info: Redefining \rmfamily on input line 154.
 LaTeX Info: Redefining \sffamily on input line 154.
 LaTeX Info: Redefining \ttfamily on input line 154.
-
-[2])
+ [2])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -2513,16 +2514,13 @@ LaTeX Info: Redefining \ttfamily on input line 130.
 LaTeX Info: Redefining \rmfamily on input line 132.
 LaTeX Info: Redefining \sffamily on input line 132.
 LaTeX Info: Redefining \ttfamily on input line 132.
-
-Underfull \vbox (badness 3158) has occurred while \output is active []
-
-LaTeX Info: Redefining \rmfamily on input line 133.
-LaTeX Info: Redefining \sffamily on input line 133.
-LaTeX Info: Redefining \ttfamily on input line 133.
- [5]
 LaTeX Info: Redefining \rmfamily on input line 134.
 LaTeX Info: Redefining \sffamily on input line 134.
 LaTeX Info: Redefining \ttfamily on input line 134.
+LaTeX Info: Redefining \rmfamily on input line 135.
+LaTeX Info: Redefining \sffamily on input line 135.
+LaTeX Info: Redefining \ttfamily on input line 135.
+ [5]
 LaTeX Info: Redefining \rmfamily on input line 136.
 LaTeX Info: Redefining \sffamily on input line 136.
 LaTeX Info: Redefining \ttfamily on input line 136.
@@ -2565,9 +2563,9 @@ LaTeX Info: Redefining \ttfamily on input line 160.
 LaTeX Info: Redefining \rmfamily on input line 162.
 LaTeX Info: Redefining \sffamily on input line 162.
 LaTeX Info: Redefining \ttfamily on input line 162.
-LaTeX Info: Redefining \rmfamily on input line 165.
-LaTeX Info: Redefining \sffamily on input line 165.
-LaTeX Info: Redefining \ttfamily on input line 165.
+LaTeX Info: Redefining \rmfamily on input line 164.
+LaTeX Info: Redefining \sffamily on input line 164.
+LaTeX Info: Redefining \ttfamily on input line 164.
 LaTeX Info: Redefining \rmfamily on input line 167.
 LaTeX Info: Redefining \sffamily on input line 167.
 LaTeX Info: Redefining \ttfamily on input line 167.
@@ -2607,14 +2605,13 @@ LaTeX Info: Redefining \ttfamily on input line 189.
 LaTeX Info: Redefining \rmfamily on input line 191.
 LaTeX Info: Redefining \sffamily on input line 191.
 LaTeX Info: Redefining \ttfamily on input line 191.
-LaTeX Info: Redefining \rmfamily on input line 192.
-LaTeX Info: Redefining \sffamily on input line 192.
-LaTeX Info: Redefining \ttfamily on input line 192.
-
-[6]
 LaTeX Info: Redefining \rmfamily on input line 193.
 LaTeX Info: Redefining \sffamily on input line 193.
 LaTeX Info: Redefining \ttfamily on input line 193.
+LaTeX Info: Redefining \rmfamily on input line 194.
+LaTeX Info: Redefining \sffamily on input line 194.
+LaTeX Info: Redefining \ttfamily on input line 194.
+ [6]
 LaTeX Info: Redefining \rmfamily on input line 195.
 LaTeX Info: Redefining \sffamily on input line 195.
 LaTeX Info: Redefining \ttfamily on input line 195.
@@ -2630,6 +2627,9 @@ LaTeX Info: Redefining \ttfamily on input line 201.
 LaTeX Info: Redefining \rmfamily on input line 203.
 LaTeX Info: Redefining \sffamily on input line 203.
 LaTeX Info: Redefining \ttfamily on input line 203.
+LaTeX Info: Redefining \rmfamily on input line 205.
+LaTeX Info: Redefining \sffamily on input line 205.
+LaTeX Info: Redefining \ttfamily on input line 205.
 )
 \tf@lof=\write7
 \openout7 = `main.lof'.
@@ -2656,15 +2656,15 @@ LaTeX Info: Redefining \ttfamily on input line 6.
 LaTeX Info: Redefining \rmfamily on input line 7.
 LaTeX Info: Redefining \sffamily on input line 7.
 LaTeX Info: Redefining \ttfamily on input line 7.
-LaTeX Info: Redefining \rmfamily on input line 10.
-LaTeX Info: Redefining \sffamily on input line 10.
-LaTeX Info: Redefining \ttfamily on input line 10.
-LaTeX Info: Redefining \rmfamily on input line 15.
-LaTeX Info: Redefining \sffamily on input line 15.
-LaTeX Info: Redefining \ttfamily on input line 15.
-LaTeX Info: Redefining \rmfamily on input line 18.
-LaTeX Info: Redefining \sffamily on input line 18.
-LaTeX Info: Redefining \ttfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 8.
+LaTeX Info: Redefining \sffamily on input line 8.
+LaTeX Info: Redefining \ttfamily on input line 8.
+LaTeX Info: Redefining \rmfamily on input line 11.
+LaTeX Info: Redefining \sffamily on input line 11.
+LaTeX Info: Redefining \ttfamily on input line 11.
+LaTeX Info: Redefining \rmfamily on input line 16.
+LaTeX Info: Redefining \sffamily on input line 16.
+LaTeX Info: Redefining \ttfamily on input line 16.
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
@@ -2686,12 +2686,12 @@ LaTeX Info: Redefining \ttfamily on input line 24.
 LaTeX Info: Redefining \rmfamily on input line 25.
 LaTeX Info: Redefining \sffamily on input line 25.
 LaTeX Info: Redefining \ttfamily on input line 25.
-LaTeX Info: Redefining \rmfamily on input line 27.
-LaTeX Info: Redefining \sffamily on input line 27.
-LaTeX Info: Redefining \ttfamily on input line 27.
-LaTeX Info: Redefining \rmfamily on input line 34.
-LaTeX Info: Redefining \sffamily on input line 34.
-LaTeX Info: Redefining \ttfamily on input line 34.
+LaTeX Info: Redefining \rmfamily on input line 26.
+LaTeX Info: Redefining \sffamily on input line 26.
+LaTeX Info: Redefining \ttfamily on input line 26.
+LaTeX Info: Redefining \rmfamily on input line 28.
+LaTeX Info: Redefining \sffamily on input line 28.
+LaTeX Info: Redefining \ttfamily on input line 28.
 LaTeX Info: Redefining \rmfamily on input line 35.
 LaTeX Info: Redefining \sffamily on input line 35.
 LaTeX Info: Redefining \ttfamily on input line 35.
@@ -2731,12 +2731,12 @@ LaTeX Info: Redefining \ttfamily on input line 46.
 LaTeX Info: Redefining \rmfamily on input line 47.
 LaTeX Info: Redefining \sffamily on input line 47.
 LaTeX Info: Redefining \ttfamily on input line 47.
-LaTeX Info: Redefining \rmfamily on input line 49.
-LaTeX Info: Redefining \sffamily on input line 49.
-LaTeX Info: Redefining \ttfamily on input line 49.
-LaTeX Info: Redefining \rmfamily on input line 62.
-LaTeX Info: Redefining \sffamily on input line 62.
-LaTeX Info: Redefining \ttfamily on input line 62.
+LaTeX Info: Redefining \rmfamily on input line 48.
+LaTeX Info: Redefining \sffamily on input line 48.
+LaTeX Info: Redefining \ttfamily on input line 48.
+LaTeX Info: Redefining \rmfamily on input line 50.
+LaTeX Info: Redefining \sffamily on input line 50.
+LaTeX Info: Redefining \ttfamily on input line 50.
 LaTeX Info: Redefining \rmfamily on input line 63.
 LaTeX Info: Redefining \sffamily on input line 63.
 LaTeX Info: Redefining \ttfamily on input line 63.
@@ -2818,18 +2818,18 @@ LaTeX Info: Redefining \ttfamily on input line 88.
 LaTeX Info: Redefining \rmfamily on input line 89.
 LaTeX Info: Redefining \sffamily on input line 89.
 LaTeX Info: Redefining \ttfamily on input line 89.
-LaTeX Info: Redefining \rmfamily on input line 91.
-LaTeX Info: Redefining \sffamily on input line 91.
-LaTeX Info: Redefining \ttfamily on input line 91.
+LaTeX Info: Redefining \rmfamily on input line 90.
+LaTeX Info: Redefining \sffamily on input line 90.
+LaTeX Info: Redefining \ttfamily on input line 90.
+LaTeX Info: Redefining \rmfamily on input line 92.
+LaTeX Info: Redefining \sffamily on input line 92.
+LaTeX Info: Redefining \ttfamily on input line 92.
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
  [8
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 99.
-LaTeX Info: Redefining \sffamily on input line 99.
-LaTeX Info: Redefining \ttfamily on input line 99.
 LaTeX Info: Redefining \rmfamily on input line 100.
 LaTeX Info: Redefining \sffamily on input line 100.
 LaTeX Info: Redefining \ttfamily on input line 100.
@@ -2887,12 +2887,12 @@ LaTeX Info: Redefining \ttfamily on input line 117.
 LaTeX Info: Redefining \rmfamily on input line 118.
 LaTeX Info: Redefining \sffamily on input line 118.
 LaTeX Info: Redefining \ttfamily on input line 118.
-LaTeX Info: Redefining \rmfamily on input line 121.
-LaTeX Info: Redefining \sffamily on input line 121.
-LaTeX Info: Redefining \ttfamily on input line 121.
-LaTeX Info: Redefining \rmfamily on input line 124.
-LaTeX Info: Redefining \sffamily on input line 124.
-LaTeX Info: Redefining \ttfamily on input line 124.
+LaTeX Info: Redefining \rmfamily on input line 119.
+LaTeX Info: Redefining \sffamily on input line 119.
+LaTeX Info: Redefining \ttfamily on input line 119.
+LaTeX Info: Redefining \rmfamily on input line 122.
+LaTeX Info: Redefining \sffamily on input line 122.
+LaTeX Info: Redefining \ttfamily on input line 122.
 LaTeX Info: Redefining \rmfamily on input line 125.
 LaTeX Info: Redefining \sffamily on input line 125.
 LaTeX Info: Redefining \ttfamily on input line 125.
@@ -2914,12 +2914,12 @@ LaTeX Info: Redefining \ttfamily on input line 130.
 LaTeX Info: Redefining \rmfamily on input line 131.
 LaTeX Info: Redefining \sffamily on input line 131.
 LaTeX Info: Redefining \ttfamily on input line 131.
-LaTeX Info: Redefining \rmfamily on input line 133.
-LaTeX Info: Redefining \sffamily on input line 133.
-LaTeX Info: Redefining \ttfamily on input line 133.
-LaTeX Info: Redefining \rmfamily on input line 137.
-LaTeX Info: Redefining \sffamily on input line 137.
-LaTeX Info: Redefining \ttfamily on input line 137.
+LaTeX Info: Redefining \rmfamily on input line 132.
+LaTeX Info: Redefining \sffamily on input line 132.
+LaTeX Info: Redefining \ttfamily on input line 132.
+LaTeX Info: Redefining \rmfamily on input line 134.
+LaTeX Info: Redefining \sffamily on input line 134.
+LaTeX Info: Redefining \ttfamily on input line 134.
 LaTeX Info: Redefining \rmfamily on input line 138.
 LaTeX Info: Redefining \sffamily on input line 138.
 LaTeX Info: Redefining \ttfamily on input line 138.
@@ -2947,6 +2947,9 @@ LaTeX Info: Redefining \ttfamily on input line 145.
 LaTeX Info: Redefining \rmfamily on input line 146.
 LaTeX Info: Redefining \sffamily on input line 146.
 LaTeX Info: Redefining \ttfamily on input line 146.
+LaTeX Info: Redefining \rmfamily on input line 147.
+LaTeX Info: Redefining \sffamily on input line 147.
+LaTeX Info: Redefining \ttfamily on input line 147.
 )
 \tf@lot=\write8
 \openout8 = `main.lot'.
@@ -3027,19 +3030,31 @@ LaTeX Info: Redefining \rmfamily on input line 184.
 LaTeX Info: Redefining \sffamily on input line 184.
 LaTeX Info: Redefining \ttfamily on input line 184.
 [8]
-LaTeX Info: Redefining \rmfamily on input line 226.
-LaTeX Info: Redefining \sffamily on input line 226.
-LaTeX Info: Redefining \ttfamily on input line 226.
+LaTeX Info: Redefining \rmfamily on input line 228.
+LaTeX Info: Redefining \sffamily on input line 228.
+LaTeX Info: Redefining \ttfamily on input line 228.
  [9]
-LaTeX Info: Redefining \rmfamily on input line 254.
-LaTeX Info: Redefining \sffamily on input line 254.
-LaTeX Info: Redefining \ttfamily on input line 254.
- [10]
-LaTeX Info: Redefining \rmfamily on input line 275.
-LaTeX Info: Redefining \sffamily on input line 275.
-LaTeX Info: Redefining \ttfamily on input line 275.
- [11]
-Overfull \hbox (2.59184pt too wide) in paragraph at lines 277--279
+File: images_pfe//architecture_elise.png Graphic file (type bmp)
+<images_pfe//architecture_elise.png>
+
+
+LaTeX Warning: Reference `fig:architecture_elise' on page 10 undefined on input
+ line 260.
+
+LaTeX Info: Redefining \rmfamily on input line 262.
+LaTeX Info: Redefining \sffamily on input line 262.
+LaTeX Info: Redefining \ttfamily on input line 262.
+[10]
+Missing character: There is no  in font [lmroman12-bold]:mapping=tex-text;!
+LaTeX Info: Redefining \rmfamily on input line 273.
+LaTeX Info: Redefining \sffamily on input line 273.
+LaTeX Info: Redefining \ttfamily on input line 273.
+[11]
+LaTeX Info: Redefining \rmfamily on input line 288.
+LaTeX Info: Redefining \sffamily on input line 288.
+LaTeX Info: Redefining \ttfamily on input line 288.
+ [12]
+Overfull \hbox (2.59184pt too wide) in paragraph at lines 300--302
 [][]\TU/lmr/bx/n/12 L’équipe de développement \TU/lmr/m/n/12 (L’équipe de proje
 t) : L’équipe de réalisation contient[]
  []
@@ -3048,13 +3063,10 @@ File: images_pfe//cycle_de_vie_scrum.png Graphic file (type bmp)
 <images_pfe//cycle_de_vie_scrum.png>
 File: images_pfe//pc.jpg Graphic file (type bmp)
 <images_pfe//pc.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Info: Redefining \rmfamily on input line 323.
-LaTeX Info: Redefining \sffamily on input line 323.
-LaTeX Info: Redefining \ttfamily on input line 323.
- [12]
+LaTeX Info: Redefining \rmfamily on input line 346.
+LaTeX Info: Redefining \sffamily on input line 346.
+LaTeX Info: Redefining \ttfamily on input line 346.
+[13]
 File: images_pfe//win10.jpg Graphic file (type bmp)
 <images_pfe//win10.jpg>
 File: images_pfe//vscode.png Graphic file (type bmp)
@@ -3065,11 +3077,10 @@ File: images_pfe//android.png Graphic file (type bmp)
 <images_pfe//android.png>
 File: images_pfe//postman.jpg Graphic file (type bmp)
 <images_pfe//postman.jpg>
-LaTeX Info: Redefining \rmfamily on input line 385.
-LaTeX Info: Redefining \sffamily on input line 385.
-LaTeX Info: Redefining \ttfamily on input line 385.
-
-[13]
+LaTeX Info: Redefining \rmfamily on input line 408.
+LaTeX Info: Redefining \sffamily on input line 408.
+LaTeX Info: Redefining \ttfamily on input line 408.
+ [14]
 File: images_pfe//git.jpg Graphic file (type bmp)
 <images_pfe//git.jpg>
 File: images_pfe//AzureDevOps.png Graphic file (type bmp)
@@ -3084,10 +3095,10 @@ File: images_pfe//latex.png Graphic file (type bmp)
 <images_pfe//latex.png>
 File: images_pfe//ionic.png Graphic file (type bmp)
 <images_pfe//ionic.png>
-LaTeX Info: Redefining \rmfamily on input line 461.
-LaTeX Info: Redefining \sffamily on input line 461.
-LaTeX Info: Redefining \ttfamily on input line 461.
- [14]
+LaTeX Info: Redefining \rmfamily on input line 484.
+LaTeX Info: Redefining \sffamily on input line 484.
+LaTeX Info: Redefining \ttfamily on input line 484.
+ [15]
 File: images_pfe//vue.png Graphic file (type bmp)
 <images_pfe//vue.png>
 File: images_pfe//capacitor.png Graphic file (type bmp)
@@ -3098,7 +3109,7 @@ File: images_pfe//typescript.png Graphic file (type bmp)
 LaTeX Info: Redefining \rmfamily on input line 290.
 LaTeX Info: Redefining \sffamily on input line 290.
 LaTeX Info: Redefining \ttfamily on input line 290.
- [15]
+ [16]
 \openout2 = `07-AnalyseEtConception.aux'.
 
  (07-AnalyseEtConception.tex
@@ -3119,7 +3130,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\endL' on input line 1.
 
-[16
+[17
 
 
 
@@ -3128,281 +3139,72 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \rmfamily on input line 185.
 LaTeX Info: Redefining \sffamily on input line 185.
 LaTeX Info: Redefining \ttfamily on input line 185.
- [17]
-Overfull \vbox (76.12524pt too high) detected at line 205
+ [18]
+Underfull \hbox (badness 5787) in paragraph at lines 200--200
+[][]|\TU/lmr/m/n/12 Formation en développe-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[][]|\TU/lmr/m/n/12 Formation en[]
+Underfull \hbox (badness 1072) in paragraph at lines 206--206
+[][]|\TU/lmr/m/n/12 Connexion simple avec le[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]\TU/lmr/m/n/12 développement[]
+Underfull \hbox (badness 6944) in paragraph at lines 284--284
+[][]|\TU/lmr/m/n/12 Supprimer les signatures[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]\TU/lmr/m/n/12 mobile avec[]
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[][]|\TU/lmr/m/n/12 Gestion des préférences[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
-[]\TU/lmr/m/n/12 Ionic Vue et[]
+Underfull \hbox (badness 3568) in paragraph at lines 321--321
+[][]|\TU/lmr/m/n/12 Suppression d’un délégué[]
  []
 
 
-Underfull \hbox (badness 3439) in paragraph at lines 209--209
-[]\TU/lmr/m/n/12 gurer l’environ-[]
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[][]|\TU/lmr/m/n/12 Visualisation des statis-[]
  []
 
 
-Underfull \hbox (badness 5519) in paragraph at lines 211--211
-[][]|\TU/lmr/m/n/12 Développer des[]
+Underfull \hbox (badness 1248) in paragraph at lines 327--327
+[][]|\TU/lmr/m/n/12 Refraichissement des don-[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--213
-[][]|\TU/lmr/m/n/12 Connexion[]
+Overfull \hbox (3.56966pt too wide) in alignment at lines 193--334
+ [] [] [] [] [] 
  []
 
-
-Underfull \hbox (badness 5050) in paragraph at lines 213--213
-[]\TU/lmr/m/n/12 simple avec le[]
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 213--213
-[][]|\TU/lmr/m/n/12 du 4 à 5[]
- []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 220--220
-[][]|\TU/lmr/m/n/12 Création de si-[]
- []
-
-
-Underfull \hbox (badness 1490) in paragraph at lines 225--225
-[][]|\TU/lmr/m/n/12 Affichage de la[]
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 225--225
-[]\TU/lmr/m/n/12 liste des signa-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--228
-[][]|\TU/lmr/m/n/12 Suppression de[]
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 231--231
-[][]|\TU/lmr/m/n/12 du 1 à 2[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--234
-[]\TU/lmr/m/n/12 ture à l’aide[]
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 234--234
-[][]|\TU/lmr/m/n/12 du 3 à 9[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
-[][]|\TU/lmr/m/n/12 Recherche a[]
- []
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 243--243
-[]\TU/lmr/m/n/12 l’aide de code[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-[][]|\TU/lmr/m/n/12 Afficher docu-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-[][]|\TU/lmr/m/n/12 Télécharger un[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[][]|\TU/lmr/m/n/12 Consulter les[]
- []
-
-
-Underfull \hbox (badness 4156) in paragraph at lines 263--263
-[][]|\TU/lmr/m/n/12 Scanner un fi-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
-[][]|\TU/lmr/m/n/12 Transferer une[]
- []
-
-
-Underfull \hbox (badness 4391) in paragraph at lines 276--276
-[]\TU/lmr/m/n/12 tâche dans un[]
- []
-
-
-Overfull \vbox (45.67513pt too high) detected at line 284
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
-[][]|\TU/lmr/m/n/12 Téléchargement[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
-[][]|\TU/lmr/m/n/12 Signature de[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
-[]\TU/lmr/m/n/12 fichiers avec[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[][]|\TU/lmr/m/n/12 Confirmer ou[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-[]\TU/lmr/m/n/12 annuler la[]
- []
-
-
-Underfull \hbox (badness 1496) in paragraph at lines 309--309
-[][]|\TU/lmr/m/n/12 du 6 à 7[]
- []
-
-
-Overfull \vbox (91.35025pt too high) detected at line 309
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[][]|\TU/lmr/m/n/12 Connexion à[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
-[][]|\TU/lmr/m/n/12 Gestion des[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--316
-[]\TU/lmr/m/n/12 préférences[]
- []
-
-
-Overfull \vbox (15.2251pt too high) detected at line 316
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
-[][]|\TU/lmr/m/n/12 Visualisation[]
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 326--326
-[][]|\TU/lmr/m/n/12 Modification de[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
-[][]|\TU/lmr/m/n/12 Déclaration[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[][]|\TU/lmr/m/n/12 Annulation[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
-[]\TU/lmr/m/n/12 d’une déclara-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
-[][]|\TU/lmr/m/n/12 Suppression[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
-[]\TU/lmr/m/n/12 d’un délégué[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
-[]\TU/lmr/m/n/12 pendant l’ab-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-[][]|\TU/lmr/m/n/12 Visualisation[]
- []
-
-
-Overfull \hbox (22.6185pt too wide) in paragraph at lines 341--341
-[]\TU/lmr/bx/n/12 7 :\TU/lmr/m/n/12 Consultation[] 
- []
-
-
-Overfull \hbox (0.77774pt too wide) in paragraph at lines 344--344
-[][]|\TU/lmr/m/n/12 Refraichissement[]
- []
-
-
-Overfull \hbox (25.00012pt too wide) in alignment at lines 193--361
- [] [] [] [] [] [] [] [] 
- []
-
-LaTeX Info: Redefining \rmfamily on input line 361.
-LaTeX Info: Redefining \sffamily on input line 361.
-LaTeX Info: Redefining \ttfamily on input line 361.
-[18
+LaTeX Info: Redefining \rmfamily on input line 334.
+LaTeX Info: Redefining \sffamily on input line 334.
+LaTeX Info: Redefining \ttfamily on input line 334.
+[19
 
 ]
-LaTeX Info: Redefining \rmfamily on input line 361.
-LaTeX Info: Redefining \sffamily on input line 361.
-LaTeX Info: Redefining \ttfamily on input line 361.
- [19]
-LaTeX Info: Redefining \rmfamily on input line 361.
-LaTeX Info: Redefining \sffamily on input line 361.
-LaTeX Info: Redefining \ttfamily on input line 361.
+LaTeX Info: Redefining \rmfamily on input line 334.
+LaTeX Info: Redefining \sffamily on input line 334.
+LaTeX Info: Redefining \ttfamily on input line 334.
  [20]
-LaTeX Info: Redefining \rmfamily on input line 361.
-LaTeX Info: Redefining \sffamily on input line 361.
-LaTeX Info: Redefining \ttfamily on input line 361.
+LaTeX Info: Redefining \rmfamily on input line 334.
+LaTeX Info: Redefining \sffamily on input line 334.
+LaTeX Info: Redefining \ttfamily on input line 334.
  [21]
-LaTeX Info: Redefining \rmfamily on input line 361.
-LaTeX Info: Redefining \sffamily on input line 361.
-LaTeX Info: Redefining \ttfamily on input line 361.
+LaTeX Info: Redefining \rmfamily on input line 334.
+LaTeX Info: Redefining \sffamily on input line 334.
+LaTeX Info: Redefining \ttfamily on input line 334.
  [22]
-LaTeX Info: Redefining \rmfamily on input line 361.
-LaTeX Info: Redefining \sffamily on input line 361.
-LaTeX Info: Redefining \ttfamily on input line 361.
- [23]
-LaTeX Info: Redefining \rmfamily on input line 363.
-LaTeX Info: Redefining \sffamily on input line 363.
-LaTeX Info: Redefining \ttfamily on input line 363.
- [24])
+LaTeX Info: Redefining \rmfamily on input line 336.
+LaTeX Info: Redefining \sffamily on input line 336.
+LaTeX Info: Redefining \ttfamily on input line 336.
+ [23])
 LaTeX Info: Redefining \rmfamily on input line 291.
 LaTeX Info: Redefining \sffamily on input line 291.
 LaTeX Info: Redefining \ttfamily on input line 291.
- [25
+ [24
 
 ]
 \openout2 = `08-Release1.aux'.
@@ -3464,7 +3266,10 @@ Overfull \hbox (39.83842pt too wide) in alignment at lines 36--88
  [] [] [] [] [] 
  []
 
-[26
+
+Underfull \vbox (badness 1642) has occurred while \output is active []
+
+ [25
 
 
 
@@ -3473,17 +3278,18 @@ Overfull \hbox (39.83842pt too wide) in alignment at lines 36--88
 LaTeX Info: Redefining \rmfamily on input line 88.
 LaTeX Info: Redefining \sffamily on input line 88.
 LaTeX Info: Redefining \ttfamily on input line 88.
- [27]
+
+[26]
 File: images_pfe//use_case_documents_sprint_1.png Graphic file (type bmp)
 <images_pfe//use_case_documents_sprint_1.png>
 LaTeX Info: Redefining \rmfamily on input line 142.
 LaTeX Info: Redefining \sffamily on input line 142.
 LaTeX Info: Redefining \ttfamily on input line 142.
- [28]
+ [27]
 LaTeX Info: Redefining \rmfamily on input line 170.
 LaTeX Info: Redefining \sffamily on input line 170.
 LaTeX Info: Redefining \ttfamily on input line 170.
- [29]
+ [28]
 File: images_pfe//design_auth.png Graphic file (type bmp)
 <images_pfe//design_auth.png>
 File: out/diagrams/authentification/simple_login/simple_login.png Graphic file 
@@ -3495,14 +3301,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 187.
 LaTeX Info: Redefining \sffamily on input line 187.
 LaTeX Info: Redefining \ttfamily on input line 187.
- [30]
+ [29]
 File: out/diagrams/authentification/logout/logout.png Graphic file (type bmp)
 <out/diagrams/authentification/logout/logout.png>
 LaTeX Info: Redefining \rmfamily on input line 199.
 LaTeX Info: Redefining \sffamily on input line 199.
 LaTeX Info: Redefining \ttfamily on input line 199.
 
-[31]
+[30]
 File: images_pfe//dca_sprint1.png Graphic file (type bmp)
 <images_pfe//dca_sprint1.png>
 File: images_pfe//dcc_sprint1.png Graphic file (type bmp)
@@ -3514,7 +3320,7 @@ File: out/diagrams/authentification/sequence_simple_login/sequence_simple_login
 LaTeX Info: Redefining \rmfamily on input line 246.
 LaTeX Info: Redefining \sffamily on input line 246.
 LaTeX Info: Redefining \ttfamily on input line 246.
- [32]
+ [31]
 File: out/diagrams/authentification/sequence_logout/sequence_logout.png Graphic
  file (type bmp)
 <out/diagrams/authentification/sequence_logout/sequence_logout.png>
@@ -3524,14 +3330,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 253.
 LaTeX Info: Redefining \sffamily on input line 253.
 LaTeX Info: Redefining \ttfamily on input line 253.
- [33]
+ [32]
 File: images_pfe//realision_auth.png Graphic file (type bmp)
 <images_pfe//realision_auth.png>
 LaTeX Info: Redefining \rmfamily on input line 274.
 LaTeX Info: Redefining \sffamily on input line 274.
 LaTeX Info: Redefining \ttfamily on input line 274.
 
-[34]
+[33]
 Underfull \hbox (badness 1194) in paragraph at lines 338--338
 []\TU/lmr/m/n/12 met d’ajouter une signature a[]
  []
@@ -3549,29 +3355,29 @@ Overfull \hbox (24.88493pt too wide) in alignment at lines 298--346
 LaTeX Info: Redefining \rmfamily on input line 346.
 LaTeX Info: Redefining \sffamily on input line 346.
 LaTeX Info: Redefining \ttfamily on input line 346.
-[35]
+[34]
 LaTeX Info: Redefining \rmfamily on input line 346.
 LaTeX Info: Redefining \sffamily on input line 346.
 LaTeX Info: Redefining \ttfamily on input line 346.
- [36]
+ [35]
 File: images_pfe//use_case_signature_sprint_2.png Graphic file (type bmp)
 <images_pfe//use_case_signature_sprint_2.png>
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
 LaTeX Info: Redefining \ttfamily on input line 400.
- [37]
+ [36]
 LaTeX Info: Redefining \rmfamily on input line 436.
 LaTeX Info: Redefining \sffamily on input line 436.
 LaTeX Info: Redefining \ttfamily on input line 436.
- [38]
+ [37]
 LaTeX Info: Redefining \rmfamily on input line 504.
 LaTeX Info: Redefining \sffamily on input line 504.
 LaTeX Info: Redefining \ttfamily on input line 504.
- [39]
+ [38]
 LaTeX Info: Redefining \rmfamily on input line 571.
 LaTeX Info: Redefining \sffamily on input line 571.
 LaTeX Info: Redefining \ttfamily on input line 571.
- [40]
+ [39]
 File: images_pfe//design_signatures1.png Graphic file (type bmp)
 <images_pfe//design_signatures1.png>
 
@@ -3580,7 +3386,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 581.
 LaTeX Info: Redefining \sffamily on input line 581.
 LaTeX Info: Redefining \ttfamily on input line 581.
- [41]
+ [40]
 File: images_pfe//design_signatures2.png Graphic file (type bmp)
 <images_pfe//design_signatures2.png>
 File: out/diagrams/signatures/create/create_signature.png Graphic file (type bm
@@ -3592,7 +3398,7 @@ Underfull \vbox (badness 8000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 598.
 LaTeX Info: Redefining \sffamily on input line 598.
 LaTeX Info: Redefining \ttfamily on input line 598.
- [42]
+ [41]
 File: out/diagrams/signatures/delete/delete_signature.png Graphic file (type bm
 p)
 <out/diagrams/signatures/delete/delete_signature.png>
@@ -3602,7 +3408,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 605.
 LaTeX Info: Redefining \sffamily on input line 605.
 LaTeX Info: Redefining \ttfamily on input line 605.
- [43]
+ [42]
 File: out/diagrams/signatures/view/view_signature.png Graphic file (type bmp)
 <out/diagrams/signatures/view/view_signature.png>
 File: out/diagrams/signatures/update/update_signature.png Graphic file (type bm
@@ -3614,12 +3420,12 @@ Underfull \vbox (badness 5460) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 619.
 LaTeX Info: Redefining \sffamily on input line 619.
 LaTeX Info: Redefining \ttfamily on input line 619.
- [44]
+ [43]
 LaTeX Info: Redefining \rmfamily on input line 634.
 LaTeX Info: Redefining \sffamily on input line 634.
 LaTeX Info: Redefining \ttfamily on input line 634.
 
-[45]
+[44]
 File: images_pfe//dca_sprint2.png Graphic file (type bmp)
 <images_pfe//dca_sprint2.png>
 File: images_pfe//dcc_spint2.png Graphic file (type bmp)
@@ -3633,7 +3439,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 665.
 LaTeX Info: Redefining \sffamily on input line 665.
 LaTeX Info: Redefining \ttfamily on input line 665.
- [46]
+ [45]
 File: out/diagrams/signatures/sequence_delete/sequence_delete_signature.png Gra
 phic file (type bmp)
 <out/diagrams/signatures/sequence_delete/sequence_delete_signature.png>
@@ -3643,7 +3449,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 672.
 LaTeX Info: Redefining \sffamily on input line 672.
 LaTeX Info: Redefining \ttfamily on input line 672.
- [47]
+ [46]
 File: out/diagrams/signatures/sequence_view/sequence_view_signature.png Graphic
  file (type bmp)
 <out/diagrams/signatures/sequence_view/sequence_view_signature.png>
@@ -3656,7 +3462,7 @@ Underfull \vbox (badness 2837) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 686.
 LaTeX Info: Redefining \sffamily on input line 686.
 LaTeX Info: Redefining \ttfamily on input line 686.
- [48]
+ [47]
 File: images_pfe//realisation_signatures1.png Graphic file (type bmp)
 <images_pfe//realisation_signatures1.png>
 
@@ -3665,18 +3471,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 704.
 LaTeX Info: Redefining \sffamily on input line 704.
 LaTeX Info: Redefining \ttfamily on input line 704.
- [49]
+ [48]
 File: images_pfe//realisation_signatures2.png Graphic file (type bmp)
 <images_pfe//realisation_signatures2.png>
 LaTeX Info: Redefining \rmfamily on input line 717.
 LaTeX Info: Redefining \sffamily on input line 717.
 LaTeX Info: Redefining \ttfamily on input line 717.
 
-[50]
+[49]
 LaTeX Info: Redefining \rmfamily on input line 749.
 LaTeX Info: Redefining \sffamily on input line 749.
 LaTeX Info: Redefining \ttfamily on input line 749.
- [51]
+ [50]
 Underfull \hbox (badness 10000) in paragraph at lines 763--763
 [][]|\TU/lmr/m/n/12 Développer l’interface de re-[]
  []
@@ -3719,48 +3525,48 @@ Overfull \hbox (24.14093pt too wide) in alignment at lines 755--843
 LaTeX Info: Redefining \rmfamily on input line 843.
 LaTeX Info: Redefining \sffamily on input line 843.
 LaTeX Info: Redefining \ttfamily on input line 843.
-[52]
+[51]
 LaTeX Info: Redefining \rmfamily on input line 843.
 LaTeX Info: Redefining \sffamily on input line 843.
 LaTeX Info: Redefining \ttfamily on input line 843.
- [53]
+ [52]
 File: images_pfe//use_case_documents_sprint_3.png Graphic file (type bmp)
 <images_pfe//use_case_documents_sprint_3.png>
 LaTeX Info: Redefining \rmfamily on input line 893.
 LaTeX Info: Redefining \sffamily on input line 893.
 LaTeX Info: Redefining \ttfamily on input line 893.
- [54]
+ [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 933.
 LaTeX Info: Redefining \sffamily on input line 933.
 LaTeX Info: Redefining \ttfamily on input line 933.
- [55]
+ [54]
 LaTeX Info: Redefining \rmfamily on input line 1057.
 LaTeX Info: Redefining \sffamily on input line 1057.
 LaTeX Info: Redefining \ttfamily on input line 1057.
 
-[56]
+[55]
+LaTeX Info: Redefining \rmfamily on input line 1057.
+LaTeX Info: Redefining \sffamily on input line 1057.
+LaTeX Info: Redefining \ttfamily on input line 1057.
+ [56]
 LaTeX Info: Redefining \rmfamily on input line 1057.
 LaTeX Info: Redefining \sffamily on input line 1057.
 LaTeX Info: Redefining \ttfamily on input line 1057.
  [57]
-LaTeX Info: Redefining \rmfamily on input line 1057.
-LaTeX Info: Redefining \sffamily on input line 1057.
-LaTeX Info: Redefining \ttfamily on input line 1057.
- [58]
 LaTeX Info: Redefining \rmfamily on input line 1170.
 LaTeX Info: Redefining \sffamily on input line 1170.
 LaTeX Info: Redefining \ttfamily on input line 1170.
- [59]
+ [58]
 LaTeX Info: Redefining \rmfamily on input line 1246.
 LaTeX Info: Redefining \sffamily on input line 1246.
 LaTeX Info: Redefining \ttfamily on input line 1246.
- [60]
+ [59]
 LaTeX Info: Redefining \rmfamily on input line 1319.
 LaTeX Info: Redefining \sffamily on input line 1319.
 LaTeX Info: Redefining \ttfamily on input line 1319.
- [61]
+ [60]
 File: images_pfe//design_show_documents.png Graphic file (type bmp)
 <images_pfe//design_show_documents.png>
 
@@ -3769,7 +3575,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1363.
 LaTeX Info: Redefining \sffamily on input line 1363.
 LaTeX Info: Redefining \ttfamily on input line 1363.
- [62]
+ [61]
 File: images_pfe//design_content.png Graphic file (type bmp)
 <images_pfe//design_content.png>
 File: images_pfe//design_task_managment.png Graphic file (type bmp)
@@ -3780,7 +3586,7 @@ Underfull \vbox (badness 1708) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1377.
 LaTeX Info: Redefining \sffamily on input line 1377.
 LaTeX Info: Redefining \ttfamily on input line 1377.
- [63]
+ [62]
 File: out/diagrams/documents/preview/preview_document.png Graphic file (type bm
 p)
 <out/diagrams/documents/preview/preview_document.png>
@@ -3795,7 +3601,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1396.
 LaTeX Info: Redefining \sffamily on input line 1396.
 LaTeX Info: Redefining \ttfamily on input line 1396.
- [64]
+ [63]
 File: out/diagrams/documents/previewTasks/preview_tasks_document.png Graphic fi
 le (type bmp)
 <out/diagrams/documents/previewTasks/preview_tasks_document.png>
@@ -3809,7 +3615,7 @@ LaTeX Info: Redefining \rmfamily on input line 1414.
 LaTeX Info: Redefining \sffamily on input line 1414.
 LaTeX Info: Redefining \ttfamily on input line 1414.
 
-[65]
+[64]
 File: out/diagrams/documents/add_file/add_file.png Graphic file (type bmp)
 <out/diagrams/documents/add_file/add_file.png>
 
@@ -3818,7 +3624,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1420.
 LaTeX Info: Redefining \sffamily on input line 1420.
 LaTeX Info: Redefining \ttfamily on input line 1420.
- [66]
+ [65]
 File: out/diagrams/documents/add_scan_file/add_scan_file.png Graphic file (type
  bmp)
 <out/diagrams/documents/add_scan_file/add_scan_file.png>
@@ -3828,14 +3634,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1426.
 LaTeX Info: Redefining \sffamily on input line 1426.
 LaTeX Info: Redefining \ttfamily on input line 1426.
- [67]
+ [66]
 Overfull \vbox (6.85025pt too high) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 1426.
 LaTeX Info: Redefining \sffamily on input line 1426.
 LaTeX Info: Redefining \ttfamily on input line 1426.
 
-[68]
+[67]
 File: out/diagrams/documents/favoris/favorit_document.png Graphic file (type bm
 p)
 <out/diagrams/documents/favoris/favorit_document.png>
@@ -3846,7 +3652,7 @@ LaTeX Info: Redefining \rmfamily on input line 1432.
 LaTeX Info: Redefining \sffamily on input line 1432.
 LaTeX Info: Redefining \ttfamily on input line 1432.
 
-[69]
+[68]
 File: out/diagrams/documents/chercher/charcher_document.png Graphic file (type 
 bmp)
 <out/diagrams/documents/chercher/charcher_document.png>
@@ -3858,14 +3664,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1445.
 LaTeX Info: Redefining \sffamily on input line 1445.
 LaTeX Info: Redefining \ttfamily on input line 1445.
- [70]
+ [69]
 File: images_pfe//dca_sprint3.png Graphic file (type bmp)
 <images_pfe//dca_sprint3.png>
 LaTeX Info: Redefining \rmfamily on input line 1461.
 LaTeX Info: Redefining \sffamily on input line 1461.
 LaTeX Info: Redefining \ttfamily on input line 1461.
 
-[71]
+[70]
 File: images_pfe//dcc_spint3.png Graphic file (type bmp)
 <images_pfe//dcc_spint3.png>
 
@@ -3876,7 +3682,7 @@ Overfull \hbox (1.61873pt too wide) in paragraph at lines 1468--1469
 LaTeX Info: Redefining \rmfamily on input line 1472.
 LaTeX Info: Redefining \sffamily on input line 1472.
 LaTeX Info: Redefining \ttfamily on input line 1472.
-[72
+[71
 
 ]
 File: out/diagrams/documents/sequence_preview/sequence_preview.png Graphic file
@@ -3897,7 +3703,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1497.
 LaTeX Info: Redefining \sffamily on input line 1497.
 LaTeX Info: Redefining \ttfamily on input line 1497.
- [73
+ [72
 
 ]
 File: out/diagrams/documents/sequence_transfer_task/sequence_transfer_task.png 
@@ -3912,7 +3718,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1509.
 LaTeX Info: Redefining \sffamily on input line 1509.
 LaTeX Info: Redefining \ttfamily on input line 1509.
- [74]
+ [73]
 File: out/diagrams/documents/sequence_add_file/sequence_add_file.png Graphic fi
 le (type bmp)
 <out/diagrams/documents/sequence_add_file/sequence_add_file.png>
@@ -3922,7 +3728,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1515.
 LaTeX Info: Redefining \sffamily on input line 1515.
 LaTeX Info: Redefining \ttfamily on input line 1515.
- [75]
+ [74]
 File: out/diagrams/documents/sequence_chercher/sequence_chercher.png Graphic fi
 le (type bmp)
 <out/diagrams/documents/sequence_chercher/sequence_chercher.png>
@@ -3932,13 +3738,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1521.
 LaTeX Info: Redefining \sffamily on input line 1521.
 LaTeX Info: Redefining \ttfamily on input line 1521.
- [76]
+ [75]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 1522.
 LaTeX Info: Redefining \sffamily on input line 1522.
 LaTeX Info: Redefining \ttfamily on input line 1522.
- [77]
+ [76]
 File: images_pfe//realisation_documents1.png Graphic file (type bmp)
 <images_pfe//realisation_documents1.png>
 
@@ -3947,7 +3753,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1533.
 LaTeX Info: Redefining \sffamily on input line 1533.
 LaTeX Info: Redefining \ttfamily on input line 1533.
- [78]
+ [77]
 File: images_pfe//realisation_documents2.png Graphic file (type bmp)
 <images_pfe//realisation_documents2.png>
 File: images_pfe//realisation_documents3.png Graphic file (type bmp)
@@ -3958,14 +3764,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1547.
 LaTeX Info: Redefining \sffamily on input line 1547.
 LaTeX Info: Redefining \ttfamily on input line 1547.
- [79]
+ [78]
 File: images_pfe//realisation_documents4.png Graphic file (type bmp)
 <images_pfe//realisation_documents4.png>
 LaTeX Info: Redefining \rmfamily on input line 1565.
 LaTeX Info: Redefining \sffamily on input line 1565.
 LaTeX Info: Redefining \ttfamily on input line 1565.
 
-[80]
+[79]
 Overfull \hbox (18.60892pt too wide) in alignment at lines 1634--1693
  [] [] [] [] [] 
  []
@@ -3973,34 +3779,34 @@ Overfull \hbox (18.60892pt too wide) in alignment at lines 1634--1693
 LaTeX Info: Redefining \rmfamily on input line 1693.
 LaTeX Info: Redefining \sffamily on input line 1693.
 LaTeX Info: Redefining \ttfamily on input line 1693.
-[81]
+[80]
 LaTeX Info: Redefining \rmfamily on input line 1693.
 LaTeX Info: Redefining \sffamily on input line 1693.
 LaTeX Info: Redefining \ttfamily on input line 1693.
- [82]
+ [81]
 File: images_pfe//use_case_documents_sprint_4.png Graphic file (type bmp)
 <images_pfe//use_case_documents_sprint_4.png>
 LaTeX Info: Redefining \rmfamily on input line 1738.
 LaTeX Info: Redefining \sffamily on input line 1738.
 LaTeX Info: Redefining \ttfamily on input line 1738.
- [83]
+ [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 1790.
 LaTeX Info: Redefining \sffamily on input line 1790.
 LaTeX Info: Redefining \ttfamily on input line 1790.
- [84]
+ [83]
 LaTeX Info: Redefining \rmfamily on input line 1858.
 LaTeX Info: Redefining \sffamily on input line 1858.
 LaTeX Info: Redefining \ttfamily on input line 1858.
 
-[85]
+[84]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 1894.
 LaTeX Info: Redefining \sffamily on input line 1894.
 LaTeX Info: Redefining \ttfamily on input line 1894.
- [86]
+ [85]
 File: images_pfe//design_file.png Graphic file (type bmp)
 <images_pfe//design_file.png>
 
@@ -4009,7 +3815,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1967.
 LaTeX Info: Redefining \sffamily on input line 1967.
 LaTeX Info: Redefining \ttfamily on input line 1967.
- [87]
+ [86]
 File: out/diagrams/sprint4/view_file/view_file.png Graphic file (type bmp)
 <out/diagrams/sprint4/view_file/view_file.png>
 File: out/diagrams/sprint4/download_file/download_file.png Graphic file (type b
@@ -4024,7 +3830,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 1988.
 LaTeX Info: Redefining \sffamily on input line 1988.
 LaTeX Info: Redefining \ttfamily on input line 1988.
- [88]
+ [87]
 File: out/diagrams/sprint4/sign_by_hand/sign_by_hand.png Graphic file (type bmp
 )
 <out/diagrams/sprint4/sign_by_hand/sign_by_hand.png>
@@ -4037,13 +3843,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2003.
 LaTeX Info: Redefining \sffamily on input line 2003.
 LaTeX Info: Redefining \ttfamily on input line 2003.
- [89]
+ [88]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 2004.
 LaTeX Info: Redefining \sffamily on input line 2004.
 LaTeX Info: Redefining \ttfamily on input line 2004.
- [90]
+ [89]
 File: out/diagrams/sprint4/delete_signature/delete_signature.png Graphic file (
 type bmp)
 <out/diagrams/sprint4/delete_signature/delete_signature.png>
@@ -4054,7 +3860,7 @@ LaTeX Info: Redefining \rmfamily on input line 2019.
 LaTeX Info: Redefining \sffamily on input line 2019.
 LaTeX Info: Redefining \ttfamily on input line 2019.
 
-[91]
+[90]
 File: images_pfe//dca_sprint4.png Graphic file (type bmp)
 <images_pfe//dca_sprint4.png>
 
@@ -4063,18 +3869,18 @@ Underfull \vbox (badness 2837) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2039.
 LaTeX Info: Redefining \sffamily on input line 2039.
 LaTeX Info: Redefining \ttfamily on input line 2039.
- [92]
+ [91]
 LaTeX Info: Redefining \rmfamily on input line 2039.
 LaTeX Info: Redefining \sffamily on input line 2039.
 LaTeX Info: Redefining \ttfamily on input line 2039.
 
-[93]
+[92]
 File: images_pfe//dcc_spint4.png Graphic file (type bmp)
 <images_pfe//dcc_spint4.png>
 LaTeX Info: Redefining \rmfamily on input line 2050.
 LaTeX Info: Redefining \sffamily on input line 2050.
 LaTeX Info: Redefining \ttfamily on input line 2050.
- [94
+ [93
 
 ]
 File: out/diagrams/sprint4/sequence_view_file/sequence_view_file.png Graphic fi
@@ -4089,7 +3895,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2067.
 LaTeX Info: Redefining \sffamily on input line 2067.
 LaTeX Info: Redefining \ttfamily on input line 2067.
- [95
+ [94
 
 ]
 File: out/diagrams/sprint4/sequence_sign_by_image/sequence_sign_by_image.png Gr
@@ -4101,7 +3907,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2074.
 LaTeX Info: Redefining \sffamily on input line 2074.
 LaTeX Info: Redefining \ttfamily on input line 2074.
- [96]
+ [95]
 File: out/diagrams/sprint4/sequence_sign_by_hand/sequence_sign_by_hand.png Grap
 hic file (type bmp)
 <out/diagrams/sprint4/sequence_sign_by_hand/sequence_sign_by_hand.png>
@@ -4111,7 +3917,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2081.
 LaTeX Info: Redefining \sffamily on input line 2081.
 LaTeX Info: Redefining \ttfamily on input line 2081.
- [97]
+ [96]
 File: out/diagrams/sprint4/sequence_move_signature/sequence_move_signature.png 
 Graphic file (type bmp)
 <out/diagrams/sprint4/sequence_move_signature/sequence_move_signature.png>
@@ -4121,7 +3927,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2088.
 LaTeX Info: Redefining \sffamily on input line 2088.
 LaTeX Info: Redefining \ttfamily on input line 2088.
- [98]
+ [97]
 File: out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature.
 png Graphic file (type bmp)
 <out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature.png>
@@ -4135,7 +3941,7 @@ Underfull \vbox (badness 5954) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2102.
 LaTeX Info: Redefining \sffamily on input line 2102.
 LaTeX Info: Redefining \ttfamily on input line 2102.
- [99]
+ [98]
 File: images_pfe//realisation_file1.png Graphic file (type bmp)
 <images_pfe//realisation_file1.png>
 File: images_pfe//realisation_file2.png Graphic file (type bmp)
@@ -4146,7 +3952,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2118.
 LaTeX Info: Redefining \sffamily on input line 2118.
 LaTeX Info: Redefining \ttfamily on input line 2118.
- [100]
+ [99]
 File: images_pfe//realisation_file3.png Graphic file (type bmp)
 <images_pfe//realisation_file3.png>
 
@@ -4155,16 +3961,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 2124.
 LaTeX Info: Redefining \sffamily on input line 2124.
 LaTeX Info: Redefining \ttfamily on input line 2124.
- [101]
+ [100]
 LaTeX Info: Redefining \rmfamily on input line 2130.
 LaTeX Info: Redefining \sffamily on input line 2130.
 LaTeX Info: Redefining \ttfamily on input line 2130.
 
-[102])
+[101])
 LaTeX Info: Redefining \rmfamily on input line 292.
 LaTeX Info: Redefining \sffamily on input line 292.
 LaTeX Info: Redefining \ttfamily on input line 292.
- [103]
+ [102]
 \openout2 = `09-Release2.aux'.
 
  (09-Release2.tex
@@ -4188,7 +3994,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [104
+ [103
 
 
 
@@ -4246,16 +4052,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 67.
 LaTeX Info: Redefining \sffamily on input line 67.
 LaTeX Info: Redefining \ttfamily on input line 67.
- [105]
+ [104]
 LaTeX Info: Redefining \rmfamily on input line 110.
 LaTeX Info: Redefining \sffamily on input line 110.
 LaTeX Info: Redefining \ttfamily on input line 110.
 
-[106]
+[105]
 LaTeX Info: Redefining \rmfamily on input line 156.
 LaTeX Info: Redefining \sffamily on input line 156.
 LaTeX Info: Redefining \ttfamily on input line 156.
- [107]
+ [106]
 File: images_pfe//design_OIDC.png Graphic file (type bmp)
 <images_pfe//design_OIDC.png>
 
@@ -4264,7 +4070,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 164.
 LaTeX Info: Redefining \sffamily on input line 164.
 LaTeX Info: Redefining \ttfamily on input line 164.
- [108]
+ [107]
 File: out/diagrams/sprint5/auth_OIDC/auth_OIDC.png Graphic file (type bmp)
 <out/diagrams/sprint5/auth_OIDC/auth_OIDC.png>
 
@@ -4273,7 +4079,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 174.
 LaTeX Info: Redefining \sffamily on input line 174.
 LaTeX Info: Redefining \ttfamily on input line 174.
- [109]
+ [108]
 File: out/diagrams/sprint5/verification_biometrique/verification_biometrique.pn
 g Graphic file (type bmp)
 <out/diagrams/sprint5/verification_biometrique/verification_biometrique.png>
@@ -4283,7 +4089,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 182.
 LaTeX Info: Redefining \sffamily on input line 182.
 LaTeX Info: Redefining \ttfamily on input line 182.
- [110]
+ [109]
 File: images_pfe//dca_sprint5.png Graphic file (type bmp)
 <images_pfe//dca_sprint5.png>
 
@@ -4292,7 +4098,7 @@ Underfull \vbox (badness 4699) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 204.
 LaTeX Info: Redefining \sffamily on input line 204.
 LaTeX Info: Redefining \ttfamily on input line 204.
- [111]
+ [110]
 File: images_pfe//dcc_sprint5.png Graphic file (type bmp)
 <images_pfe//dcc_sprint5.png>
 File: out/diagrams/sprint5/sequence_OIDC/sequence_OIDC.png Graphic file (type b
@@ -4304,7 +4110,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 227.
 LaTeX Info: Redefining \sffamily on input line 227.
 LaTeX Info: Redefining \ttfamily on input line 227.
- [112]
+ [111]
 File: out/diagrams/sprint5/sequence_verification_biometrique/sequence_verificat
 ion_biometrique.png Graphic file (type bmp)
 <out/diagrams/sprint5/sequence_verification_biometrique/sequence_verification_b
@@ -4315,7 +4121,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 234.
 LaTeX Info: Redefining \sffamily on input line 234.
 LaTeX Info: Redefining \ttfamily on input line 234.
- [113]
+ [112]
 File: images_pfe//realisation_OIDC.png Graphic file (type bmp)
 <images_pfe//realisation_OIDC.png>
 
@@ -4324,12 +4130,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 246.
 LaTeX Info: Redefining \sffamily on input line 246.
 LaTeX Info: Redefining \ttfamily on input line 246.
- [114]
+ [113]
 LaTeX Info: Redefining \rmfamily on input line 262.
 LaTeX Info: Redefining \sffamily on input line 262.
 LaTeX Info: Redefining \ttfamily on input line 262.
 
-[115]
+[114]
 Underfull \hbox (badness 1400) in paragraph at lines 281--282
 []\TU/lmr/m/n/12 de l’application afin de suivre[]
  []
@@ -4345,14 +4151,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 304.
 LaTeX Info: Redefining \sffamily on input line 304.
 LaTeX Info: Redefining \ttfamily on input line 304.
- [116]
+ [115]
 File: images_pfe//use_case_sprint_7.png Graphic file (type bmp)
 <images_pfe//use_case_sprint_7.png>
 LaTeX Info: Redefining \rmfamily on input line 343.
 LaTeX Info: Redefining \sffamily on input line 343.
 LaTeX Info: Redefining \ttfamily on input line 343.
 
-[117]
+[116]
 File: images_pfe//design_statistique.png Graphic file (type bmp)
 <images_pfe//design_statistique.png>
 
@@ -4361,7 +4167,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 407.
 LaTeX Info: Redefining \sffamily on input line 407.
 LaTeX Info: Redefining \ttfamily on input line 407.
- [118]
+ [117]
 File: out/diagrams/sprint7/view_stats/view_stats.png Graphic file (type bmp)
 <out/diagrams/sprint7/view_stats/view_stats.png>
 File: out/diagrams/sprint7/docs_quick_filter/docs_quick_filter.png Graphic file
@@ -4373,7 +4179,7 @@ Underfull \vbox (badness 2229) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 424.
 LaTeX Info: Redefining \sffamily on input line 424.
 LaTeX Info: Redefining \ttfamily on input line 424.
- [119]
+ [118]
 File: out/diagrams/sprint7/refresh_data/refresh_data.png Graphic file (type bmp
 )
 <out/diagrams/sprint7/refresh_data/refresh_data.png>
@@ -4383,7 +4189,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 437.
 LaTeX Info: Redefining \sffamily on input line 437.
 LaTeX Info: Redefining \ttfamily on input line 437.
- [120]
+ [119]
 File: images_pfe//dca_sprint7.png Graphic file (type bmp)
 <images_pfe//dca_sprint7.png>
 File: images_pfe//dcc_sprint7.png Graphic file (type bmp)
@@ -4395,7 +4201,7 @@ LaTeX Info: Redefining \rmfamily on input line 476.
 LaTeX Info: Redefining \sffamily on input line 476.
 LaTeX Info: Redefining \ttfamily on input line 476.
 
-[121]
+[120]
 File: out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filte
 r.png Graphic file (type bmp)
 <out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filter.png
@@ -4406,7 +4212,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 485.
 LaTeX Info: Redefining \sffamily on input line 485.
 LaTeX Info: Redefining \ttfamily on input line 485.
- [122]
+ [121]
 File: out/diagrams/sprint7/sequence_refresh_data/sequence_refresh_data.png Grap
 hic file (type bmp)
 <out/diagrams/sprint7/sequence_refresh_data/sequence_refresh_data.png>
@@ -4418,16 +4224,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 LaTeX Info: Redefining \rmfamily on input line 503.
 LaTeX Info: Redefining \sffamily on input line 503.
 LaTeX Info: Redefining \ttfamily on input line 503.
- [123]
+ [122]
 LaTeX Info: Redefining \rmfamily on input line 518.
 LaTeX Info: Redefining \sffamily on input line 518.
 LaTeX Info: Redefining \ttfamily on input line 518.
 
-[124])
+[123])
 LaTeX Info: Redefining \rmfamily on input line 293.
 LaTeX Info: Redefining \sffamily on input line 293.
 LaTeX Info: Redefining \ttfamily on input line 293.
- [125]
+ [124]
 
 LaTeX Warning: Empty bibliography on input line 305.
 
@@ -4437,7 +4243,7 @@ Package biblatex Warning: Type 'misc' not found on input line 307.
 
 LaTeX Warning: Empty bibliography on input line 307.
 
-[126
+[125
 
 
 
@@ -4563,19 +4369,22 @@ Package polyglossia Warning: Failed to patch part for French on input line 28.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 015063E5012A58A57A55C83D88C088E8;1374.
+(rerunfilecheck)             Checksum: 833BC72EDEC0E3255ECF8D66F69E94D7;1374.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43086 strings out of 411472
- 935704 string characters out of 5818873
- 1957012 words of memory out of 5000000
- 62353 multiletter control sequences out of 15000+600000
+ 43105 strings out of 411472
+ 936307 string characters out of 5818873
+ 1920012 words of memory out of 5000000
+ 62372 multiletter control sequences out of 15000+600000
  524549 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,92p,1409b,5810s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (136 pages).
+Output written on main.pdf (135 pages).
