@@ -1,0 +1,37 @@
+@startuml sequence_annuler_absence
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "editeProfilePage" as editeProfilePage << View >>
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "profile" as profile << Model >>
+participant "eliseRestApi" as eliseRestApi << service >>
+
+ref over user,editeProfilePage,eliseRestApi,profile,settingsStore : Authentification
+
+activate user
+user -> editeProfilePage : click on "Annuler absence"
+activate editeProfilePage
+editeProfilePage -> settingsStore : desActivateAbsence()
+activate settingsStore
+settingsStore -> eliseRestApi : absence() : DELETE
+activate eliseRestApi
+eliseRestApi -> eliseRestApi : DELETE absence
+eliseRestApi --> settingsStore : AbsenceResponse
+deactivate eliseRestApi
+settingsStore -> settingsStore : getProfile()
+settingsStore -> profile : setProfile()
+activate profile
+profile --> settingsStore : ProfileResponse
+deactivate profile
+settingsStore --> editeProfilePage : AbsenceResponse
+deactivate settingsStore
+editeProfilePage --> user : affiche le message "Absence annulée"
+deactivate editeProfilePage
+
+
+
+deactivate user
+ 

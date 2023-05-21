@@ -1,0 +1,46 @@
+@startuml sequence_clear_cache
+
+hide footbox
+
+actor "Utilisateur" as user
+participant "settingsPage" as settingsPage << View >>
+
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "documentsStore" as documentsStore << ViewModel >>
+participant "workspacesStore" as workspacesStore << ViewModel >>
+participant "statsStore" as statsStore << ViewModel >>
+participant "signatureStore" as signatureStore << ViewModel >>
+
+ref over user,settingsPage,settingsStore,documentsStore,workspacesStore,statsStore,signatureStore : Authentification
+
+activate user
+user -> settingsPage : clique sur le bouton "vider le cache"
+activate settingsPage
+settingsPage --> user : affiche le panneau de confirmation
+user -> settingsPage : clique sur le bouton "confirmer"
+settingsPage -> settingsStore : clearCache()
+
+activate settingsStore
+
+settingsStore -> documentsStore : clearCache()
+activate documentsStore
+documentsStore --> settingsStore : clearCacheResponse
+deactivate documentsStore
+settingsStore -> workspacesStore : clearCache()
+activate workspacesStore
+workspacesStore --> settingsStore : clearCacheResponse
+deactivate workspacesStore
+settingsStore -> statsStore : clearCache()
+activate statsStore
+statsStore --> settingsStore : clearCacheResponse
+deactivate statsStore
+settingsStore -> signatureStore : clearCache()
+activate signatureStore
+signatureStore --> settingsStore : clearCacheResponse
+deactivate signatureStore
+settingsStore --> settingsPage : clearCacheResponse
+deactivate settingsStore
+settingsPage --> user : clearCacheResponse
+
+
+deactivate user

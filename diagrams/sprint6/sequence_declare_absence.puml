@@ -1,0 +1,55 @@
+@startuml sequence_declare_absence
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "manageAbsencePage" as manageAbsencePage << View >>
+participant "DatePickerModal" as datePickerModal << View >>
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "eliseRestApi" as eliseRestApi << service >>
+participant "profile" as profile << Model >>
+
+ref over user,settingsPage,settingsStore,profile : Authentification
+
+activate user
+user -> manageAbsencePage : clique sur le bouton "activer absence"
+activate manageAbsencePage
+alt Utilisateur a changé la date de debut d'absence
+    alt Utilisateur a choisit une date de fin
+        ref over user,settingsPage,settingsStore,profile : add_absence
+    else Utilisateur n'a pas choisit une date de fin
+        manageAbsencePage --> user : affiche le message "date de fin d'absence invalide"
+        user -> manageAbsencePage : clique sur le bouton "end Date"
+        manageAbsencePage --> user : affiche le modal de selection de date
+        user -> datePickerModal : choisit une date de fin
+        activate datePickerModal
+        datePickerModal --> manageAbsencePage : affiche la date de fin
+        deactivate datePickerModal
+        user -> manageAbsencePage : clique sur le bouton "activer absence"
+        ref over user,settingsPage,settingsStore,profile : add_absence
+
+    end
+else Utilisateur n'a pas changé la date de debut d'absence
+    group add_absence
+    manageAbsencePage -> settingsStore : addAbsence() : date de debut = date du jour et date de fin = date du jour + 1
+    activate settingsStore
+    settingsStore -> eliseRestApi : absence()
+    activate eliseRestApi
+    eliseRestApi --> settingsStore : addAbsenceResponse
+    deactivate eliseRestApi
+    settingsStore -> settingsStore : getUser()
+    settingsStore -> profile : setProfile()
+    activate profile
+    profile --> settingsStore : retourne le profile
+    deactivate profile
+    settingsStore --> manageAbsencePage : AddAbsenceResponse
+    deactivate settingsStore
+    manageAbsencePage -> user : affiche le message "absence activée"
+    end
+
+
+
+end
+
+deactivate user

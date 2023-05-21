@@ -1,0 +1,61 @@
+@startuml sequence_search_affect_delegation
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "settingsPage" as settingsPage << View >>
+participant "addDelegate" as delegate << View >>
+participant "settingsnStore" as settingsnStore << ViewModel >>
+participant "workspaceStore" as workspaceStore << ViewModel >>
+participant "profile" as profile << Model >>
+participant "eliseRestApi" as eliseRestApi << service >>
+participant "eliseWebService" as es << service >>
+ref over user,settingsPage,profile,settingsnStore,es,workspaceStore,eliseRestApi : Authentification
+
+activate user
+user -> settingsPage : clique sur le bouton "ajouter"
+activate settingsPage
+settingsPage --> user : affiche le panneau d'ajout de délégation
+deactivate settingsPage
+user -> delegate : saisie le terme de recherche 
+activate delegate
+delegate -> workspaceStore : getWorkspaces()
+activate workspaceStore
+workspaceStore -> es : GetFlowchartItems()
+activate es
+es --> workspaceStore : getWorkspacesResponse
+deactivate es
+workspaceStore --> delegate : getWorkspacesResponse
+deactivate workspaceStore
+alt workspace trouvé
+    delegate -> user : affiche la liste des workspaces
+    user -> delegate : selectionne le workspace à déléguer
+    delegate -> settingsnStore : addDelegation()
+    activate settingsnStore
+    settingsnStore -> eliseRestApi : create()
+    activate eliseRestApi
+    eliseRestApi -> eliseRestApi : createDelegation()
+    eliseRestApi --> settingsnStore : createDelegationResponse
+    deactivate eliseRestApi
+    alt delegation créée
+        settingsnStore -> settingsnStore : getUser()
+        settingsnStore -> settingsnStore : getAbsence()
+        settingsnStore -> profile : setProfile()
+        activate profile
+        profile --> settingsnStore : setProfileResponse
+        deactivate profile
+        settingsnStore --> settingsPage : createDelegationResponse
+        deactivate settingsnStore
+        activate settingsPage
+        settingsPage --> user : affiche le message "Délégation créée"
+    else delegation non créée
+        settingsPage --> user : affiche le message "Erreur lors de la création de la délégation"
+        deactivate settingsPage
+    end 
+else workspace non trouvé
+    delegate -> user : affiche le message "Aucun workspace trouvé"
+    deactivate delegate
+
+end
+deactivate user

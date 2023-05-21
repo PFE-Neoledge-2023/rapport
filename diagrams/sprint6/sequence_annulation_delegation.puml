@@ -1,0 +1,43 @@
+@startuml sequence_sannulation_delegation
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "settingsPage" as settingsPage << View >>
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "eliseRestApi" as eliseRestApi << service >>
+participant "profile" as profile << Model >>
+
+ref over user,settingsPage,profile,settingsStore,eliseRestApi : Authentification
+
+activate user
+user -> settingsPage : clique sur le bouton "supprimer"
+activate settingsPage
+settingsPage --> user : affiche la panneau de confirmation
+user -> settingsPage : clique sur le bouton "confirmer"
+settingsPage -> settingsStore : deleteDelegation()
+activate settingsStore
+settingsStore -> eliseRestApi : delete()
+activate eliseRestApi
+eliseRestApi -> eliseRestApi : deleteDelegation()
+eliseRestApi --> settingsStore : deleteResponse
+deactivate eliseRestApi
+alt delegué supprimé
+    settingsStore -> settingsStore : getUser()
+settingsStore -> profile : setProfile()
+activate profile
+profile --> settingsStore : setProfileResponse
+deactivate profile
+settingsStore --> settingsPage : deleteResponse
+settingsPage --> user : affiche le message "délégation supprimée"
+else erreur
+settingsStore --> settingsPage : deleteResponse
+deactivate settingsStore
+settingsPage --> user : affiche le message "erreur lors de la suppression de la délégation"
+deactivate settingsPage
+end
+
+
+
+deactivate user
