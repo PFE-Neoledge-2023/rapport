@@ -332,8 +332,8 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 \vspace{-\baselineskip}
 \begin{enumerate}
   \setcounter{enumi}{1}
-      \item [2.1] L'utilisateur clique sur le bouton « Accueil »
-      \item [2.2] Le système affiche les statistiques
+      \item L'utilisateur clique sur le bouton « Accueil »
+      \item  Le système affiche les statistiques
 \end{enumerate}\\
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
@@ -341,6 +341,35 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 \caption{Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »}
 \label{tab:use_case_consulter_statistiques}
 \end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation «Basculer entre les espaces de travail »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+  \hline
+  \textbf{Cas d'utilisation}&Basculer entre les espaces de travail\\
+  \hline
+  \textbf{Acteurs}&Utilisateur\\
+  \hline
+  \textbf{Pré Condition}&L'utilisateur selectionne au moins un espace de travail dans la page des paramètres\\
+  \hline
+  \textbf{Post Condition}&L'utilisateur bascule entre les espaces de travail\\
+  \hline
+  \textbf{Scénario Nominal}&
+  \vspace{-\baselineskip}
+  \begin{enumerate}
+    \setcounter{enumi}{1}
+        \item L'utilisateur clique sur le bouton a coté du nom de l'espace de travail dans la page d'accueil
+        \item Le système affiche la liste des espaces de travail selectionnés
+        \item L'utilisateur clique sur l'espace de travail qu'il veut utiliser
+        \item Le système récupère les données de l'espace de travail selectionné
+  \end{enumerate}\\
+  \hline
+  \textbf{Scénario d'exception}&Erreur de connexion\\
+  \hline
+  \caption{Description textuelle du diagramme de cas d'utilisation « Basculer entre les espaces de travail »}
+  \label{tab:use_case_basculer_espaces_travail}
+  \end{longtable}
+
 
 \textbf{•	Description textuelle de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
 
@@ -417,6 +446,13 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/switch_workspace/switch_workspace}
+  \caption{Diagramme de séquence de cas d'utilisation « Basculer entre les espaces de travail »}
+  \label{fig:sequence_switch_workspace}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/docs_quick_filter/docs_quick_filter}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_docs_quick_filter}
@@ -474,7 +510,13 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
   \label{fig:sequence_conception_consulter_statistiques}
 \end{figure}
 
-\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_switch_workspace/sequence_switch_workspace}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Basculer entre les espaces de travail »}
+  \label{fig:sequence_conception_sequence_switch_workspace}
+\end{figure}
+
 
 \begin{figure}[H]
   \centering
@@ -489,6 +531,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
   \caption{Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »}
   \label{fig:sequence_conception_refraichissement_donnees}
 \end{figure}
+\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
 
 \subsubsection{Réalisation}
 

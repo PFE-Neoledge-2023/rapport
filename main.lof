@@ -187,20 +187,24 @@
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Maquette de la page de statistique\relax }}{118}{figure.caption.115}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les statistiques »\relax }}{118}{figure.caption.116}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les statistiques »\relax }}{119}{figure.caption.116}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{119}{figure.caption.117}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagramme de séquence de cas d'utilisation « Basculer entre les espaces de travail »\relax }}{119}{figure.caption.117}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagramme de séquence de cas d'utilisation « Refraichissement des données »\relax }}{119}{figure.caption.118}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{120}{figure.caption.118}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagramme de classe d'analyse de sprint 7\relax }}{120}{figure.caption.119}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagramme de séquence de cas d'utilisation « Refraichissement des données »\relax }}{120}{figure.caption.119}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagramme de classe de conception de sprint 7\relax }}{120}{figure.caption.120}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagramme de classe d'analyse de sprint 7\relax }}{121}{figure.caption.120}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « S'Consulter les statistiques »\relax }}{121}{figure.caption.121}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagramme de classe de conception de sprint 7\relax }}{122}{figure.caption.121}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{122}{figure.caption.122}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « S'Consulter les statistiques »\relax }}{123}{figure.caption.122}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »\relax }}{122}{figure.caption.123}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Basculer entre les espaces de travail »\relax }}{124}{figure.caption.123}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide\relax }}{123}{figure.caption.124}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{124}{figure.caption.124}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »\relax }}{125}{figure.caption.125}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide\relax }}{126}{figure.caption.126}%

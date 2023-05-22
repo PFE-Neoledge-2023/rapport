@@ -1,4 +1,4 @@
-@startuml sequence_view_stats
+@startuml switch_workspace
 
 hide footbox
 

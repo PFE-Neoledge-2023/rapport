@@ -1,0 +1,36 @@
+@startuml sequence_switch_workspace
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "HomePage" as home << View >>
+participant "WorkspacesStore" as workspaceStore << ViewModel >>
+participant "Workspace" as workspace << Model >>
+participant "EliseWebService" as elise << Service >>
+
+
+ref over user, home, workspaceStore, workspace, elise : Authentification
+activate user
+user -> home: showSelectWorkspace()
+activate home
+home -> workspaceStore: getSelectedWorkspaces()
+activate workspaceStore
+workspaceStore -> workspace: getSelectedWorkspaces()
+activate workspace
+workspace --> workspaceStore
+deactivate workspace
+workspaceStore --> home
+deactivate workspaceStore
+home --> user
+user --> home: selectWorkspace()
+home --> workspaceStore: selectOneWorkspace()
+activate workspaceStore
+workspaceStore -> workspace: selectOneWorkspace()
+activate workspace
+workspace --> workspaceStore
+deactivate workspace
+workspaceStore --> home
+deactivate workspaceStore
+home --> user
+ref over user, home, workspaceStore, workspace, elise : Consulter les statistiques
