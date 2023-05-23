@@ -11,12 +11,12 @@ activate user
 user -> system : clique sur le bouton "Sélectionner un workspace"
 activate system
 system --> user : affiche le panneau de sélection d'un workspace
-user -> system : saisit le terme de recherche
+user -> system : saisie le terme de recherche
 system -> system : recherche les workspaces correspondants
 system --> user : affiche les workspaces correspondants
 user -> system : selectionne les workspaces
 user -> system : clique sur le bouton "Valider"
 system -> system : enregistre les workspaces sélectionnés
-system --> user : selectionne le premier workspace par défaut
+system --> user 
 deactivate system
 deactivate user

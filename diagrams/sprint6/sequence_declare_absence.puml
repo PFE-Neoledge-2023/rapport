@@ -31,11 +31,11 @@ activate manageAbsencePage
     group add_absence
     manageAbsencePage -> settingsStore : addAbsence() 
     activate settingsStore
-    settingsStore -> eliseRestApi : :PUT /profile/absence
+    settingsStore -> eliseRestApi : :PUT /profil/absence
     activate eliseRestApi
     eliseRestApi --> settingsStore 
     deactivate eliseRestApi
-    ref over user,settingsStore,eliseRestApi : getProfile()
+    ref over user,settingsStore,eliseRestApi : getProfil()
     settingsStore --> manageAbsencePage 
     deactivate settingsStore
     manageAbsencePage -> user : affiche le message "absence activée"

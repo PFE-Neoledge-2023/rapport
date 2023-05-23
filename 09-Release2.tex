@@ -8,7 +8,7 @@
 
 \section*{Introduction}
 
-Ce chapitre présente la deuxieme version de notre application.Il est composé de quatre sprints qui ont été réalisés en 8 semaines. Nous avons commencé par l'ajout de la fonctionnalité d'authentification a l'aide en utilisant l'OIDC, puis nous avons ajouté la fonctionnalité de gestion de profile, absence et de delegation. Enfin, nous avons ajouté la fonctionnalité de consultation des statistiques. Dans ce chapitre, nous décrirons en détail les fonctionnalités de chaque sprint, les défis que nous avons rencontrés et les solutions que nous avons apportées pour les surmonter.
+Ce chapitre présente la deuxieme version de notre application.Il est composé de quatre sprints qui ont été réalisés en 8 semaines. Nous avons commencé par l'ajout de la fonctionnalité d'authentification a l'aide en utilisant l'OIDC, puis nous avons ajouté la fonctionnalité de gestion de profil, absence et de delegation. Enfin, nous avons ajouté la fonctionnalité de consultation des statistiques. Dans ce chapitre, nous décrirons en détail les fonctionnalités de chaque sprint, les défis que nous avons rencontrés et les solutions que nous avons apportées pour les surmonter.
 
 Release 2 : (Du 3 Avril au 27 Mai 2023)
 
@@ -17,7 +17,7 @@ Release 2 : (Du 3 Avril au 27 Mai 2023)
   Cette release contient les quatre sprints:
   \begin{itemize}
     \item \textbf{Sprint 5:} Gestion d'authentification OIDC et verification biometrique.
-    \item \textbf{Sprint 6:} Gestion du Profile, d'absence et de délégué.
+    \item \textbf{Sprint 6:} Gestion du Profil, d'absence et de délégué.
     \item \textbf{Sprint 7:} Consultation des statistique
     \item \textbf{Sprint 8:} .....
   \end{itemize}
@@ -278,7 +278,7 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
-      \multirow{2}{*}{1} & En tant qu'utilisateur, je veux accéder à la page des paramètres afin de personnaliser mon interface et pouvoir accéder a mon profile.
+      \multirow{2}{*}{1} & En tant qu'utilisateur, je veux accéder à la page des paramètres afin de personnaliser mon interface et pouvoir accéder a mon profil.
       & 1.1 & Préparer l'interface de paramètres sur Figma. & \multirow{3}{*}{2.5 Jour} \\
       \cline{3-4}
       & & 1.2 & Développer l'interface de paramètres	. & \\
@@ -291,9 +291,9 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
       \cline{1-5}
       \multirow{1}{*}{5} & En tant qu'utilisateur, je souhaite pouvoir chercher et sélectionner les espaces de travail afin de consulter les différents documents de chaque espace de travail & 5.1 & Développer la fonction qui permet de récupérer et sélectionner des espaces de travail & \multirow{1}{*}{0.5 Jour} \\
       \cline{1-5}
-      \multirow{3}{*}{6} & En tant qu'utilisateur, je veux visualiser mes informations personnelles tels que les services et les licences que je possède pour vérifier leur exactitude et leur actualisation & 6.1 & Préparer l'interface de profile sur Figma & \multirow{3}{*}{2.5 Jour} \\
+      \multirow{3}{*}{6} & En tant qu'utilisateur, je veux visualiser mes informations personnelles tels que les services et les licences que je possède pour vérifier leur exactitude et leur actualisation & 6.1 & Préparer l'interface de profil sur Figma & \multirow{3}{*}{2.5 Jour} \\
       \cline{3-4}
-      & & 6.2 & Développer l'interface de profile & \\
+      & & 6.2 & Développer l'interface de profil & \\
       \cline{3-4}
       & & 6.3 & Développer la fonction qui permet de récupérer les données & \\
       \cline{1-5}
@@ -317,8 +317,8 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
 \end{adjustwidth}
 
 
-\subsection{Implémentation du Sprint 9}
-\textbf{•	Diagramme de cas d'utilisation du sprint 9}
+\subsection{Implémentation du Sprint 6}
+\textbf{•	Diagramme de cas d'utilisation du sprint 6}
 
 % add image
 \begin{figure}[H]
@@ -342,19 +342,83 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/auth_OIDC/auth_OIDC}
-  \caption{Diagramme de séquence de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
-  \label{fig:sequence_auth_OIDC}
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/consult_settings_page/consult_settings_page}
+  \caption{Diagramme de séquence de cas d'utilisation « Consulter la page de paramétre »}
+  \label{fig:sequence_consult_settings_page}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/preferance_affichage/preferance_affichage}
+  \caption{Diagramme de séquence de cas d'utilisation « Gérer les préférences d'affichage »}
+  \label{fig:sequence_preference_affichage}
 \end{figure}
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/verification_biometrique/verification_biometrique}
-  \caption{Diagramme de séquence de cas d'utilisation « Vérification biométrique »}
-  \label{fig:sequence_verification_biometrique}
-\end{figure}  
-\textbf{Note: C'est un diagramme général qui illustre le processus de vérification biométrique pour différentes actions qui nécessitent une authentification sécurisée, telles que la gestion de signatures, la gestion des tâches et la signature de documents. Ce diagramme montre comment l'utilisateur doit effectuer une vérification biométrique en utilisant des technologies telles que la reconnaissance faciale ou la reconnaissance d'empreintes digitales, pour accéder à des fonctionnalités sensibles de l'application.}
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/change_language/change_language}
+  \caption{Diagramme de séquence de cas d'utilisation « Changer la langue »}
+  \label{fig:sequence_change_language}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/clear_cache/clear_cache}
+  \caption{Diagramme de séquence de cas d'utilisation « Vider le cache »}
+  \label{fig:sequence_clear_cache}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/lister_selectionner_workspaces/lister_selectionner_workspaces}
+  \caption{Diagramme de séquence de cas d'utilisation « Lister et sélectionner les espaces de travail »}
+  \label{fig:sequence_lister_selectionner_workspaces}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/visualiser_profil/visualiser_profil}
+  \caption{Diagramme de séquence de cas d'utilisation « Visualiser les informations personnelles »}
+  \label{fig:sequence_visualiser_profil}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/edit_profil_avatar/edit_profil_avatar}
+  \caption{Diagramme de séquence de cas d'utilisation « Modifier la photo de profil »}
+  \label{fig:sequence_edit_profil_avatar}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/declare_absence/declare_absence}
+  \caption{Diagramme de séquence de cas d'utilisation « Déclarer l'absence »}
+  \label{fig:sequence_declare_absence}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annuler_absence/annuler_absence}
+  \caption{Diagramme de séquence de cas d'utilisation « Annuler une déclaration d'absence »}
+  \label{fig:sequence_annuler_absence}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/search_affect_delegation/search_affect_delegation}
+  \caption{Diagramme de séquence de cas d'utilisation « Rechercher et affecter un délégué »}
+  \label{fig:sequence_search_affect_delegation}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annulation_delegation/annulation_delegation}
+  \caption{Diagramme de séquence de cas d'utilisation « Supprimer un délégué »}
+  \label{fig:sequence_annulation_delegation}
+\end{figure}
+
+
 
 
 \subsubsection{Analyse détaillée}
@@ -367,30 +431,32 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 % spacing left
 \setlength{\parindent}{0em}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 5 }
+\textbf{•	Diagramme de classe d'analyse de sprint 6 }
 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint5}
-  \caption{Diagramme de classe d'analyse de sprint 5}
-  \label{fig:class_analyse_sprint5}
+  \includegraphics[width=0.9\textwidth]{dca_sprint6}
+  \caption{Diagramme de classe d'analyse de sprint 6}
+  \label{fig:class_analyse_sprint6}
 \end{figure}
 
 
 \subsubsection{Conception}
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 5. \\
-\textbf{•	Diagramme de classe de conception de sprint 5}
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 6. 
+\begin{landscape}
 
-% add image
+\textbf{•	Diagramme de classe de conception de sprint 6}
+
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dcc_sprint5}
-  \caption{Diagramme de classe de conception de sprint 5}
-  \label{fig:class_diagram_51}
+  \includegraphics[width=\paperwidth]{dcc_sprint6}
+  \caption{Diagramme de classe de conception de sprint 6}
+  \label{fig:class_diagram_61}
 \end{figure}
+\end{landscape}
 
 
 \begin{figure}[H]
@@ -400,12 +466,97 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
   \label{fig:sequence_conception_auth_OIDC}
 \end{figure}
 
+% sequence_consult_settings_page
+% sequence_preferance_affichage
+% sequence_change_language
+% sequence_clear_cache
+% sequence_lister_selectionner_workspaces
+% sequence_visualiser_profil
+% sequence_edit_profil_avatar
+% sequence_declare_absence
+% sequence_annuler_absence
+% sequence_search_affect_delegation
+% sequence_annulation_delegation
+
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_verification_biometrique/sequence_verification_biometrique}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Vérification biométrique »}
-  \label{fig:sequence_conception_verification_biometrique}
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_consult_settings_page/sequence_consult_settings_page}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter la page de paramétre »}
+  \label{fig:conception_sequence_consult_settings_page}
 \end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_preferance_affichage/sequence_preferance_affichage}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Gérer les préférences d'affichage»}
+  \label{fig:conception_sequence_preferance_affichage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_change_language/sequence_change_language}
+  \caption{Diagramme de séquence de conception de cas d'utilisation «Changer la langue »}
+  \label{fig:conception_sequence_change_language}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_clear_cache/sequence_clear_cache}
+  \caption{Diagramme de séquence de conception de cas d'utilisation «  Vider le cache »}
+  \label{fig:conception_sequence_clear_cache}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_lister_selectionner_workspaces/sequence_lister_selectionner_workspaces}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Lister et sélectionner les espaces de travail »}
+  \label{fig:conception_sequence_lister_selectionner_workspaces}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_visualiser_profil/sequence_visualiser_profil}
+  \caption{Diagramme de séquence de conception de cas d'utilisation «  Visualiser les informations personnelles »}
+  \label{fig:conception_sequence_visualiser_profil}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_edit_profil_avatar/sequence_edit_profil_avatar}
+  \caption{Diagramme de séquence de conception de cas d'utilisation «  Modifier la photo de profil »}
+  \label{fig:conception_sequence_edit_profil_avatar}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_declare_absence/sequence_declare_absence}
+  \caption{Diagramme de séquence de conception de cas d'utilisation «  Déclarer l'absence »}
+  \label{fig:conception_sequence_declare_absence}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annuler_absence/sequence_annuler_absence}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Annuler une déclaration d'absence »}
+  \label{fig:conception_sequence_annuler_absence}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_search_affect_delegation/sequence_search_affect_delegation}
+  \caption{Diagramme de séquence de conception de cas d'utilisation «  Rechercher et affecter un délégué »}
+  \label{fig:conception_sequence_search_affect_delegation}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annulation_delegation/sequence_annulation_delegation}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer un délégué »}
+  \label{fig:conception_sequence_annulation_delegation}
+\end{figure}
+
+
+
 
 \subsubsection{Réalisation}
 
@@ -420,8 +571,8 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{realisation_sprint62}
-  \caption{Realisation de l'interface de modification de profile et gestion d'absence}
-  \label{fig:RealisationInterfaceModificationProfile}
+  \caption{Realisation de l'interface de modification de profil et gestion d'absence}
+  \label{fig:RealisationInterfaceModificationProfil}
 \end{figure}
 
 \subsection{Sprint Review}
@@ -429,6 +580,7 @@ Dans ce sprint, nous avons implémenté les fonctionnalités suivantes :
 \begin{itemize}
   \item \textbf{Paramétrage de l'application :} Nous avons implémenté le paramétrage de l'application dans l'application Elise Mobile, qui permet aux utilisateurs de modifier les paramètres de l'application, tels que la langue, le mode sombre, etc.\\
   \item \textbf{Gestion des absences :} Nous avons implémenté la gestion des absences dans l'application Elise Mobile, qui permet aux utilisateurs de consulter leurs absences et de créer une nouvelle demande d'absence.\\
+\end{itemize}
 \subsection{Sprint Retrospective}
 Nous avons atteint tous les objectifs fixés pour ce sprint :
 \begin{itemize}

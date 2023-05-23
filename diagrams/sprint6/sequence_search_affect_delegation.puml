@@ -8,10 +8,10 @@ participant "settingsPage" as settingsPage << View >>
 participant "addDelegate" as delegate << View >>
 participant "settingsnStore" as settingsnStore << ViewModel >>
 participant "workspaceStore" as workspaceStore << ViewModel >>
-participant "profile" as profile << Model >>
+participant "profil" as profil << Model >>
 participant "eliseRestApi" as eliseRestApi << service >>
 participant "eliseWebService" as es << service >>
-ref over user,settingsPage,profile,settingsnStore,es,workspaceStore,eliseRestApi : Authentification
+ref over user,settingsPage,profil,settingsnStore,es,workspaceStore,eliseRestApi : Authentification
 
 activate user
 user -> settingsPage : clique sur le bouton "ajouter"
@@ -38,12 +38,12 @@ alt workspace trouvé
     eliseRestApi --> settingsnStore : createDelegationResponse
     deactivate eliseRestApi
     alt delegation ajoutée
-        settingsnStore -> settingsnStore : getProfile()
+        settingsnStore -> settingsnStore : getProfil()
         settingsnStore -> settingsnStore : getAbsence()
-        settingsnStore -> profile : setProfile()
-        activate profile
-        profile --> settingsnStore : setProfileResponse
-        deactivate profile
+        settingsnStore -> profil : setProfil()
+        activate profil
+        profil --> settingsnStore : setProfilResponse
+        deactivate profil
         settingsnStore --> settingsPage : createDelegationResponse
         deactivate settingsnStore
         activate settingsPage

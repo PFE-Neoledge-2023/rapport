@@ -1,0 +1,48 @@
+@startuml sequence_edit_profil_avatar
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "editProfilPage" as editProfilPage << View >>
+participant "Camera" as camera << system >>
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "profil" as profil << Model >>
+participant "eliseRestApi" as eliseRestApi << service >>
+
+ref over user,editProfilPage,eliseRestApi,profil,settingsStore : Authentification
+
+activate user
+user -> editProfilPage : takePhoto()
+activate editProfilPage
+editProfilPage -> camera : getPhoto()
+activate camera
+camera --> editProfilPage 
+deactivate editProfilPage
+camera -> user : affiche la camera
+user -> camera : prend une photo
+camera --> user : retourne la photo
+user -> camera : confirme la photo
+camera --> editProfilPage : photo
+deactivate camera
+activate editProfilPage
+editProfilPage -> settingsStore : updateAvatar()
+activate settingsStore
+activate settingsStore
+settingsStore -> eliseRestApi : :POST elise-avatar/update 
+activate eliseRestApi
+eliseRestApi --> settingsStore : updateResponse
+settingsStore --> editProfilPage 
+deactivate eliseRestApi
+alt avatar mis à jour
+ref over user,editProfilPage,eliseRestApi,profil : getProfil()
+settingsStore -> editProfilPage : updateAvatarResponse
+editProfilPage -> user : affiche le message "Avatar mis à jour"
+else
+settingsStore -> editProfilPage : updateAvatarResponse
+deactivate settingsStore
+editProfilPage -> user : affiche le message "Erreur lors de la mise à jour de l'avatar"
+deactivate editProfilPage
+end
+deactivate user
+ 

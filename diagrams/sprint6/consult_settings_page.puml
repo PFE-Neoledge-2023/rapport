@@ -10,7 +10,7 @@ ref over user, system : Authentification
 activate user
 user -> system : clique sur le bouton "parametres"
 activate system
-system -> system : getProfile()
+system -> system : getProfil()
 system --> user : redirige vers la page des parametres
 
 deactivate system

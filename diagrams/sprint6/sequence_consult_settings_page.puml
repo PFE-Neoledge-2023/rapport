@@ -6,11 +6,11 @@ hide footbox
 actor "Utilisateur" as user
 participant "settingsPage" as settingsPage << View >>
 participant "settingsStore" as settingsStore << ViewModel >>
-participant "profile" as profile << Model >>
+participant "profil" as profil << Model >>
 participant "session" as session << Model >>
 participant "eliseRestApi" as eliseRestApi << service >>
 
-ref over user,settingsPage,settingsStore,eliseRestApi,profile : Authentification
+ref over user,settingsPage,settingsStore,eliseRestApi,profil : Authentification
 group settings_Page
     activate user
     user -> settingsPage : demande la page de parametres
@@ -23,10 +23,10 @@ group settings_Page
     deactivate session
     settingsStore --> settingsPage : getDataResponse
     deactivate settingsStore
-    group getProfile()
-    settingsPage -> settingsStore : getProfile()
+    group getProfil()
+    settingsPage -> settingsStore : getProfil()
     activate settingsStore 
-    settingsStore -> eliseRestApi : :GET /profile/absence
+    settingsStore -> eliseRestApi : :GET /profil/absence
     activate eliseRestApi
     eliseRestApi -> settingsStore : getAbsenceRequestResponse
     deactivate eliseRestApi
@@ -39,10 +39,10 @@ group settings_Page
     eliseRestApi -> settingsStore : getAvatarRequestResponse
     deactivate eliseRestApi
 
-    settingsStore -> profile : setProfile()
-    activate profile
-    profile --> settingsStore : setProfileResponse
-    deactivate profile
+    settingsStore -> profil : setProfil()
+    activate profil
+    profil --> settingsStore : setProfilResponse
+    deactivate profil
     settingsStore -> settingsPage : fetchDataResponse()
     deactivate settingsStore
     settingsPage -> user : affiche la page de parametres

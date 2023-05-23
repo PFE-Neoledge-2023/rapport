@@ -1,0 +1,20 @@
+@startuml edit_profil_avatar
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "camera"
+activate system
+system --> user : ouvre la caméra de l'appareil
+user -> system : prend une photo
+system --> user : affiche la photo
+user -> system : clique sur le bouton "valider"
+system --> user : modifie la photo de profil
+
+deactivate system
+deactivate user

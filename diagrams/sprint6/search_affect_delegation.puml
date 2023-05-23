@@ -1,0 +1,20 @@
+@startuml search_affect_delegation
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+ref over user, system : Authentification
+
+activate user
+user -> system : clique sur le bouton "ajouter"
+activate system
+system --> user : affiche le formulaire d'ajout 
+user -> system : saisie un text de recherche 
+system -> system : cherche l'utilisateur/ service qui correspond à la recherc
+system -> user : affiche les résultats de la recherche
+user -> system : clique sur le bouton "affecter"
+system --> user : affiche le message "délegué affecté"
+
+deactivate user

@@ -1,0 +1,17 @@
+@startuml visualiser_profil
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "editr profil"
+activate system
+system -> system : get user profil
+system --> user : redirige vers la page de profil
+
+deactivate system
+deactivate user

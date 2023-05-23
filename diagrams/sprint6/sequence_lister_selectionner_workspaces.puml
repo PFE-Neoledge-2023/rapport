@@ -1,0 +1,59 @@
+@startuml sequence_lister_selectionner_workspaces
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "settingsPage" as settingsPage << View >>
+participant "workspacesModal" as workspacesModal << View >>
+participant "workspacesStore" as workspacesStore << ViewModel >>
+participant "workspace" as workspaces << Model >>
+participant "EliseWebService" as eliseWebService << Service >>
+
+ref over user,settingsPage,workspacesModal,workspacesStore,workspaces,eliseWebService : Authentification
+
+activate user
+user -> settingsPage : openWorkspacesPanel()
+activate settingsPage
+settingsPage -> workspacesModal : open()
+deactivate settingsPage
+activate workspacesModal
+workspacesModal --> user 
+user -> workspacesModal : handleInput()
+workspacesModal -> workspacesStore : getWorkspaces()
+activate workspacesStore
+workspacesStore -> eliseWebService : GetFlowchartItems()
+activate eliseWebService
+eliseWebService --> workspacesStore : FlowchartItemsResponse
+deactivate eliseWebService
+alt Resultat de recherche vide
+workspacesStore --> workspacesModal 
+workspacesModal --> user: Afficher message 'Aucun résultat'
+else
+  workspacesStore -> workspaces : setWorkspaces()
+  activate workspaces
+  workspaces --> workspacesStore
+  deactivate workspaces
+  workspacesStore --> workspacesModal
+  workspacesModal --> user : Afficher liste des workspaces
+  user -> workspacesModal : choisir les workspaces
+  user -> workspacesModal : save()
+  workspacesModal -> workspacesStore : selectWorkspaces()
+  workspacesStore -> workspaces : SetSelectedWorkspaces()
+  activate workspaces
+  workspaces --> workspacesStore 
+  deactivate workspaces
+  workspacesStore --> workspacesModal
+  deactivate workspacesStore
+  workspacesModal --> settingsPage
+  deactivate workspacesModal
+  activate settingsPage
+  settingsPage --> user
+  deactivate settingsPage
+  deactivate user
+end
+
+
+
+
+deactivate user

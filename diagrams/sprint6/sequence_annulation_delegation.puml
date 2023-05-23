@@ -22,7 +22,7 @@ activate eliseRestApi
 eliseRestApi --> settingsStore 
 deactivate eliseRestApi
 alt delegué supprimé
-ref over user,settingsPage,settingsStore,eliseRestApi : getProfile()
+ref over user,settingsPage,settingsStore,eliseRestApi : getProfil()
 settingsStore --> settingsPage
 settingsPage --> user : affiche le message "délégation supprimée"
 else erreur

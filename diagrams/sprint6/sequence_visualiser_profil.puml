@@ -1,0 +1,31 @@
+@startuml sequence_visualiser_profil
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "settingsPage" as settingsPage << View >>
+participant "editProfilPage" as editProfilPage << View >>
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "profil" as profil << Model >>
+
+ref over user,settingsPage,editProfilPage,settingsStore,profil : Authentification
+ref over user,settingsPage,editProfilPage,settingsStore,profil: settings_Page
+group profilPage
+activate user
+user -> settingsPage : clique sur le bouton "edit Profil"
+activate settingsPage
+settingsPage -> editProfilPage : editProfil()
+deactivate settingsPage
+activate editProfilPage
+editProfilPage -> settingsStore : profil
+activate settingsStore
+settingsStore -> profil : getProfil()
+activate profil
+profil --> settingsStore : profil
+deactivate profil
+settingsStore --> editProfilPage : profil
+deactivate settingsStore
+editProfilPage --> user : editProfilPage
+deactivate editProfilPage
+end
