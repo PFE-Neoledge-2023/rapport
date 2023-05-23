@@ -5,6 +5,7 @@ hide footbox
 
 actor "Utilisateur" as user
 participant "editeProfilePage" as editeProfilePage << View >>
+participant "Camera" as camera << View >>
 participant "settingsStore" as settingsStore << ViewModel >>
 participant "profile" as profile << Model >>
 participant "eliseRestApi" as eliseRestApi << service >>
@@ -12,26 +13,36 @@ participant "eliseRestApi" as eliseRestApi << service >>
 ref over user,editeProfilePage,eliseRestApi,profile,settingsStore : Authentification
 
 activate user
-user -> editeProfilePage : click on "Annuler absence"
+user -> editeProfilePage : clique sur le bouton "camera"
 activate editeProfilePage
-editeProfilePage -> settingsStore : desActivateAbsence()
+editeProfilePage --> user : ouvre la camera
+deactivate editeProfilePage
+user -> camera : prend une photo
+activate camera
+camera --> user : retourne la photo
+user -> camera : confirme la photo
+camera -> settingsStore : updateAvatar()
+deactivate camera
 activate settingsStore
-settingsStore -> eliseRestApi : absence() : DELETE
+settingsStore -> eliseRestApi : elise-avatar/update : POST
 activate eliseRestApi
-eliseRestApi -> eliseRestApi : DELETE absence
-eliseRestApi --> settingsStore : AbsenceResponse
+eliseRestApi --> settingsStore : updateResponse
 deactivate eliseRestApi
+alt avatar mis à jour
+settingsStore -> settingsStore : setProfileAvatar()
 settingsStore -> settingsStore : getProfile()
 settingsStore -> profile : setProfile()
 activate profile
-profile --> settingsStore : ProfileResponse
+profile -> settingsStore : getProfileResponse
 deactivate profile
-settingsStore --> editeProfilePage : AbsenceResponse
+settingsStore -> editeProfilePage : updateAvatarResponse
+activate editeProfilePage
+editeProfilePage -> user : affiche le message "Avatar mis à jour"
+else
+settingsStore -> editeProfilePage : updateAvatarResponse
 deactivate settingsStore
-editeProfilePage --> user : affiche le message "Absence annulée"
+editeProfilePage -> user : affiche le message "Erreur lors de la mise à jour de l'avatar"
 deactivate editeProfilePage
-
-
-
+end
 deactivate user
  
