@@ -5,7 +5,7 @@ hide footbox
 
 actor "Utilisateur" as user
 participant "editeProfilePage" as editeProfilePage << View >>
-participant "Camera" as camera << View >>
+participant "Camera" as camera << system >>
 participant "settingsStore" as settingsStore << ViewModel >>
 participant "profile" as profile << Model >>
 participant "eliseRestApi" as eliseRestApi << service >>
@@ -13,20 +13,26 @@ participant "eliseRestApi" as eliseRestApi << service >>
 ref over user,editeProfilePage,eliseRestApi,profile,settingsStore : Authentification
 
 activate user
-user -> editeProfilePage : clique sur le bouton "camera"
+user -> editeProfilePage : takePhoto()
 activate editeProfilePage
-editeProfilePage --> user : ouvre la camera
-deactivate editeProfilePage
-user -> camera : prend une photo
+editeProfilePage -> camera : getPhoto()
 activate camera
+camera --> editeProfilePage 
+deactivate editeProfilePage
+camera -> user : affiche la camera
+user -> camera : prend une photo
 camera --> user : retourne la photo
 user -> camera : confirme la photo
-camera -> settingsStore : updateAvatar()
+camera --> editeProfilePage : photo
 deactivate camera
+activate editeProfilePage
+editeProfilePage -> settingsStore : updateAvatar()
 activate settingsStore
-settingsStore -> eliseRestApi : elise-avatar/update : POST
+activate settingsStore
+settingsStore -> eliseRestApi : :POST elise-avatar/update 
 activate eliseRestApi
 eliseRestApi --> settingsStore : updateResponse
+settingsStore --> editeProfilePage 
 deactivate eliseRestApi
 alt avatar mis à jour
 settingsStore -> settingsStore : setProfileAvatar()
@@ -36,7 +42,6 @@ activate profile
 profile -> settingsStore : getProfileResponse
 deactivate profile
 settingsStore -> editeProfilePage : updateAvatarResponse
-activate editeProfilePage
 editeProfilePage -> user : affiche le message "Avatar mis à jour"
 else
 settingsStore -> editeProfilePage : updateAvatarResponse
