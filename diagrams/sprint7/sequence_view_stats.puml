@@ -37,7 +37,7 @@ alt Les stats sont vides
   loop Pour chaque tray
     statsstore -> elise : GetTrayMailByIdCount(tray)
     activate elise
-    elise --> statsstore : GetTrayMailByIdCount
+    elise --> statsstore : GetTrayMailByIdCountResponse
     deactivate elise
     alt Stats admettent des sous stats
       statsstore -> stats : addStats(stats)

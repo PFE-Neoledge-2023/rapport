@@ -42,7 +42,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
       \multirow{2}{*}{1} & En tant que membre scrum , je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
       & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
-      \multirow{2}{*}{2} & En En tant qu'utilisateur, je veux pouvoir me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter . &  \multirow{3}{*}{2.5 Jour} \\
+      \multirow{2}{*}{2} & En En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter . &  \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
       \multirow{2}{*}{3} & En En tant qu’utilisateur, je veux sécuriser les actions sensibles de l’application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale). & 3.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
       \cline{3-4}
@@ -278,7 +278,7 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
-      \multirow{2}{*}{1} & En tant qu'utilisateur, je veux pouvoir visualiser les statistiques de l'application afin de suivre l'évolution de l'application.
+      \multirow{2}{*}{1} & En tant qu'utilisateur, je veux visualiser les statistiques de l'application afin de suivre l'évolution de l'application.
       & 1.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2.5 Jour} \\
       \cline{3-4}
       & & 1.2 & Développer le composant de statistique a une valeur. & \\
@@ -289,13 +289,18 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
       & & 1.5 & Développer la fonction qui permet de visualiser les statistiques. & \\
       % & & 1.6 & Développer la fonction qui permet de filtrer les documents par statistique. & \\
       \cline{1-5}
-      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux pouvoir consulter les documents a l'aide de filtre rapide afin de trouver les documents que je cherche. & 2.1.& Ajouter la fonction de filtre a l'interface de consultation des statistiques. & \multirow{2}{*}{0.5 Jour} \\
+
+      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux basculer entre mes espaces de travail selectionné a fin de consulter les differents statistiques. & 2.1.& Préparer l'interface sur figma. & \multirow{2}{*}{0.5 Jour} \\
       \cline{3-4}
-      & & 2.2 & Développer la fonction qui permet de filtrer les documents par statistique. & \\
+      & &  2.2 & Développer la fonction qui permet de basculer entre les espaces de travail. & \\
       \cline{1-5}
-      \multirow{2}{*}{3} & En tant qu'utilisateur, je veux pouvoir refraichir les données de l'application afin de voir les dernières informations. & 3.1.& Ajouter l'interface de rafraichissement des données a chaque page possible. & \multirow{2}{*}{0.5 Jour} \\
+      \multirow{2}{*}{3} & En tant qu'utilisateur, je veux consulter les documents a l'aide de filtre rapide afin de trouver les documents que je cherche. & 3.1.& Ajouter la fonction de filtre a l'interface de consultation des statistiques. & \multirow{2}{*}{0.5 Jour} \\
       \cline{3-4}
-      & & 3.2 & Développer la fonction qui permet de rafraichir les données de chaque page. & \\
+      & & 3.2 & Développer la fonction qui permet de filtrer les documents par statistique. & \\
+      \cline{1-5}
+      \multirow{2}{*}{4} & En tant qu'utilisateur, je veux refraichir les données de l'application afin de voir les dernières informations. & 4.1.& Ajouter l'interface de rafraichissement des données a chaque page possible. & \multirow{2}{*}{0.5 Jour} \\
+      \cline{3-4}
+      & & 4.2 & Développer la fonction qui permet de rafraichir les données de chaque page. & \\
       \cline{1-5}
   \hline
   \caption{Sprint backlog du Sprint 7}
@@ -310,7 +315,7 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{use_case_sprint_7}
+  \includegraphics[width=0.6\textwidth]{use_case_sprint_7}
   \caption{Diagramme de cas d'utilisation du sprint 7}
   \label{fig:UseCaseDiagramSp71}
 \end{figure}
@@ -509,7 +514,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_view_stats/sequence_view_stats}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « S'Consulter les statistiques »}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter les statistiques »}
   \label{fig:sequence_conception_consulter_statistiques}
 \end{figure}
 
@@ -552,6 +557,7 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 Suite à cette Technical Story, nous avons pu réaliser les fonctionnalités suivantes :
 \begin{itemize}
   \item \textbf{Consulter les statistiques :} Cette fonctionnalité permet à l'utilisateur de consulter les statistiques des documents et des signatures.
+  \item \textbf{Basculer entre les espaces de travail :} Cette fonctionnalité permet à l'utilisateur de basculer entre les espaces de travail.
   \item \textbf{Consulter les documents à l'aide de filtre rapide :} Cette fonctionnalité permet à l'utilisateur de consulter les documents à l'aide de filtre rapide.
   \item \textbf{Rafraichissement des données :} Cette fonctionnalité permet à l'utilisateur de rafraichir les données.
 \end{itemize}
