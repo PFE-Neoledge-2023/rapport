@@ -42,9 +42,9 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
       \multirow{2}{*}{1} & En tant que membre scrum , je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
       & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
-      \multirow{2}{*}{2} & En En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter . &  \multirow{3}{*}{2.5 Jour} \\
+      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter . &  \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
-      \multirow{2}{*}{3} & En En tant qu’utilisateur, je veux sécuriser les actions sensibles de l’application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale). & 3.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
+      \multirow{2}{*}{3} & En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale). & 3.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
       \cline{3-4}
       & & 3.2 & Intégrer les fonctions de vérification biométrique dans certaines actions sensibles tels que la gestion de signature, la signature du document et la gestion des taches. & \\
       \cline{1-5}
@@ -67,15 +67,15 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \end{figure}
 
 \subsubsection{Analyse des besoins:}
-\textbf{•	Description textuelle de cas d'utilisation « Connexion à l’aide du protocole OIDC  »}
+\textbf{•	Description textuelle de cas d'utilisation « Connexion à l'aide du protocole OIDC  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
-\textbf{Cas d'utilisation}&Connexion à l’aide du protocole OIDC\\
+\textbf{Cas d'utilisation}&Connexion à l'aide du protocole OIDC\\
 \hline
 \textbf{Acteurs}&Utilisateur\\
 \hline
-\textbf{Pré Condition}&L’utilisateur doit avoir un compte OIDC\\
+\textbf{Pré Condition}&L'utilisateur doit avoir un compte OIDC\\
 \hline
 \textbf{Post Condition}&Authentification\\
 \hline
@@ -83,16 +83,16 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \vspace{-\baselineskip}
 \begin{enumerate}
   \setcounter{enumi}{1}
-    \item L’utilisateur saisie le serveur
-    \item L’utilisateur clique sur le bouton connexion
+    \item L'utilisateur saisie le serveur
+    \item L'utilisateur clique sur le bouton connexion
     \item Le système vérifie si le serveur existe
-    \item Le système affiche la page de login de l’application
+    \item Le système affiche la page de login de l'application
     \item L'utilisateur clique sur le bouton « OIDC »
     \item Le système affiche la page login de son serveur d'authentification
-    \item L’utilisateur connecte avec son compte
+    \item L'utilisateur connecte avec son compte
     \item Le système affiche la page de connexion 
     \item Le système vérifie le token
-    \item Le système affiche la page d’accueil 
+    \item Le système affiche la page d'accueil 
   
 \end{enumerate}\\
 \hline
@@ -100,7 +100,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \vspace{-\baselineskip}
 \begin{enumerate}
   \item [4.1] Le système affiche le message « le serveur n'existe pas »
-  \item [10.1] Le système affiche un message d’erreur
+  \item [10.1] Le système affiche un message d'erreur
 \end{enumerate}\\
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
@@ -121,8 +121,8 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \vspace{-\baselineskip}
 \begin{enumerate}
   \setcounter{enumi}{1}
-  \item L’utilisateur doit posséder un appareil compatible avec la vérification biométrique
-  \item L’utilisateur doit permettre à l’application d’utiliser la vérification biométrique
+  \item L'utilisateur doit posséder un appareil compatible avec la vérification biométrique
+  \item L'utilisateur doit permettre à l'application d'utiliser la vérification biométrique
 \end{enumerate}\\
 \hline
 \textbf{Post Condition}&Vérification biométrique\\
@@ -131,13 +131,13 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \vspace{-\baselineskip}
 \begin{enumerate}
     \setcounter{enumi}{1}
-    \item L’utilisateur faire l’une des actions sensibles.
+    \item L'utilisateur faire l'une des actions sensibles.
     \item Le système vérifie que la dernière date de vérification est supérieure à 5 minutes 
     \item Le système demande une vérification biométrique
-    \item L’utilisateur vérifie son identité
-    \item Le système vérifie L’identité 
+    \item L'utilisateur vérifie son identité
+    \item Le système vérifie L'identité 
     \item Le système met à jour la date de vérification
-    \item Le système exécute L’action
+    \item Le système exécute L'action
     \item Le système affiche le message de succès
     
 \end{enumerate}\\
@@ -146,7 +146,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \vspace{-\baselineskip}
 \begin{enumerate}
   \item [4.1] Le système passe directement à la 7-ème étape 
-  \item [6.1] Le système empêche l’action  
+  \item [6.1] Le système empêche l'action  
 \end{enumerate}\\
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
@@ -158,7 +158,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{design_OIDC}
-  \caption{Maquette de la page de connexion à l’aide du protocole OIDC}
+  \caption{Maquette de la page de connexion à l'aide du protocole OIDC}
   \label{fig:design_OIDC}
 \end{figure}
 
@@ -168,7 +168,7 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/auth_OIDC/auth_OIDC}
-  \caption{Diagramme de séquence de cas d'utilisation « Connexion à l’aide du protocole OIDC »}
+  \caption{Diagramme de séquence de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
   \label{fig:sequence_auth_OIDC}
 \end{figure}
 
@@ -221,7 +221,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_OIDC/sequence_OIDC}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Connexion à l’aide du protocole OIDC »}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
   \label{fig:sequence_conception_auth_OIDC}
 \end{figure}
 
@@ -240,7 +240,7 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_OIDC}
-  \caption{Les interfaces de la page de connexion à l’aide du protocole OIDC}
+  \caption{Les interfaces de la page de connexion à l'aide du protocole OIDC}
   \label{fig:realisation_OIDC}
 \end{figure}
 
@@ -258,7 +258,189 @@ Nous avons atteint tous les objectifs fixés pour ce sprint :
 
     \item \textbf{Ce qui n'a pas bien fonctionné :}
     \begin{itemize}
-      \item Nous avons rencontré des difficultés lors de la mise en œuvre de la fonctionnalité de vérification biométrique et l’authentification OIDC dans l'application Elise Mobile,
+      \item Nous avons rencontré des difficultés lors de la mise en œuvre de la fonctionnalité de vérification biométrique et l'authentification OIDC dans l'application Elise Mobile,
+    \end{itemize}
+      
+\end{itemize}
+\section{Sprint 6 (Paramétrage des applications et gestion de profil et absence)}
+
+\subsection{Sprint Goal}
+Le sprint actuel a pour objectif de gerer les paramétres de l'application, le profil utilisateur, les absences et les délégués en fournissant des fonctionnalités telles que la personnalisation des préférences d'affichage et de notification, la visualisation des informations personnelles, la modification de la photo de profil, la déclaration et l'annulation des absences, la recherche et l'affectation des délégués, ainsi que la suppression des délégués pendant une absence.
+
+\subsection{Sprint Backlog}
+
+
+\begin{adjustwidth}{-1cm}{}
+  % \usepackage{longtable}
+    
+    \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      % \centering
+      \hline
+      \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
+      \hline
+      \multirow{2}{*}{1} & En tant qu'utilisateur, je veux accéder à la page des paramètres afin de personnaliser mon interface et pouvoir accéder a mon profile.
+      & 1.1 & Préparer l'interface de paramètres sur Figma. & \multirow{3}{*}{2.5 Jour} \\
+      \cline{3-4}
+      & & 1.2 & Développer l'interface de paramètres	. & \\
+      \cline{1-5}
+      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux gérer mes préférences d'aﬀichage de l'application la couleur du thème afin de personnaliser mon application.&2.1&Intégrer la fonctionnalité de mettre à jour les préférences d'affichage de l'utilisateur dans l'application &  \multirow{3}{*}{2.5 Jour} \\
+      \cline{1-5}
+      \multirow{1}{*}{3} & En tant qu'utilisateur, je souhaite pouvoir choisir la langue de l'application afin de personnaliser mon expérience utilisateur et que l'application se mette automatiquement à jour pour afficher tous les éléments dans la langue sélectionnée. & 3.1 &Intégrer la fonctionnalité de choix de la langue de l'application. & \multirow{1}{*}{0.5 Jour} \\
+      \cline{1-5}
+      \multirow{1}{*}{4} & En tant qu'utilisateur, je souhaite pouvoir vider le cache de l'application afin d'Améliorer les performances de l'application en supprimant les données stockées dans le cache. & 4.1 &Développer la fonction qui permet de Supprimer le cache. & \multirow{1}{*}{0.5 Jour} \\
+      \cline{1-5}
+      \multirow{1}{*}{5} & En tant qu'utilisateur, je souhaite pouvoir chercher et sélectionner les espaces de travail afin de consulter les différents documents de chaque espace de travail & 5.1 & Développer la fonction qui permet de récupérer et sélectionner des espaces de travail & \multirow{1}{*}{0.5 Jour} \\
+      \cline{1-5}
+      \multirow{3}{*}{6} & En tant qu'utilisateur, je veux visualiser mes informations personnelles tels que les services et les licences que je possède pour vérifier leur exactitude et leur actualisation & 6.1 & Préparer l'interface de profile sur Figma & \multirow{3}{*}{2.5 Jour} \\
+      \cline{3-4}
+      & & 6.2 & Développer l'interface de profile & \\
+      \cline{3-4}
+      & & 6.3 & Développer la fonction qui permet de récupérer les données & \\
+      \cline{1-5}
+      \multirow{1}{*}{7} & En tant qu'utilisateur, je veux modifier ma photo de profil pour qu'elle reflète mieux mon image professionnelle ou personnelle actuelle.& 7.1 & Développer la fonction qui permet de modifier mon avatar. & \multirow{1}{*}{0.5 Jour} \\
+      \cline{1-5}
+      \multirow{3}{*}{8} & En tant qu'utilisateur, je veux déclarer une absence en spécifiant la date de début et la date de fin de mon absence, afin d'informer mes collègues et mes supérieurs hiérarchiques.& 8.1 & Préparer l'interface de gestion d'absence sur Figma & \multirow{3}{*}{2.5 Jour} \\
+      \cline{3-4}
+      & & 8.2 & Développer l'interface de gestion d'absence & \\
+      \cline{3-4}
+      & & 8.3 & Développer la fonction qui permet de déclarer une absence & \\
+      \cline{1-5}
+      \multirow{1}{*}{9} & En tant qu'utilisateur, je veux annuler ma déclaration d'absence si ma situation change et que je suis en mesure de travailler pendant la période initialement déclarée, afin de mettre à jour l'ensemble des parties prenantes informées de mon absence. & 9.1 & Développer la fonction qui permet d'annuler une absence & \multirow{1}{*}{0.5 Jour} \\
+      \cline{1-5}
+      \multirow{1}{*}{10} & En tant qu'utilisateur, je veux rechercher un utilisateur ou un service et l'affecter comme délégué fin de lui donner les droits nécessaires pour gérer certaines tâches ou projets en mon absence. & 10.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{0.5 Jour} \\
+      \cline{1-5}
+      \multirow{1}{*}{11} & En tant qu'utilisateur, je veux supprimer un délégué que j'avais désigné, en cas de besoin ou si je ne suis plus d'accord avec mon choix initial & 11.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{0.5 Jour} \\
+    \hline
+  \caption{Sprint backlog du Sprint 6}
+  \label{tab:sprint-backlog-6}
+\end{longtable}
+\end{adjustwidth}
+
+
+\subsection{Implémentation du Sprint 9}
+\textbf{•	Diagramme de cas d'utilisation du sprint 9}
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{use_case_sprint_6}
+  \caption{Diagramme de cas d'utilisation du sprint 6}
+  \label{fig:UseCaseDiagramSp61}
+\end{figure}
+
+\subsubsection{Analyse des besoins:}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{design_sprint_6}
+  \caption{Maquette de l'interface de paramétrage et de gestion des absences}
+  \label{fig:MaquetteInterfaceParametrageGestionAbsences}
+\end{figure}
+
+
+Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/auth_OIDC/auth_OIDC}
+  \caption{Diagramme de séquence de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
+  \label{fig:sequence_auth_OIDC}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/verification_biometrique/verification_biometrique}
+  \caption{Diagramme de séquence de cas d'utilisation « Vérification biométrique »}
+  \label{fig:sequence_verification_biometrique}
+\end{figure}  
+\textbf{Note: C'est un diagramme général qui illustre le processus de vérification biométrique pour différentes actions qui nécessitent une authentification sécurisée, telles que la gestion de signatures, la gestion des tâches et la signature de documents. Ce diagramme montre comment l'utilisateur doit effectuer une vérification biométrique en utilisant des technologies telles que la reconnaissance faciale ou la reconnaissance d'empreintes digitales, pour accéder à des fonctionnalités sensibles de l'application.}
+
+
+\subsubsection{Analyse détaillée}
+La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
+Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
+
+
+% spacing between paragraphs
+\setlength{\parskip}{1em}
+% spacing left
+\setlength{\parindent}{0em}
+
+\textbf{•	Diagramme de classe d'analyse de sprint 5 }
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{dca_sprint5}
+  \caption{Diagramme de classe d'analyse de sprint 5}
+  \label{fig:class_analyse_sprint5}
+\end{figure}
+
+
+\subsubsection{Conception}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
+Nous allons présenter dans cette partie les diagrammes de conception de sprint 5. \\
+\textbf{•	Diagramme de classe de conception de sprint 5}
+
+% add image
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{dcc_sprint5}
+  \caption{Diagramme de classe de conception de sprint 5}
+  \label{fig:class_diagram_51}
+\end{figure}
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_OIDC/sequence_OIDC}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
+  \label{fig:sequence_conception_auth_OIDC}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_verification_biometrique/sequence_verification_biometrique}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Vérification biométrique »}
+  \label{fig:sequence_conception_verification_biometrique}
+\end{figure}
+
+\subsubsection{Réalisation}
+
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{realisation_sprint61}
+  \caption{Realisation de l'interface de paramétrage de l'application et la mode sombre}
+  \label{fig:RealisationInterfaceParametrage}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{realisation_sprint62}
+  \caption{Realisation de l'interface de modification de profile et gestion d'absence}
+  \label{fig:RealisationInterfaceModificationProfile}
+\end{figure}
+
+\subsection{Sprint Review}
+Dans ce sprint, nous avons implémenté les fonctionnalités suivantes :
+\begin{itemize}
+  \item \textbf{Paramétrage de l'application :} Nous avons implémenté le paramétrage de l'application dans l'application Elise Mobile, qui permet aux utilisateurs de modifier les paramètres de l'application, tels que la langue, le mode sombre, etc.\\
+  \item \textbf{Gestion des absences :} Nous avons implémenté la gestion des absences dans l'application Elise Mobile, qui permet aux utilisateurs de consulter leurs absences et de créer une nouvelle demande d'absence.\\
+\subsection{Sprint Retrospective}
+Nous avons atteint tous les objectifs fixés pour ce sprint :
+\begin{itemize}
+  \item \textbf{Ce qui a bien fonctionné :}
+  \begin{itemize}
+    \item L'integration de l'api rest dans l'application Elise Mobile,
+    \item L'ajout de la mode sombre dans l'application Elise Mobile,
+  \end{itemize}
+
+    \item \textbf{Ce qui n'a pas bien fonctionné :}
+    \begin{itemize}
+      \item L'ajout de la fonctionnalité de multi-langue dans l'application Elise Mobile dans la deuxième release n'etait pas assez flexible car il faut reécrire tout l'ancien code pour l'adapter avec la nouvelle fonctionnalité.
     \end{itemize}
       
 \end{itemize}

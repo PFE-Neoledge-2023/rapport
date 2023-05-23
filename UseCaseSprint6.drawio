@@ -46,7 +46,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="&lt;div&gt;Gérer les&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;préférences&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;d’aﬀichage&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="3" value="&lt;div&gt;Gérer les&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;préférences&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;d'aﬀichage&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="130" width="210" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;extends&lt;/font&gt;" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="4" target="3" edge="1">
@@ -92,7 +92,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="8" value="&lt;div&gt;Déclarer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;l’absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8" value="&lt;div&gt;Déclarer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;l'absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="310" width="210" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;fontSize=9;startArrow=none;startFill=0;endArrow=none;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;rounded=0;" parent="1" source="9" edge="1">
@@ -104,7 +104,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="9" value="&lt;div&gt;Annuler&lt;/div&gt;&lt;div&gt;une déclara&lt;span style=&quot;background-color: initial;&quot;&gt;tion d’absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="9" value="&lt;div&gt;Annuler&lt;/div&gt;&lt;div&gt;une déclara&lt;span style=&quot;background-color: initial;&quot;&gt;tion d'absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="370" width="210" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="&lt;div&gt;chercher et af&lt;span style=&quot;background-color: initial;&quot;&gt;fecter ue dé&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;légué&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">

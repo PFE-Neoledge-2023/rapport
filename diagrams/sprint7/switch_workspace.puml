@@ -9,7 +9,7 @@ participant "système" as system
 
 ref over user, system : Authentification
 
-user -> system : clique sur le bouton a coté du nom de l’espace de travail dans la page d’accueil 
+user -> system : clique sur le bouton a coté du nom de l'espace de travail dans la page d'accueil 
 system -> user : affiche la liste des espaces de travail selectionnés
-user -> system : clique sur l’espace de travail qu’il veut utiliser
-system -> user : récupère les données de l’espace de travail selectionné
+user -> system : clique sur l'espace de travail qu'il veut utiliser
+system -> user : récupère les données de l'espace de travail selectionné
