@@ -19,11 +19,7 @@ settingsStore -> eliseRestApi : :DELETE /profile/absence
 activate eliseRestApi
 eliseRestApi --> settingsStore
 deactivate eliseRestApi
-settingsStore -> settingsStore : getProfile()
-settingsStore -> profile : setProfile()
-activate profile
-profile --> settingsStore : ProfileResponse
-deactivate profile
+ref over user,manageAbsencePage,eliseRestApi : getProfile()
 settingsStore --> manageAbsencePage 
 deactivate settingsStore
 manageAbsencePage --> user : affiche le message "Absence annulée"

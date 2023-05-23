@@ -8,15 +8,14 @@ participant "manageAbsencePage" as manageAbsencePage << View >>
 participant "DatePickerModal" as datePickerModal << View >>
 participant "settingsStore" as settingsStore << ViewModel >>
 participant "eliseRestApi" as eliseRestApi << service >>
-participant "profile" as profile << Model >>
 
-ref over user,settingsPage,settingsStore,profile : Authentification
+ref over user,settingsStore,eliseRestApi : Authentification
 
 activate user
 user -> manageAbsencePage : clique sur le bouton "activer absence"
 activate manageAbsencePage
     alt Utilisateur a choisit une date de fin
-        ref over user,settingsPage,settingsStore,profile : add_absence
+        ref over user,settingsStore,eliseRestApi : add_absence
     else Utilisateur n'a pas choisit une date de fin
         manageAbsencePage --> user : affiche le message "date de fin d'absence invalide"
         user -> manageAbsencePage : clique sur le bouton "end Date"
@@ -26,7 +25,7 @@ activate manageAbsencePage
         datePickerModal --> manageAbsencePage : affiche la date de fin
         deactivate datePickerModal
         user -> manageAbsencePage : clique sur le bouton "activer absence"
-        ref over user,settingsPage,settingsStore,profile : add_absence
+        ref over user,settingsStore,eliseRestApi : add_absence
 
     end
     group add_absence
@@ -36,11 +35,7 @@ activate manageAbsencePage
     activate eliseRestApi
     eliseRestApi --> settingsStore 
     deactivate eliseRestApi
-    settingsStore -> settingsStore : getUser()
-    settingsStore -> profile : setProfile()
-    activate profile
-    profile --> settingsStore : retourne le profile
-    deactivate profile
+    ref over user,settingsStore,eliseRestApi : getProfile()
     settingsStore --> manageAbsencePage 
     deactivate settingsStore
     manageAbsencePage -> user : affiche le message "absence activée"

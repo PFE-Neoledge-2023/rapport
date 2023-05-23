@@ -1,0 +1,53 @@
+@startuml sequence_consult_settings_page
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "settingsPage" as settingsPage << View >>
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "profile" as profile << Model >>
+participant "session" as session << Model >>
+participant "eliseRestApi" as eliseRestApi << service >>
+
+ref over user,settingsPage,settingsStore,eliseRestApi,profile : Authentification
+group settings_Page
+    activate user
+    user -> settingsPage : demande la page de parametres
+    activate settingsPage
+    settingsPage -> settingsStore : fetchData()
+    activate settingsStore
+    settingsStore -> session : getData()
+    activate session
+    session --> settingsStore : getDataResponse
+    deactivate session
+    settingsStore --> settingsPage : getDataResponse
+    deactivate settingsStore
+    group getProfile()
+    settingsPage -> settingsStore : getProfile()
+    activate settingsStore 
+    settingsStore -> eliseRestApi : :GET /profile/absence
+    activate eliseRestApi
+    eliseRestApi -> settingsStore : getAbsenceRequestResponse
+    deactivate eliseRestApi
+    settingsStore -> eliseRestApi : :GET /connection/user
+    activate eliseRestApi
+    eliseRestApi -> settingsStore : getUserRequestResponse
+    deactivate eliseRestApi
+    settingsStore -> eliseRestApi : :GET /avatar/100
+    activate eliseRestApi
+    eliseRestApi -> settingsStore : getAvatarRequestResponse
+    deactivate eliseRestApi
+
+    settingsStore -> profile : setProfile()
+    activate profile
+    profile --> settingsStore : setProfileResponse
+    deactivate profile
+    settingsStore -> settingsPage : fetchDataResponse()
+    deactivate settingsStore
+    settingsPage -> user : affiche la page de parametres
+    deactivate settingsPage
+    deactivate user
+    end
+end
+

@@ -7,9 +7,8 @@ actor "Utilisateur" as user
 participant "settingsPage" as settingsPage << View >>
 participant "settingsStore" as settingsStore << ViewModel >>
 participant "eliseRestApi" as eliseRestApi << service >>
-participant "profile" as profile << Model >>
 
-ref over user,settingsPage,profile,settingsStore,eliseRestApi : Authentification
+ref over user,settingsPage,settingsStore,eliseRestApi : Authentification
 
 activate user
 user -> settingsPage : clique sur le bouton "supprimer"
@@ -23,11 +22,7 @@ activate eliseRestApi
 eliseRestApi --> settingsStore 
 deactivate eliseRestApi
 alt delegué supprimé
-    settingsStore -> settingsStore : getProfile()
-settingsStore -> profile : setProfile()
-activate profile
-profile --> settingsStore 
-deactivate profile
+ref over user,settingsPage,settingsStore,eliseRestApi : getProfile()
 settingsStore --> settingsPage
 settingsPage --> user : affiche le message "délégation supprimée"
 else erreur
