@@ -1,0 +1,17 @@
+@startuml consult_settings_page
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "parametres"
+activate system
+system -> system : getProfile()
+system --> user : redirige vers la page des parametres
+
+deactivate system
+deactivate user
