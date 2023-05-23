@@ -8,7 +8,6 @@ participant "manageAbsencePage" as manageAbsencePage << View >>
 participant "settingsStore" as settingsStore << ViewModel >>
 participant "profile" as profile << Model >>
 participant "eliseRestApi" as eliseRestApi << service >>
-
 ref over user,manageAbsencePage,eliseRestApi,profile,settingsStore : Authentification
 
 activate user
@@ -16,17 +15,16 @@ user -> manageAbsencePage : click on "Annuler absence"
 activate manageAbsencePage
 manageAbsencePage -> settingsStore : desActivateAbsence()
 activate settingsStore
-settingsStore -> eliseRestApi : absence() : DELETE
+settingsStore -> eliseRestApi : :DELETE /profile/absence
 activate eliseRestApi
-eliseRestApi -> eliseRestApi : DELETE absence
-eliseRestApi --> settingsStore : AbsenceResponse
+eliseRestApi --> settingsStore
 deactivate eliseRestApi
 settingsStore -> settingsStore : getProfile()
 settingsStore -> profile : setProfile()
 activate profile
 profile --> settingsStore : ProfileResponse
 deactivate profile
-settingsStore --> manageAbsencePage : AbsenceResponse
+settingsStore --> manageAbsencePage 
 deactivate settingsStore
 manageAbsencePage --> user : affiche le message "Absence annulée"
 deactivate manageAbsencePage

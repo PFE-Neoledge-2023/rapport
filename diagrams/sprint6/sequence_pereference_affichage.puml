@@ -17,7 +17,6 @@ activate settingsPage
 settingsPage -> settingsStore : changeTheme()
 activate settingsStore
 alt theme clair
-settingsStore -> settingsStore : setDarkMode(false)
 settingsStore -> darkMode : setDarkMode(false)
 activate darkMode
 darkMode --> settingsStore : lightThemeResponse
@@ -25,7 +24,6 @@ deactivate darkMode
 settingsStore --> settingsPage
 settingsPage --> user
 else theme sombre
-settingsStore -> settingsStore : setDarkMode(true)
 settingsStore -> darkMode : setDarkMode(true)
 activate darkMode
 darkMode --> settingsStore : darkThemeResponse

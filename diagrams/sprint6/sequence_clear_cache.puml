@@ -22,25 +22,25 @@ settingsPage -> settingsStore : clearCache()
 
 activate settingsStore
 
-settingsStore -> documentsStore : clearCache()
+settingsStore -> documentsStore : clearAllData()
 activate documentsStore
-documentsStore --> settingsStore : clearCacheResponse
+documentsStore --> settingsStore
 deactivate documentsStore
-settingsStore -> workspacesStore : clearCache()
+settingsStore -> workspacesStore : clearAllData()
 activate workspacesStore
-workspacesStore --> settingsStore : clearCacheResponse
+workspacesStore --> settingsStore
 deactivate workspacesStore
-settingsStore -> statsStore : clearCache()
+settingsStore -> statsStore : clearAllData()
 activate statsStore
-statsStore --> settingsStore : clearCacheResponse
+statsStore --> settingsStore
 deactivate statsStore
-settingsStore -> signatureStore : clearCache()
+settingsStore -> signatureStore : clearAllData()
 activate signatureStore
-signatureStore --> settingsStore : clearCacheResponse
+signatureStore --> settingsStore
 deactivate signatureStore
-settingsStore --> settingsPage : clearCacheResponse
+settingsStore --> settingsPage
 deactivate settingsStore
-settingsPage --> user : clearCacheResponse
+settingsPage --> user
 
 
 deactivate user

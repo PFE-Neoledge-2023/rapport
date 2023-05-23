@@ -15,7 +15,6 @@ ref over user,settingsPage,settingsStore,profile : Authentification
 activate user
 user -> manageAbsencePage : clique sur le bouton "activer absence"
 activate manageAbsencePage
-alt Utilisateur a changé la date de debut d'absence
     alt Utilisateur a choisit une date de fin
         ref over user,settingsPage,settingsStore,profile : add_absence
     else Utilisateur n'a pas choisit une date de fin
@@ -30,26 +29,24 @@ alt Utilisateur a changé la date de debut d'absence
         ref over user,settingsPage,settingsStore,profile : add_absence
 
     end
-else Utilisateur n'a pas changé la date de debut d'absence
     group add_absence
-    manageAbsencePage -> settingsStore : addAbsence() : date de debut = date du jour et date de fin = date du jour + 1
+    manageAbsencePage -> settingsStore : addAbsence() 
     activate settingsStore
-    settingsStore -> eliseRestApi : absence()
+    settingsStore -> eliseRestApi : :PUT /profile/absence
     activate eliseRestApi
-    eliseRestApi --> settingsStore : addAbsenceResponse
+    eliseRestApi --> settingsStore 
     deactivate eliseRestApi
     settingsStore -> settingsStore : getUser()
     settingsStore -> profile : setProfile()
     activate profile
     profile --> settingsStore : retourne le profile
     deactivate profile
-    settingsStore --> manageAbsencePage : AddAbsenceResponse
+    settingsStore --> manageAbsencePage 
     deactivate settingsStore
     manageAbsencePage -> user : affiche le message "absence activée"
     end
 
 
 
-end
 
 deactivate user

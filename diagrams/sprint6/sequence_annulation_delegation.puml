@@ -18,21 +18,20 @@ settingsPage --> user : affiche la panneau de confirmation
 user -> settingsPage : clique sur le bouton "confirmer"
 settingsPage -> settingsStore : deleteDelegation()
 activate settingsStore
-settingsStore -> eliseRestApi : delete()
+settingsStore -> eliseRestApi : :DELETE /delegations/delete/{id}
 activate eliseRestApi
-eliseRestApi -> eliseRestApi : deleteDelegation()
-eliseRestApi --> settingsStore : deleteResponse
+eliseRestApi --> settingsStore 
 deactivate eliseRestApi
 alt delegué supprimé
-    settingsStore -> settingsStore : getUser()
+    settingsStore -> settingsStore : getProfile()
 settingsStore -> profile : setProfile()
 activate profile
-profile --> settingsStore : setProfileResponse
+profile --> settingsStore 
 deactivate profile
-settingsStore --> settingsPage : deleteResponse
+settingsStore --> settingsPage
 settingsPage --> user : affiche le message "délégation supprimée"
 else erreur
-settingsStore --> settingsPage : deleteResponse
+settingsStore --> settingsPage
 deactivate settingsStore
 settingsPage --> user : affiche le message "erreur lors de la suppression de la délégation"
 deactivate settingsPage

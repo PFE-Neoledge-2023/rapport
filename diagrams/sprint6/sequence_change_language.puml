@@ -6,6 +6,7 @@ hide footbox
 actor "Utilisateur" as user
 participant "settingsPage" as settingsPage << View >>
 participant "i18nStore" as i18nStore << ViewModel >>
+participant "i18n" as i18n << service >>
 participant "session" as locale << Model >>
 
 ref over user,settingsPage,i18nStore,locale : Authentification
@@ -13,16 +14,19 @@ ref over user,settingsPage,i18nStore,locale : Authentification
 activate user
 user -> settingsPage : clique sur le bouton "langue"
 activate settingsPage
+settingsPage -> i18n : getAvailableLanguages()
+activate i18n
+i18n --> settingsPage 
+deactivate i18n
 settingsPage --> user  : affiche la liste des langues disponibles
 user -> settingsPage : clique sur la langue souhaitée : changeLanguage()
 settingsPage -> i18nStore : setLocale()
 activate i18nStore
 i18nStore -> locale : setLocale()
 activate locale
-locale --> i18nStore : retourne la nouvelle langue
+locale --> i18nStore
 deactivate locale
-i18nStore -> i18nStore : changeLanguage()
-i18nStore --> settingsPage : retourne la nouvelle langue de l'application
+i18nStore --> settingsPage
 deactivate i18nStore
 settingsPage --> user : affiche la nouvelle langue
 deactivate settingsPage

@@ -33,13 +33,12 @@ alt workspace trouvé
     user -> delegate : selectionne le workspace à déléguer
     delegate -> settingsnStore : addDelegation()
     activate settingsnStore
-    settingsnStore -> eliseRestApi : create()
+    settingsnStore -> eliseRestApi : :POST /delegations/create
     activate eliseRestApi
-    eliseRestApi -> eliseRestApi : createDelegation()
     eliseRestApi --> settingsnStore : createDelegationResponse
     deactivate eliseRestApi
-    alt delegation créée
-        settingsnStore -> settingsnStore : getUser()
+    alt delegation ajoutée
+        settingsnStore -> settingsnStore : getProfile()
         settingsnStore -> settingsnStore : getAbsence()
         settingsnStore -> profile : setProfile()
         activate profile
@@ -48,9 +47,9 @@ alt workspace trouvé
         settingsnStore --> settingsPage : createDelegationResponse
         deactivate settingsnStore
         activate settingsPage
-        settingsPage --> user : affiche le message "Délégation créée"
-    else delegation non créée
-        settingsPage --> user : affiche le message "Erreur lors de la création de la délégation"
+        settingsPage --> user : affiche le message "Délégation ajoutée"
+    else delegation non ajoutée
+        settingsPage --> user : affiche le message "Erreur lors de l'ajout de la délégation"
         deactivate settingsPage
     end 
 else workspace non trouvé
