@@ -7,7 +7,7 @@ actor "Utilisateur" as user
 participant "système" as system
 
 activate user
-user -> system : saisie l'adresse du serveur
+user -> system : saisit l'adresse du serveur
 activate system
 user -> system : clique sur le bouton "connexion"
 system -> system : serveur isAvailable

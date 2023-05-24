@@ -1,10 +1,8 @@
-\chapter{Release 2}
+\chapter*{Release 2}
 \addcontentsline{toc}{chapter}{Release 2}
 \markboth{Release 2}{Release 2}
 \renewcommand\fbox{\fcolorbox{blue}{white}}
 \label{chap:release2}
-% section starts from 1 
-%\minitoc
 
 \section*{Introduction}
 
@@ -83,7 +81,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \vspace{-\baselineskip}
 \begin{enumerate}
   \setcounter{enumi}{1}
-    \item L'utilisateur saisie le serveur
+    \item L'utilisateur saisit le serveur
     \item L'utilisateur clique sur le bouton connexion
     \item Le système vérifie si le serveur existe
     \item Le système affiche la page de login de l'application
@@ -328,7 +326,373 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
   \label{fig:UseCaseDiagramSp61}
 \end{figure}
 
+
 \subsubsection{Analyse des besoins:}
+
+\textbf{•	Description textuelle de cas d'utilisation « Consulter la page de paramétre  »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Consulter la page de paramétre\\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Accès à la page des paramètres\\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+    \item L'utilisateur clique sur le bouton paramètres.
+    \item Le système affiche l'interface de paramètres.
+\end{enumerate}\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Consulter la page de paramétre »}
+\label{tab:use_case_consult_settings_page}
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Gérer les préférences d'affichage   »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Gérer les préférences d'affichage \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Le thème de l'application est modifié \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+ \item L'utilisateur clique sur le bouton thème.
+ \item Le système change le thème sombre de l'application.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [2.1] Le système change le thème clair de l'application.
+\end{enumerate}\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Gérer les préférences d'affichage  »}
+\label{tab:use_case_manage_display_preferences}
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Modifier la langue »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Modifier la langue \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&La langue de l'application est modifiée \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton langues.
+  \item Le système affiche le panneau de la liste des langues disponible.
+  \item L'utilisateur clique sur la langue souhaitée 
+  \item Le système change la langue de l'application
+\end{enumerate}\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Modifier la langue  »}
+\label{tab:use_case_change_language}
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Vider le cache »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Vider le cache  \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Le cache de l'application est vide \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton vider le cache.
+  \item Le système affiche le panneau de confirmation contenant la liste des donnés qui vont être supprimer.
+  \item L'utilisateur clique sur le bouton confirmer
+  \item Le système vide le cache
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [3.1] L'utilisateur clique sur le bouton annuler
+ \item [3.2] Le système annule l'opération
+\end{enumerate}\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Vider le cache  »}
+\label{tab:use_case_empty_cache}
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « chercher et sélectionner un espace de travail  »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&chercher et sélectionner un espace de travail   \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Sélectionner des espaces de travails spécifique \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton voir espaces de travail.
+  \item Le système affiche le panneau de recherche
+  \item L'utilisateur saisit le terme de recherche
+  \item Le système affiche les espaces de travail contenant le terme de recherche
+  \item L'utilisateur clique sur les espaces de travail souhaités
+  \item Le système sauvegarde la liste des espaces de travail sélectionnés 
+  
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [4.1] Le système affiche le message « aucun espace de travail trouver » 
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'Exception}&
+Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « chercher et sélectionner un espace de travail   »}
+\label{tab:use_case_search_select_workspace}
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Visualiser les informations personnelles  »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Visualiser les informations personnelles   \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Consultation des informations personnelles \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton Modifier le Profile.
+  \item Le système affiche l'interface de profile.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [2.1] Aucun résultat.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'Exception}&
+Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Visualiser les informations personnelles   »}
+\label{tab:use_case_view_personal_information}
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Modifier la photo de profil  »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Modifier la photo de profil   \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Photo de profil modifié \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton camera.
+  \item Le système affiche l'interface de camera.
+  \item L'utilisateur prend une photo et clique sur le bouton confirmer 
+  \item Le système modifie l'avatar de l'utilisateur
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [3.1] L'utilisateur reprend une autre photo.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'Exception}&
+Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Modifier la photo de profil   »}
+\label{tab:use_case_modify_profile_picture}
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Déclarer une absence   »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Déclarer une absence    \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Absence déclarée \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton activer absence.
+  \item Le système déclare l'absence de l'utilisateur.
+  
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [2.1] Aucun résultat.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'Exception}&
+Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Déclarer une absence    »}
+\label{tab:use_case_declare_absence}
+\end{longtable}
+
+\textbf{•	Description textuelle de cas d'utilisation « Annuler une absence    »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Annuler une absence     \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Absence annulée \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton désactiver absence.
+  \item Le système désactive l'absence de l'utilisateur.
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [2.1] Aucun résultat.
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'Exception}&
+Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Annuler une absence     »}
+\label{tab:use_case_cancel_absence}
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Chercher et affecter un délégué     »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Chercher et affecter un délégué      \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Affectation d'un délégué \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton ajouter.
+  \item Le système affiche le panneau de création.
+  \item l'utilisateur saisit le terme de recherche
+  \item Le système affiche les services / utilisateurs qui correspond aux termes de recherches
+  \item L'utilisateur clique sur le service / utilisateur souhaiter et clique sur confirmer 
+  \item Le système ajoute le délégué 
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+ \item [4.1] le Système affiche le message « aucun résultat trouvé » 
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'Exception}&
+Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Chercher et affecter un délégué      »}
+\label{tab:use_case_search_delegate}
+\end{longtable}
+
+
+\textbf{•	Description textuelle de cas d'utilisation « Annuler une Délégation      »}
+
+\begin{longtable}{|p{5cm}|p{10cm}|}
+\hline
+\textbf{Cas d'utilisation}&Annuler une Délégation       \\
+\hline
+\textbf{Acteurs}&Utilisateur\\
+\hline
+\textbf{Pré Condition}&L'utilisateur doit être authentifié\\
+\hline
+\textbf{Post Condition}&Absence annulée \\
+\hline
+\textbf{Scénario Nominal}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \setcounter{enumi}{1}
+  \item L'utilisateur clique sur le bouton supprimer.
+  \item Le système affiche le panneau de confirmation.
+  \item L'utilisateur clique sur le bouton confirmer
+  \item Le système supprime la délégation 
+\end{enumerate}\\
+\hline
+\textbf{Scénario Alternatif}&
+\vspace{-\baselineskip}
+\begin{enumerate}
+  \item [3.1]- L'utilisateur clique sur le bouton annuler
+  \item [3.2]- aucun traitement
+\end{enumerate}\\
+\hline
+\textbf{Scénario d'Exception}&
+Erreur de connexion\\
+\hline
+\caption{Description textuelle du diagramme de cas d'utilisation « Annuler une Délégation       »}
+\label{tab:use_case_cancel_delegate}
+\end{longtable}
 
 \begin{figure}[H]
   \centering
@@ -458,25 +822,6 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \end{figure}
 \end{landscape}
 
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_OIDC/sequence_OIDC}
-  \caption{Diagramme de séquence de conception de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
-  \label{fig:sequence_conception_auth_OIDC}
-\end{figure}
-
-% sequence_consult_settings_page
-% sequence_preferance_affichage
-% sequence_change_language
-% sequence_clear_cache
-% sequence_lister_selectionner_workspaces
-% sequence_visualiser_profil
-% sequence_edit_profil_avatar
-% sequence_declare_absence
-% sequence_annuler_absence
-% sequence_search_affect_delegation
-% sequence_annulation_delegation
 
 \begin{figure}[H]
   \centering

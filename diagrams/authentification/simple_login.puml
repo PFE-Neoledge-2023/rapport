@@ -8,13 +8,13 @@ participant "système" as system
 
 
 activate user
-user -> system : saisie l'adresse du serveur
+user -> system : saisit l'adresse du serveur
 activate system
 user -> system : clique sur le bouton "connexion"
 system -> system : serveur isAvailable
 alt serveur disponible
     system -> user : affiche la page de login
-    user -> system : saisie l'identifient et le mot de passe
+    user -> system : saisit l'identifient et le mot de passe
     user -> system : clique sur le bouton "connexion"
     system -> system : vérifie les informations
     alt informations valides

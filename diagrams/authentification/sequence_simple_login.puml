@@ -9,7 +9,7 @@ participant "authStore" as auth << ViewModel >>
 participant "Session" as session << Model >>
 participant "EliseWebService" as ws << Service >>
 activate user
-user -> serView : saisie l'adresse du serveur
+user -> serView : saisit l'adresse du serveur
 activate serView
 serView -> auth : setServerUrl()
 activate auth
@@ -27,7 +27,7 @@ alt server is available
     auth --> serView : server est disponible
     deactivate auth
     serView --> user : affiche le formulaire de connexion
-    user -> serView : saisie identifiant/password
+    user -> serView : saisit identifiant/password
     user -> serView : submitForm()
     serView -> auth : login()
     activate auth

@@ -18,7 +18,7 @@ user -> settingsPage : clique sur le bouton "ajouter"
 activate settingsPage
 settingsPage --> user : affiche le panneau d'ajout de délégation
 deactivate settingsPage
-user -> delegate : saisie le terme de recherche 
+user -> delegate : saisit le terme de recherche 
 activate delegate
 delegate -> workspaceStore : getWorkspaces()
 activate workspaceStore

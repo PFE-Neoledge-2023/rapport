@@ -12,7 +12,7 @@ activate user
 user -> system : demande l'interface de recherche
 activate system
 system -> user : affiche l'interface de recherche
-user -> system : saisie le critère de recherche
+user -> system : saisit le critère de recherche
 system -> system : recherche des documents
 ' system -> user : affiche les résultats de la recherche
 alt documents trouvés

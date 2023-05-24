@@ -1,11 +1,8 @@
-\chapter{Planification du Backlog Product}
+\chapter*{Planification du Backlog Product}
 \addcontentsline{toc}{chapter}{Planification du Backlog Product}
 \markboth{Planification du Backlog Product}{Planification du Backlog Product}
-
 \label{chap:analyseEtConception}
-% section starts from 1 
 %\minitoc
-
 \section*{Introduction}
 Afin de pouvoir implémentées les fonctionnalités recensées au début de ce projet, nous
 s'intéressons dans ce chapitre à l'étude conceptuelle de notre application. C'est une phase de spécification et de modélisation conceptuelle basée sur le langage UML à travers les diagrammes de cas d'utilisation, les diagrammes de séquences et classes. Ceci nous permet de tracer une meilleure stratégie d'implémentation des besoins fonctionnels tout en respectant les contraintes identifiées. Ensuite, nous exposerons les besoins non fonctionnels ainsi que notre backlog de produit.
@@ -44,134 +41,22 @@ Acteur  &  Rôles \\
 Notre application est desinée aux utilisateurs suivants : les collaborateurs, les secrétaires et les chefs de service. Chacun d'eux dispose d'un ensemble d'actions correspondant à la fonction dont il a besoin.
 
 \begin{itemize}
-% \item \textbf{Authentification} : L'utilisateur doit pouvoir s'authentifier à l'application pour pouvoir accéder à ses documents.
-% \item \textbf{Consultation de profil} : L'utilisateur doit pouvoir consulter son profil.
-% \item \textbf{Modification de profil} : L'utilisateur doit pouvoir modifier son profil.
-% \item \textbf{Declaration d'absence} : L'utilisateur doit pouvoir déclarer son absence.
-% \item \textbf{Annulation d'absence} : L'utilisateur doit pouvoir annuler son absence.
-% \item \textbf{Affectation de delegé} : L'utilisateur doit pouvoir affecter un ou plusieurs délégué(s) pour le remplacer en cas d'absence.
-% \item \textbf{Suppression de delegé} : L'utilisateur doit pouvoir supprimer un ou plusieurs délégué(s) affecté(s).
-% \item \textbf{Recherche d'un utilisateur/service} : L'utilisateur doit pouvoir rechercher un utilisateur ou un service.
-% \item \textbf{Reception de notification} : L'utilisateur doit pouvoir recevoir une notification de rappel.
-% \item \textbf{Désactivation de notification} : L'utilisateur doit pouvoir désactiver les notifications.
-% \item \textbf{Consulter espace de travail utilisateur} : L'utilisateur doit pouvoir consulter son espace de travail.
-% \item \textbf{Consulter espace de travail personnalisé} : L'utilisateur doit pouvoir consulter son espace de travail personnalisé.
-% \item \textbf{Supprimer espace de travail personnalisé} : L'utilisateur doit pouvoir supprimer son espace de travail personnalisé.
-% \item \textbf{Modifier espace de travail personnalisé} : L'utilisateur doit pouvoir modifier son espace de travail personnalisé.
-% \item \textbf{Ajouter un espace de travail personnalisé} : L'utilisateur doit pouvoir ajouter un espace de travail personnalisé.
-% \item \textbf{Accéder aux espaces de travail de ses différents services} : L'utilisateur doit pouvoir accéder aux espaces de travail de ses différents services.
-% \item \textbf{Consulter tableau de bord partagé et personnel} : L'utilisateur doit pouvoir consulter son tableau de bord partagé et personnel.
-% \item \textbf{Consulter les widgets du tableau de bord personnel} : L'utilisateur doit pouvoir consulter les widgets de son tableau de bord personnel.
-% \item \textbf{Ajouter un widget dans le tableau de bord personnel} : L'utilisateur doit pouvoir ajouter un widget dans son tableau de bord personnel.
-% \item \textbf{Supprimer un widget dans le tableau de bord personnel} : L'utilisateur doit pouvoir supprimer un widget dans son tableau de bord personnel.
-% \item \textbf{Configurer un widget du tableau de bord personnel} : L'utilisateur doit pouvoir configurer un widget de son tableau de bord personnel.
-% \item \textbf{Ajouter un tableau de bord personnel} : L'utilisateur doit pouvoir ajouter un tableau de bord personnel.
-% \item \textbf{Supprimer un tableau de bord personnel} : L'utilisateur doit pouvoir supprimer un tableau de bord personnel.
-% \item \textbf{Modifier un tableau de bord personnel} : L'utilisateur doit pouvoir modifier un tableau de bord personnel.
-% \item \textbf{Rechercher un document selon le filtre} : L'utilisateur doit pouvoir rechercher un document selon le filtre.
-% \item \textbf{Accéder à l'ensemble de ses tâches} : L'utilisateur doit pouvoir accéder à l'ensemble de ses tâches.
-% \item \textbf{Superviser son processus métier} : L'utilisateur doit pouvoir superviser son processus métier.
-% \item \textbf{Démarrer une tâche dans un document} : L'utilisateur doit pouvoir démarrer une tâche dans un document.
-% \item \textbf{Modifier informations d'un document} : L'utilisateur doit pouvoir modifier les informations d'un document.
-% \item \textbf{Consulter les fichiers d'un document} : L'utilisateur doit pouvoir consulter les fichiers d'un document.
-% \item \textbf{Supprimer un fichier d'un document} : L'utilisateur doit pouvoir supprimer un fichier d'un document.
-% \item \textbf{Ajouter un fichier à un document} : L'utilisateur doit pouvoir ajouter un fichier à un document.
-% \item \textbf{Consulter l'historique d'un document} : L'utilisateur doit pouvoir consulter l'historique d'un document.
-% \item \textbf{Consulter les tâches d'un document} : L'utilisateur doit pouvoir consulter les tâches d'un document.
-% \item \textbf{Supprimer une tâche d'un document} : L'utilisateur doit pouvoir supprimer une tâche d'un document.
-% \item \textbf{Ajouter une tâche à un document} : L'utilisateur doit pouvoir ajouter une tâche à un document.
-% \item \textbf{Consulter l'historique d'une tâche} : L'utilisateur doit pouvoir consulter l'historique d'une tâche.
-% \item \textbf{Consulter les signatures} : L'utilisateur doit pouvoir consulter les signatures.
-% \item \textbf{Ajouter une signature} : L'utilisateur doit pouvoir ajouter une signature.
-% \item \textbf{Supprimer une signature} : L'utilisateur doit pouvoir supprimer une signature.
-% \item \textbf{Signer un document manuellement} : L'utilisateur doit pouvoir signer un document manuellement.
-% \item \textbf{Signer un document à l'aide des signatures enregistrées} : L'utilisateur doit pouvoir signer un document à l'aide des signatures enregistrées.
 
 \item \textbf{Authentification}
-% \item \textbf{Consultation de profil}
-% \item \textbf{Modification de profil}
 \item \textbf{Gérer le profil}
-% \item \textbf{Declaration d'absence}
-% \item \textbf{Annulation d'absence}
-% \item \textbf{Affectation de delegé}
-% \item \textbf{Suppression de delegé}
-% \item \textbf{Recherche d'un utilisateur/service}
 \item \textbf{Gérer l'absence}
-% \item \textbf{Reception de notification}
-% \item \textbf{Désactivation de notification}
 \item \textbf{Gérer les notifications}
-% \item \textbf{Consulter espace de travail utilisateur}
-% \item \textbf{Consulter espace de travail personnalisé}
-% \item \textbf{Supprimer espace de travail personnalisé}
-% \item \textbf{Modifier espace de travail personnalisé}
-% \item \textbf{Ajouter un espace de travail personnalisé}
 \item \textbf{Accéder aux espaces de travail de ses différents services}
-% \item \textbf{Consulter tableau de bord partagé et personnel}
-% \item \textbf{Consulter les widgets du tableau de bord personnel}
-% \item \textbf{Ajouter un widget dans le tableau de bord personnel}
-% \item \textbf{Supprimer un widget dans le tableau de bord personnel}
-% \item \textbf{Configurer un widget du tableau de bord personnel}
-% \item \textbf{Ajouter un tableau de bord personnel}
-% \item \textbf{Supprimer un tableau de bord personnel}
-% \item \textbf{Modifier un tableau de bord personnel}
 \item \textbf{Rechercher des documents}
 \item \textbf{Consulter les documents favoris}
 \item \textbf{Accéder à l'ensemble de ses tâches}
-% \item \textbf{Superviser son processus métier}
-% \item \textbf{Démarrer une tâche dans un document}
-% \item \textbf{Modifier informations d'un document}
-% \item \textbf{Consulter les fichiers d'un document}
-% \item \textbf{Supprimer un fichier d'un document}
-% \item \textbf{Ajouter un fichier à un document}
 \item \textbf{Gérer les fichiers d'un document}
 \item \textbf{Consulter l'historique d'un document}
-% \item \textbf{Consulter les tâches d'un document}
-% \item \textbf{Supprimer une tâche d'un document}
-% \item \textbf{Ajouter une tâche à un document}
-% \item \textbf{Consulter l'historique d'une tâche}
 \item \textbf{Gérer les tâches d'un document}
-% \item \textbf{Consulter les signatures}
-% \item \textbf{Ajouter une signature}
-% \item \textbf{Supprimer une signature}
 \item \textbf{Gérer les signatures}
-% \item \textbf{Signer un document manuellement}
-% \item \textbf{Signer un document à l'aide des signatures enregistrées}
 \item \textbf{Signer un document}
-
 \end{itemize}
 
-
-
-% \section{Conception}
-% \subsection{Diagramme de cas d'utilisation}
-% % \begin{figure}[h]
-% % \centering
-% % \includegraphics[width=0.8\textwidth]{cas}
-% % \caption{Diagramme de cas d'utilisation}
-% % \end{figure}
-% % include pdf
-% Pour répondre aux besoins fonctionnels décrits ci-dessus, nous allons présenter le diagramme de cas d'utilisation global illustré dans la figure ci-dessous.
-% \begin{figure}[!h]
-% \centering
-% \includegraphics[width=0.6\textwidth]{useCaseGeneral}
-% \caption{Diagramme de cas d'utilisation global}
-% \end{figure}
-
-% \section{Le pilotage du projet par SCRUM}
-% Scrum est basé sur un ensemble de concepts permettant d'assurer une bonne gestion des projets : rôle, artefacts, sprint et réunion.
-
-% \subsection{Identification de l'équipe SCRUM}
-% L'équipe joue un rôle capital dans Scrum : elle permet d'optimiser la productivité et la
-% flexibilité.
-
-% Afin de parvenir à ces objectifs, elle doit s'auto organiser et être multi compétente. Elle doit également avoir un champ d'action suffisant pour la soutenir dans la réalisation de son travail
-% Dans le contexte de notre projet, on trouve :
-
-% \begin{itemize}
-%   \item \textbf{Product Owner} Quentin DEMARTHE
-%   \item \textbf{Scrum Master} Rabii MEJAI
-%   \item \textbf{Equipe de développement} : Mohamed Youssef CHLENDI, Raed CHARRAD
-% \end{itemize}
 
 \section{Les User Stories}
 Une user story est une expression qui décrit un point de vue de l'utilisateur et a pour objectif de donner une valeur au travail. Elle contient généralement trois éléments descriptifs de la fonctionnalité : 
@@ -193,7 +78,7 @@ L'expression qui est souvent utilisée pour formuler une user story est « En ta
       \begin{longtable}{|c|p{5cm}|p{12cm}|c|c|}
         % \centering
         \hline
-    ID  &   User Story  &  Description   &  Compléxité  &  Release  \\
+    ID  & Nom & User Story     &  Compléxité  &  Release  \\
     \hline
     TS1  &  Formation sur la solution Elise  &  En tant que membre de l'équipe scrum, je souhaite comprendre pleinement la fonctionnalité du système Elise afin de reproduire sa logique dans une application mobile.   &  Moyenne  &  \multirow{21}{2.5cm}[-10.5ex]{\textbf{Release 1}}  \\
     \cline{1-4}
@@ -210,30 +95,26 @@ L'expression qui est souvent utilisée pour formuler une user story est « En ta
 
     \cline{1-4}
 
-    US1 & Création de signature & En tant qu'utilisateur, je veux créer une signature numérique en dessinant ma signature à l'aide de mon doigt ou de mon stylet sur l'écran tactile de mon appareil mobile, afin de la réutiliser facilement lors de la signature de documents. & Moyenne & \\
+    US1 & Création de signature & En tant qu'utilisateur, je veux créer une signature électronique en dessinant ma signature à l'aide de mon doigt ou de mon stylet sur l'écran tactile de mon appareil mobile, afin de la réutiliser facilement lors de la signature de documents. & Moyenne & \\
 
     % afficher la liste des signatures
     \cline{1-4}
     US2 & Affichage de la liste des signatures & En tant qu'utilisateur, je veux afficher la liste des signatures que j'ai créées auparavant, afin de pouvoir les utiliser pour signer un document. & Facile &  \\
 
     \cline{1-4}
-    US3 & Suppression de signature & En tant qu'utilisateur, je veux supprimer une signature numérique que j'ai créée auparavant, en cas de besoin ou si ma signature a changé, afin de ne pas utiliser une signature obsolète ou inexacte. & Facile & \\
+    US3 & Suppression de signature & En tant qu'utilisateur, je veux supprimer une signature électronique que j'ai créée auparavant, en cas de besoin ou si ma signature a changé, afin de ne pas utiliser une signature obsolète ou inexacte. & Facile & \\
 
     \cline{1-4}
-    US4 & Visualisation de signature & En tant qu'utilisateur, je veux visualiser ma signature numérique, pour m'assurer qu'elle est correcte. & Moyenne & \\
-
+    US4 & Visualisation de signature & En tant qu'utilisateur, je veux visualiser ma signature électronique, pour m'assurer qu'elle est correcte. & Moyenne & \\
     \cline{1-4}
-    US4 & Ajout de signature à l'aide d'OCR & En tant qu'utilisateur, je veux ajouter ma signature en utilisant la camera de mon appareil ou une image, afin de gagner du temps et de faciliter le processus de signature. & Difficile &   \\
-
-
-
+    US5 & Développer le lecteur de fichier dédier a Elise Mobile & En tant que développeur, je veux développer un lecteur de fichier afin de l'utiliser pour la lecture des fichiers d'Elise Mobile. & Difficile & \\
     \cline{1-4}
-    US11&Recherche de documents&En tant qu'utilisateur, je veux rechercher des documents en utilisant différents critères, tels que le nom, la date, le type ou le contenu, afin de trouver rapidement les documents dont j'ai besoin.&Difficile&\\
+    US11&Recherche de documents&En tant qu'utilisateur, je veux rechercher des documents en utilisant différents critères, afin de trouver rapidement les documents dont j'ai besoin.&Difficile&\\
 
     \cline{1-4}
     US12&Recherche a l'aide de code QR&En tant qu'utilisateur, je veux rechercher un document en scannant son code QR, afin de le trouver rapidement.&Moyenne&\\
     \cline{1-4}
-    US12&Afficher documents favoris&En tant qu'utilisateur, je veux affiches les favoris, afin de trouver rapidement les documents dont j'ai besoin. &Moyenne&\\
+    US12&Afficher documents favoris&En tant qu'utilisateur, je veux affiches mes documents favoris, afin de trouver rapidement les documents dont j'ai besoin. &Moyenne&\\
 
     \cline{1-4}
     US6&Accès aux documents&En tant qu'utilisateur, je veux récupérer les informations relatives à un document, telles que la date de création, les utilisateurs qui ont accédé au document et les tâches associées, afin de suivre l'historique du document et de mieux comprendre son contexte, les modifier ou de les signer.&Moyenne&\\
@@ -244,16 +125,18 @@ L'expression qui est souvent utilisée pour formuler une user story est « En ta
     
     US7&Consulter les fichiers d'un document&En tant qu'utilisateur, je veux consulter la liste des fichiers attachés à un document, afin de les visualiser. &Moyenne&\\
     
-    \cline{1-4}
-    US8&Consulter les tâches&En tant qu'utilisateur, je veux consulter la liste des tâches associées à un document, afin de suivre l'état d'avancement des tâches et de savoir qui est responsable de chaque tâche. &Moyenne&\\
-
-
+    
+    
     \cline{1-4}
     US9&Ajout de fichiers à un document&En tant qu'utilisateur, je veux ajouter des fichiers supplémentaires à un document existant, afin de rassembler toutes les informations nécessaires dans un seul document et de faciliter le partage des informations.&Moyenne&\\
     \cline{1-4}
     US9&Scanner un fichier&En tant qu'utilisateur, je veux scanner un fichier à l'aide de la caméra de mon appareil, afin de le joindre à un document.&Moyenne&\\
     \cline{1-4}
 
+    US8&Consulter les tâches&En tant qu'utilisateur, je veux consulter la liste des tâches associées à un document, afin de suivre l'état d'avancement des tâches et de savoir qui est responsable de chaque tâche. &Moyenne&\\
+    \cline{1-4}
+    US10&Demander une tâche&En tant qu’utilisateur, je veux demander une tâche dans un document en assignant une personne responsable, afin de faciliter la collaboration et le suivi des tâches.&Moyenne&\\
+    
     \cline{1-4}
     % Transferer une tache a un autre utilisateur
     US14&Transferer une tâche&En tant qu'utilisateur, je veux transferer une tâche dans un document a un autre utilisateur, afin que ce dernier puisse la prendre en charge.&Moyenne&\\
@@ -277,11 +160,11 @@ L'expression qui est souvent utilisée pour formuler une user story est « En ta
     
     \cline{1-4}
     % Deplacer signature non enregistrée
-    US19&Deplacer les signatures non enregistrées&En tant qu'utilisateur, je souhaite déplacer les signatures non enregistrées, afin de les positionner correctement.&Difficile&\\
+    US19&Deplacer les signatures non confirmées&En tant qu'utilisateur, je souhaite déplacer les signatures non confirmées, afin de les positionner correctement.&Difficile&\\
     
     \cline{1-4}
     % Supprimer signature non enregistrée
-    US19&Supprimer les signatures non enregistrées&En tant qu'utilisateur, je souhaite supprimer les signatures non enregistrées, afin d'annuler la signature.&Difficile&\\
+    US19&Supprimer les signatures non confirmées&En tant qu'utilisateur, je souhaite supprimer les signatures non confirmées, afin d'annuler la signature.&Difficile&\\
 
     % Confirmer ou annuler la signature
     \cline{1-4}

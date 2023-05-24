@@ -1,31 +1,12 @@
-\mychapter{0}{Introduction générale}
+\mychapter{0}{Résumé}
 
+Ce rapport a été rédigé dans le cadre du projet de fin d'études au sein de l'entreprise Neoledge à Zarzis, en vue de l'obtention du diplôme de Licence en technologie de l'informatique. L'objectif principal de ce projet était le développement d'une application GED mobile appelée Elise Mobile. Le projet se compose de trois parties distinctes : Elise Web Service, Elise REST API et Elise Mobile.
 
-\noindent\rule[2pt]{\textwidth}{0.5pt}
+L'application Elise Mobile a été développée en utilisant Ionic 6, Vue.js 3, Capacitor 4 et TypeScript. Les deux premières parties, Elise Web Service et Elise REST API, sont des services déjà développés, et l'application mobile les consomme pour offrir ses fonctionnalités.
 
-{\textbf{Mots clés :}}
-Optimisation des itinéraires, Problème du voyageur de commerce avec contrainte périodique, Apprentissage automatique, Classification.
-\\
-\noindent\rule[2pt]{\textwidth}{0.5pt}
+Les principales fonctionnalités de l'application Elise Mobile comprennent l'authentification simple et OIDC, la gestion de profil, la gestion des absences, la gestion des notifications, l'accès aux espaces de travail de différents services, la recherche de documents, la consultation des documents favoris, l'accès à l'ensemble des tâches, la gestion des fichiers d'un document, la consultation de l'historique d'un document, la gestion des tâches d'un document, et la gestion des signatures, y compris la signature électronique des documents.
 
-\clearpage
-
-\mychapter{0}{Abstract}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus.
-
-\medskip
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus.
-
-\medskip
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus.
-
-\medskip
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod neque, non semper nibh viverra sed. Praesent ut varius magna. Fusce ipsum ante, semper nec interdum at, semper et lacus. Nulla ultrices magna a fringilla finibus.
-
+Ce rapport présente en détail la conception, le développement et l'implémentation de l'application Elise Mobile, ainsi que les choix techniques et les défis rencontrés. Il met également en évidence les résultats obtenus et les perspectives d'amélioration pour l'avenir.
 
 \vspace{1cm}
 
@@ -33,8 +14,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere euismod n
 
 \noindent\rule[2pt]{\textwidth}{0.5pt}
 
-{\textbf{Keywords :}}
-Route optimization, Periodic traveling salesman problem , Machine learning, Classification.
+{\textbf{Mot clé:}}
+OIDC: OpenID Connect, GED: Gestion électronique des documents, SSO: Single Sign-On, UI: Interface utilisateur, UX: Expérience utilisateur, Mobile: Application mobile, Ionic: Ionic Framework, Capacitor: Capacitor Framework, Vue.js: Vue.js Framework, TypeScript: Langage TypeScript, Notification push, Firebase, Android, Ios
+\\
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+\mychapter{0}{Abstract}
+
+This report has been written as part of the final year project within Neoledge Zarzis, with the aim of obtaining a Bachelor's degree in Information Technology. The main objective of this project was the development of a mobile ECM (Enterprise Content Management) application called Elise Mobile.
+
+The project consists of three main components: Elise Web Service, Elise REST API, and Elise Mobile. The Elise Mobile application was developed using Ionic 6, Vue.js 3, Capacitor 4, and TypeScript. The first two components, Elise Web Service and Elise REST API, are existing services that are consumed by the mobile application to provide its functionalities.
+
+The key features of the Elise Mobile application include authentication, profile management, absence management, notification handling, accessing workspace of different services, document search, viewing favorite documents, accessing tasks, managing document files, viewing document history, managing document tasks, and handling signatures, including electronic document signing.
+
+This report presents a detailed overview of the design, development, and implementation of the Elise Mobile application, including the technical choices made and challenges encountered. It also highlights the achieved results and provides insights for future improvements.
+
+\vspace{1cm}
+
+
+
+\noindent\rule[2pt]{\textwidth}{0.5pt}
+
+{\textbf{Mot clé:}}
+OIDC: OpenID Connect, GED: Electronic document management, SSO: Single Sign-On, UI: User Interface, UX: User Experience, Mobile: Application mobile, Ionic: Ionic Framework, Capacitor: Capacitor Framework, Vue.js: Vue.js Framework, TypeScript: TypeScript Language, Notification push, Firebase, Android, Ios
 \\
 \noindent\rule[2pt]{\textwidth}{0.5pt}
 
@@ -46,27 +47,14 @@ Route optimization, Periodic traveling salesman problem , Machine learning, Clas
 \end{Arabic}
 
 
- 
+\begin{Arabic}  تمت كتابة هذا التقرير في إطار مشروع التخرج في شركة NeoLedge جرجيس، بهدف الحصول على درجة البكالوريوس في تكنولوجيا المعلومات. الهدف الرئيسي لهذا المشروع كان تطوير تطبيق إدارة المحتوى للشركات على الهواتف المحمولة .
 
-\begin{Arabic}
-قد كان المجتمع المدني منذ القرن التاسع عشر موضوع إحالة في الخطاب الفلسفي وكذلك في الخطاب السياسي بوصفه هذه الواقعة التي تفرض نفسها، والتي تقاوم وتُخضع وتتفلت من الحكومة أو من الدولة أو من جهاز الدولة أو من المؤسسة. .
+يتكون المشروع من ثلاثة مكونات رئيسية: service web Elise, واجهة برمجة التطبيقات Api Rest Elise ، وتطبيق mobile Elise. تم تطوير تطبيق mobile Elise باستخدام تقنيات 6 Ionic، 3 VueJs، 4 Capacitor، TypeScript. الجزئين الأولين، service web Elise و Api Rest Elise ، هما خدمتان موجودتان يتم استخدامهما بواسطة التطبيق المحمول لتوفير وظائفه.
 
+تشمل الميزات الرئيسية لتطبيق mobile Elise المصادقة، إدارة الملف الشخصي، إدارة الغياب، إدارة الإشعارات، الوصول إلى مساحات العمل للخدمات المختلفة، البحث عن المستندات، عرض المستندات المفضلة، الوصول إلى المهام الخاصة، إدارة ملفات المستندات، عرض تاريخ المستندات، إدارة مهام المستندات، وإدارة التوقيعات، بما في ذلك توقيع المستندات الكترونيا.
+
+يقدم هذا التقرير نظرة عامة مفصلة عن تصميم وتطوير وتنفيذ تطبيق mobile Elise ,بما في ذلك الخيارات التقنية المتبعة والتحديات التي واجهتها. كما يسلط الضوء على النتائج المحققة ويقدم توجهات لتحسين المشروع في المستقبل
 \end{Arabic}
-
-\medskip
-
-\begin{Arabic}أعتقد أنه يجب أن نكون حذرين للغاية بالنسبة إلى الحقيقة والواقع الذي ننسبه إلى هذا المجتمع المدني، إنه ليس هذا المُعطى التاريخي-الطبيعي الذي يأتي وكأنه يقوم بدور القاعدة/الأرضية، أو أنه أيضًا مبدأ لمعارضة الدولة والمؤسسات السياسية، ليس المجتمع المدني واقعة أولية ومباشرة، إن المجتمع المدني هو جزء من تكنولوجيا الحكمانية الحديثة، والقول إنه يمثل جزءًا لا يعني أنه منتج لا أكثر ولا أقل، ولا يعني أيضًا أنه ليس واقعًا أو حقيقة، إن المجتمع المدني، مثله مثل الجنون أو الجنسانية، إنه مثل تلك الوقائع التي أسميها وقائع التسويات والصفقات، بمعنى أنه يدخل ضمن اللعبة الخاصة بعلاقات السلطة، ولما ينفلت منها، بحيث يولد وينشأ شيء ما على الحد الفاصل بين الحكّام والمحكومين، وفي هذه الوجوه والصور التبادلية والمؤقتة إلّا أنها مع ذلك ليست أقل واقعية وحقيقة، وهذا هو الذي نسميه المجتمع المدني أو الجنون أو الجنسانية .. إلخ. .
-\end{Arabic}
-
-\medskip
-
-\begin{Arabic}
-إذن: المجتمع المدني بوصفه عنصرًا ناتجًا من واقع التسوية في تاريخ تكنولوجيات الحكمانية، علاقة تسوية تبدو لي متلازمة تمامًا مع هذا الشكل من تكنولوجيا الحكمانية التي نسميها ليبرالية، بمعنى: تكنولوجيا حكم لها هدف هو حدّها الذاتي المرتبط بخصوص العمليات الاقتصادية
-\end{Arabic}
-
-\medskip
-
-\vspace{3cm}
 
 \noindent\rule[2pt]{\textwidth}{0.5pt}
 
@@ -74,9 +62,7 @@ Route optimization, Periodic traveling salesman problem , Machine learning, Clas
 \begin{Arabic}
 \textbf{كلمات مفتاحية :}
 
-تحسين المسارات ، مشكلة البائع المتجول مع قيود دورية ، تعلم الآلة ، التصنيف.
-
+OIDC: توصيل OpenID (OpenID Connect), GED: إدارة المستندات الإلكترونية, SSO: تسجيل الدخول الموحّد, UI: واجهة المستخدم, UX: تجربة المستخدم, Mobile: تطبيق محمول, Ionic: إطار عمل Ionic, Capacitor: إطار عمل Capacitor, Vue.js: إطار عمل Vue.js, TypeScript: لغة TypeScript, Notification push, Firebase, Android, Ios
 \end{Arabic}
 
-\noindent\rule[2pt]{\textwidth}{0.5pt}
 
