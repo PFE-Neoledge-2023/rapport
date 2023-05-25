@@ -13,266 +13,266 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagramme de cas d'utilisation du sprint \relax }}{27}{figure.caption.33}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagramme de cas d'utilisation du sprint \relax }}{28}{figure.caption.40}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {8}{\ignorespaces Maquette de la d'authentification\relax }}{29}{figure.caption.34}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Maquette de la d'authentification\relax }}{30}{figure.caption.41}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {9}{\ignorespaces Diagramme de séquence de cas d'utilisation « S'authentifier »\relax }}{29}{figure.caption.35}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagramme de séquence de cas d'utilisation « S'authentifier »\relax }}{30}{figure.caption.42}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {10}{\ignorespaces Diagramme de séquence de cas d'utilisation « Se déconnecter »\relax }}{30}{figure.caption.36}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagramme de séquence de cas d'utilisation « Se déconnecter »\relax }}{31}{figure.caption.43}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {11}{\ignorespaces Diagramme de classe d'analyse de sprint 1\relax }}{30}{figure.caption.37}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagramme de classe d'analyse de sprint 1\relax }}{31}{figure.caption.44}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {12}{\ignorespaces Diagramme de classe de conception de sprint 1\relax }}{31}{figure.caption.38}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagramme de classe de conception de sprint 1\relax }}{32}{figure.caption.45}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {13}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « S'authentifier »\relax }}{31}{figure.caption.39}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « S'authentifier »\relax }}{32}{figure.caption.46}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {14}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Se déconnecter »\relax }}{32}{figure.caption.40}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Se déconnecter »\relax }}{33}{figure.caption.47}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {15}{\ignorespaces Les interfaces d'authentification\relax }}{32}{figure.caption.41}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Les interfaces d'authentification\relax }}{33}{figure.caption.48}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {16}{\ignorespaces Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »\relax }}{35}{figure.caption.42}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »\relax }}{36}{figure.caption.49}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {17}{\ignorespaces Maquette de la page des signatures (Lister, créer et supprimer)\relax }}{38}{figure.caption.43}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Maquette de la page des signatures (Lister, créer et supprimer)\relax }}{39}{figure.caption.50}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {18}{\ignorespaces Maquette de la page des signatures (Visualiser et supprimer)\relax }}{39}{figure.caption.44}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Maquette de la page des signatures (Visualiser et modifier)\relax }}{39}{figure.caption.51}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {19}{\ignorespaces Diagramme de séquence de cas d'utilisation « Créer une signature »\relax }}{39}{figure.caption.45}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Diagramme de séquence de cas d'utilisation « Créer une signature »\relax }}{40}{figure.caption.52}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {20}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer une signature »\relax }}{40}{figure.caption.46}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer une signature »\relax }}{40}{figure.caption.53}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {21}{\ignorespaces Diagramme de séquence de cas d'utilisation « Visualiser une signature »\relax }}{40}{figure.caption.47}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Diagramme de séquence de cas d'utilisation « Visualiser une signature »\relax }}{41}{figure.caption.54}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {22}{\ignorespaces Diagramme de séquence de cas d'utilisation « Modifier une signature »\relax }}{41}{figure.caption.48}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Diagramme de séquence de cas d'utilisation « Modifier une signature »\relax }}{41}{figure.caption.55}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {23}{\ignorespaces Diagramme de classe d'analyse de sprint 2\relax }}{41}{figure.caption.49}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Diagramme de classe d'analyse de sprint 2\relax }}{42}{figure.caption.56}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {24}{\ignorespaces Diagramme de classe de conception de sprint 2 : « Gestion des signatures »\relax }}{42}{figure.caption.50}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Diagramme de classe de conception de sprint 2 : « Gestion des signatures »\relax }}{42}{figure.caption.57}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {25}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Créer une signature »\relax }}{43}{figure.caption.51}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Créer une signature »\relax }}{43}{figure.caption.58}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {26}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Visualiser une signature »\relax }}{43}{figure.caption.52}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Visualiser une signature »\relax }}{43}{figure.caption.59}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {27}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature »\relax }}{44}{figure.caption.53}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature »\relax }}{44}{figure.caption.60}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {28}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Modifier une signature »\relax }}{44}{figure.caption.54}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Modifier une signature »\relax }}{44}{figure.caption.61}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {29}{\ignorespaces Captures de la page des signatures (Lister, créer et supprimer)\relax }}{45}{figure.caption.55}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Captures de la page des signatures (Lister, créer et supprimer)\relax }}{45}{figure.caption.62}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {30}{\ignorespaces Captures de la page des signatures (Visualiser et supprimer)\relax }}{45}{figure.caption.56}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Captures de la page des signatures (Visualiser et supprimer)\relax }}{45}{figure.caption.63}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {31}{\ignorespaces Publication du package neo-pdf-viewer\relax }}{47}{figure.caption.57}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Publication du package neo-pdf-viewer\relax }}{47}{figure.caption.64}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {32}{\ignorespaces Performances du package neo-pdf-viewer\relax }}{47}{figure.caption.58}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Performances du package neo-pdf-viewer\relax }}{47}{figure.caption.65}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {33}{\ignorespaces Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »\relax }}{51}{figure.caption.59}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »\relax }}{51}{figure.caption.66}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {34}{\ignorespaces Maquette de l'affichage des documents\relax }}{59}{figure.caption.60}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Maquette de l'affichage des documents\relax }}{59}{figure.caption.67}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {35}{\ignorespaces Maquette de l'affichage de contenu d'un document\relax }}{59}{figure.caption.61}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Maquette de l'affichage de contenu d'un document\relax }}{59}{figure.caption.68}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {36}{\ignorespaces Maquette de l'affichage de gestion des tâches\relax }}{59}{figure.caption.62}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Maquette de l'affichage de gestion des tâches\relax }}{59}{figure.caption.69}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {37}{\ignorespaces Diagramme de séquence de cas d'utilisation « Accéder à un document »\relax }}{60}{figure.caption.63}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Diagramme de séquence de cas d'utilisation « Accéder à un document »\relax }}{60}{figure.caption.70}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {38}{\ignorespaces Diagramme de séquence de cas d'utilisation « Télécharger un document »\relax }}{60}{figure.caption.64}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Diagramme de séquence de cas d'utilisation « Télécharger un document »\relax }}{60}{figure.caption.71}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {39}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document »\relax }}{60}{figure.caption.65}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document »\relax }}{60}{figure.caption.72}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {40}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des tâches d'un document »\relax }}{61}{figure.caption.66}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des tâches d'un document »\relax }}{61}{figure.caption.73}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {41}{\ignorespaces Diagramme de séquence de cas d'utilisation « Transferer une tâche »\relax }}{61}{figure.caption.67}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Diagramme de séquence de cas d'utilisation « Transferer une tâche »\relax }}{61}{figure.caption.74}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {42}{\ignorespaces Diagramme de séquence de cas d'utilisation « Traiter une tâche »\relax }}{61}{figure.caption.68}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagramme de séquence de cas d'utilisation « Traiter une tâche »\relax }}{61}{figure.caption.75}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {43}{\ignorespaces Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document »\relax }}{62}{figure.caption.69}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document »\relax }}{62}{figure.caption.76}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {44}{\ignorespaces Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document via scan »\relax }}{63}{figure.caption.70}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document via scan »\relax }}{63}{figure.caption.77}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {45}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{64}{figure.caption.71}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{64}{figure.caption.78}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {46}{\ignorespaces Diagramme de séquence de cas d'utilisation « Chercher des documents »\relax }}{64}{figure.caption.72}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Diagramme de séquence de cas d'utilisation « Chercher des documents »\relax }}{64}{figure.caption.79}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {47}{\ignorespaces Diagramme de séquence de cas d'utilisation « Recherche a l'aide de code QR »\relax }}{65}{figure.caption.73}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Diagramme de séquence de cas d'utilisation « Recherche a l'aide de code QR »\relax }}{65}{figure.caption.80}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {48}{\ignorespaces Diagramme de classe d'analyse de sprint 3\relax }}{65}{figure.caption.74}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Diagramme de classe d'analyse de sprint 3\relax }}{65}{figure.caption.81}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {49}{\ignorespaces Diagramme de classe de conception de sprint 3 : « Gestion des signatures »\relax }}{66}{figure.caption.75}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Diagramme de classe de conception de sprint 3 : « Gestion des signatures »\relax }}{66}{figure.caption.82}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {50}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Accéder à un document »\relax }}{67}{figure.caption.76}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Accéder à un document »\relax }}{67}{figure.caption.83}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {51}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des fichiers d'un document »\relax }}{67}{figure.caption.77}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des fichiers d'un document »\relax }}{67}{figure.caption.84}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {52}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des tâches d'un document »\relax }}{68}{figure.caption.78}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des tâches d'un document »\relax }}{68}{figure.caption.85}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {53}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{68}{figure.caption.79}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des documents en favoris »\relax }}{68}{figure.caption.86}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {54}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Transferer une tâche »\relax }}{69}{figure.caption.80}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Transferer une tâche »\relax }}{69}{figure.caption.87}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {55}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Traiter une tâche »\relax }}{70}{figure.caption.81}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Traiter une tâche »\relax }}{70}{figure.caption.88}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {56}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Ajoutez un fichier à un document »\relax }}{71}{figure.caption.82}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Ajoutez un fichier à un document »\relax }}{71}{figure.caption.89}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {57}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Chercher des documents »\relax }}{72}{figure.caption.83}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Chercher des documents »\relax }}{72}{figure.caption.90}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {58}{\ignorespaces Réalisation de la page des documents (Favoris et recherche(Simple et code QR))\relax }}{73}{figure.caption.84}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Réalisation de la page des documents (Favoris et recherche(Simple et code QR))\relax }}{73}{figure.caption.91}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {59}{\ignorespaces Réalisation de la page de document (Fichier, Info et Tâches)\relax }}{73}{figure.caption.85}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Réalisation de la page de document (Fichier, Info et Tâches)\relax }}{73}{figure.caption.92}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {60}{\ignorespaces Réalisation de la page de document (Ajouter un fichier (Importer et Scanner))\relax }}{73}{figure.caption.86}%
+\contentsline {figure}{\numberline {60}{\ignorespaces Réalisation de la page de document (Ajouter un fichier (Importer et Scanner))\relax }}{73}{figure.caption.93}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {61}{\ignorespaces Réalisation de la page de document (ajouter, transférer et traiter une tâche)\relax }}{74}{figure.caption.87}%
+\contentsline {figure}{\numberline {61}{\ignorespaces Réalisation de la page de document (ajouter, transférer et traiter une tâche)\relax }}{74}{figure.caption.94}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {62}{\ignorespaces Environnement de test unitaire\relax }}{74}{figure.caption.88}%
+\contentsline {figure}{\numberline {62}{\ignorespaces Environnement de test unitaire\relax }}{74}{figure.caption.95}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {63}{\ignorespaces Cycle de développement du test unitaire\relax }}{75}{figure.caption.89}%
+\contentsline {figure}{\numberline {63}{\ignorespaces Cycle de développement du test unitaire\relax }}{75}{figure.caption.96}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {64}{\ignorespaces Résultats des tests unitaires\relax }}{76}{figure.caption.90}%
+\contentsline {figure}{\numberline {64}{\ignorespaces Résultats des tests unitaires\relax }}{76}{figure.caption.97}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {65}{\ignorespaces Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »\relax }}{78}{figure.caption.91}%
+\contentsline {figure}{\numberline {65}{\ignorespaces Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »\relax }}{79}{figure.caption.98}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {66}{\ignorespaces Maquette de l'affichage d'un fichier\relax }}{83}{figure.caption.92}%
+\contentsline {figure}{\numberline {66}{\ignorespaces Maquette de l'affichage d'un fichier\relax }}{84}{figure.caption.99}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {67}{\ignorespaces Diagramme de séquence de cas d'utilisation « Visualiser un fichier »\relax }}{84}{figure.caption.93}%
+\contentsline {figure}{\numberline {67}{\ignorespaces Diagramme de séquence de cas d'utilisation « Visualiser un fichier »\relax }}{84}{figure.caption.100}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {68}{\ignorespaces Diagramme de séquence de cas d'utilisation « Télécharger un fichier »\relax }}{84}{figure.caption.94}%
+\contentsline {figure}{\numberline {68}{\ignorespaces Diagramme de séquence de cas d'utilisation « Télécharger un fichier »\relax }}{85}{figure.caption.101}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {69}{\ignorespaces Diagramme de séquence de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{85}{figure.caption.95}%
+\contentsline {figure}{\numberline {69}{\ignorespaces Diagramme de séquence de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{85}{figure.caption.102}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {70}{\ignorespaces Diagramme de séquence de cas d'utilisation « Signer à main un fichier »\relax }}{85}{figure.caption.96}%
+\contentsline {figure}{\numberline {70}{\ignorespaces Diagramme de séquence de cas d'utilisation « Signer à main un fichier »\relax }}{86}{figure.caption.103}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {71}{\ignorespaces Diagramme de séquence de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{86}{figure.caption.97}%
+\contentsline {figure}{\numberline {71}{\ignorespaces Diagramme de séquence de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{86}{figure.caption.104}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {72}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{86}{figure.caption.98}%
+\contentsline {figure}{\numberline {72}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{87}{figure.caption.105}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {73}{\ignorespaces Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{87}{figure.caption.99}%
+\contentsline {figure}{\numberline {73}{\ignorespaces Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{87}{figure.caption.106}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {74}{\ignorespaces Diagramme de classe d'analyse de sprint 4\relax }}{87}{figure.caption.100}%
+\contentsline {figure}{\numberline {74}{\ignorespaces Diagramme de classe d'analyse de sprint 4\relax }}{88}{figure.caption.107}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {75}{\ignorespaces Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »\relax }}{89}{figure.caption.101}%
+\contentsline {figure}{\numberline {75}{\ignorespaces Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »\relax }}{89}{figure.caption.108}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {76}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Visualiser un fichier »\relax }}{90}{figure.caption.102}%
+\contentsline {figure}{\numberline {76}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Visualiser un fichier »\relax }}{90}{figure.caption.109}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {77}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Télécharger un fichier »\relax }}{90}{figure.caption.103}%
+\contentsline {figure}{\numberline {77}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Télécharger un fichier »\relax }}{90}{figure.caption.110}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {78}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{91}{figure.caption.104}%
+\contentsline {figure}{\numberline {78}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{91}{figure.caption.111}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {79}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Signer à main un fichier »\relax }}{91}{figure.caption.105}%
+\contentsline {figure}{\numberline {79}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Signer à main un fichier »\relax }}{91}{figure.caption.112}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {80}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{92}{figure.caption.106}%
+\contentsline {figure}{\numberline {80}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{92}{figure.caption.113}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {81}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{92}{figure.caption.107}%
+\contentsline {figure}{\numberline {81}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{92}{figure.caption.114}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {82}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{93}{figure.caption.108}%
+\contentsline {figure}{\numberline {82}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{93}{figure.caption.115}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {83}{\ignorespaces Captures de l'affichage d'un fichier (par page ou par liste)\relax }}{94}{figure.caption.109}%
+\contentsline {figure}{\numberline {83}{\ignorespaces Captures de l'affichage d'un fichier (par page ou par liste)\relax }}{94}{figure.caption.116}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {84}{\ignorespaces Captures de l'affichage d'un fichier (partie signature)\relax }}{94}{figure.caption.110}%
+\contentsline {figure}{\numberline {84}{\ignorespaces Captures de l'affichage d'un fichier (partie signature)\relax }}{94}{figure.caption.117}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {85}{\ignorespaces Captures de l'affichage d'un fichier (validation/annulation des signatures et téléchargement)\relax }}{94}{figure.caption.111}%
+\contentsline {figure}{\numberline {85}{\ignorespaces Captures de l'affichage d'un fichier (validation/annulation des signatures et téléchargement)\relax }}{94}{figure.caption.118}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {86}{\ignorespaces Captures de l'amélioration de neo-pdf-viewer.\relax }}{95}{figure.caption.112}%
+\contentsline {figure}{\numberline {86}{\ignorespaces Captures de l'amélioration de neo-pdf-viewer.\relax }}{95}{figure.caption.119}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {87}{\ignorespaces Diagramme de cas d'utilisation du sprint 5\relax }}{99}{figure.caption.115}%
+\contentsline {figure}{\numberline {87}{\ignorespaces Diagramme de cas d'utilisation du sprint 5\relax }}{99}{figure.caption.122}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {88}{\ignorespaces Maquette de la page de connexion à l'aide du protocole OIDC\relax }}{101}{figure.caption.116}%
+\contentsline {figure}{\numberline {88}{\ignorespaces Maquette de la page de connexion à l'aide du protocole OIDC\relax }}{101}{figure.caption.123}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {89}{\ignorespaces Diagramme de séquence de cas d'utilisation « Connexion à l'aide du protocole OIDC »\relax }}{102}{figure.caption.117}%
+\contentsline {figure}{\numberline {89}{\ignorespaces Diagramme de séquence de cas d'utilisation « Connexion à l'aide du protocole OIDC »\relax }}{102}{figure.caption.124}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {90}{\ignorespaces Diagramme de séquence de cas d'utilisation « Vérification biométrique »\relax }}{103}{figure.caption.118}%
+\contentsline {figure}{\numberline {90}{\ignorespaces Diagramme de séquence de cas d'utilisation « Vérification biométrique »\relax }}{103}{figure.caption.125}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {91}{\ignorespaces Diagramme de classe d'analyse de sprint 5\relax }}{104}{figure.caption.119}%
+\contentsline {figure}{\numberline {91}{\ignorespaces Diagramme de classe d'analyse de sprint 5\relax }}{104}{figure.caption.126}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {92}{\ignorespaces Diagramme de classe de conception de sprint 5\relax }}{104}{figure.caption.120}%
+\contentsline {figure}{\numberline {92}{\ignorespaces Diagramme de classe de conception de sprint 5\relax }}{104}{figure.caption.127}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {93}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Connexion à l'aide du protocole OIDC »\relax }}{105}{figure.caption.121}%
+\contentsline {figure}{\numberline {93}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Connexion à l'aide du protocole OIDC »\relax }}{105}{figure.caption.128}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {94}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Vérification biométrique »\relax }}{106}{figure.caption.122}%
+\contentsline {figure}{\numberline {94}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Vérification biométrique »\relax }}{106}{figure.caption.129}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {95}{\ignorespaces Les interfaces de la page de connexion à l'aide du protocole OIDC\relax }}{107}{figure.caption.123}%
+\contentsline {figure}{\numberline {95}{\ignorespaces Les interfaces de la page de connexion à l'aide du protocole OIDC\relax }}{107}{figure.caption.130}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {96}{\ignorespaces Diagramme de cas d'utilisation du sprint 6\relax }}{110}{figure.caption.124}%
+\contentsline {figure}{\numberline {96}{\ignorespaces Diagramme de cas d'utilisation du sprint 6\relax }}{110}{figure.caption.131}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {97}{\ignorespaces Maquette de l'interface de paramétrage et de gestion des absences\relax }}{116}{figure.caption.125}%
+\contentsline {figure}{\numberline {97}{\ignorespaces Maquette de l'interface de paramétrage et de gestion des absences\relax }}{116}{figure.caption.132}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {98}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la page de paramétre »\relax }}{116}{figure.caption.126}%
+\contentsline {figure}{\numberline {98}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter la page de paramétre »\relax }}{116}{figure.caption.133}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {99}{\ignorespaces Diagramme de séquence de cas d'utilisation « Gérer les préférences d'affichage »\relax }}{117}{figure.caption.127}%
+\contentsline {figure}{\numberline {99}{\ignorespaces Diagramme de séquence de cas d'utilisation « Gérer les préférences d'affichage »\relax }}{117}{figure.caption.134}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {100}{\ignorespaces Diagramme de séquence de cas d'utilisation « Changer la langue »\relax }}{117}{figure.caption.128}%
+\contentsline {figure}{\numberline {100}{\ignorespaces Diagramme de séquence de cas d'utilisation « Changer la langue »\relax }}{117}{figure.caption.135}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {101}{\ignorespaces Diagramme de séquence de cas d'utilisation « Vider le cache »\relax }}{118}{figure.caption.129}%
+\contentsline {figure}{\numberline {101}{\ignorespaces Diagramme de séquence de cas d'utilisation « Vider le cache »\relax }}{118}{figure.caption.136}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {102}{\ignorespaces Diagramme de séquence de cas d'utilisation « Lister et sélectionner les espaces de travail »\relax }}{118}{figure.caption.130}%
+\contentsline {figure}{\numberline {102}{\ignorespaces Diagramme de séquence de cas d'utilisation « Lister et sélectionner les espaces de travail »\relax }}{118}{figure.caption.137}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {103}{\ignorespaces Diagramme de séquence de cas d'utilisation « Visualiser les informations personnelles »\relax }}{119}{figure.caption.131}%
+\contentsline {figure}{\numberline {103}{\ignorespaces Diagramme de séquence de cas d'utilisation « Visualiser les informations personnelles »\relax }}{119}{figure.caption.138}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {104}{\ignorespaces Diagramme de séquence de cas d'utilisation « Modifier la photo de profil »\relax }}{120}{figure.caption.132}%
+\contentsline {figure}{\numberline {104}{\ignorespaces Diagramme de séquence de cas d'utilisation « Modifier la photo de profil »\relax }}{120}{figure.caption.139}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {105}{\ignorespaces Diagramme de séquence de cas d'utilisation « Déclarer l'absence »\relax }}{120}{figure.caption.133}%
+\contentsline {figure}{\numberline {105}{\ignorespaces Diagramme de séquence de cas d'utilisation « Déclarer l'absence »\relax }}{120}{figure.caption.140}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {106}{\ignorespaces Diagramme de séquence de cas d'utilisation « Annuler une déclaration d'absence »\relax }}{121}{figure.caption.134}%
+\contentsline {figure}{\numberline {106}{\ignorespaces Diagramme de séquence de cas d'utilisation « Annuler une déclaration d'absence »\relax }}{121}{figure.caption.141}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {107}{\ignorespaces Diagramme de séquence de cas d'utilisation « Rechercher et affecter un délégué »\relax }}{121}{figure.caption.135}%
+\contentsline {figure}{\numberline {107}{\ignorespaces Diagramme de séquence de cas d'utilisation « Rechercher et affecter un délégué »\relax }}{121}{figure.caption.142}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {108}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer un délégué »\relax }}{122}{figure.caption.136}%
+\contentsline {figure}{\numberline {108}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer un délégué »\relax }}{122}{figure.caption.143}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {109}{\ignorespaces Diagramme de classe d'analyse de sprint 6\relax }}{122}{figure.caption.137}%
+\contentsline {figure}{\numberline {109}{\ignorespaces Diagramme de classe d'analyse de sprint 6\relax }}{122}{figure.caption.144}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {110}{\ignorespaces Diagramme de classe de conception de sprint 6\relax }}{124}{figure.caption.138}%
+\contentsline {figure}{\numberline {110}{\ignorespaces Diagramme de classe de conception de sprint 6\relax }}{124}{figure.caption.145}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {111}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la page de paramétre »\relax }}{125}{figure.caption.139}%
+\contentsline {figure}{\numberline {111}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter la page de paramétre »\relax }}{125}{figure.caption.146}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {112}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Gérer les préférences d'affichage»\relax }}{126}{figure.caption.140}%
+\contentsline {figure}{\numberline {112}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Gérer les préférences d'affichage»\relax }}{126}{figure.caption.147}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {113}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation «Changer la langue »\relax }}{126}{figure.caption.141}%
+\contentsline {figure}{\numberline {113}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation «Changer la langue »\relax }}{126}{figure.caption.148}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {114}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Vider le cache »\relax }}{127}{figure.caption.142}%
+\contentsline {figure}{\numberline {114}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Vider le cache »\relax }}{127}{figure.caption.149}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {115}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Lister et sélectionner les espaces de travail »\relax }}{127}{figure.caption.143}%
+\contentsline {figure}{\numberline {115}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Lister et sélectionner les espaces de travail »\relax }}{127}{figure.caption.150}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {116}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Visualiser les informations personnelles »\relax }}{128}{figure.caption.144}%
+\contentsline {figure}{\numberline {116}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Visualiser les informations personnelles »\relax }}{128}{figure.caption.151}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {117}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Modifier la photo de profil »\relax }}{129}{figure.caption.145}%
+\contentsline {figure}{\numberline {117}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Modifier la photo de profil »\relax }}{129}{figure.caption.152}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {118}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Déclarer l'absence »\relax }}{130}{figure.caption.146}%
+\contentsline {figure}{\numberline {118}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Déclarer l'absence »\relax }}{130}{figure.caption.153}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {119}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Annuler une déclaration d'absence »\relax }}{130}{figure.caption.147}%
+\contentsline {figure}{\numberline {119}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Annuler une déclaration d'absence »\relax }}{130}{figure.caption.154}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {120}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Rechercher et affecter un délégué »\relax }}{131}{figure.caption.148}%
+\contentsline {figure}{\numberline {120}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Rechercher et affecter un délégué »\relax }}{131}{figure.caption.155}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {121}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer un délégué »\relax }}{132}{figure.caption.149}%
+\contentsline {figure}{\numberline {121}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer un délégué »\relax }}{132}{figure.caption.156}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {122}{\ignorespaces Realisation de l'interface de paramétrage de l'application et la mode sombre\relax }}{132}{figure.caption.150}%
+\contentsline {figure}{\numberline {122}{\ignorespaces Realisation de l'interface de paramétrage de l'application et la mode sombre\relax }}{132}{figure.caption.157}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {123}{\ignorespaces Realisation de l'interface de modification de profil et gestion d'absence\relax }}{133}{figure.caption.151}%
+\contentsline {figure}{\numberline {123}{\ignorespaces Realisation de l'interface de modification de profil et gestion d'absence\relax }}{133}{figure.caption.158}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {124}{\ignorespaces Diagramme de cas d'utilisation du sprint 7\relax }}{135}{figure.caption.152}%
+\contentsline {figure}{\numberline {124}{\ignorespaces Diagramme de cas d'utilisation du sprint 7\relax }}{135}{figure.caption.159}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {125}{\ignorespaces Maquette de la page de statistique et choix d'espace de travail\relax }}{137}{figure.caption.153}%
+\contentsline {figure}{\numberline {125}{\ignorespaces Maquette de la page de statistique et choix d'espace de travail\relax }}{137}{figure.caption.160}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {126}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les statistiques »\relax }}{138}{figure.caption.154}%
+\contentsline {figure}{\numberline {126}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les statistiques »\relax }}{138}{figure.caption.161}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {127}{\ignorespaces Diagramme de séquence de cas d'utilisation « Basculer entre les espaces de travail »\relax }}{138}{figure.caption.155}%
+\contentsline {figure}{\numberline {127}{\ignorespaces Diagramme de séquence de cas d'utilisation « Basculer entre les espaces de travail »\relax }}{138}{figure.caption.162}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {128}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{139}{figure.caption.156}%
+\contentsline {figure}{\numberline {128}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{139}{figure.caption.163}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {129}{\ignorespaces Diagramme de séquence de cas d'utilisation « Refraichissement des données »\relax }}{139}{figure.caption.157}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Diagramme de séquence de cas d'utilisation « Refraichissement des données »\relax }}{139}{figure.caption.164}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {130}{\ignorespaces Diagramme de classe d'analyse de sprint 7\relax }}{140}{figure.caption.158}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Diagramme de classe d'analyse de sprint 7\relax }}{140}{figure.caption.165}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {131}{\ignorespaces Diagramme de classe de conception de sprint 7\relax }}{141}{figure.caption.159}%
+\contentsline {figure}{\numberline {131}{\ignorespaces Diagramme de classe de conception de sprint 7\relax }}{141}{figure.caption.166}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {132}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter les statistiques »\relax }}{142}{figure.caption.160}%
+\contentsline {figure}{\numberline {132}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter les statistiques »\relax }}{142}{figure.caption.167}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {133}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Basculer entre les espaces de travail »\relax }}{143}{figure.caption.161}%
+\contentsline {figure}{\numberline {133}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Basculer entre les espaces de travail »\relax }}{143}{figure.caption.168}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {134}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{144}{figure.caption.162}%
+\contentsline {figure}{\numberline {134}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{144}{figure.caption.169}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {135}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »\relax }}{144}{figure.caption.163}%
+\contentsline {figure}{\numberline {135}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »\relax }}{144}{figure.caption.170}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {136}{\ignorespaces Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide\relax }}{145}{figure.caption.164}%
+\contentsline {figure}{\numberline {136}{\ignorespaces Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide\relax }}{145}{figure.caption.171}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {137}{\ignorespaces Code d'affichage des images\relax }}{151}{figure.caption.169}%
+\contentsline {figure}{\numberline {137}{\ignorespaces Code d'affichage des images\relax }}{151}{figure.caption.176}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {138}{\ignorespaces Code de zoom\relax }}{152}{figure.caption.170}%
+\contentsline {figure}{\numberline {138}{\ignorespaces Code de zoom\relax }}{152}{figure.caption.177}%

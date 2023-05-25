@@ -23,7 +23,7 @@ Release 1 : (Du 8 Février Au 19 Avril)
 \section{Sprint 1 (Préparation de l'environnement du travail et étude de la solution)}
 
 \subsection{Sprint Goal}
-L'objectif de ce sprint est de préparer l'environnement de travail et d'étudier la solution ainsi que les technologies à utiliser afin de pouvoir commencer le développement de l'application, et ensuite, demarrer le développement de la première version de l'application contenant les fonctionnalités de base (S'authentifier, Se déconnecter).
+L'objectif de ce sprint est de préparer l'environnement de travail et d'étudier la solution ainsi que les technologies à utiliser afin de pouvoir commencer le développement de l'application, et ensuite, demarrer le développement de l'application elise mobile contenant les fonctionnalités de base (S'authentifier, Se déconnecter).
 
 \subsection{Sprint Backlog}
 
@@ -226,8 +226,7 @@ Les objets de diagramme d'analyse sont les suivants :
 
 \subsubsection{Conception}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 1. \\
+Après la présentation des diagrammes d'analyse, nous allons présenter dans cette partie les diagrammes de conception.\\ 
 \textbf{•	Diagramme de classe de conception de sprint 1}
 
 % add image
@@ -531,15 +530,15 @@ Les maquettes suivantes représentent les interfaces de la page des signatures.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{design_signatures1}
+  \includegraphics[width=0.6\textwidth]{design_signatures1}
   \caption{Maquette de la page des signatures (Lister, créer et supprimer)}
   \label{fig:design_signatures}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{design_signatures2}
-  \caption{Maquette de la page des signatures (Visualiser et supprimer)}
+  \includegraphics[width=0.4\textwidth]{design_signatures2}
+  \caption{Maquette de la page des signatures (Visualiser et modifier)}
   \label{fig:design_preview_delete_signature}
 \end{figure}
 
@@ -630,10 +629,7 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 
 \subsubsection{Réalisation}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
-
-
-Ces captures d'écran, représente l'interface de création d'une signature par un utilisateur
+Après la présentation des diagrammes d'analyse, nous allons présenter dans cette partie des captures d'écran qui représentent les interfaces de gestion des signatures.
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{realisation_signatures1}
@@ -1560,7 +1556,7 @@ La figure suivante présente l'environnement de test unitaire utilisé pour test
   \label{fig:environnementdetestunitaire}
 \end{figure}
 \begin{itemize}
-  \item \textbf{JEST} : Jest est un framework de test JavaScript créé par Facebook. Il est utilisé pour tester des applications JavaScript, notamment React, Vue.js, Angular et NodeJS.
+  \item \textbf{JEST} : Jest est un framework de test JavaScript créé par Meta. Il est utilisé pour tester des applications JavaScript, notamment React, Vue.js, Angular et NodeJS.
   \item \textbf{PiniaTesting}: Pinia Testing est une bibliothèque de test pour Pinia, qui fournit des utilitaires pour tester les actions, les getters et les mutations.
   \item \textbf{Vue Test Utils}: Vue Test Utils est la bibliothèque de test officielle pour Vue.js. Il fournit des utilitaires qui facilitent l'écriture de tests unitaires pour les composants Vue.
 \end{itemize}
@@ -1609,13 +1605,17 @@ Nous avons fait une démonstration durant laquelle nous allons présenter notre 
   \item La gestion des taches d'un document.
   \item La recherche d'un document.
   \item La consultation de la liste des documents en favoris.
+  \item L'ajout des tests unitaires.
 \end{itemize}
 
 \subsection{Sprint Retrospective:}
 
 Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.\\
 \noindent\textbf{•	Ce qui a bien passé :}
-Nous avons terminé le sprint dans le délai.\\
+\begin{itemize}
+  \item Nous avons terminé le sprint dans le délai.
+  \item Nous avons bien appris le test unitaire dans VueJS.
+\end{itemize}
 \noindent\textbf{•	Ce qui s'est mal passé :}
 Manque de documentation de l'ionic 
 
@@ -1623,7 +1623,7 @@ Manque de documentation de l'ionic
 % SPrint 4 visualisation et signature d'un fichier
 \section{Sprint 4 (Visualisation et signature d'un fichier)}
 \subsection{Sprint Goal:}
-L'objectif de ce sprint est de développer et mettre en place un système de visualisation et signature d'un fichier permettant aux utilisateurs de consulter le fichier et le signer par plusieurs méthodes.
+L'objectif de ce sprint est de développer et mettre en place un système de visualisation et de signature d'un fichier permettant aux utilisateurs de consulter le fichier et le signer par plusieurs méthodes.
 
 
 \subsection{Sprint Backlog « Visualisation et signature d'un fichier »:}
@@ -1635,18 +1635,18 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
-      \multirow{4}{*}{1} & \multirow{4}{6cm}{En tant qu'utilisateur, je veux visualiser des fichiers stockés dans le document, afin de consulter leur contenu sans avoir besoin d'une autre application ou d'un autre dispositif.} & 1.1 & Préparer les interfaces sur Figma. & \multirow{4}{*}{2 Jour} \\
+      \multirow{5}{*}{1} & \multirow{5}{6cm}{En tant qu'utilisateur, je veux visualiser des fichiers stockés dans le document, afin de consulter leur contenu sans avoir besoin d'une autre application ou d'un autre dispositif.} & 1.1 & Préparer les interfaces sur Figma. & \multirow{5}{*}{2 Jour} \\
       \cline{3-4}
       & & 1.2 & Développer l'interface de visualisation d'un fichier. & \\
       \cline{3-4}
-      & & 1.3 & Ajouter la fonctionnalité de zoom dans neo-pdf-viewer. & \\
+      & & 1.3 & Intégrer la bibliothèque neo-pdf-viewer dans l'application. & \\
       \cline{3-4}
-      & & 1.4 & Prendre en charge les fichiers de type image. & \\
+      & & 1.4 & Ajouter la fonctionnalité de zoom dans neo-pdf-viewer. & \\
+      \cline{3-4}
+      & & 1.5 & Prendre en charge les fichiers de type image. & \\
       \cline{1-5}
 
-      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux télécharger un fichier, afin d'avoir une copie locale du fichier sur mon appareil. & 2.1 & Préparer les interfaces sur Figma. & \multirow{2}{*}{2 Jour} \\
-      \cline{3-4}
-      & & 2.2 & Développer une fonction qui permet de télécharger un fichier. & \\
+      \multirow{1}{*}{2} & En tant qu'utilisateur, je veux télécharger un fichier, afin d'avoir une copie locale du fichier sur mon appareil. & 2.1 & Développer une fonction qui permet de télécharger un fichier. & \multirow{1}{*}{2 Jour} \\
       \cline{1-5}
 
       \multirow{4}{*}{3} & \multirow{4}{6cm}{En tant qu'utilisateur, je souhaite signer des fichiers avec image, Je veux être en mesure de sélectionner une signature pré-enregistrée parmi celles que j'ai créées précédemment, en utilisant simplement un système de glisser déposer pour l'appliquer au document à signer.}& 3.1 & Préparer les interfaces sur Figma. & \multirow{4}{*}{2 Jour} \\
@@ -1663,23 +1663,17 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
       & & 4.2 & Développer une fonction qui permet de signer à main un fichier. & \\
       \cline{1-5}
 
-      \multirow{3}{*}{5} & En tant qu'utilisateur, je souhaite déplacer les signatures non confirmées, afin de les positionner correctement.& 5.1 & Préparer les interfaces sur Figma. & \multirow{3}{*}{2 Jour} \\
-      \cline{3-4}
-      & & 5.2 & Développer une fonction qui permet de modifier la position d'une signature d'un fichier. & \\
+      \multirow{1}{*}{5} & En tant qu'utilisateur, je souhaite déplacer les signatures non confirmées, afin de les positionner correctement.& 5.1 & Développer une fonction qui permet de modifier la position d'une signature d'un fichier. & \multirow{1}{*}{2 Jour} \\
       \cline{1-5}
 
-      \multirow{3}{*}{6} & \multirow{3}{6cm}{En tant qu'utilisateur, je souhaite supprimer les signatures non confirmées, afin d'annuler la signature.}& 6.1 & Préparer l'interface sur figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{2}{*}{6} & \multirow{2}{6cm}{En tant qu'utilisateur, je souhaite supprimer les signatures non confirmées, afin d'annuler la signature.}& 6.1 & Développer l'interface de suppression d'une signature. & \multirow{2}{*}{2 Jour} \\
       \cline{3-4}
-      & & 6.2 & Développer l'interface de suppression d'une signature. & \\
-      \cline{3-4}
-      & & 6.3 & Développer une fonction qui permet de supprimer une signature d'un fichier. & \\
+      & & 6.2 & Développer une fonction qui permet de supprimer une signature d'un fichier. & \\
       \cline{1-5}
 
-      \multirow{3}{*}{7} &\multirow{3}{6cm}{ En tant qu'utilisateur, je souhaite confirmer ou annuler la signature, afin de la valider ou de la supprimer.}& 7.1 & Préparer l'interface sur figma. & \multirow{3}{*}{2 Jour} \\
+      \multirow{2}{*}{7} &\multirow{2}{6cm}{ En tant qu'utilisateur, je souhaite confirmer ou annuler la signature, afin de la valider ou de la supprimer.}& 7.1 & Développer l'interface de confirmation ou annulation de la signature. & \multirow{2}{*}{2 Jour} \\
       \cline{3-4}
-      & & 7.2 & Développer l'interface de confirmation ou annulation de la signature. & \\
-      \cline{3-4}
-      & & 7.3 & Développer une fonction qui permet de confirmer ou annuler la signature d'un fichier. & \\
+      & & 7.2 & Développer une fonction qui permet de confirmer ou annuler la signature d'un fichier. & \\
       \cline{1-5}
       
   \hline
@@ -1757,15 +1751,15 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
 \textbf{Scénario Alternatif}&
 \vspace{-\baselineskip}
 \begin{enumerate}
+  \item [3.1] La fichier a des signatures non confirmées.
+  \item [3.2] Le système demande si l'utilisateur veut télécharger le fichier sans les signatures.
+  % second alternative
+  \item [3.3.1] L'utilisateur clique sur oui.
+  \item [3.3.2] Le système continue de la point 4 du scénario nominal.
+  \item [3.3.1] L'utilisateur clique sur non.
+  \item [3.3.2] Le système annule le téléchargement.
   \item [4.1] Le système n'arrive pas à télécharger le fichier.
   \item [4.2] Le système affiche un message d'erreur.
-  % second alternative
-  \item [4.1] La fichier a des signatures non confirmées.
-  \item [4.2] Le système demande si l'utilisateur veut télécharger le fichier sans les signatures.
-  \item [4.3.1] L'utilisateur clique sur oui.
-  \item [4.3.2] Le système continue de la point 4 du scénario nominal.
-  \item [4.3.1] L'utilisateur clique sur non.
-  \item [4.3.2] Le système annule le téléchargement.
 
 \end{enumerate}\\
 \hline
@@ -1878,7 +1872,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
 \vspace{-\baselineskip}
 \begin{enumerate}
     \item [2.1]L'utilisateur dépose la signature hors du fichier.
-    \item [2.1]Le système annule les changements.
+    \item [2.2]Le système annule les changements.
 \end{enumerate}\\
 \hline
 \caption{Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
