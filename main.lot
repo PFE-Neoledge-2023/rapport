@@ -44,11 +44,11 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {13}{\ignorespaces Sprint backlog du Sprint 3\relax }}{51}{table.0.13}%
+\contentsline {table}{\numberline {13}{\ignorespaces Sprint backlog du Sprint 3\relax }}{50}{table.0.13}%
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {14}{\ignorespaces Description textuelle de cas d'utilisation « Accéder à un document »\relax }}{52}{table.0.14}%
+\contentsline {table}{\numberline {14}{\ignorespaces Description textuelle de cas d'utilisation « Accéder à un document »\relax }}{51}{table.0.14}%
 \contentsline {table}{\numberline {15}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un document »\relax }}{52}{table.0.15}%
-\contentsline {table}{\numberline {16}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »\relax }}{53}{table.0.16}%
+\contentsline {table}{\numberline {16}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »\relax }}{52}{table.0.16}%
 \contentsline {table}{\numberline {17}{\ignorespaces Description textuelle de cas d'utilisation « ajouter un fichier à un document »\relax }}{53}{table.0.17}%
 \contentsline {table}{\numberline {18}{\ignorespaces Description textuelle de cas d'utilisation « Scanner un fichier »\relax }}{55}{table.0.18}%
 \contentsline {table}{\numberline {19}{\ignorespaces Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »\relax }}{55}{table.0.19}%
@@ -94,9 +94,9 @@
 \contentsline {table}{\numberline {27}{\ignorespaces Description textuelle de cas d'utilisation « Visualiser un fichier »\relax }}{79}{table.0.27}%
 \contentsline {table}{\numberline {28}{\ignorespaces Description textuelle de cas d'utilisation « Télécharger un fichier »\relax }}{80}{table.0.28}%
 \contentsline {table}{\numberline {29}{\ignorespaces Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »\relax }}{81}{table.0.29}%
-\contentsline {table}{\numberline {30}{\ignorespaces Description textuelle de cas d'utilisation « Signer à main un fichier »\relax }}{82}{table.0.30}%
+\contentsline {table}{\numberline {30}{\ignorespaces Description textuelle de cas d'utilisation « Signer à main un fichier »\relax }}{81}{table.0.30}%
 \contentsline {table}{\numberline {31}{\ignorespaces Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »\relax }}{82}{table.0.31}%
-\contentsline {table}{\numberline {32}{\ignorespaces Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{83}{table.0.32}%
+\contentsline {table}{\numberline {32}{\ignorespaces Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier »\relax }}{82}{table.0.32}%
 \contentsline {table}{\numberline {33}{\ignorespaces Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »\relax }}{83}{table.0.33}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
@@ -175,7 +175,7 @@
 \setforeignlanguage {french}
 \contentsline {table}{\numberline {50}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »\relax }}{136}{table.0.50}%
 \contentsline {table}{\numberline {51}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Basculer entre les espaces de travail »\relax }}{136}{table.0.51}%
-\contentsline {table}{\numberline {52}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{137}{table.0.52}%
+\contentsline {table}{\numberline {52}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »\relax }}{136}{table.0.52}%
 \contentsline {table}{\numberline {53}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Refraichissement des données »\relax }}{137}{table.0.53}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}

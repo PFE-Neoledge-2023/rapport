@@ -85,7 +85,7 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {XII.2}\bgroup \beginL \latintext Sprint Backlog\endL \egroup }{33}{subsection.0.12.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {XII.3}\bgroup \beginL \latintext Implémentation du Sprint 2\endL \egroup }{35}{subsection.0.12.3}%
+\contentsline {subsection}{\numberline {XII.3}\bgroup \beginL \latintext Implémentation du Sprint 2\endL \egroup }{34}{subsection.0.12.3}%
 \select@language {french}
 \contentsline {subsubsection}{\numberline {XII.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{35}{subsubsection.0.12.3.1}%
 \select@language {french}
@@ -115,7 +115,7 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {XIII.2}\bgroup \beginL \latintext Sprint Backlog « Gestion des documents »\endL \egroup }{49}{subsection.0.13.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {XIII.3}\bgroup \beginL \latintext Implémentation du Sprint 3\endL \egroup }{51}{subsection.0.13.3}%
+\contentsline {subsection}{\numberline {XIII.3}\bgroup \beginL \latintext Implémentation du Sprint 3\endL \egroup }{50}{subsection.0.13.3}%
 \select@language {french}
 \contentsline {subsubsection}{\numberline {XIII.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{51}{subsubsection.0.13.3.1}%
 \select@language {french}
@@ -135,11 +135,11 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {XIV.2}\bgroup \beginL \latintext Sprint Backlog « Visualisation et signature d'un fichier »:\endL \egroup }{77}{subsection.0.14.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {XIV.3}\bgroup \beginL \latintext Implémentation du Sprint 4\endL \egroup }{79}{subsection.0.14.3}%
+\contentsline {subsection}{\numberline {XIV.3}\bgroup \beginL \latintext Implémentation du Sprint 4\endL \egroup }{78}{subsection.0.14.3}%
 \select@language {french}
 \contentsline {subsubsection}{\numberline {XIV.3.1}\bgroup \beginL \latintext Analyse des besoins:\endL \egroup }{79}{subsubsection.0.14.3.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {XIV.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{88}{subsubsection.0.14.3.2}%
+\contentsline {subsubsection}{\numberline {XIV.3.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{87}{subsubsection.0.14.3.2}%
 \select@language {french}
 \contentsline {subsubsection}{\numberline {XIV.3.3}\bgroup \beginL \latintext Conception\endL \egroup }{88}{subsubsection.0.14.3.3}%
 \select@language {french}
