@@ -1,0 +1,16 @@
+@startuml logout_OIDC
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+activate user
+user -> system : cliquer sur le bouton logout
+activate system
+system -> system : clearAllData()
+system -> user : redirection vers la page d'authentification
+
+deactivate system
+deactivate user
