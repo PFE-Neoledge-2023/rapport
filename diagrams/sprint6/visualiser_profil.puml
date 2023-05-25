@@ -8,7 +8,7 @@ participant "système" as system
 
 ref over user, system : Authentification
 activate user
-user -> system : clique sur le bouton "editr profil"
+user -> system : clique sur le bouton "edite profil"
 activate system
 system -> system : get user profil
 system --> user : redirige vers la page de profil

@@ -7,6 +7,7 @@ actor "Utilisateur" as user
 participant "settingsPage" as setView << View >>
 participant "authStore" as auth << ViewModel >>
 participant "Session" as session << Model >>
+ref over user, setView, auth, session : Authentification
 user -> setView : clique sur le bouton "déconnecter"
 activate user
 activate setView

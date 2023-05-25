@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  25 MAY 2023 14:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.3.22)  25 MAY 2023 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3618,11 +3618,13 @@ LaTeX Info: Redefining \ttfamily on input line 258.
  [32]
 File: images_pfe//realision_auth.png Graphic file (type bmp)
 <images_pfe//realision_auth.png>
-LaTeX Info: Redefining \rmfamily on input line 279.
-LaTeX Info: Redefining \sffamily on input line 279.
-LaTeX Info: Redefining \ttfamily on input line 279.
 
-[33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 274.
+LaTeX Info: Redefining \sffamily on input line 274.
+LaTeX Info: Redefining \ttfamily on input line 274.
+ [33]
 Overfull \vbox (15.22507pt too high) detected at line 326
  []
 
@@ -3645,9 +3647,6 @@ LaTeX Info: Redefining \ttfamily on input line 346.
 [34]
 File: images_pfe//use_case_signature_sprint_2.png Graphic file (type bmp)
 <images_pfe//use_case_signature_sprint_2.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 LaTeX Info: Redefining \rmfamily on input line 359.
 LaTeX Info: Redefining \sffamily on input line 359.
 LaTeX Info: Redefining \ttfamily on input line 359.
@@ -3655,8 +3654,7 @@ LaTeX Info: Redefining \ttfamily on input line 359.
 LaTeX Info: Redefining \rmfamily on input line 400.
 LaTeX Info: Redefining \sffamily on input line 400.
 LaTeX Info: Redefining \ttfamily on input line 400.
-
-[36]
+ [36]
 LaTeX Info: Redefining \rmfamily on input line 474.
 LaTeX Info: Redefining \sffamily on input line 474.
 LaTeX Info: Redefining \ttfamily on input line 474.
@@ -4453,13 +4451,10 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 203--204
  [][][][][][] 
  []
 
-
-Underfull \vbox (badness 2707) has occurred while \output is active []
-
 LaTeX Info: Redefining \rmfamily on input line 207.
 LaTeX Info: Redefining \sffamily on input line 207.
 LaTeX Info: Redefining \ttfamily on input line 207.
- [103]
+[103]
 File: images_pfe//dcc_sprint5.png Graphic file (type bmp)
 <images_pfe//dcc_sprint5.png>
 
@@ -4476,7 +4471,7 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 226--227
  []
 
 
-Underfull \vbox (badness 5022) has occurred while \output is active []
+Underfull \vbox (badness 4899) has occurred while \output is active []
 
 LaTeX Info: Redefining \rmfamily on input line 230.
 LaTeX Info: Redefining \sffamily on input line 230.
@@ -4878,18 +4873,25 @@ LaTeX Info: Redefining \ttfamily on input line 992.
 [136]
 File: images_pfe//use_case_sprint_7.png Graphic file (type bmp)
 <images_pfe//use_case_sprint_7.png>
-LaTeX Info: Redefining \rmfamily on input line 1032.
-LaTeX Info: Redefining \sffamily on input line 1032.
-LaTeX Info: Redefining \ttfamily on input line 1032.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 1035.
+LaTeX Info: Redefining \sffamily on input line 1035.
+LaTeX Info: Redefining \ttfamily on input line 1035.
  [137]
-LaTeX Info: Redefining \rmfamily on input line 1087.
-LaTeX Info: Redefining \sffamily on input line 1087.
-LaTeX Info: Redefining \ttfamily on input line 1087.
- [138]
+LaTeX Info: Redefining \rmfamily on input line 1094.
+LaTeX Info: Redefining \sffamily on input line 1094.
+LaTeX Info: Redefining \ttfamily on input line 1094.
+
+[138]
 File: images_pfe//design_statistique.png Graphic file (type bmp)
 <images_pfe//design_statistique.png>
 File: out/diagrams/sprint7/view_stats/view_stats.png Graphic file (type bmp)
 <out/diagrams/sprint7/view_stats/view_stats.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Info: Redefining \rmfamily on input line 1135.
 LaTeX Info: Redefining \sffamily on input line 1135.
 LaTeX Info: Redefining \ttfamily on input line 1135.
@@ -5243,15 +5245,12 @@ Package polyglossia Warning: Failed to patch part for French on input line 52.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 1573CCCFB63C86A1A925322C481C8457;19885
+(rerunfilecheck)             Before: 4034FBCBEA0765097BBCBBA3F8734EA4;19885
 (rerunfilecheck)             After:  24CD02BA2DC97F689060183917D249B1;1068.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.

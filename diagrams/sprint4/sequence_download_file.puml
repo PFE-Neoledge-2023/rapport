@@ -7,11 +7,11 @@ actor "Utilisateur" as user
 participant "PreviewFile" as previewfile << View >>
 participant "DocumentsStore" as documentsstore << ViewModel >>
 participant "File" as file << Model >>
-participant "FileSystem" as FileSystem <<  >>
+participant "FileSystem" as FileSystem << System >>
 
 
-ref over user, previewfile, documentsstore, file : Authentification
-ref over user, previewfile, documentsstore, file : Visualisation de fichier
+ref over user, previewfile, documentsstore, file,FileSystem : Authentification
+ref over user, previewfile, documentsstore, file,FileSystem : Visualisation de fichier
 activate user
 user -> previewfile : demande la liste des actions
 activate previewfile

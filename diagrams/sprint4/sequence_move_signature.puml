@@ -12,7 +12,6 @@ participant "FileSignature" as filesignature << Model >>
 
 ref over user,fileviewer,documentsstore,filesignature : Authentification
 ref over user,fileviewer,documentsstore,filesignature : Visualisation de fichier
-
 activate user
 activate fileviewer
 

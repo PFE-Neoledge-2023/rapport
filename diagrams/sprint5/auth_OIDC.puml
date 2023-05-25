@@ -5,7 +5,6 @@ hide footbox
 
 actor "Utilisateur" as user
 participant "système" as system
-
 activate user
 user -> system : saisit l'adresse du serveur
 activate system

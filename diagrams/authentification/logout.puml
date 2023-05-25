@@ -6,7 +6,7 @@ hide footbox
 actor "Utilisateur" as user
 participant "système" as system
 
-
+ref over user, system : Authentification
 user -> system : cliquer sur le bouton logout
 activate user
 activate system
