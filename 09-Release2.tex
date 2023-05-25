@@ -45,11 +45,13 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
       \multirow{2}{*}{1} & En tant que membre scrum, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
       & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
-      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter. &  \multirow{3}{*}{2.5 Jour} \\
+      \multirow{1}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter. &  \multirow{1}{*}{2.5 Jour} \\
       \cline{1-5}
-      \multirow{2}{*}{3} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).} & 3.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
+      \multirow{1}{*}{3} & En tant qu'utilisateur, je veux me déconnecter de l'application Elise Mobile. & 3.1 & Mettre à jour la fonction de déconnexion. & \multirow{1}{*}{0.5 Jour} \\
+      \cline{1-5}
+      \multirow{2}{*}{4} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).} & 4.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
       \cline{3-4}
-      & & 3.2 & Intégrer les fonctions de vérification biométrique dans certaines actions sensibles tels que la gestion de signature, la signature du document et la gestion des taches. & \\
+      & & 4.2 & Intégrer les fonctions de vérification biométrique dans certaines actions sensibles tels que la gestion de signature, la signature du document et la gestion des taches. & \\
       \cline{1-5}
   \hline
   \caption{Sprint backlog du Sprint 5}
@@ -64,7 +66,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 % add image
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{OIDC_use_case}}
+  \fbox{\includegraphics[width=0.8\textwidth]{use_case_sprint_5}}
   \caption{Diagramme de cas d'utilisation du sprint 5}
   \label{fig:UseCaseDiagramSp51}
 \end{figure}
@@ -175,6 +177,13 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
   \label{fig:sequence_auth_OIDC}
 \end{figure}
 
+\begin{figure}[H]
+  \centering
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/logout_OIDC/logout_OIDC}}
+  \caption{Diagramme de séquence de cas d'utilisation « Déconnexion »}
+  \label{fig:sequence_logout_OIDC}
+\end{figure}
+
 
 \begin{figure}[H]
   \centering
@@ -226,6 +235,13 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
   \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_OIDC/sequence_OIDC}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
   \label{fig:sequence_conception_auth_OIDC}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_Logout/sequence_Logout}}
+  \caption{Diagramme de séquence de conception de cas d'utilisation « Déconnexion »}
+  \label{fig:sequence_conception_logout_OIDC}
 \end{figure}
 
 \begin{figure}[H]
