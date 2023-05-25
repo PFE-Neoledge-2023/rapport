@@ -11,7 +11,7 @@ participant "eliseRestApi" as eliseRestApi << service >>
 ref over user,manageAbsencePage,eliseRestApi,profil,settingsStore : Authentification
 
 activate user
-user -> manageAbsencePage : click on "Annuler absence"
+user -> manageAbsencePage : clicker sur "Annuler absence"
 activate manageAbsencePage
 manageAbsencePage -> settingsStore : desActivateAbsence()
 activate settingsStore

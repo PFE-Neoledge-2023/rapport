@@ -1,22 +1,26 @@
 \chapter*{Release 1}
 \addcontentsline{toc}{chapter}{Release 1}
 \markboth{Release 1}{Release 1}
-\renewcommand\fbox{\fcolorbox{blue}{white}}
 \label{chap:release1}
+\setcounter{part}{0}
+\setcounter{chapter}{0}
+\setcounter{section}{0}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\thesection}{\arabic{section}}
 \section*{Introduction}
-
 Ce chapitre présente la première version de notre application. Il est composé de quatre sprints qui ont été réalisés en 8 semaines. Nous avons commencé par la conception de l'application, puis nous avons implémenté les fonctionnalités de base de l'application tels que la gestion des documents et des signatures. Dans ce chapitre, nous décrirons en détail les fonctionnalités de chaque sprint, les défis que nous avons rencontrés et les solutions que nous avons apportées pour les surmonter.
 
 Release 1 : (Du 8 Février Au 19 Avril)
 
 \fbox{\begin{minipage}{30em}
   \textbf{Organisation des sprints :} \\
-  Cette release contient les quatre sprints:
+  Cette release contient les quatre sprints :
   \begin{itemize}
-    \item \textbf{Sprint 1:} Préparation de l'environnement du travail et étude de la solution.
-    \item \textbf{Sprint 2:} Gestion des signatures.
-    \item \textbf{Sprint 3:} Gestion des documents.
-    \item \textbf{Sprint 4:} Visualisation et signature de fichiers.
+    \item \textbf{Sprint 1 :} Préparation de l'environnement du travail et étude de la solution.
+    \item \textbf{Sprint 2 :} Gestion des signatures.
+    \item \textbf{Sprint 3 :} Gestion des documents.
+    \item \textbf{Sprint 4 :} Visualisation et signature de fichiers.
   \end{itemize}
 \end{minipage}}
 
@@ -51,7 +55,7 @@ L'objectif de ce sprint est de préparer l'environnement de travail et d'étudie
     \cline{3-4}
     &  &  3.2 &Installer Android Studio.&\\
     \cline{3-4}
-    &  &  3.3 &Installer .NET Core 6 .&\\
+    &  &  3.3 &Installer .NET Core 6.&\\
     \cline{3-4}
     &  &  3.4 &Installer Ionic Version6.&\\
     \cline{3-4}
@@ -96,12 +100,12 @@ L'objectif de ce sprint est de préparer l'environnement de travail et d'étudie
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{use_case_documents_sprint_1}
+  \fbox{\includegraphics[width=0.7\textwidth]{use_case_documents_sprint_1}}
   \caption{Diagramme de cas d'utilisation du sprint }
   \label{fig:UseCaseDiagram1}
 \end{figure}
 
-\subsubsection{Analyse des besoins:}
+\subsubsection{Analyse des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « S'authentifier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -173,7 +177,7 @@ Pour créer notre plateforme, nous avons pensé qu'il était nécessaire de réa
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{design_auth}
+  \fbox{\includegraphics[width=0.5\textwidth]{design_auth}}
   \caption{Maquette de la d'authentification}
   \label{fig:design_auth}
 \end{figure}
@@ -183,14 +187,14 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{out/diagrams/authentification/simple_login/simple_login}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/authentification/simple_login/simple_login}}
   \caption{Diagramme de séquence de cas d'utilisation « S'authentifier »}
   \label{fig:sequence_login}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{out/diagrams/authentification/logout/logout}
+  \fbox{\includegraphics[width=0.4\textwidth]{out/diagrams/authentification/logout/logout}}
   \caption{Diagramme de séquence de cas d'utilisation « Se déconnecter »}
   \label{fig:sequence_logout}
 \end{figure}
@@ -218,7 +222,7 @@ Les objets de diagramme d'analyse sont les suivants :
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint1}
+  \fbox{\includegraphics[width=1\textwidth]{dca_sprint1}}
   \caption{Diagramme de classe d'analyse de sprint 1}
   \label{fig:class_analyse_auth}
 \end{figure}
@@ -232,7 +236,7 @@ Après la présentation des diagrammes d'analyse, nous allons présenter dans ce
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{dcc_sprint1}
+  \fbox{\includegraphics[width=0.9\textwidth]{dcc_sprint1}}
   \caption{Diagramme de classe de conception de sprint 1}
   \label{fig:class_diagram_auth}
 \end{figure}
@@ -240,14 +244,14 @@ Après la présentation des diagrammes d'analyse, nous allons présenter dans ce
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{out/diagrams/authentification/sequence_simple_login/sequence_simple_login}
+  \fbox{\includegraphics[width=0.9\textwidth]{out/diagrams/authentification/sequence_simple_login/sequence_simple_login}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « S'authentifier »}
   \label{fig:sequence_conception_login}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/authentification/sequence_logout/sequence_logout}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/authentification/sequence_logout/sequence_logout}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Se déconnecter »}
   \label{fig:sequence_conception_logout}
 \end{figure}
@@ -259,7 +263,7 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realision_auth}
+  \fbox{\includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realision_auth}}
   \caption{Les interfaces d'authentification}
   \label{fig:realision_auth}
 \end{figure}
@@ -348,12 +352,12 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{use_case_signature_sprint_2}
+  \fbox{\includegraphics[width=0.8\textwidth]{use_case_signature_sprint_2}}
   \caption{Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »}
   \label{fig:UseCaseDiagram}
 \end{figure}
 
-\subsubsection{Analyse des besoins:}
+\subsubsection{Analyse des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Créer une signature »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -530,14 +534,14 @@ Les maquettes suivantes représentent les interfaces de la page des signatures.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{design_signatures1}
+  \fbox{\includegraphics[width=0.6\textwidth]{design_signatures1}}
   \caption{Maquette de la page des signatures (Lister, créer et supprimer)}
   \label{fig:design_signatures}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{design_signatures2}
+  \fbox{\includegraphics[width=0.4\textwidth]{design_signatures2}}
   \caption{Maquette de la page des signatures (Visualiser et modifier)}
   \label{fig:design_preview_delete_signature}
 \end{figure}
@@ -546,28 +550,28 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{out/diagrams/signatures/create/create_signature}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/signatures/create/create_signature}}
   \caption{Diagramme de séquence de cas d'utilisation « Créer une signature  »}
   \label{fig:sequence_create_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{out/diagrams/signatures/delete/delete_signature}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/signatures/delete/delete_signature}}
   \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature  »}
   \label{fig:sequence_delete_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/view/view_signature}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/signatures/view/view_signature}}
   \caption{Diagramme de séquence de cas d'utilisation « Visualiser une signature  »}
   \label{fig:sequence_view_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/update/update_signature}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/signatures/update/update_signature}}
   \caption{Diagramme de séquence de cas d'utilisation « Modifier une signature  »}
   \label{fig:sequence_update_signature}
 \end{figure}
@@ -579,7 +583,7 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint2}
+  \fbox{\includegraphics[width=1\textwidth]{dca_sprint2}}
   \caption{Diagramme de classe d'analyse de sprint 2}
   \label{fig:class_analyse_signatures}
 \end{figure}
@@ -593,7 +597,7 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dcc_spint2}
+  \fbox{\includegraphics[width=1\textwidth]{dcc_spint2}}
   \caption{Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
   \label{fig:class_diagram_signatures}
 \end{figure}
@@ -601,28 +605,28 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{out/diagrams/signatures/sequence_create/sequence_create_signature}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/signatures/sequence_create/sequence_create_signature}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Créer une signature  »}
   \label{fig:sequence_conception_create_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_view/sequence_view_signature}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_view/sequence_view_signature}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Visualiser une signature  »}
   \label{fig:sequence_conception_view_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_delete/sequence_delete_signature}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_delete/sequence_delete_signature}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature  »}
   \label{fig:sequence_conception_delete_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_update/sequence_update_signature}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/signatures/sequence_update/sequence_update_signature}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Modifier une signature  »}
   \label{fig:sequence_conception_update_signature}
 \end{figure}
@@ -632,14 +636,14 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 Après la présentation des diagrammes d'analyse, nous allons présenter dans cette partie des captures d'écran qui représentent les interfaces de gestion des signatures.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{realisation_signatures1}
+  \fbox{\includegraphics[width=0.7\textwidth]{realisation_signatures1}}
   \caption{Captures de la page des signatures (Lister, créer et supprimer)}
   \label{fig:realisation_signatures}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{realisation_signatures2}
+  \fbox{\includegraphics[width=0.5\textwidth]{realisation_signatures2}}
   \caption{Captures de la page des signatures (Visualiser et supprimer)}
   \label{fig:realisation_preview_delete_signature}
 \end{figure}
@@ -647,7 +651,7 @@ Après la présentation des diagrammes d'analyse, nous allons présenter dans ce
 
 \subsection{Développement de lecteur de fichier}
 \subsubsection{Besoins et spécifications}
-Ce lecteur est conçu pour permettre la visualisation de fichiers PDF dans un environnement Vue.js. Les principaux besoins et spécifications du package étaient les suivants:
+Ce lecteur est conçu pour permettre la visualisation de fichiers PDF dans un environnement Vue.js. Les principaux besoins et spécifications du package étaient les suivants :
 \begin{itemize}
   \item Chargement et affichage de fichiers PDF locaux sous forme base64.
   \item Prise en charge de la navigation par page ou l'affichage de tous les pages dans le document PDF.
@@ -679,7 +683,7 @@ Nous avons choisi de nommer le package neo-pdf-viewer. Il est disponible sur le 
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.7\textwidth]{neo_pdf_npm}
+  \fbox{\includegraphics[width=0.7\textwidth]{neo_pdf_npm}}
   \caption{Publication du package neo-pdf-viewer}
   \label{fig:npm_package}
 \end{figure}
@@ -690,13 +694,13 @@ En moyenne, pour un fichier de 1-5 pages avec de détails moyens, le temps de ch
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{rendering_pdf_viewer}
+  \fbox{\includegraphics[width=0.7\textwidth]{rendering_pdf_viewer}}
   \caption{Performances du package neo-pdf-viewer}
   \label{fig:performance_package}
 \end{figure}
 
 
-\subsection{Sprint Review:}
+\subsection{Sprint Review}
 A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
 
 Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
@@ -709,7 +713,7 @@ Nous avons fait une démonstration durant laquelle nous allons présenter notre 
   \item La création et la publication du package neo-pdf-viewer.
 \end{itemize}
 
-\subsection{Sprint retrospective:}
+\subsection{Sprint Retrospective}
 
 Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.
 
@@ -728,7 +732,7 @@ Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la 
 
 % sprint =3
 \section{Sprint 3 « Gestion des documents »}
-\subsection{Sprint Goal:}
+\subsection{Sprint Goal}
 
 L'objectif de ce sprint est de développer et mettre en place un système de gestion des documents permettant aux utilisateurs de consulter les informations du document, consulter et gérer un fichier dans un document, consulter et gérer les tâches dans un document, chercher des documents et consulter la liste des documents en favoris
 
@@ -834,13 +838,13 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{use_case_documents_sprint_3}
+  \fbox{\includegraphics[width=0.8\textwidth]{use_case_documents_sprint_3}}
   \caption{Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
   \label{fig:UseCaseDiagramSprint3}
 \end{figure}
 
 
-\subsubsection{Analyse des besoins:}
+\subsubsection{Analyse des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Accéder à un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -1342,21 +1346,21 @@ Les maquettes suivantes représentent les interfaces de chaque cas d'utilisation
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{design_show_documents}
+  \fbox{\includegraphics[width=0.6\textwidth]{design_show_documents}}
   \caption{Maquette de l'affichage des documents}
   \label{fig:design_show_documents}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{design_content}
+  \fbox{\includegraphics[width=0.6\textwidth]{design_content}}
   \caption{Maquette de l'affichage de contenu d'un document}
   \label{fig:design_show_document}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{design_task_managment}
+  \fbox{\includegraphics[width=0.6\textwidth]{design_task_managment}}
   \caption{Maquette de l'affichage de gestion des tâches}
   \label{fig:design_manage_tasks}
 \end{figure}
@@ -1366,67 +1370,67 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 % Add sequence system
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{out/diagrams/documents/preview/preview_document}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/documents/preview/preview_document}}
   \caption{Diagramme de séquence de cas d'utilisation « Accéder à un document  »}
   \label{fig:sequence_Accederaundocument}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{out/diagrams/documents/download/download}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/documents/download/download}}
   \caption{Diagramme de séquence de cas d'utilisation « Télécharger un document  »}
   \label{fig:sequence_telechargerundocument}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{out/diagrams/documents/previewFiles/preview_files_document}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/documents/previewFiles/preview_files_document}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des fichiers d'un document  »}
   \label{fig:sequence_previewFiles}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{out/diagrams/documents/previewTasks/preview_tasks_document}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/documents/previewTasks/preview_tasks_document}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des tâches d'un document  »}
   \label{fig:sequence_previewTasks}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{out/diagrams/documents/transfer_task/transfer_task}
+  \fbox{\includegraphics[width=0.4\textwidth]{out/diagrams/documents/transfer_task/transfer_task}}
   \caption{Diagramme de séquence de cas d'utilisation « Transferer une tâche  »}
   \label{fig:sequence_transfer_task}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.4\textwidth]{out/diagrams/documents/traiter_task/traiter_task}
+  \fbox{\includegraphics[width=0.4\textwidth]{out/diagrams/documents/traiter_task/traiter_task}}
   \caption{Diagramme de séquence de cas d'utilisation « Traiter une tâche  »}
   \label{fig:sequence_traiter_task}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{out/diagrams/documents/add_file/add_file}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/documents/add_file/add_file}}
   \caption{Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document  »}
   \label{fig:sequence_add_file}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[height=1\textheight]{out/diagrams/documents/add_scan_file/add_scan_file}
+  \fbox{\includegraphics[height=1\textheight]{out/diagrams/documents/add_scan_file/add_scan_file}}
   \caption{Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document via scan  »}
   \label{fig:sequence_add_scan_file}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/favoris/favorit_document}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/documents/favoris/favorit_document}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter la liste des documents en favoris  »}
   \label{fig:sequence_favorit_document}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/chercher/charcher_document}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/documents/chercher/charcher_document}}
   \caption{Diagramme de séquence de cas d'utilisation « Chercher des documents  »}
   \label{fig:sequence_charcher_document}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/documents/scan_qr/scan_qr}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/documents/scan_qr/scan_qr}}
   \caption{Diagramme de séquence de cas d'utilisation « Recherche a l'aide de code QR »}
   \label{fig:sequence_scan_qr}
 \end{figure}
@@ -1436,7 +1440,7 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint3}
+  \fbox{\includegraphics[width=1\textwidth]{dca_sprint3}}
   \caption{Diagramme de classe d'analyse de sprint 3}
   \label{fig:class_analyse_signatures3}
 \end{figure}
@@ -1453,7 +1457,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[height=0.8\textheight]{dcc_spint3}
+  \fbox{\includegraphics[height=0.8\textheight]{dcc_spint3}}
   \caption{Diagramme de classe de conception de sprint 3 : « Gestion des signatures »}
   \label{fig:class_diagram_signatures3}
 \end{figure}
@@ -1461,49 +1465,49 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \newpage
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview/sequence_preview}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview/sequence_preview}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Accéder à un document »}
   \label{fig:sequence_conception_preview_document}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview_files/sequence_preview_files}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview_files/sequence_preview_files}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des fichiers d'un document »}
   \label{fig:sequence_conception_previewFiles}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview_tasks/sequence_preview_tasks}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview_tasks/sequence_preview_tasks}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des tâches d'un document »}
   \label{fig:sequence_conception_previewTasks}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_favoris/sequence_favoris}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_favoris/sequence_favoris}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des documents en favoris »}
   \label{fig:sequence_conception_favoritDocument}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_transfer_task/sequence_transfer_task}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_transfer_task/sequence_transfer_task}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Transferer une tâche »}
   \label{fig:sequence_conception_transferTask}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_traiter_task/sequence_traiter_task}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_traiter_task/sequence_traiter_task}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Traiter une tâche »}
   \label{fig:sequence_conception_traiterTask}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_add_file/sequence_add_file}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_add_file/sequence_add_file}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Ajoutez un fichier à un document »}
   \label{fig:sequence_conception_addFile}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_chercher/sequence_chercher}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_chercher/sequence_chercher}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Chercher des documents »}
   \label{fig:sequence_conception_charcherDocument}
 \end{figure}
@@ -1514,28 +1518,28 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{realisation_documents1}
+  \fbox{\includegraphics[width=0.6\textwidth]{realisation_documents1}}
   \caption{Réalisation de la page des documents (Favoris et recherche(Simple et code QR))}
   \label{fig:realisation_documents1}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{realisation_documents2}
+  \fbox{\includegraphics[width=0.6\textwidth]{realisation_documents2}}
   \caption{Réalisation de la page de document (Fichier, Info et Tâches)}
   \label{fig:realisation_documents2}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{realisation_documents3}
+  \fbox{\includegraphics[width=0.6\textwidth]{realisation_documents3}}
   \caption{Réalisation de la page de document (Ajouter un fichier (Importer et Scanner))}
   \label{fig:realisation_documents3}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{realisation_documents4}
+  \fbox{\includegraphics[width=0.6\textwidth]{realisation_documents4}}
   \caption{Réalisation de la page de document (ajouter, transférer et traiter une tâche)}
   \label{fig:realisation_documents4}
 \end{figure}
@@ -1551,7 +1555,7 @@ La figure suivante présente l'environnement de test unitaire utilisé pour test
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{testingtech}
+  \fbox{\includegraphics[width=0.5\textwidth]{testingtech}}
   \caption{Environnement de test unitaire}
   \label{fig:environnementdetestunitaire}
 \end{figure}
@@ -1568,14 +1572,14 @@ La figure suivante présente le cycle de développement du test unitaire utilis�
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\textwidth]{diagramme_test}
+  \fbox{\includegraphics[width=0.3\textwidth]{diagramme_test}}
   \caption{Cycle de développement du test unitaire}
   \label{fig:cyclededveloppementdutestunitaire}
 \end{figure}
 
 \textbf{•	Planification des tests unitaires}
 
-\textbf{Note : } Jusqu'à présent, nous avons couvrés:
+\textbf{Note : } Jusqu'à présent, nous avons couvrés :
 \begin{itemize}
   \item Le composant de tâche.
   \item Le panneau de confirmation de la tâche.
@@ -1588,7 +1592,7 @@ La figure suivante présente les résultats des tests unitaires réalisés dans 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{capture_test_success_sprint_3}
+  \fbox{\includegraphics[width=0.8\textwidth]{capture_test_success_sprint_3}}
   \caption{Résultats des tests unitaires}
   \label{fig:resultatstestunitaire}
 \end{figure}
@@ -1596,7 +1600,7 @@ La figure suivante présente les résultats des tests unitaires réalisés dans 
 Comme le montre la figure ci-dessus, tous les tests unitaires ont réussi.
 
 
-\subsection{Sprint Review:}
+\subsection{Sprint Review}
 A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge avec le vise avis à Lille, France afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
 Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
 \begin{itemize}
@@ -1608,7 +1612,7 @@ Nous avons fait une démonstration durant laquelle nous allons présenter notre 
   \item L'ajout des tests unitaires.
 \end{itemize}
 
-\subsection{Sprint Retrospective:}
+\subsection{Sprint Retrospective}
 
 Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.\\
 \noindent\textbf{•	Ce qui a bien passé :}
@@ -1622,11 +1626,11 @@ Manque de documentation de l'ionic
 
 % SPrint 4 visualisation et signature d'un fichier
 \section{Sprint 4 (Visualisation et signature d'un fichier)}
-\subsection{Sprint Goal:}
+\subsection{Sprint Goal}
 L'objectif de ce sprint est de développer et mettre en place un système de visualisation et de signature d'un fichier permettant aux utilisateurs de consulter le fichier et le signer par plusieurs méthodes.
 
 
-\subsection{Sprint Backlog « Visualisation et signature d'un fichier »:}
+\subsection{Sprint Backlog « Visualisation et signature d'un fichier »}
 
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
@@ -1649,7 +1653,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
       \multirow{1}{*}{2} & En tant qu'utilisateur, je veux télécharger un fichier, afin d'avoir une copie locale du fichier sur mon appareil. & 2.1 & Développer une fonction qui permet de télécharger un fichier. & \multirow{1}{*}{2 Jour} \\
       \cline{1-5}
 
-      \multirow{4}{*}{3} & \multirow{4}{6cm}{En tant qu'utilisateur, je souhaite signer des fichiers avec image, Je veux être en mesure de sélectionner une signature pré-enregistrée parmi celles que j'ai créées précédemment, en utilisant simplement un système de glisser déposer pour l'appliquer au document à signer.}& 3.1 & Préparer les interfaces sur Figma. & \multirow{4}{*}{2 Jour} \\
+      \multirow{4}{*}{3} & En tant qu'utilisateur, je souhaite signer des fichiers avec image, Je veux être en mesure de sélectionner une signature pré-enregistrée parmi celles que j'ai créées précédemment, en utilisant simplement un système de glisser déposer pour l'appliquer au document à signer.& 3.1 & Préparer les interfaces sur Figma. & \multirow{4}{*}{2 Jour} \\
       \cline{3-4}
       & & 3.2 & Développer l'interface pour afficher la liste des signatures. & \\
       \cline{3-4}
@@ -1683,16 +1687,16 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
 \end{adjustwidth}
 
 \subsection{Implémentation du Sprint 4}
-\textbf{•	Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »}
+\textbf{•	Diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier »}
 
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{use_case_documents_sprint_4}
-  \caption{Diagramme de cas d'utilisation du sprint 4 : « Visualisation et signature d'un fichier »}
+  \fbox{\includegraphics[width=0.8\textwidth]{use_case_documents_sprint_4}}
+  \caption{Diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier »}
   \label{fig:UseCaseDiagram4}
 \end{figure}
-\subsubsection{Analyse des besoins:}
+\subsubsection{Analyse des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Visualiser un fichier  »}
 \begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
@@ -1951,7 +1955,7 @@ Les maquettes suivantes représentent les interfaces de chaque cas d'utilisation
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{design_file}
+  \fbox{\includegraphics[width=1\textwidth]{design_file}}
   \caption{Maquette de l'affichage d'un fichier}
   \label{fig:design_file_preview}
 \end{figure}
@@ -1959,7 +1963,7 @@ Les maquettes suivantes représentent les interfaces de chaque cas d'utilisation
 Dans les diagrammes de séquence suivants, nous allons détailler les cas d'utilisation de cette sprint.\\
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/view_file/view_file}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/view_file/view_file}}
   \caption{Diagramme de séquence de cas d'utilisation « Visualiser un fichier   »}
   \label{fig:sequence_view_file}
 \end{figure}
@@ -1967,14 +1971,14 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 % Télécharger un fichier 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/download_file/download_file}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/download_file/download_file}}
   \caption{Diagramme de séquence de cas d'utilisation « Télécharger un fichier   »}
   \label{fig:sequence_download_file}
 \end{figure}
 % Signer par glisser et déposer une image dans un fichier 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{out/diagrams/sprint4/sign_by_image/sign_by_image}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint4/sign_by_image/sign_by_image}}
   \caption{Diagramme de séquence de cas d'utilisation « Signer par glisser et déposer une image dans un fichier   »}
   \label{fig:sequence_sign_by_image}
 \end{figure}
@@ -1982,14 +1986,14 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 % Signer à main un fichier Modifier la position d'une signature d'un fichier 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{out/diagrams/sprint4/sign_by_hand/sign_by_hand}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint4/sign_by_hand/sign_by_hand}}
   \caption{Diagramme de séquence de cas d'utilisation « Signer à main un fichier   »}
   \label{fig:sequence_sign_by_hand}
 \end{figure}
 % Modifier la position d'une signature d'un fichier 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{out/diagrams/sprint4/move_signature/move_signature}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint4/move_signature/move_signature}}
   \caption{Diagramme de séquence de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
   \label{fig:sequence_move_signature}
 \end{figure}
@@ -1997,14 +2001,14 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 % Supprimer une signature d'un fichier 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/delete_signature/delete_signature}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/delete_signature/delete_signature}}
   \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature d'un fichier »}
   \label{fig:sequence_delete_signature_sp4}
 \end{figure}
 % Confirmer ou annuler les changements d'un fichier 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/save_cancel_siganture/save_cancel_siganture}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/save_cancel_siganture/save_cancel_siganture}}
   \caption{Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
   \label{fig:sequence_save_cancel_siganture}
 \end{figure}
@@ -2017,7 +2021,7 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint4}
+  \fbox{\includegraphics[width=1\textwidth]{dca_sprint4}}
   \caption{Diagramme de classe d'analyse de sprint 4}
   \label{fig:class_analyse_4}
 \end{figure}
@@ -2031,12 +2035,12 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \newpage 
 \begin{landscape}
 
-\textbf{•	Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »}
+\textbf{•	Diagramme de classe de conception de sprint 4 « Visualisation et signature d'un fichier »}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[height=0.8\textheight]{dcc_spint4}
-  \caption{Diagramme de classe de conception de sprint 4 : « Visualisation et signature d'un fichier »}
+  \fbox{\includegraphics[height=0.8\textheight]{dcc_spint4}}
+  \caption{Diagramme de classe de conception de sprint 4 « Visualisation et signature d'un fichier »}
   \label{fig:class_diagram_4}
 \end{figure}
 \end{landscape}
@@ -2045,49 +2049,49 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_view_file/sequence_view_file}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_view_file/sequence_view_file}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Visualiser un fichier »}
   \label{fig:sequence_conception_view_file}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_download_file/sequence_download_file}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_download_file/sequence_download_file}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Télécharger un fichier »}
   \label{fig:sequence_conception_download_file}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_sign_by_image/sequence_sign_by_image}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_sign_by_image/sequence_sign_by_image}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »}
   \label{fig:sequence_conception_sign_by_image}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_sign_by_hand/sequence_sign_by_hand}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/sequence_sign_by_hand/sequence_sign_by_hand}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Signer à main un fichier »}
   \label{fig:sequence_conception_sign_by_hand}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_move_signature/sequence_move_signature}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_move_signature/sequence_move_signature}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
   \label{fig:sequence_conception_move_signature}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_delete_signature/sequence_delete_signature}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer une signature d'un fichier »}
   \label{fig:sequence_conception_delete_signature_from_foile}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_save_cancel_siganture/sequence_save_cancel_siganture}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint4/sequence_save_cancel_siganture/sequence_save_cancel_siganture}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
   \label{fig:sequence_conception_save_cancel_siganture}
 \end{figure}
@@ -2098,19 +2102,19 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.45\textwidth]{realisation_file1}
+  \fbox{\includegraphics[width=0.45\textwidth]{realisation_file1}}
   \caption{Captures de l'affichage d'un fichier (par page ou par liste)}
   \label{fig:realisation_file_1}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{realisation_file2}
+  \fbox{\includegraphics[width=0.5\textwidth]{realisation_file2}}
   \caption{Captures de l'affichage d'un fichier (partie signature)}
   \label{fig:realisation_file_2}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{realisation_file3}
+  \fbox{\includegraphics[width=0.5\textwidth]{realisation_file3}}
   \caption{Captures de l'affichage d'un fichier (validation/annulation des signatures et téléchargement)}
   \label{fig:realisation_file_3}
 \end{figure}
@@ -2118,13 +2122,13 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \begin{figure}[H]
   \begin{subfigure}[t]{0.4\textwidth}
   \centering
-  \includegraphics[width=\linewidth]{prendre_en_charge_image}
+  \fbox{\includegraphics[width=\linewidth]{prendre_en_charge_image}}
   \caption{Capture de la prise en charge de l'affichage d'une image.}
   \label{fig:prendre_en_charge_image}
   \end{subfigure}\hfill
   \begin{subfigure}[t]{0.4\textwidth}
   \centering
-  \includegraphics[width=\linewidth]{zoom}
+  \fbox{\includegraphics[width=\linewidth]{zoom}}
   \caption{Capture de l'affichage d'un fichier (zoom).}
   \label{fig:zoom}
   \end{subfigure}
@@ -2135,7 +2139,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 Voir annexe pour plus de détails sur l'amélioration de neo-pdf-viewer.
 
 
-\subsection{Sprint review:}
+\subsection{Sprint Review}
 
 
 A la fin de ce sprint, nous avons planifié une autre réunion dans la société Neoledge  afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
@@ -2150,7 +2154,7 @@ Nous avons fait une démonstration durant laquelle nous allons présenter notre 
   \item La confirmation ou l'annulation de la signature d'un fichier
 \end{itemize}
 
-\subsection{Sprint retrospective:}
+\subsection{Sprint Retrospective}
 
 Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.
 

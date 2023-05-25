@@ -102,6 +102,13 @@ urlcolor=blue}
   \renewcommand{\headrulewidth}{0pt}
 }
 
+% add bottom rule to all pages
+\renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+\renewcommand{\footrule}{\hbox to\headwidth{%
+  \color{black}\leaders\hrule height \footrulewidth\hfill}}
+  
+  
+
 
 
 \makeatletter
@@ -249,7 +256,7 @@ urlcolor=blue}
 \appto\listofalgorithms{\addtocontents{loa}{\protect\setcounter{tocdepth}{1}}}
 
 
-\renewcommand{\thesection}{\arabic{section}}
+\renewcommand\thesection{\arabic{section}}
 \setcounter{section}{1}
 \setcounter{tocdepth}{3}
 \setcounter{secnumdepth}{3}

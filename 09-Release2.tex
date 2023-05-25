@@ -1,23 +1,28 @@
 \chapter*{Release 2}
 \addcontentsline{toc}{chapter}{Release 2}
 \markboth{Release 2}{Release 2}
-\renewcommand\fbox{\fcolorbox{blue}{white}}
 \label{chap:release2}
+\setcounter{part}{0}
+\setcounter{chapter}{0}
+\setcounter{section}{0}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\thesection}{\arabic{section}}
 
 \section*{Introduction}
 
-Ce chapitre présente la deuxieme version de notre application.Il est composé de quatre sprints qui ont été réalisés en 8 semaines. Nous avons commencé par l'ajout de la fonctionnalité d'authentification a l'aide en utilisant l'OIDC, puis nous avons ajouté la fonctionnalité de gestion de profil, absence et de delegation. Enfin, nous avons ajouté la fonctionnalité de consultation des statistiques. Dans ce chapitre, nous décrirons en détail les fonctionnalités de chaque sprint, les défis que nous avons rencontrés et les solutions que nous avons apportées pour les surmonter.
+Ce chapitre présente la deuxieme version de notre application. Il est composé de quatre sprints qui ont été réalisés en 8 semaines. Nous avons commencé par l'ajout de la fonctionnalité d'authentification a l'aide en utilisant l'OIDC, puis nous avons ajouté la fonctionnalité de gestion de profil, absence et de delegation. Enfin, nous avons ajouté la fonctionnalité de consultation des statistiques. Dans ce chapitre, nous décrirons en détail les fonctionnalités de chaque sprint, les défis que nous avons rencontrés et les solutions que nous avons apportées pour les surmonter.
 
 Release 2 : (Du 3 Avril au 27 Mai 2023)
 
 \fbox{\begin{minipage}{30em}
   \textbf{Organisation des sprints :} \\
-  Cette release contient les quatre sprints:
+  Cette release contient les quatre sprints :
   \begin{itemize}
-    \item \textbf{Sprint 5:} Gestion d'authentification OIDC et verification biometrique.
-    \item \textbf{Sprint 6:} Paramétrage des applications et gestion de profil et absence.
-    \item \textbf{Sprint 7:} Consultation des statistique
-    \item \textbf{Sprint 8:} .....
+    \item \textbf{Sprint 5 :} Gestion d'authentification OIDC et verification biometrique.
+    \item \textbf{Sprint 6 :} Paramétrage des applications et gestion de profil et absence.
+    \item \textbf{Sprint 7 :} Consultation des statistique
+    \item \textbf{Sprint 8 :} .....
   \end{itemize}
 \end{minipage}}
 
@@ -37,10 +42,10 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
-      \multirow{2}{*}{1} & En tant que membre scrum , je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
+      \multirow{2}{*}{1} & En tant que membre scrum, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
       & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
-      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter . &  \multirow{3}{*}{2.5 Jour} \\
+      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter. &  \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
       \multirow{2}{*}{3} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).} & 3.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
       \cline{3-4}
@@ -59,12 +64,12 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{OIDC_use_case}
+  \fbox{\includegraphics[width=0.8\textwidth]{OIDC_use_case}}
   \caption{Diagramme de cas d'utilisation du sprint 5}
   \label{fig:UseCaseDiagramSp51}
 \end{figure}
 
-\subsubsection{Analyse des besoins:}
+\subsubsection{Analyse des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Connexion à l'aide du protocole OIDC  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -155,7 +160,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{design_OIDC}
+  \fbox{\includegraphics[width=0.7\textwidth]{design_OIDC}}
   \caption{Maquette de la page de connexion à l'aide du protocole OIDC}
   \label{fig:design_OIDC}
 \end{figure}
@@ -165,7 +170,7 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/auth_OIDC/auth_OIDC}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/auth_OIDC/auth_OIDC}}
   \caption{Diagramme de séquence de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
   \label{fig:sequence_auth_OIDC}
 \end{figure}
@@ -173,11 +178,11 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/verification_biometrique/verification_biometrique}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/verification_biometrique/verification_biometrique}}
   \caption{Diagramme de séquence de cas d'utilisation « Vérification biométrique »}
   \label{fig:sequence_verification_biometrique}
 \end{figure}  
-\textbf{Note: C'est un diagramme général qui illustre le processus de vérification biométrique pour différentes actions qui nécessitent une authentification sécurisée, telles que la gestion de signatures, la gestion des tâches et la signature de documents. Ce diagramme montre comment l'utilisateur doit effectuer une vérification biométrique en utilisant des technologies telles que la reconnaissance faciale ou la reconnaissance d'empreintes digitales, pour accéder à des fonctionnalités sensibles de l'application.}
+\textbf{Note : C'est un diagramme général qui illustre le processus de vérification biométrique pour différentes actions qui nécessitent une authentification sécurisée, telles que la gestion de signatures, la gestion des tâches et la signature de documents. Ce diagramme montre comment l'utilisateur doit effectuer une vérification biométrique en utilisant des technologies telles que la reconnaissance faciale ou la reconnaissance d'empreintes digitales, pour accéder à des fonctionnalités sensibles de l'application.}
 
 
 \subsubsection{Analyse détaillée}
@@ -195,7 +200,7 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint5}
+  \fbox{\includegraphics[width=1\textwidth]{dca_sprint5}}
   \caption{Diagramme de classe d'analyse de sprint 5}
   \label{fig:class_analyse_sprint5}
 \end{figure}
@@ -210,7 +215,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dcc_sprint5}
+  \fbox{\includegraphics[width=1\textwidth]{dcc_sprint5}}
   \caption{Diagramme de classe de conception de sprint 5}
   \label{fig:class_diagram_51}
 \end{figure}
@@ -218,14 +223,14 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_OIDC/sequence_OIDC}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_OIDC/sequence_OIDC}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Connexion à l'aide du protocole OIDC »}
   \label{fig:sequence_conception_auth_OIDC}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_verification_biometrique/sequence_verification_biometrique}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_verification_biometrique/sequence_verification_biometrique}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Vérification biométrique »}
   \label{fig:sequence_conception_verification_biometrique}
 \end{figure}
@@ -237,7 +242,7 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_OIDC}
+  \fbox{\includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_OIDC}}
   \caption{Les interfaces de la page de connexion à l'aide du protocole OIDC}
   \label{fig:realisation_OIDC}
 \end{figure}
@@ -321,13 +326,13 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{use_case_sprint_6}
+  \fbox{\includegraphics[width=0.7\textwidth]{use_case_sprint_6}}
   \caption{Diagramme de cas d'utilisation du sprint 6}
   \label{fig:UseCaseDiagramSp61}
 \end{figure}
 
 
-\subsubsection{Analyse des besoins:}
+\subsubsection{Analyse des besoins}
 
 \textbf{•	Description textuelle de cas d'utilisation « Consulter la page de paramétre  »}
 
@@ -696,7 +701,7 @@ Erreur de connexion\\
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{design_sprint_6}
+  \fbox{\includegraphics[width=0.7\textwidth]{design_sprint_6}}
   \caption{Maquette de l'interface de paramétrage et de gestion des absences}
   \label{fig:MaquetteInterfaceParametrageGestionAbsences}
 \end{figure}
@@ -706,14 +711,14 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/consult_settings_page/consult_settings_page}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/consult_settings_page/consult_settings_page}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter la page de paramétre »}
   \label{fig:sequence_consult_settings_page}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/preferance_affichage/preferance_affichage}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/preferance_affichage/preferance_affichage}}
   \caption{Diagramme de séquence de cas d'utilisation « Gérer les préférences d'affichage »}
   \label{fig:sequence_preference_affichage}
 \end{figure}
@@ -721,63 +726,63 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/change_language/change_language}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/change_language/change_language}}
   \caption{Diagramme de séquence de cas d'utilisation « Changer la langue »}
   \label{fig:sequence_change_language}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/clear_cache/clear_cache}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/clear_cache/clear_cache}}
   \caption{Diagramme de séquence de cas d'utilisation « Vider le cache »}
   \label{fig:sequence_clear_cache}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/lister_selectionner_workspaces/lister_selectionner_workspaces}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/lister_selectionner_workspaces/lister_selectionner_workspaces}}
   \caption{Diagramme de séquence de cas d'utilisation « Lister et sélectionner les espaces de travail »}
   \label{fig:sequence_lister_selectionner_workspaces}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/visualiser_profil/visualiser_profil}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/visualiser_profil/visualiser_profil}}
   \caption{Diagramme de séquence de cas d'utilisation « Visualiser les informations personnelles »}
   \label{fig:sequence_visualiser_profil}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/edit_profil_avatar/edit_profil_avatar}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/edit_profil_avatar/edit_profil_avatar}}
   \caption{Diagramme de séquence de cas d'utilisation « Modifier la photo de profil »}
   \label{fig:sequence_edit_profil_avatar}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/declare_absence/declare_absence}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/declare_absence/declare_absence}}
   \caption{Diagramme de séquence de cas d'utilisation « Déclarer l'absence »}
   \label{fig:sequence_declare_absence}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annuler_absence/annuler_absence}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annuler_absence/annuler_absence}}
   \caption{Diagramme de séquence de cas d'utilisation « Annuler une déclaration d'absence »}
   \label{fig:sequence_annuler_absence}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/search_affect_delegation/search_affect_delegation}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/search_affect_delegation/search_affect_delegation}}
   \caption{Diagramme de séquence de cas d'utilisation « Rechercher et affecter un délégué »}
   \label{fig:sequence_search_affect_delegation}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annulation_delegation/annulation_delegation}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annulation_delegation/annulation_delegation}}
   \caption{Diagramme de séquence de cas d'utilisation « Supprimer un délégué »}
   \label{fig:sequence_annulation_delegation}
 \end{figure}
@@ -800,7 +805,7 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.9\textwidth]{dca_sprint6}
+  \fbox{\includegraphics[width=0.9\textwidth]{dca_sprint6}}
   \caption{Diagramme de classe d'analyse de sprint 6}
   \label{fig:class_analyse_sprint6}
 \end{figure}
@@ -816,7 +821,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=\paperwidth]{dcc_sprint6}
+  \fbox{\includegraphics[width=\paperwidth]{dcc_sprint6}}
   \caption{Diagramme de classe de conception de sprint 6}
   \label{fig:class_diagram_61}
 \end{figure}
@@ -825,77 +830,77 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_consult_settings_page/sequence_consult_settings_page}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_consult_settings_page/sequence_consult_settings_page}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter la page de paramétre »}
   \label{fig:conception_sequence_consult_settings_page}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_preferance_affichage/sequence_preferance_affichage}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_preferance_affichage/sequence_preferance_affichage}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Gérer les préférences d'affichage»}
   \label{fig:conception_sequence_preferance_affichage}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_change_language/sequence_change_language}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_change_language/sequence_change_language}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «Changer la langue »}
   \label{fig:conception_sequence_change_language}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_clear_cache/sequence_clear_cache}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_clear_cache/sequence_clear_cache}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Vider le cache »}
   \label{fig:conception_sequence_clear_cache}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_lister_selectionner_workspaces/sequence_lister_selectionner_workspaces}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_lister_selectionner_workspaces/sequence_lister_selectionner_workspaces}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Lister et sélectionner les espaces de travail »}
   \label{fig:conception_sequence_lister_selectionner_workspaces}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_visualiser_profil/sequence_visualiser_profil}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_visualiser_profil/sequence_visualiser_profil}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Visualiser les informations personnelles »}
   \label{fig:conception_sequence_visualiser_profil}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_edit_profil_avatar/sequence_edit_profil_avatar}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_edit_profil_avatar/sequence_edit_profil_avatar}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Modifier la photo de profil »}
   \label{fig:conception_sequence_edit_profil_avatar}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_declare_absence/sequence_declare_absence}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_declare_absence/sequence_declare_absence}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Déclarer l'absence »}
   \label{fig:conception_sequence_declare_absence}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annuler_absence/sequence_annuler_absence}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annuler_absence/sequence_annuler_absence}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Annuler une déclaration d'absence »}
   \label{fig:conception_sequence_annuler_absence}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_search_affect_delegation/sequence_search_affect_delegation}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_search_affect_delegation/sequence_search_affect_delegation}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Rechercher et affecter un délégué »}
   \label{fig:conception_sequence_search_affect_delegation}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annulation_delegation/sequence_annulation_delegation}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annulation_delegation/sequence_annulation_delegation}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer un délégué »}
   \label{fig:conception_sequence_annulation_delegation}
 \end{figure}
@@ -908,14 +913,14 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{realisation_sprint61}
+  \fbox{\includegraphics[width=0.7\textwidth]{realisation_sprint61}}
   \caption{Realisation de l'interface de paramétrage de l'application et la mode sombre}
   \label{fig:RealisationInterfaceParametrage}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{realisation_sprint62}
+  \fbox{\includegraphics[width=0.7\textwidth]{realisation_sprint62}}
   \caption{Realisation de l'interface de modification de profil et gestion d'absence}
   \label{fig:RealisationInterfaceModificationProfil}
 \end{figure}
@@ -994,12 +999,12 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\textwidth]{use_case_sprint_7}
+  \fbox{\includegraphics[width=0.6\textwidth]{use_case_sprint_7}}
   \caption{Diagramme de cas d'utilisation du sprint 7}
   \label{fig:UseCaseDiagramSp71}
 \end{figure}
 
-\subsubsection{Analyse des besoins:}
+\subsubsection{Analyse des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Consulter les statistiques »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -1084,8 +1089,8 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 \textbf{•	Description textuelle de cas d'utilisation « Refraichissement
 des données »}
 
-% Note:
-\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter la description textuelle de ce cas d'utilisation.}
+% Note :
+\textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter la description textuelle de ce cas d'utilisation.}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
@@ -1113,7 +1118,7 @@ des données »}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{design_statistique}
+  \fbox{\includegraphics[width=0.5\textwidth]{design_statistique}}
   \caption{Maquette de la page de statistique et choix d'espace de travail}
   \label{fig:design_statistique}
 \end{figure}
@@ -1123,29 +1128,29 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/view_stats/view_stats}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/view_stats/view_stats}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les statistiques »}
   \label{fig:sequence_view_stats}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/switch_workspace/switch_workspace}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/switch_workspace/switch_workspace}}
   \caption{Diagramme de séquence de cas d'utilisation « Basculer entre les espaces de travail »}
   \label{fig:sequence_switch_workspace}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/docs_quick_filter/docs_quick_filter}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/docs_quick_filter/docs_quick_filter}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_docs_quick_filter}
 \end{figure}
 
-\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
+\textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/refresh_data/refresh_data}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/refresh_data/refresh_data}}
   \caption{Diagramme de séquence de cas d'utilisation « Refraichissement des données »}
   \label{fig:sequence_refresh_data}
 \end{figure}
@@ -1166,7 +1171,7 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dca_sprint7}
+  \fbox{\includegraphics[width=1\textwidth]{dca_sprint7}}
   \caption{Diagramme de classe d'analyse de sprint 7}
   \label{fig:class_analyse_sprint7}
 \end{figure}
@@ -1183,7 +1188,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{dcc_sprint7}
+  \fbox{\includegraphics[width=1\textwidth]{dcc_sprint7}}
   \caption{Diagramme de classe de conception de sprint 7}
   \label{fig:class_diagram_5}
 \end{figure}
@@ -1192,14 +1197,14 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_view_stats/sequence_view_stats}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_view_stats/sequence_view_stats}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter les statistiques »}
   \label{fig:sequence_conception_consulter_statistiques}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_switch_workspace/sequence_switch_workspace}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_switch_workspace/sequence_switch_workspace}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Basculer entre les espaces de travail »}
   \label{fig:sequence_conception_sequence_switch_workspace}
 \end{figure}
@@ -1207,18 +1212,18 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filter}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filter}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_conception_consulter_documents_filtre_rapide}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_refresh_data/sequence_refresh_data}
+  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_refresh_data/sequence_refresh_data}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »}
   \label{fig:sequence_conception_refraichissement_donnees}
 \end{figure}
-\textbf{Note: Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
+\textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
 
 \subsubsection{Réalisation}
 
@@ -1227,7 +1232,7 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 % add image
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_sprint7}
+  \fbox{\includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_sprint7}}
   \caption{Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide}
   \label{fig:realisation_sprint7}
 \end{figure}

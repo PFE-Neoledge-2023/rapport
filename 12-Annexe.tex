@@ -1,4 +1,9 @@
-
+\setcounter{part}{0}
+\setcounter{chapter}{0}
+\setcounter{section}{0}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\thesection}{\arabic{section}}
 \section{neo-pdf-viewer}
 
 \subsection{Fonctionnalité de l'affichage des images}
@@ -13,7 +18,7 @@ L'ajout de la fonctionnalité d'affichage des images à "neo-pdf-viewer" nous a 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{code_image}
+    \fbox{\includegraphics[width=0.8\textwidth]{code_image}}
     \caption{Code d'affichage des images}
     \label{fig:codedisplayimage}
 \end{figure}
@@ -31,7 +36,7 @@ L'ajout de la bibliothèque "vue3-pinch-scroll-zoom" à "neo-pdf-viewer" nous a 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{capture_code_zoom}
+    \fbox{\includegraphics[width=0.7\textwidth]{capture_code_zoom}}
     \caption{Code de zoom}
     \label{fig:zoom_code}
 \end{figure}
