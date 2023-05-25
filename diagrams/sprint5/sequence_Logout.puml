@@ -1,0 +1,81 @@
+@startuml sequence_logout
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "settingsPage" as setView << View >>
+participant "authStore" as auth << ViewModel >>
+participant "Session" as session << Model >>
+participant "settingsStore" as settingsStore << ViewModel >>
+participant "Profile" as profile << Model >>
+participant "documentsStore" as documentsStore << ViewModel >>
+participant "Document" as document << Model >>
+participant "workspacesStore" as workspacesStore << ViewModel >>
+participant "Workspace" as workspace << Model >>
+participant "statsStore" as statsStore << ViewModel >>
+participant "Stats" as stats << Model >>
+participant "signatureStore" as signatureStore << ViewModel >>
+participant "Signature" as signature << Model >>
+
+ref over user,setView,signature,settingsStore,profile,documentsStore,workspacesStore,statsStore,signatureStore : Authentification
+
+user -> setView : clique sur le bouton "déconnecter"
+activate user
+activate setView
+setView -> auth : logout()
+activate auth
+auth -> session : clear()
+activate session
+session --> auth : clearResponse
+deactivate session
+auth -> settingsStore : clearAllData()
+activate settingsStore
+settingsStore -> profile : clear()
+activate profile
+profile --> settingsStore : clearResponse
+deactivate profile
+settingsStore --> auth : clearResponse
+deactivate settingsStore
+auth -> documentsStore : clearAllData()
+activate documentsStore
+documentsStore -> document : clear()
+activate document
+document --> documentsStore : clearResponse
+deactivate document
+documentsStore --> auth : clearResponse
+deactivate documentsStore
+auth -> workspacesStore : clearAllData()
+activate workspacesStore
+workspacesStore -> workspace : clear()
+activate workspace
+workspace --> workspacesStore : clearResponse
+deactivate workspace
+workspacesStore --> auth : clearResponse
+deactivate workspacesStore
+auth -> statsStore : clearAllData()
+activate statsStore
+statsStore -> stats : clear()
+activate stats
+stats --> statsStore : clearResponse
+deactivate stats
+statsStore --> auth : clearResponse
+deactivate statsStore
+auth -> signatureStore : clearAllData()
+activate signatureStore
+signatureStore -> signature : clear()
+activate signature
+signature --> signatureStore : clearResponse
+deactivate signature
+signatureStore --> auth : clearResponse
+deactivate signatureStore
+auth --> setView : clearResponse
+deactivate auth
+setView --> user : redirection vers la page de connexion
+
+
+
+deactivate setView
+deactivate user
+@enduml
+
