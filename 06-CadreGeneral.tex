@@ -3,6 +3,13 @@
 \addcontentsline{toc}{chapter}{Cadre général du projet}
 \markboth{Cadre général du projet}{Cadre général du projet}
 \label{chap:cadreGeneral}
+% reset numbering for parts and chapters
+\setcounter{part}{0}
+\setcounter{chapter}{0}
+\setcounter{section}{0}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thepart}{\arabic{part}}
+\renewcommand{\thesection}{\arabic{section}}
 %\minitoc
 
 \section*{Introduction}
@@ -19,7 +26,7 @@ NeoLedge s'appuie depuis ses débuts sur les techniques développées par Micros
 
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.5\textwidth]{neoledge_big_logo.png}
+\fbox{\includegraphics[width=0.5\textwidth]{neoledge_big_logo.png}}
 \caption{Logo de NeoLedge}
 \label{fig:logoNeoledge}
 \end{figure}
@@ -74,12 +81,12 @@ C'est pour cela que NeoLedge a proposé une solution GED qui est Elise.
 % elise logo
 \begin{figure}[!h]
 \centering
-\includegraphics[width=0.5\textwidth]{elise_logo.png}
+\fbox{\includegraphics[width=0.5\textwidth]{elise_logo.png}}
 \caption{Logo de Elise}
 \label{fig:logoElise}
 \end{figure}
 
-Elise est une solution verticalisée capable de prendre en charge tous les flux circulants dans l'organisation (entrants, sortants, internes, etc.), et ce, quel que soit le canal (mail, courrier, etc.). Sa  spécificité réside dans sa capacité à gérer les échanges de l'organisation avec son écosystème (partenaires, fournisseurs, citoyens...) par le biais de l'intégration d'une base de tiers, de métadonnées adaptées (expéditeur/destinataire/dates d'échéances...) et de processus de réponse facilités.
+Elise est une solution verticalisée capable de prendre en charge tous les flux circulants dans l'organisation (entrants, sortants, internes, etc.), et ce, quel que soit le canal (mail, courrier, etc.). Sa  spécificité réside dans sa capacité à gérer les échanges de l'organisation avec son écosystème (partenaires, fournisseurs, citoyens, etc) par le biais de l'intégration d'une base de tiers, de métadonnées adaptées (expéditeur/destinataire/dates d'échéances, etc) et de processus de réponse facilités.
 
 Elise peut ainsi gérer des processus transverses et s'appuie sur une modélisation de l'organigramme de la structure concernée (collectivités, administrations, etc.) pour permettre un paramétrage précis des circuits d'acheminement. Ces circuits peuvent bien entendu être modifiés, à tout moment, en cours de route, pour s'adapter à des cas particuliers, fréquents dans le domaine de la Gestion du courrier.
 
@@ -95,7 +102,7 @@ L'unité d'organisation dans Elise est un élément de l'organigramme pouvant co
 
 \begin{figure}[!h]
 \centering
-\includegraphics{elise.png}
+\fbox{\includegraphics{elise.png}}
 \caption{Capture d'écran de Elise}
 \label{fig:captureElise}
 \end{figure}
@@ -167,7 +174,7 @@ NeoLedge a une version actuelle du Elise Mobile qui se trouve déjà sur le marc
 % capture d'ecran elimse mobile actuelle
 \begin{figure}[!h]
 \centering
-\includegraphics{eliseMobile.png}
+\fbox{\includegraphics{eliseMobile.png}}
 \caption{Capture d'écran de Elise Mobile}
 \label{fig:captureEliseMobile}
 \end{figure}
@@ -186,7 +193,7 @@ Avec Elise Mobile, les utilisateurs de la solution de Gestion électronique de C
 
 \begin{itemize}
 %   	Collaborer à distance :
-% o	Accéder à l'ensemble de leurs tâches selon leur état de traitement (Nouveaux, En cours, Terminés...)
+% o	Accéder à l'ensemble de leurs tâches selon leur état de traitement (Nouveaux, En cours, Terminés, etc)
 % o	Superviser leurs processus métiers
 % o	Effectuer des recherches dans la base documentaire
 % 	Décider en quelques instants
@@ -200,7 +207,7 @@ Avec Elise Mobile, les utilisateurs de la solution de Gestion électronique de C
 
 \item \textbf{Collaborer à distance} : 
   \begin{itemize}
-  \item Accéder à l'ensemble de leurs tâches selon leur état de traitement (Nouveaux, En cours, Terminés...)
+  \item Accéder à l'ensemble de leurs tâches selon leur état de traitement (Nouveaux, En cours, Terminés, etc)
   \item Superviser leurs processus métiers
   \item Effectuer des recherches dans la base documentaire
   \end{itemize}
@@ -230,7 +237,7 @@ Parmi les lacunes rencontrées, nous citons :
 \end{itemize}
 
 \subsection{Solution proposée}
-Notre solution consiste à mettre en place une solution responsive de Elise qui offre les mêmes fonctionnalités que la version web actuelle d'Elise tout en gardant les mêmes interfaces pour améliorer l'expérience d'utilisateur. Parmi les fonctionnalités qu'on va traiter, on peut citer :
+Notre solution consiste à mettre en place une solution responsive de Elise qui offre les mêmes fonctionnalités que la version web actuelle d'Elise tout en gardant les mêmes interfaces pour améliorer l'expérience d'utilisateur. Parmi les fonctionnalités que nous allons traiter, nous citons :
 
 \begin{itemize}
   \item Connecter un utilisateur de Elise à son profil
@@ -255,7 +262,7 @@ Elise est une solution d'architecture architecture 3 tiers, illustrée par la fi
 % image architecture_elise
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{architecture_elise}
+  \fbox{\includegraphics[width=0.8\textwidth]{architecture_elise}}
   \caption{Architecture Elise}
   \label{fig:architecture_elise}
 \end{figure}
@@ -273,7 +280,7 @@ Elle contient les données de l'application. Pour notre solution nous avons deux
 Cette architecture nous offre la séparation entre l'interface utilisateur, la logique métier et la couche de stockage de données. Cela donne une plus grande flexibilité aux équipes de développement en leur permettant de mettre à jour une partie spécifique d'une application indépendamment des autres parties.
 
 \section{Méthodologie de gestion de projet}
-Avec les progrès en technologie de l'information et les investissements dans les infrastructures, beaucoup de méthodes de gestion de projet ont vu le jour. Certes, ces méthodes jouent un rôle primordial dans la réussite ou l'échec d'un projet, d'où le choix, représente une décision importante pour les entreprises. Dans cette partie, nous allons expliquer notre choix de la méthode. Il existe en fait deux grandes familles de méthodes de la gestion du projet : les méthodes dites classiques et les méthodes agiles. On privilégiera plutôt les méthodes classiques lorsqu'on a une idée précise du projet, avec un planning bien détaillé et où on a anticipé tous les risques possibles. Quant aux méthodes Agiles, on les choisira plutôt pour les gros projets, celles-ci permettent une meilleure adaptabilité, visibilité et gestion des risques. On privilégiera également les méthodes Agiles pour les projets où il n'y a pas de documents détaillés, ou quand le client est indécis. Le client pourra alors voir l'évolution du projet et l'adapter à ses besoins sans pour autant vous obliger à recommencer tout le travail que vous avez fourni depuis le début. Elles sont menées dans un esprit collaboratif et elles s'adaptent aux approches incrémentales. Elles engendrent des produits de haute qualité tout en tenant compte de l'évolution des besoins du client.
+Avec les progrès en technologie de l'information et les investissements dans les infrastructures, beaucoup de méthodes de gestion de projet ont vu le jour. Certes, ces méthodes jouent un rôle primordial dans la réussite ou l'échec d'un projet, d'où le choix, représente une décision importante pour les entreprises. Dans cette partie, nous allons expliquer notre choix de la méthode. Il existe en fait deux grandes familles de méthodes de la gestion du projet : les méthodes dites classiques et les méthodes agiles. Nous privilégierons plutôt les méthodes classiques lorsqu'on a une idée précise du projet, avec un planning bien détaillé et où nous avons anticipé tous les risques possibles. Quant aux méthodes Agiles, nous les choisirons plutôt pour les gros projets, celles-ci permettent une meilleure adaptabilité, visibilité et gestion des risques. Nous privilégierons également les méthodes Agiles pour les projets où il n'y a pas de documents détaillés, ou quand le client est indécis. Le client pourra alors voir l'évolution du projet et l'adapter à ses besoins sans pour autant nous obliger à recommencer tout le travail que nous avons fourni depuis le début. Elles sont menées dans un esprit collaboratif et elles s'adaptent aux approches incrémentales. Elles engendrent des produits de haute qualité tout en tenant compte de l'évolution des besoins du client.
 
 \subsection{Choix méthodologique}
 Notre choix méthodologique et en convenance à notre projet, nous avons opté pour l'utilisation du framework Scrum. C'est en fait le framework le plus utilisé, le plus éprouvé, documenté et supporté. Il s'agit d'un cadre de travail en équipe pluridisciplinaire permettant de répondre à des problèmes complexes et changeants, centré sur l'architecture.
@@ -303,7 +310,7 @@ SCRUM est une méthodologie agile qui consiste à avoir une équipe soudée orie
 
 \begin{figure}[!h]
   \centering
-  \includegraphics{cycle_de_vie_scrum.png}
+  \fbox{\includegraphics{cycle_de_vie_scrum.png}}
   \caption{Cycle de vie Scrum}
   \label{fig:cycle_de_vie_scrum}
 \end{figure}
@@ -322,7 +329,7 @@ Avant d'entamer la mise en œuvre de notre projet, nous allons d'abord décrire 
       \hline
       
       \begin{minipage}{\linewidth}
-        \includegraphics[width=\linewidth]{pc.jpg}
+       \includegraphics[width=\linewidth]{pc.jpg}
       \end{minipage} &
       \begin{minipage}{\linewidth}
         \vspace{0.2cm}
@@ -339,7 +346,7 @@ Avant d'entamer la mise en œuvre de notre projet, nous allons d'abord décrire 
       \end{minipage} \\
       \hline
       \begin{minipage}{\linewidth}
-        \includegraphics[width=\linewidth]{macbookpro}
+       \includegraphics[width=\linewidth]{macbookpro}
       \end{minipage} &
       \begin{minipage}{\linewidth}
         \vspace{0.2cm}
@@ -356,7 +363,7 @@ Avant d'entamer la mise en œuvre de notre projet, nous allons d'abord décrire 
 
       \hline
       \begin{minipage}{\linewidth}
-        \includegraphics[width=\linewidth]{samsungs20}
+       \includegraphics[width=\linewidth]{samsungs20}
       \end{minipage} &
       \begin{minipage}{\linewidth}
         \vspace{0.2cm}
@@ -372,7 +379,7 @@ Avant d'entamer la mise en œuvre de notre projet, nous allons d'abord décrire 
 
       \hline
       \begin{minipage}{\linewidth}
-        \includegraphics[width=\linewidth]{iphone11}
+       \includegraphics[width=\linewidth]{iphone11}
       \end{minipage} &
       \begin{minipage}{\linewidth}
         \vspace{0.2cm}
