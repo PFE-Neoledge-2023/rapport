@@ -12,8 +12,8 @@ participant "DocumentsStore" as documentsstore << ViewModel >>
 participant "FileSignature" as filesignature << Model >>
 participant "EliseWebService" as elisewebservice << Service >>
 
-ref over user, system : Authentification
-ref over user,fileviewer,signaturepanel,documentsstore,filesignature : Visualisation de fichier
+ref over user,fileviewer,signaturepanel,documentsstore,filesignature, elisewebservice : Authentification
+ref over user,fileviewer,signaturepanel,documentsstore,filesignature, elisewebservice : Visualisation de fichier
 activate user
 activate fileviewer
 activate previewfile

@@ -14,7 +14,7 @@ participant "EliseWebService" as ws << Service >>
 
 
 
-ref over user, ScanFile : Authentification
+ref over user, ScanFile, docView, scanner, docVm, docM, fileM, ws : Authentification
 activate user
 user -> docView : clique sur le bouton "liste des action"
 activate docView

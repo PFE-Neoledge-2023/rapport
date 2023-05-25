@@ -10,7 +10,7 @@ participant "SignaturesStore" as vm << ViewModel >>
 participant "Signature" as model << Model >>
 
 
-ref over user,liste,view,vm,model,ws : Authentification
+ref over user,liste,view,vm,model : Authentification
 activate user
 user -> liste : CliqueVisualiserSignature()
 activate liste
