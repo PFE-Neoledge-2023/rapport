@@ -8,8 +8,11 @@ actor "Utilisateur" as user
 participant "système" as system
 
 ref over user, system : Authentification
-
+activate user
 user -> system : clique sur le bouton a coté du nom de l'espace de travail dans la page d'accueil 
+activate system
 system -> user : affiche la liste des espaces de travail selectionnés
 user -> system : clique sur l'espace de travail qu'il veut utiliser
 system -> user : récupère les données de l'espace de travail selectionné
+deactivate system
+deactivate user

@@ -4,8 +4,233 @@
 \renewcommand{\thechapter}{\arabic{chapter}}
 \renewcommand{\thepart}{\arabic{part}}
 \renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thefigure}{A\arabic{figure}}
+\setcounter{figure}{0}
+\section{Applications développées durant la formation}
 
-% appendix product backlog azure devops
+\appendix
+\label{appendix:applications}
+\subsection{Application 1 }
+\subsubsection{Description}
+Cette application est une application qui permet d'afficher les données de météo de la position géographique de l'utilisateur.
+
+\subsubsection{But}
+Le but de la developpement de cette application est de metriser la consomation des web services SOAP et integrer des librairies natives de capacitor.
+
+
+\subsubsection{Fonctionnalités}
+\begin{itemize}
+    \item Affichage de la météo de la position géographique de l'utilisateur en temps réel.
+    \item Affichage de la prévision météo de la position géographique de l'utilisateur.
+\end{itemize}
+
+\subsubsection{Réalisations}
+La figure suivante montre les captures d'écran de l'application.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.4\textwidth]{capture_application_1}}
+    \caption{Captures d'écran de l'application 1}
+    \label{appendix:capture_app1}
+\end{figure}
+
+\subsubsection{Difficultés rencontrées}
+\begin{itemize}
+    \item La documentation de capacitor est très limitée.
+    \item La consommation des web services SOAP a soulevé des erreurs CORS.
+\end{itemize}
+
+\subsubsection{Solutions apportées}
+\begin{itemize}
+    \item Nous avons utilisé les exemples de capacitor pour comprendre son fonctionnement.
+    \item Nous avons utilisé un proxy pour contourner les erreurs CORS lors de la développement et HTTPCapacitor pour contourner les erreurs CORS lors de la production.
+\end{itemize}
+
+\textbf{HTTPCapacitor} est une librairie qui permet d'envoyer des requêtes HTTP nativement depuis capacitor.
+
+\subsection{Application 2 }
+
+\subsubsection{Description}
+Cette application est une application mobile qui permet de créer des images de signature.
+
+\subsubsection{But}
+Le but de la developpement de cette application est de découvrir les solutions possibles pour créer des images de signature.
+
+\subsubsection{Fonctionnalités}
+\begin{itemize}
+    \item Création d'une image de signature.
+    \item Affichage de l'image de signature.
+    \item Suppression de l'image de signature.
+\end{itemize}
+
+\subsubsection{Choix technologiques}
+Nous avons testé deux librairies pour créer des images de signature : \textbf{v-perfect-signature} et \textbf{vue-signature-pad}.
+
+% v-perfect-signature vs  vue-signature-pad
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Librairie} & \textbf{v-perfect-signature} & \textbf{vue-signature-pad} \\ \hline
+    \textbf{Documentation} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ très limitée\end{tabular} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} \\ \hline
+    \textbf{Maintenance} & \begin{tabular}[c]{@{}l@{}}La librairie n'est pas \\ maintenue\end{tabular} & \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} \\ \hline
+    \textbf{Intégration} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ compliquée\end{tabular} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
+    \end{tabular}
+    \caption{Comparaison entre v-perfect-signature et vue-signature-pad}
+    \label{tab:v-perfect-signature_vs_vue-signature-pad}
+\end{table}
+
+Nous avons choisi la librairie \textbf{vue-signature-pad} pour créer des images de signature car elle est bien documentée et maintenue.
+
+
+\subsubsection{Réalisations}
+La figure suivante montre les captures d'écran de l'application.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.6\textwidth]{capture_application_2}}
+    \caption{Captures d'écran de l'application 2}
+    \label{appendix:capture_app2}
+\end{figure}
+
+\subsection{Application 3 }
+
+\subsubsection{Description}
+Cette application est une application mobile qui permet d'afficher un fichier PDF.
+
+\subsubsection{But}
+Le but de la developpement de cette application est de découvrir les solutions possibles pour afficher des fichiers PDF.
+
+\subsubsection{Fonctionnalités}
+\begin{itemize}
+    \item Affichage d'un fichier PDF.
+    \item Déplacement sur le fichier PDF.
+\end{itemize}
+
+\subsubsection{Choix technologiques}
+
+% vue-pdf vs pdfvuer 
+Pour afficher des fichiers PDF, nous avons testé deux librairies : \textbf{vue-pdf} et \textbf{pdfvuer}.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Librairie} & \textbf{pdfvuer} & \textbf{vue-pdf} \\ \hline
+    \textbf{Documentation} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} \\ \hline
+    \textbf{Maintenance} & \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} & \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} \\ \hline
+    \textbf{Intégration} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
+    \end{tabular}
+    \caption{Comparaison entre vue-pdf et pdfvuer}
+    \label{tab:vpdf_pdfvuer}
+\end{table}
+
+Nous avons choisi la librairie \textbf{vue-pdf} pour afficher des fichiers PDF car elle est bien documentée et maintenue.
+
+\subsubsection{Réalisations}
+
+La figure suivante montre une capture d'écran de l'application.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.2\textwidth]{capture_application_3}}
+    \caption{Capture d'écran de l'application 3}
+    \label{appendix:capture_app3}
+\end{figure}
+
+\subsection{Application 4 }
+
+\subsubsection{Description}
+% application importe pdf, gestion signature et signer pdf
+Cette application est une application mobile qui permet d'importer un fichier PDF, de signer le fichier PDF et de gérer les signatures.
+
+\subsubsection{But}
+Le but de la developpement de cette application est de métriser la positionnement des signatures sur un fichier PDF.
+
+\subsubsection{Fonctionnalités}
+\begin{itemize}
+    \item Importation d'un fichier PDF.
+    \item Affichage d'un fichier PDF.
+    \item Déplacement sur le fichier PDF.
+    \item Ajout d'une signature sur le fichier PDF.
+    \item Ajouter une signature à main levée sur le fichier PDF.
+    \item Modification de la position d'une signature sur le fichier PDF.
+    \item Gestion des signatures.
+\end{itemize}
+
+\subsubsection{Réalisations}
+
+La figure suivante montre les captures d'écran de l'application.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.6\textwidth]{capture_application_4_1}}
+    \caption{Captures de gestion des signatures et documents}
+    \label{appendix:capture_app4}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.6\textwidth]{capture_application_4_2}}
+    \caption{Captures de l'affichage et signature d'un document a l'aide d'une image}
+    \label{appendix:capture_app4_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.4\textwidth]{capture_application_4_3}}
+    \caption{Captures de l'affichage et signature d'un document a l'aide d'une signature à main levée}
+    \label{appendix:capture_app4_3}
+\end{figure}
+
+
+
+
+\section{Capture d'écran de l'application version IOS}
+
+\subsection{Visualisation et signature d’un fichier}
+\label{appendix:ios_view_sign}
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.4\textwidth]{sign_doc_ios}}
+    \caption{Quelques captures d'écran de la signature d’un fichier version IOS}
+    \label{appendix:sign_doc_ios}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.4\textwidth]{upload_file_ios}}
+    \caption{Quelques captures d'écran de l'ajout d'un fichier version IOS}
+    \label{appendix:upload_file_ios}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.4\textwidth]{add_file_scan_ios}}
+    \caption{Quelques captures d'écran de l'ajout d'un fichier à l'aide de la caméra version IOS}
+    \label{appendix:add_file_scan_ios}
+\end{figure}
+
+\subsection{Mode sombre}
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.4\textwidth]{sombre_ios}}
+    \caption{Quelques captures d'écran de l'application version IOS en mode sombre}
+    \label{appendix:capture_app1_ios}
+\end{figure}
+\label{appendix:sombre_ios}
+
+\subsection{Verification biometrique}
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.4\textwidth]{biometrie_ios}}
+    \caption{Quelques captures d'écran de la verification biometrique version IOS}
+    \label{appendix:verification_biometrique}
+\end{figure}
+
+
+
+
 
 \section{Product backlog Azure DevOps}
 
@@ -13,7 +238,7 @@
     \centering
     \fbox{\includegraphics[width=0.8\textwidth]{capture_azure_devops}}
     \caption{Product backlog Azure DevOps}
-    \label{fig:product_backlog_azure_devops}
+    \label{appendix:product_backlog_azure_devops}
 \end{figure}
 
 \label{appendix:product_backlog_azure_devops}
@@ -21,6 +246,7 @@
 
 
 \section{neo-pdf-viewer}
+\label{appendix:neo-pdf-viewer}
 
 \subsection{Fonctionnalité de l'affichage des images}
 
@@ -36,7 +262,7 @@ L'ajout de la fonctionnalité d'affichage des images à "neo-pdf-viewer" nous a 
     \centering
     \fbox{\includegraphics[width=0.8\textwidth]{code_image}}
     \caption{Code d'affichage des images}
-    \label{fig:codedisplayimage}
+    \label{appendix:codedisplayimage}
 \end{figure}
 
 \subsection{Fonctionnalité de zoom}
@@ -54,7 +280,7 @@ L'ajout de la bibliothèque "vue3-pinch-scroll-zoom" à "neo-pdf-viewer" nous a 
     \centering
     \fbox{\includegraphics[width=0.7\textwidth]{capture_code_zoom}}
     \caption{Code de zoom}
-    \label{fig:zoom_code}
+    \label{appendix:zoom_code}
 \end{figure}
 
 \label{appendix:neo-pdf-viewer}

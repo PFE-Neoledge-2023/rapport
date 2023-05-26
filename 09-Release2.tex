@@ -262,6 +262,7 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
   \caption{Les interfaces de la page de connexion à l'aide du protocole OIDC}
   \label{fig:realisation_OIDC}
 \end{figure}
+Voir l'annexe \ref{appendix:verification_biometrique} pour plus des captures d'écran de la vérification biométrique dans la version IOS de l'application.
 
 \subsection{Sprint Review}
 Dans ce sprint, nous avons travaillé sur la gestion de l'authentification OIDC et de la vérification biométrique en tant que méthodes d'identification de l'utilisateur.
@@ -718,7 +719,7 @@ Erreur de connexion\\
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{design_sprint_6}}
-  \caption{Maquette de l'interface de paramétrage et de gestion des absences}
+  \caption{Maquette de l’interface de paramétrage et de gestion de profile et d'absence}
   \label{fig:MaquetteInterfaceParametrageGestionAbsences}
 \end{figure}
 
@@ -934,6 +935,8 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
   \label{fig:RealisationInterfaceParametrage}
 \end{figure}
 
+Vous pouvez voir dans l'annexe \ref{appendix:sombre_ios} des captures d'écran de mode sombre dans la version IOS de l'application.
+
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{realisation_sprint62}}
@@ -981,13 +984,11 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
       \multirow{5}{*}{1} & \multirow{5}{6cm}{En tant qu'utilisateur, je veux visualiser les statistiques de l'application afin de suivre l'évolution de l'application.}
       & 1.1 & Préparer les interfaces sur Figma. & \multirow{5}{*}{2.5 Jour} \\
       \cline{3-4}
-      & & 1.2 & Développer le composant de statistique a une valeur. & \\
+      & & 1.2 & Développer les différents types de widgets & \\
       \cline{3-4}
-      & & 1.3 & Développer le composant de statistique a plusieurs valeurs. & \\
+      & & 1.3 & Développer la fonction qui recuperer et ranger les statistiques. & \\
       \cline{3-4}
-      & & 1.4 & Développer la fonction qui recuperer et ranger les statistiques. & \\
-      \cline{3-4}
-      & & 1.5 & Développer la fonction qui permet de visualiser les statistiques. & \\
+      & & 1.4 & Développer la fonction qui permet de visualiser les statistiques. & \\
       % & & 1.6 & Développer la fonction qui permet de filtrer les documents par statistique. & \\
       \cline{1-5}
 
@@ -1106,7 +1107,7 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 des données »}
 
 % Note :
-\textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter la description textuelle de ce cas d'utilisation.}
+
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
@@ -1131,6 +1132,8 @@ des données »}
 \caption{Description textuelle du diagramme de cas d'utilisation « Refraichissement des données »}
 \label{tab:use_case_refraichissement_donnees}
 \end{longtable}
+
+\textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter la description textuelle de ce cas d'utilisation.}
 
 \begin{figure}[H]
   \centering
@@ -1163,7 +1166,6 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
   \label{fig:sequence_docs_quick_filter}
 \end{figure}
 
-\textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/refresh_data/refresh_data}}
@@ -1239,7 +1241,6 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
   \caption{Diagramme de séquence de conception de cas d'utilisation « Refraichissement des données »}
   \label{fig:sequence_conception_refraichissement_donnees}
 \end{figure}
-\textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter le diagramme de séquence de ce cas d'utilisation.}
 
 \subsubsection{Réalisation}
 
@@ -1252,6 +1253,29 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
   \caption{Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide}
   \label{fig:realisation_sprint7}
 \end{figure}
+
+La figure \ref{fig:capture_widgets} représente notre version des widgets existants dans l'application web Elise. Cependant, étant donné que le webservice actuel ne prend pas en charge ces types de widgets, cette fonctionnalité ne sera pas disponible dans la version actuelle de l'application. Toutefois, elle sera rendue accessible dès que le webservice sera en mesure de prendre en charge ces widgets, ou lorsque l'application sera migrée vers l'API REST d'Elise.\\
+
+\textbf{Note:} Les types de widgets qui ne sont pas pris en charge par le webservice actuel sont les suivants :
+\begin{itemize}
+  \item \textbf{Widget de type « Graphic » :} Ce widget permet de représenter les données sous plusieurs formes graphiques (camembert, barre, ligne, etc.).
+  \item \textbf{Widget de type « WebPage » :} Ce widget permet d'afficher une page web.
+  \item \textbf{Widget de type « TaskList » :} Ce widget permet d'afficher une liste de tâches.
+  \item \textbf{Widget de type « DocumentList » :} Ce widget permet d'afficher une liste de documents.
+  \item \textbf{Widget de type « Shortcut » :} Ce widget permet d'afficher un raccourci vers une page.
+  \end{itemize}
+
+\begin{figure}[H]
+  \centering
+  \fbox{\includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{capture_widgets}}
+  \caption{Les widgets de consultation des statistiques}
+  \label{fig:capture_widgets}
+\end{figure}
+
+\textbf{Note:} Pour prendre ces captures d'écran, nous avons utilisé json-server pour simuler les données.\\
+  
+
+
 
 \subsection{Sprint Review}
 Suite à cette Technical Story, nous avons pu réaliser les fonctionnalités suivantes :
