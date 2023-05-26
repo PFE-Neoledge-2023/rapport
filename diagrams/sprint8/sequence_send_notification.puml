@@ -1,0 +1,63 @@
+@startuml sequence_send_notification
+
+hide footbox
+
+
+actor "émetteur" as user
+participant "DocumentTasksPage" as taskV << View >>
+participant "taskStore" as task << ViewModel >>
+participant "notificationStore" as notif << ViewModel >>
+participant "NotificationServer" as server << Service >>
+participant "FirebaseCloudMessaging" as firebase << System >>
+participant "PushNotification" as push << System >>
+participant "Notification" as notifM << Model >>
+
+actor "récepteur" as user1
+
+
+
+ref over user, taskV, push, firebase,notifM, server,user1 : Authentification
+ref over user, taskV, push, firebase,notifM, server,user1 : registred
+activate user
+user -> taskV : fait une action sur une tâche
+activate taskV
+taskV -> task : changeTaskStatus()
+activate task
+task -> notif : processTaskNotifications()
+activate notif
+alt "émetteur à cocher la case 'envoyer une notification'" 
+notif -> notif : sendNotification()
+notif -> server : :POST /send
+activate server
+notif--> task 
+task --> taskV
+taskV --> user
+server -> firebase : send()
+
+activate firebase
+firebase -> push : send()
+activate push
+push -> notifM : saveNotification()
+activate notifM
+notifM --> push 
+deactivate notifM
+push -> user1 : sendNotification()
+activate user1
+user1 -> user1 : receiveNotification()
+user1 --> push
+deactivate user1
+push --> firebase 
+deactivate push
+firebase --> server
+deactivate firebase
+deactivate server
+else "émetteur n'a pas coché la case 'envoyer une notification'"
+notif --> task
+deactivate notif
+task --> taskV
+deactivate task
+taskV --> user
+deactivate taskV
+deactivate user
+end 
+

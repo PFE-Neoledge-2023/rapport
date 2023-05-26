@@ -1,0 +1,16 @@
+@startuml lister_notification
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur l'icon "notification"
+activate system
+system --> user : affiche la page des notifications
+deactivate system
+deactivate user

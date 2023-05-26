@@ -1,0 +1,26 @@
+@startuml sequence_lister_notification
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "NotificationsPage" as notifV << View >>
+participant "notificationStore" as notif << ViewModel >>
+participant "Notification" as notifM << Model >>
+
+ref over user , notifV, notifM : authentification
+ref over user , notifV, notifM : register
+activate user
+user -> notifV : clique sur le bouton "Notifications"
+activate notifV
+notifV -> notif : getNotifications()
+activate notif 
+notif -> notifM : getNotifications()
+activate notifM
+notifM --> notif : notifications
+deactivate notifM 
+notif --> notifV
+deactivate notif
+notifV --> user
+deactivate notifV
+deactivate user

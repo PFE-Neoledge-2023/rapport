@@ -1,0 +1,17 @@
+@startuml send_notification
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : fait une action sur une tâche
+activate system
+system -> system : sendNotification()
+system --> user : notification
+deactivate system
+deactivate user
