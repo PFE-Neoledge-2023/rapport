@@ -1,0 +1,17 @@
+@startuml deactivate_notification
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "système" as system
+
+
+ref over user, system : Authentification
+activate user
+user -> system : clique sur le bouton "désactiver les notifications"
+activate system
+system -> system : Unregister()
+system --> user : unregisterResponse
+deactivate system
+deactivate user

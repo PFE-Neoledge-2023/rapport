@@ -1,0 +1,39 @@
+@startuml sequence_activate_notification
+
+hide footbox
+
+
+actor "Utilisateur" as user
+participant "EditProfilePage" as edit << View >>
+participant "PushNotification" as push << System >>
+participant "FirebaseCloudMessaging" as firebase << System >>
+participant "NotificationServer" as server << Service >>
+
+
+
+ref over user, edit, push, firebase, server  : Authentification
+activate user
+user -> edit : clique sur le bouton "Activer les notifications"
+activate edit
+edit -> push : unregister()
+activate push
+push -> firebase : unregister()
+activate firebase
+firebase --> push : unregisterResponse
+deactivate firebase
+alt "succès"
+push -> server : :POST /unregister
+activate server
+server --> push : response
+deactivate server
+push --> edit 
+edit --> user
+else "échec"
+push --> edit 
+deactivate push
+edit --> user
+deactivate edit
+end
+
+
+deactivate user
