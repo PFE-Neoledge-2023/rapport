@@ -1,4 +1,4 @@
-@startuml lister_notification
+@startuml delete_notification
 
 hide footbox
 

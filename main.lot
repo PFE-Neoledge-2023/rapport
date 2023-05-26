@@ -192,21 +192,48 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
+\contentsline {table}{\numberline {54}{\ignorespaces Sprint backlog du Sprint 8\relax }}{154}{table.0.54}%
 \setforeignlanguage {french}
-\setforeignlanguage {french}
-\contentsline {table}{\numberline {54}{\ignorespaces Comparaison entre v-perfect-signature et vue-signature-pad\relax }}{160}{table.caption.181}%
-\setforeignlanguage {french}
-\setforeignlanguage {french}
-\contentsline {table}{\numberline {55}{\ignorespaces Comparaison entre vue-pdf et pdfvuer\relax }}{161}{table.caption.183}%
-\setforeignlanguage {french}
-\setforeignlanguage {french}
-\setforeignlanguage {french}
-\setforeignlanguage {french}
+\contentsline {table}{\numberline {55}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Activer les notifications »\relax }}{155}{table.0.55}%
+\contentsline {table}{\numberline {56}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Désactiver les notifications »\relax }}{156}{table.0.56}%
+\contentsline {table}{\numberline {57}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Consulter les notifications »\relax }}{156}{table.0.57}%
+\contentsline {table}{\numberline {58}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Envoyer une notification »\relax }}{156}{table.0.58}%
+\contentsline {table}{\numberline {59}{\ignorespaces Description textuelle du diagramme de cas d'utilisation « Supprimer les notifications »\relax }}{157}{table.0.59}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
+\contentsline {table}{\numberline {60}{\ignorespaces Comparaison entre Firebase Cloud Messaging et Notification Hub\relax }}{160}{table.0.60}%
 \setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {A61}{\ignorespaces Comparaison entre v-perfect-signature et vue-signature-pad\relax }}{173}{table.caption.195}%
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {A62}{\ignorespaces Comparaison entre vue-pdf et pdfvuer\relax }}{174}{table.caption.197}%
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {A63}{\ignorespaces Les routes du serveur backend de notification\relax }}{183}{table.caption.212}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}

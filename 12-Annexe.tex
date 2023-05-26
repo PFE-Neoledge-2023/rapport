@@ -5,6 +5,7 @@
 \renewcommand{\thepart}{\arabic{part}}
 \renewcommand{\thesection}{\arabic{section}}
 \renewcommand{\thefigure}{A\arabic{figure}}
+\renewcommand{\thetable}{A\arabic{table}}
 \setcounter{figure}{0}
 \section{Applications développées durant la formation}
 
@@ -69,12 +70,19 @@ Nous avons testé deux librairies pour créer des images de signature : \textbf{
 % v-perfect-signature vs  vue-signature-pad
 \begin{table}[H]
     \centering
+    
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Librairie} & \textbf{v-perfect-signature} & \textbf{vue-signature-pad} \\ \hline
-    \textbf{Documentation} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ très limitée\end{tabular} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} \\ \hline
-    \textbf{Maintenance} & \begin{tabular}[c]{@{}l@{}}La librairie n'est pas \\ maintenue\end{tabular} & \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} \\ \hline
-    \textbf{Intégration} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ compliquée\end{tabular} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
+    \textbf{Documentation} & 
+    \begin{tabular}[c]{@{}l@{}}La documentation est \\ très limitée\end{tabular} & 
+    \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} \\ \hline
+    \textbf{Maintenance} & 
+    \begin{tabular}[c]{@{}l@{}}La librairie n'est pas \\ maintenue\end{tabular} & 
+    \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} \\ \hline
+    \textbf{Intégration} & 
+    \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ compliquée\end{tabular} & 
+    \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
     \end{tabular}
     \caption{Comparaison entre v-perfect-signature et vue-signature-pad}
     \label{tab:v-perfect-signature_vs_vue-signature-pad}
@@ -113,12 +121,19 @@ Le but de la developpement de cette application est de découvrir les solutions 
 Pour afficher des fichiers PDF, nous avons testé deux librairies : \textbf{vue-pdf} et \textbf{pdfvuer}.
 \begin{table}[H]
     \centering
+    
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Librairie} & \textbf{pdfvuer} & \textbf{vue-pdf} \\ \hline
-    \textbf{Documentation} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} & \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} \\ \hline
-    \textbf{Maintenance} & \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} & \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} \\ \hline
-    \textbf{Intégration} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} & \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
+    \textbf{Documentation} & 
+    \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} & 
+    \begin{tabular}[c]{@{}l@{}}La documentation est \\ complète\end{tabular} \\ \hline
+    \textbf{Maintenance} & 
+    \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} & 
+    \begin{tabular}[c]{@{}l@{}}La librairie est \\ maintenue\end{tabular} \\ \hline
+    \textbf{Intégration} & 
+    \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} & 
+    \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
     \end{tabular}
     \caption{Comparaison entre vue-pdf et pdfvuer}
     \label{tab:vpdf_pdfvuer}
@@ -241,7 +256,6 @@ La figure suivante montre les captures d'écran de l'application.
     \label{appendix:product_backlog_azure_devops}
 \end{figure}
 
-\label{appendix:product_backlog_azure_devops}
 
 
 
@@ -283,4 +297,76 @@ L'ajout de la bibliothèque "vue3-pinch-scroll-zoom" à "neo-pdf-viewer" nous a 
     \label{appendix:zoom_code}
 \end{figure}
 
-\label{appendix:neo-pdf-viewer}
+
+% Démarrage de projet avec Firebase.
+\section{Démarrage de projet avec Firebase}
+\label{appendix:firebase_cloud_messaging}
+
+La première étape pour démarrer un projet avec Firebase est de créer un projet sur la console Firebase. Pour ce faire, il suffit de se rendre sur le site web de Firebase et de cliquer sur le bouton "Ajouter un projet" comme illustré dans la figure \ref{appendix:firebase_create_project}.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.8\textwidth]{firebase_create_project}}
+    \caption{Création d'un projet sur Firebase}
+    \label{appendix:firebase_create_project}
+\end{figure}
+
+Une fois le projet créé, il faut ajouter une application Android et une application IOS au projet. Pour ce faire, il faut cliquer sur le bouton "Ajouter une application" comme illustré dans la figure \ref{appendix:firebase_add_app}.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.8\textwidth]{firebase_add_app}}
+    \caption{Ajout d'une application sur Firebase}
+    \label{appendix:firebase_add_app}
+\end{figure}
+
+Une fois les applications ajoutées, il faut télécharger les fichiers de configuration pour chaque application et les ajouter au projet. Pour ce faire, il faut cliquer sur le bouton "Ajouter Firebase à votre application Android" ou "Ajouter Firebase à votre application IOS" comme démontré dans la démonstration dans la page d'ajout.
+
+Pour suivre les étapes de configuration de Firebase Cloud Messaging dans une application Ionic Capacitor, il faut suivre les étapes décrites dans la documentation officielle de Capacitor \url{https://capacitorjs.com/docs/guides/push-notifications-firebase}.
+
+
+
+% Backend notification
+\section{Serveur backend de notification}
+\label{appendix:backend_notification}
+
+Le serveur backend de notification est une application Express.js qui utilise le package "FCM" pour envoyer des notifications aux utilisateurs.
+
+\subsection{Les routes}
+
+Le serveur backend de notification contient 3 routes :
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|p{6cm}|p{6cm}|}
+    \hline
+    Méthode & Route & Paramètres & Description \\ \hline
+    POST & /send & token, uid, displayName, title, body, subtitle, click\_action, data & Envoie une notification à un utilisateur \\ \hline
+    POST & /register & token, uid, displayName, language & Enregistre un utilisateur \\ \hline
+    POST & /unregister & token, uid, displayName, language & Désenregistre un utilisateur \\ \hline
+    \end{tabular}
+    \caption{Les routes du serveur backend de notification}
+    \label{appendix:backend_notification_routes}
+\end{table}
+
+\subsection{Structure du code}
+La figure \ref{appendix:backend_notification_structure} illustre la structure du code du serveur backend de notification.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.8\textwidth]{backend_application}}
+    \caption{Structure du code du serveur backend de notification}
+    \label{appendix:backend_notification_structure}
+\end{figure}
+
+
+\subsection{Fonction d'envoi de notification}
+
+La figure \ref{appendix:backend_notification_send} illustre la fonction d'envoi de notification du serveur backend de notification.
+
+\begin{figure}[H]
+    \centering
+    \fbox{\includegraphics[width=0.8\textwidth]{send_notification_node}}
+    \caption{Fonction d'envoi de notification du serveur backend de notification}
+    \label{appendix:backend_notification_send}
+\end{figure}

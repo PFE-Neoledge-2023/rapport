@@ -279,32 +279,69 @@
 \setforeignlanguage {french}
 \contentsline {figure}{\numberline {139}{\ignorespaces Les widgets de consultation des statistiques\relax }}{153}{figure.caption.175}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A1}{\ignorespaces Captures d'écran de l'application 1\relax }}{158}{figure.caption.180}%
+\contentsline {figure}{\numberline {140}{\ignorespaces Diagramme de cas d'utilisation du sprint 8\relax }}{155}{figure.caption.176}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {141}{\ignorespaces Diagramme de séquence de cas d'utilisation « Activer les notifications »\relax }}{157}{figure.caption.177}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {142}{\ignorespaces Diagramme de séquence de cas d'utilisation « Désactiver les notifications »\relax }}{158}{figure.caption.178}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {143}{\ignorespaces Diagramme de séquence de cas d'utilisation « Consulter les notifications »\relax }}{158}{figure.caption.179}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {144}{\ignorespaces Diagramme de séquence de cas d'utilisation « Envoyer une notification »\relax }}{159}{figure.caption.180}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {145}{\ignorespaces Diagramme de séquence de cas d'utilisation « Supprimer les notifications »\relax }}{159}{figure.caption.181}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {146}{\ignorespaces Diagramme de classe d'analyse de sprint 8\relax }}{160}{figure.caption.182}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {147}{\ignorespaces Diagramme de classe de conception de sprint 8\relax }}{162}{figure.caption.183}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {148}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Activer les notifications »\relax }}{163}{figure.caption.184}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {149}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Désactiver les notifications »\relax }}{163}{figure.caption.185}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {150}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Consulter les notifications »\relax }}{164}{figure.caption.186}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {151}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Envoyer une notification »\relax }}{164}{figure.caption.187}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {152}{\ignorespaces Diagramme de séquence de conception de cas d'utilisation « Supprimer les notifications »\relax }}{165}{figure.caption.188}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {153}{\ignorespaces Capture d'écran de réception de notification\relax }}{165}{figure.caption.189}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {A1}{\ignorespaces Captures d'écran de l'application 1\relax }}{171}{figure.caption.194}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A2}{\ignorespaces Captures d'écran de l'application 2\relax }}{160}{figure.caption.182}%
+\contentsline {figure}{\numberline {A2}{\ignorespaces Captures d'écran de l'application 2\relax }}{173}{figure.caption.196}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A3}{\ignorespaces Capture d'écran de l'application 3\relax }}{162}{figure.caption.184}%
+\contentsline {figure}{\numberline {A3}{\ignorespaces Capture d'écran de l'application 3\relax }}{175}{figure.caption.198}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A4}{\ignorespaces Captures de gestion des signatures et documents\relax }}{163}{figure.caption.185}%
+\contentsline {figure}{\numberline {A4}{\ignorespaces Captures de gestion des signatures et documents\relax }}{176}{figure.caption.199}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A5}{\ignorespaces Captures de l'affichage et signature d'un document a l'aide d'une image\relax }}{163}{figure.caption.186}%
+\contentsline {figure}{\numberline {A5}{\ignorespaces Captures de l'affichage et signature d'un document a l'aide d'une image\relax }}{176}{figure.caption.200}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A6}{\ignorespaces Captures de l'affichage et signature d'un document a l'aide d'une signature à main levée\relax }}{163}{figure.caption.187}%
+\contentsline {figure}{\numberline {A6}{\ignorespaces Captures de l'affichage et signature d'un document a l'aide d'une signature à main levée\relax }}{176}{figure.caption.201}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A7}{\ignorespaces Quelques captures d'écran de la signature d’un fichier version IOS\relax }}{164}{figure.caption.188}%
+\contentsline {figure}{\numberline {A7}{\ignorespaces Quelques captures d'écran de la signature d’un fichier version IOS\relax }}{177}{figure.caption.202}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A8}{\ignorespaces Quelques captures d'écran de l'ajout d'un fichier version IOS\relax }}{164}{figure.caption.189}%
+\contentsline {figure}{\numberline {A8}{\ignorespaces Quelques captures d'écran de l'ajout d'un fichier version IOS\relax }}{177}{figure.caption.203}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A9}{\ignorespaces Quelques captures d'écran de l'ajout d'un fichier à l'aide de la caméra version IOS\relax }}{165}{figure.caption.190}%
+\contentsline {figure}{\numberline {A9}{\ignorespaces Quelques captures d'écran de l'ajout d'un fichier à l'aide de la caméra version IOS\relax }}{178}{figure.caption.204}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A10}{\ignorespaces Quelques captures d'écran de l'application version IOS en mode sombre\relax }}{165}{figure.caption.191}%
+\contentsline {figure}{\numberline {A10}{\ignorespaces Quelques captures d'écran de l'application version IOS en mode sombre\relax }}{178}{figure.caption.205}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A11}{\ignorespaces Quelques captures d'écran de la verification biometrique version IOS\relax }}{165}{figure.caption.192}%
+\contentsline {figure}{\numberline {A11}{\ignorespaces Quelques captures d'écran de la verification biometrique version IOS\relax }}{178}{figure.caption.206}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A12}{\ignorespaces Product backlog Azure DevOps\relax }}{166}{figure.caption.193}%
+\contentsline {figure}{\numberline {A12}{\ignorespaces Product backlog Azure DevOps\relax }}{179}{figure.caption.207}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A13}{\ignorespaces Code d'affichage des images\relax }}{167}{figure.caption.194}%
+\contentsline {figure}{\numberline {A13}{\ignorespaces Code d'affichage des images\relax }}{180}{figure.caption.208}%
 \setforeignlanguage {french}
-\contentsline {figure}{\numberline {A14}{\ignorespaces Code de zoom\relax }}{168}{figure.caption.195}%
+\contentsline {figure}{\numberline {A14}{\ignorespaces Code de zoom\relax }}{181}{figure.caption.209}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {A15}{\ignorespaces Création d'un projet sur Firebase\relax }}{182}{figure.caption.210}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {A16}{\ignorespaces Ajout d'une application sur Firebase\relax }}{182}{figure.caption.211}%
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {A17}{\ignorespaces Structure du code du serveur backend de notification\relax }}{184}{figure.caption.213}%
+\setforeignlanguage {french}
+\contentsline {figure}{\numberline {A18}{\ignorespaces Fonction d'envoi de notification du serveur backend de notification\relax }}{185}{figure.caption.214}%

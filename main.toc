@@ -211,15 +211,39 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {III.5}\bgroup \beginL \latintext Sprint Retrospective\endL \egroup }{153}{subsection.0.3.5}%
 \select@language {french}
-\contentsline {chapter}{Résumé}{154}{chapter*.176}%
+\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Sprint 8 (Notification push)\endL \egroup }{154}{section.0.4}%
 \select@language {french}
-\contentsline {chapter}{Abstract}{155}{chapter*.177}%
+\contentsline {subsection}{\numberline {IV.1}\bgroup \beginL \latintext Sprint Goal\endL \egroup }{154}{subsection.0.4.1}%
+\select@language {french}
+\contentsline {subsection}{\numberline {IV.2}\bgroup \beginL \latintext Sprint Backlog\endL \egroup }{154}{subsection.0.4.2}%
+\select@language {french}
+\contentsline {subsection}{\numberline {IV.3}\bgroup \beginL \latintext Implémentation du Sprint 8\endL \egroup }{154}{subsection.0.4.3}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {IV.3.1}\bgroup \beginL \latintext Analyse des besoins\endL \egroup }{155}{subsubsection.0.4.3.1}%
+\select@language {french}
+\contentsline {subsection}{\numberline {IV.4}\bgroup \beginL \latintext Choix technologiques\endL \egroup }{159}{subsection.0.4.4}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {IV.4.1}\bgroup \beginL \latintext Choix de service de notification\endL \egroup }{159}{subsubsection.0.4.4.1}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {IV.4.2}\bgroup \beginL \latintext Analyse détaillée\endL \egroup }{160}{subsubsection.0.4.4.2}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {IV.4.3}\bgroup \beginL \latintext Conception\endL \egroup }{161}{subsubsection.0.4.4.3}%
+\select@language {french}
+\contentsline {subsubsection}{\numberline {IV.4.4}\bgroup \beginL \latintext Réalisation\endL \egroup }{165}{subsubsection.0.4.4.4}%
+\select@language {french}
+\contentsline {subsection}{\numberline {IV.5}\bgroup \beginL \latintext Sprint Review\endL \egroup }{166}{subsection.0.4.5}%
+\select@language {french}
+\contentsline {subsection}{\numberline {IV.6}\bgroup \beginL \latintext Sprint Retrospective\endL \egroup }{166}{subsection.0.4.6}%
+\select@language {french}
+\contentsline {chapter}{Résumé}{167}{chapter*.190}%
+\select@language {french}
+\contentsline {chapter}{Abstract}{168}{chapter*.191}%
 \select@language {french}
 \selectlanguage *{arabic}
 \selectlanguage *[locale=default,calendar=gregorian,numerals=mashriq,hijricorrection=0,abjadjimnotail=false]{arabic}
 \selectlanguage *{french}
 \selectlanguage *{arabic}
-\contentsline {chapter}{ ملخص}{156}{chapter*.178}%
+\contentsline {chapter}{ ملخص}{169}{chapter*.192}%
 \selectlanguage *[locale=default,calendar=gregorian,numerals=mashriq,hijricorrection=0,abjadjimnotail=false]{arabic}
 \selectlanguage *{french}
 \selectlanguage *{arabic}
@@ -229,71 +253,81 @@
 \selectlanguage *{french}
 \selectlanguage *[locale=default,calendar=gregorian,numerals=mashriq,hijricorrection=0,abjadjimnotail=false]{arabic}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{157}{section*.179}%
+\contentsline {chapter}{Annexes}{170}{section*.193}%
 \select@language {french}
-\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Applications développées durant la formation\endL \egroup }{158}{section.Alph0.1}%
+\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Applications développées durant la formation\endL \egroup }{171}{section.Alph0.1}%
 \setcounter {tocdepth}{0}
 \select@language {french}
-\contentsline {subsection}{\numberline {.1}\bgroup \beginL \latintext Application 1 \endL \egroup }{158}{subsection.Alph0.0.1}%
+\contentsline {subsection}{\numberline {.1}\bgroup \beginL \latintext Application 1 \endL \egroup }{171}{subsection.Alph0.0.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.1.1}\bgroup \beginL \latintext Description\endL \egroup }{158}{subsubsection.Alph0.0.1.1}%
+\contentsline {subsubsection}{\numberline {.1.1}\bgroup \beginL \latintext Description\endL \egroup }{171}{subsubsection.Alph0.0.1.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.1.2}\bgroup \beginL \latintext But\endL \egroup }{158}{subsubsection.Alph0.0.1.2}%
+\contentsline {subsubsection}{\numberline {.1.2}\bgroup \beginL \latintext But\endL \egroup }{171}{subsubsection.Alph0.0.1.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.1.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{158}{subsubsection.Alph0.0.1.3}%
+\contentsline {subsubsection}{\numberline {.1.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{171}{subsubsection.Alph0.0.1.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.1.4}\bgroup \beginL \latintext Réalisations\endL \egroup }{158}{subsubsection.Alph0.0.1.4}%
+\contentsline {subsubsection}{\numberline {.1.4}\bgroup \beginL \latintext Réalisations\endL \egroup }{171}{subsubsection.Alph0.0.1.4}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.1.5}\bgroup \beginL \latintext Difficultés rencontrées\endL \egroup }{159}{subsubsection.Alph0.0.1.5}%
+\contentsline {subsubsection}{\numberline {.1.5}\bgroup \beginL \latintext Difficultés rencontrées\endL \egroup }{172}{subsubsection.Alph0.0.1.5}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.1.6}\bgroup \beginL \latintext Solutions apportées\endL \egroup }{159}{subsubsection.Alph0.0.1.6}%
+\contentsline {subsubsection}{\numberline {.1.6}\bgroup \beginL \latintext Solutions apportées\endL \egroup }{172}{subsubsection.Alph0.0.1.6}%
 \select@language {french}
-\contentsline {subsection}{\numberline {.2}\bgroup \beginL \latintext Application 2 \endL \egroup }{159}{subsection.Alph0.0.2}%
+\contentsline {subsection}{\numberline {.2}\bgroup \beginL \latintext Application 2 \endL \egroup }{172}{subsection.Alph0.0.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.2.1}\bgroup \beginL \latintext Description\endL \egroup }{159}{subsubsection.Alph0.0.2.1}%
+\contentsline {subsubsection}{\numberline {.2.1}\bgroup \beginL \latintext Description\endL \egroup }{172}{subsubsection.Alph0.0.2.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.2.2}\bgroup \beginL \latintext But\endL \egroup }{159}{subsubsection.Alph0.0.2.2}%
+\contentsline {subsubsection}{\numberline {.2.2}\bgroup \beginL \latintext But\endL \egroup }{172}{subsubsection.Alph0.0.2.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.2.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{159}{subsubsection.Alph0.0.2.3}%
+\contentsline {subsubsection}{\numberline {.2.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{172}{subsubsection.Alph0.0.2.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.2.4}\bgroup \beginL \latintext Choix technologiques\endL \egroup }{159}{subsubsection.Alph0.0.2.4}%
+\contentsline {subsubsection}{\numberline {.2.4}\bgroup \beginL \latintext Choix technologiques\endL \egroup }{172}{subsubsection.Alph0.0.2.4}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.2.5}\bgroup \beginL \latintext Réalisations\endL \egroup }{160}{subsubsection.Alph0.0.2.5}%
+\contentsline {subsubsection}{\numberline {.2.5}\bgroup \beginL \latintext Réalisations\endL \egroup }{173}{subsubsection.Alph0.0.2.5}%
 \select@language {french}
-\contentsline {subsection}{\numberline {.3}\bgroup \beginL \latintext Application 3 \endL \egroup }{160}{subsection.Alph0.0.3}%
+\contentsline {subsection}{\numberline {.3}\bgroup \beginL \latintext Application 3 \endL \egroup }{173}{subsection.Alph0.0.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.3.1}\bgroup \beginL \latintext Description\endL \egroup }{160}{subsubsection.Alph0.0.3.1}%
+\contentsline {subsubsection}{\numberline {.3.1}\bgroup \beginL \latintext Description\endL \egroup }{173}{subsubsection.Alph0.0.3.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.3.2}\bgroup \beginL \latintext But\endL \egroup }{161}{subsubsection.Alph0.0.3.2}%
+\contentsline {subsubsection}{\numberline {.3.2}\bgroup \beginL \latintext But\endL \egroup }{174}{subsubsection.Alph0.0.3.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.3.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{161}{subsubsection.Alph0.0.3.3}%
+\contentsline {subsubsection}{\numberline {.3.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{174}{subsubsection.Alph0.0.3.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.3.4}\bgroup \beginL \latintext Choix technologiques\endL \egroup }{161}{subsubsection.Alph0.0.3.4}%
+\contentsline {subsubsection}{\numberline {.3.4}\bgroup \beginL \latintext Choix technologiques\endL \egroup }{174}{subsubsection.Alph0.0.3.4}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.3.5}\bgroup \beginL \latintext Réalisations\endL \egroup }{161}{subsubsection.Alph0.0.3.5}%
+\contentsline {subsubsection}{\numberline {.3.5}\bgroup \beginL \latintext Réalisations\endL \egroup }{174}{subsubsection.Alph0.0.3.5}%
 \select@language {french}
-\contentsline {subsection}{\numberline {.4}\bgroup \beginL \latintext Application 4 \endL \egroup }{162}{subsection.Alph0.0.4}%
+\contentsline {subsection}{\numberline {.4}\bgroup \beginL \latintext Application 4 \endL \egroup }{175}{subsection.Alph0.0.4}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.4.1}\bgroup \beginL \latintext Description\endL \egroup }{162}{subsubsection.Alph0.0.4.1}%
+\contentsline {subsubsection}{\numberline {.4.1}\bgroup \beginL \latintext Description\endL \egroup }{175}{subsubsection.Alph0.0.4.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.4.2}\bgroup \beginL \latintext But\endL \egroup }{162}{subsubsection.Alph0.0.4.2}%
+\contentsline {subsubsection}{\numberline {.4.2}\bgroup \beginL \latintext But\endL \egroup }{175}{subsubsection.Alph0.0.4.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.4.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{162}{subsubsection.Alph0.0.4.3}%
+\contentsline {subsubsection}{\numberline {.4.3}\bgroup \beginL \latintext Fonctionnalités\endL \egroup }{175}{subsubsection.Alph0.0.4.3}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {.4.4}\bgroup \beginL \latintext Réalisations\endL \egroup }{163}{subsubsection.Alph0.0.4.4}%
+\contentsline {subsubsection}{\numberline {.4.4}\bgroup \beginL \latintext Réalisations\endL \egroup }{176}{subsubsection.Alph0.0.4.4}%
 \select@language {french}
-\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Capture d'écran de l'application version IOS\endL \egroup }{164}{section.Alph0.1}%
+\contentsline {section}{\numberline {1}\bgroup \beginL \latintext Capture d'écran de l'application version IOS\endL \egroup }{177}{section.Alph0.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {I.1}\bgroup \beginL \latintext Visualisation et signature d’un fichier\endL \egroup }{164}{subsection.Alph0.1.1}%
+\contentsline {subsection}{\numberline {I.1}\bgroup \beginL \latintext Visualisation et signature d’un fichier\endL \egroup }{177}{subsection.Alph0.1.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {I.2}\bgroup \beginL \latintext Mode sombre\endL \egroup }{165}{subsection.Alph0.1.2}%
+\contentsline {subsection}{\numberline {I.2}\bgroup \beginL \latintext Mode sombre\endL \egroup }{178}{subsection.Alph0.1.2}%
 \select@language {french}
-\contentsline {subsection}{\numberline {I.3}\bgroup \beginL \latintext Verification biometrique\endL \egroup }{165}{subsection.Alph0.1.3}%
+\contentsline {subsection}{\numberline {I.3}\bgroup \beginL \latintext Verification biometrique\endL \egroup }{178}{subsection.Alph0.1.3}%
 \select@language {french}
-\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Product backlog Azure DevOps\endL \egroup }{166}{section.Alph0.2}%
+\contentsline {section}{\numberline {2}\bgroup \beginL \latintext Product backlog Azure DevOps\endL \egroup }{179}{section.Alph0.2}%
 \select@language {french}
-\contentsline {section}{\numberline {3}\bgroup \beginL \latintext neo-pdf-viewer\endL \egroup }{166}{section.Alph0.3}%
+\contentsline {section}{\numberline {3}\bgroup \beginL \latintext neo-pdf-viewer\endL \egroup }{179}{section.Alph0.3}%
 \select@language {french}
-\contentsline {subsection}{\numberline {III.1}\bgroup \beginL \latintext Fonctionnalité de l'affichage des images\endL \egroup }{166}{subsection.Alph0.3.1}%
+\contentsline {subsection}{\numberline {III.1}\bgroup \beginL \latintext Fonctionnalité de l'affichage des images\endL \egroup }{179}{subsection.Alph0.3.1}%
 \select@language {french}
-\contentsline {subsection}{\numberline {III.2}\bgroup \beginL \latintext Fonctionnalité de zoom\endL \egroup }{167}{subsection.Alph0.3.2}%
+\contentsline {subsection}{\numberline {III.2}\bgroup \beginL \latintext Fonctionnalité de zoom\endL \egroup }{180}{subsection.Alph0.3.2}%
+\select@language {french}
+\contentsline {section}{\numberline {4}\bgroup \beginL \latintext Démarrage de projet avec Firebase\endL \egroup }{181}{section.Alph0.4}%
+\select@language {french}
+\contentsline {section}{\numberline {5}\bgroup \beginL \latintext Serveur backend de notification\endL \egroup }{183}{section.Alph0.5}%
+\select@language {french}
+\contentsline {subsection}{\numberline {V.1}\bgroup \beginL \latintext Les routes\endL \egroup }{183}{subsection.Alph0.5.1}%
+\select@language {french}
+\contentsline {subsection}{\numberline {V.2}\bgroup \beginL \latintext Structure du code\endL \egroup }{183}{subsection.Alph0.5.2}%
+\select@language {french}
+\contentsline {subsection}{\numberline {V.3}\bgroup \beginL \latintext Fonction d'envoi de notification\endL \egroup }{184}{subsection.Alph0.5.3}%

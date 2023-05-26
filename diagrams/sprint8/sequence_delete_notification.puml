@@ -1,4 +1,4 @@
-@startuml sequence_lister_notification
+@startuml sequence_delete_notification
 
 hide footbox
 
