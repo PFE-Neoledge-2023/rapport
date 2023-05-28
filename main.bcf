@@ -2390,6 +2390,9 @@
     <bcf:citekey order="26" intorder="1">plantuml</bcf:citekey>
     <bcf:citekey order="27" intorder="1">jest</bcf:citekey>
     <bcf:citekey order="28" intorder="1">express</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">acteurUml</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">productBacklog</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">caracteristiquesProductBacklog</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

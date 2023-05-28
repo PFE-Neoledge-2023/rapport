@@ -19,6 +19,19 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{acteurUml}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{note}{Description: consulté le 13/03/2023}
+      \field{title}{Acteur (UML)}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Acteur_(UML)
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Acteur_(UML)
+      \endverb
+    \endentry
     \entry{androidStudio}{misc}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
@@ -303,6 +316,32 @@
       \endverb
       \verb{url}
       \verb https://fr.wikipedia.org/wiki/Postman_(logiciel)
+      \endverb
+    \endentry
+    \entry{productBacklog}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{note}{Product Backlog: consulté le 13/03/2023}
+      \field{title}{Product Backlog}
+      \verb{urlraw}
+      \verb https://scrumguides.org/
+      \endverb
+      \verb{url}
+      \verb https://scrumguides.org/
+      \endverb
+    \endentry
+    \entry{caracteristiquesProductBacklog}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{note}{Quelles sont les caractéristiques d’un product backlog ? : consulté le 13/03/2023}
+      \field{title}{Product Backlog}
+      \verb{urlraw}
+      \verb https://www.qrpinternational.fr/blog/glossaire/quest-ce-quun-backlog-definition-etapes-caracteristiques-et-outils
+      \endverb
+      \verb{url}
+      \verb https://www.qrpinternational.fr/blog/glossaire/quest-ce-quun-backlog-definition-etapes-caracteristiques-et-outils
       \endverb
     \endentry
     \entry{typescript}{misc}{}
