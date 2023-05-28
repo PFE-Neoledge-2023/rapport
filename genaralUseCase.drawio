@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="_vAB88JGNg2r9ybxe3q2" name="Page-1">
-        <mxGraphModel dx="935" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="651" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -131,17 +131,11 @@
                 <mxCell id="57" value="&lt;br&gt;&lt;br&gt;" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="27" target="29">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="27" value="Recherche de documents" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="265" y="320" width="110" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="58" value="" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="28" target="29">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="Aﬀicher documents favoris" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="142.5" y="355" width="110" height="35" as="geometry"/>
-                </mxCell>
-                <mxCell id="m5CaZRnCY0mMQolRR5iT-194" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="29" target="80">
-                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="Gérer documents" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
                     <mxGeometry x="147.5" y="300" width="105" height="30" as="geometry"/>
@@ -180,9 +174,6 @@
                 </mxCell>
                 <mxCell id="59" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="35" target="27">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="35" value="Simple" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="371" y="360" width="91" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="36" target="27">
                     <mxGeometry relative="1" as="geometry"/>
@@ -237,9 +228,6 @@
                 <mxCell id="78" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="63" target="62">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="&lt;div&gt;Signer un&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;fichier&amp;nbsp;&lt;/span&gt;avec&lt;/div&gt;&lt;div&gt;image&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="450" y="400" width="160" height="40" as="geometry"/>
-                </mxCell>
                 <mxCell id="70" value="&lt;br&gt;&lt;br&gt;" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="64" target="62">
                     <mxGeometry x="-0.1594" y="-15" relative="1" as="geometry">
                         <mxPoint as="offset"/>
@@ -253,9 +241,6 @@
                 </mxCell>
                 <mxCell id="71" value="" style="edgeStyle=none;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="65" target="62">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="65" value="&lt;div&gt;Deplacer la signature&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="489.75" y="450" width="130.5" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="72" value="" style="edgeStyle=none;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="66" target="62">
                     <mxGeometry relative="1" as="geometry"/>
@@ -287,32 +272,17 @@
                 <mxCell id="89" style="html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;rounded=0;endArrow=open;endFill=0;" edge="1" parent="1" source="90" target="108">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" value="&lt;div&gt;Modifier&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;la photo de profil&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="470" y="510" width="170.5" height="40" as="geometry"/>
-                </mxCell>
                 <mxCell id="91" style="html=1;dashed=1;rounded=0;endArrow=open;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="92" target="106">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="92" value="&lt;div&gt;Déclarer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;l'absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="424.5" y="557" width="165.5" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="93" style="html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;rounded=0;endArrow=open;endFill=0;" edge="1" parent="1" source="94" target="106">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="94" value="&lt;div&gt;Annuler&lt;/div&gt;&lt;div&gt;une déclara&lt;span style=&quot;background-color: initial;&quot;&gt;tion d'absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="596" y="555" width="165.5" height="40" as="geometry"/>
-                </mxCell>
                 <mxCell id="95" style="html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;rounded=0;endArrow=open;endFill=0;" edge="1" parent="1" source="96" target="107">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="&lt;div&gt;chercher et af&lt;span style=&quot;background-color: initial;&quot;&gt;fecter ue dé&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;légué&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="443.5" y="617" width="175.5" height="40" as="geometry"/>
-                </mxCell>
                 <mxCell id="97" style="html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;rounded=0;endArrow=open;endFill=0;" edge="1" parent="1" source="98" target="107">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="98" value="&lt;div&gt;Supprimer un délégué&amp;nbsp;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="424.5" y="664" width="160" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="99" style="html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;rounded=0;endArrow=open;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="100" target="109">
                     <mxGeometry relative="1" as="geometry">
@@ -369,9 +339,6 @@
                 </mxCell>
                 <mxCell id="130" style="edgeStyle=none;rounded=0;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="111" target="109">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="111" value="&lt;div&gt;Gérer les&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;préférences&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;d'aﬀichage&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="294" y="777" width="210" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="112" value="" style="html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1" source="113" target="111">
                     <mxGeometry x="0.1" relative="1" as="geometry">
@@ -451,9 +418,6 @@
                 </mxCell>
                 <mxCell id="m5CaZRnCY0mMQolRR5iT-181" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="143" target="m5CaZRnCY0mMQolRR5iT-180">
                     <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="143" value="Désactiver les notifications" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="297.75" y="827" width="140.5" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="150" value="extends" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
                     <mxGeometry x="310" y="455" width="50" height="20" as="geometry"/>
@@ -586,6 +550,42 @@
                 </mxCell>
                 <mxCell id="m5CaZRnCY0mMQolRR5iT-205" value="extends" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
                     <mxGeometry x="782.75" y="460" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="m5CaZRnCY0mMQolRR5iT-194" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="29" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Recherche de documents" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="265" y="320" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Simple" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="371" y="360" width="91" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="&lt;div&gt;Signer un&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;fichier&amp;nbsp;&lt;/span&gt;avec&lt;/div&gt;&lt;div&gt;image&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="400" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;div&gt;Deplacer la signature&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="489.75" y="450" width="130.5" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;div&gt;Modifier&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;la photo de profil&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="510" width="170.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="&lt;div&gt;Déclarer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;l'absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="424.5" y="557" width="165.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="&lt;div&gt;Annuler&lt;/div&gt;&lt;div&gt;une déclara&lt;span style=&quot;background-color: initial;&quot;&gt;tion d'absence&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="596" y="555" width="165.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;div&gt;chercher et af&lt;span style=&quot;background-color: initial;&quot;&gt;fecter ue dé&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;légué&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="443.5" y="617" width="175.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="&lt;div&gt;Supprimer un délégué&amp;nbsp;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="424.5" y="664" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="&lt;div&gt;Gérer les&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;préférences&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;d'aﬀichage&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="294" y="777" width="210" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="Désactiver les notifications" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="297.75" y="827" width="140.5" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
