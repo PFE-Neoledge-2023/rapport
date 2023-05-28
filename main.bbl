@@ -1,0 +1,389 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{androidStudio}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{note}{Android Studio: consulté le 13/03/2023}
+      \field{title}{Android Studio}
+      \verb{urlraw}
+      \verb https://developer.android.com/studio
+      \endverb
+      \verb{url}
+      \verb https://developer.android.com/studio
+      \endverb
+    \endentry
+    \entry{archimed}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{note}{Introduction: novembre 2021 consulté le 10/03/2023}
+      \field{title}{Archimed}
+      \verb{urlraw}
+      \verb fr.wikipedia.org/wiki/Archimed
+      \endverb
+      \verb{url}
+      \verb fr.wikipedia.org/wiki/Archimed
+      \endverb
+    \endentry
+    \entry{azureDevOps}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{note}{Azure DevOps: consulté le 13/03/2023}
+      \field{title}{Azure DevOps}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/fr-fr/products/devops/
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/fr-fr/products/devops/
+      \endverb
+    \endentry
+    \entry{capacitor}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{note}{Capacitor: consulté le 13/03/2023}
+      \field{title}{Capacitor}
+      \verb{urlraw}
+      \verb https://capacitorjs.com/
+      \endverb
+      \verb{url}
+      \verb https://capacitorjs.com/
+      \endverb
+    \endentry
+    \entry{docFactory}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{note}{Introduction: consulté le 11/03/2023}
+      \field{title}{DocFactory}
+      \verb{urlraw}
+      \verb https://www.neoledge.com/fr/produits/logiciel-dematerialisation-docfactory/
+      \endverb
+      \verb{url}
+      \verb https://www.neoledge.com/fr/produits/logiciel-dematerialisation-docfactory/
+      \endverb
+    \endentry
+    \entry{drawio}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{note}{Draw.io: consulté le 13/03/2023}
+      \field{title}{Draw.io}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Diagrams.net
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Diagrams.net
+      \endverb
+    \endentry
+    \entry{eliseECM}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{note}{Introduction: consulté le 10/03/2023}
+      \field{title}{Elise ECM}
+      \verb{urlraw}
+      \verb https://www.neoledge.com/eu/product/elise-enterprise-content-management-ecm/
+      \endverb
+      \verb{url}
+      \verb https://www.neoledge.com/eu/product/elise-enterprise-content-management-ecm/
+      \endverb
+    \endentry
+    \entry{express}{misc}{}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{note}{Express: consulté le 13/03/2023}
+      \field{title}{Express}
+      \verb{urlraw}
+      \verb https://expressjs.com/
+      \endverb
+      \verb{url}
+      \verb https://expressjs.com/
+      \endverb
+    \endentry
+    \entry{figma}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{note}{Figma: consulté le 13/03/2023}
+      \field{title}{Figma}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Figma
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Figma
+      \endverb
+    \endentry
+    \entry{firebase}{misc}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labeltitlesource}{title}
+      \field{note}{Firebase: consulté le 13/03/2023}
+      \field{title}{Firebase}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Firebase
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Firebase
+      \endverb
+    \endentry
+    \entry{git}{misc}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{note}{Git: consulté le 13/03/2023}
+      \field{title}{Git}
+      \verb{urlraw}
+      \verb https://git-scm.com/
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/
+      \endverb
+    \endentry
+    \entry{illico}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{note}{Introduction: consulté le 11/03/2023}
+      \field{title}{Illico}
+      \verb{urlraw}
+      \verb https://www.neoledge.com/fr/illico-4/
+      \endverb
+      \verb{url}
+      \verb https://www.neoledge.com/fr/illico-4/
+      \endverb
+    \endentry
+    \entry{ionic}{misc}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{note}{Ionic: consulté le 13/03/2023}
+      \field{title}{Ionic}
+      \verb{urlraw}
+      \verb https://ionicframework.com/
+      \endverb
+      \verb{url}
+      \verb https://ionicframework.com/
+      \endverb
+    \endentry
+    \entry{javascript}{misc}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{note}{JavaScript: consulté le 13/03/2023}
+      \field{title}{JavaScript}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/JavaScript
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/JavaScript
+      \endverb
+    \endentry
+    \entry{jest}{misc}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{note}{Jest: consulté le 13/03/2023}
+      \field{title}{Jest}
+      \verb{urlraw}
+      \verb https://jestjs.io/fr/
+      \endverb
+      \verb{url}
+      \verb https://jestjs.io/fr/
+      \endverb
+    \endentry
+    \entry{jsonServer}{misc}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{note}{Readme: consulté le 13/03/2023}
+      \field{title}{JSON Server}
+      \verb{urlraw}
+      \verb https://github.com/typicode/json-server
+      \endverb
+      \verb{url}
+      \verb https://github.com/typicode/json-server
+      \endverb
+    \endentry
+    \entry{latex}{misc}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{note}{LaTeX: consulté le 13/03/2023}
+      \field{title}{LaTeX}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/LaTeX
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/LaTeX
+      \endverb
+    \endentry
+    \entry{teams}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{note}{Microsoft Teams: consulté le 13/03/2023}
+      \field{title}{Microsoft Teams}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Microsoft_Teams
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Microsoft_Teams
+      \endverb
+    \endentry
+    \entry{nodejs}{misc}{}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labeltitlesource}{title}
+      \field{note}{Node.js: consulté le 13/03/2023}
+      \field{title}{Node.js}
+      \verb{urlraw}
+      \verb https://nodejs.org/fr
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/fr
+      \endverb
+    \endentry
+    \entry{pinia}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{note}{Pinia: consulté le 13/03/2023}
+      \field{title}{Pinia}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Pinia
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Pinia
+      \endverb
+    \endentry
+    \entry{plantuml}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{note}{PlantUML: consulté le 13/03/2023}
+      \field{title}{PlantUML}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/PlantUML
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/PlantUML
+      \endverb
+    \endentry
+    \entry{postman}{misc}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{note}{Postman: consulté le 13/03/2023}
+      \field{title}{Postman}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Postman_(logiciel)
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Postman_(logiciel)
+      \endverb
+    \endentry
+    \entry{typescript}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labeltitlesource}{title}
+      \field{note}{TypeScript: consulté le 13/03/2023}
+      \field{title}{TypeScript}
+      \verb{urlraw}
+      \verb https://www.typescriptlang.org/
+      \endverb
+      \verb{url}
+      \verb https://www.typescriptlang.org/
+      \endverb
+    \endentry
+    \entry{umlCite}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{note}{Introduction: consulté le 12/03/2023}
+      \field{title}{UML}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/UML_(informatique)
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/UML_(informatique)
+      \endverb
+    \endentry
+    \entry{vscode}{misc}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{note}{Visual Studio Code: consulté le 13/03/2023}
+      \field{title}{Visual Studio Code}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com/
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com/
+      \endverb
+    \endentry
+    \entry{vuejs}{misc}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{note}{Vue.js: consulté le 13/03/2023}
+      \field{title}{Vue.js}
+      \verb{urlraw}
+      \verb https://vuejs.org/
+      \endverb
+      \verb{url}
+      \verb https://vuejs.org/
+      \endverb
+    \endentry
+    \entry{windows10}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{note}{Windows 10: consulté le 13/03/2023}
+      \field{title}{Windows 10}
+      \verb{urlraw}
+      \verb https://fr.wikipedia.org/wiki/Windows_10
+      \endverb
+      \verb{url}
+      \verb https://fr.wikipedia.org/wiki/Windows_10
+      \endverb
+    \endentry
+    \entry{xcode}{misc}{}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labeltitlesource}{title}
+      \field{note}{Xcode: consulté le 13/03/2023}
+      \field{title}{Xcode}
+      \verb{urlraw}
+      \verb https://developer.apple.com/xcode/
+      \endverb
+      \verb{url}
+      \verb https://developer.apple.com/xcode/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

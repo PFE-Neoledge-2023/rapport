@@ -60,7 +60,11 @@ urlcolor=blue}
 
 
 %pour les références bibliographiques
-\usepackage[citestyle=authoryear,bibstyle=authoryear,doi=false,isbn=false,eprint=false,maxcitenames=1,uniquelist=false,backend=biber]{biblatex}
+\usepackage[style=numeric,citestyle=numeric,bibstyle=numeric,doi=false,isbn=false,eprint=false,maxcitenames=1,uniquelist=false,backend=biber]{biblatex}
+
+
+% use package biblatex 
+\bibliography{references.bib}
 \addbibresource{references.bib}
 
 \AtEveryBibitem{
@@ -261,9 +265,9 @@ urlcolor=blue}
 \setcounter{section}{1}
 \setcounter{tocdepth}{3}
 \setcounter{secnumdepth}{3}
-\def\thesection{\Roman{section}}
-\def\thesubsection{\Roman{section}.\arabic{subsection}}
-\def\thesubsubsection{\Roman{section}.\arabic{subsection}.\arabic{subsubsection}}
+\def\thesection{\arabic{section}}
+\def\thesubsection{\arabic{section}.\arabic{subsection}}
+\def\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 \begin{document}
 
 
@@ -312,9 +316,8 @@ urlcolor=blue}
 
 %choix du style de la biblio
 
-\printbibliography[nottype=misc,title={Bibliographie}]
  
-\printbibliography[type=misc,title={Webographie}]
+\printbibliography[type=misc,title={Bibliographie et Netographie}]
 
 
 

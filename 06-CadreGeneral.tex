@@ -13,10 +13,12 @@
 %\minitoc
 
 \section*{Introduction}
-Dans ce chapitre, nous nous intéresserons à l'introduction du cadre global du projet et à la description des exigences. Il s'agit en fait d'une introduction de l'organisme d'accueil, suivie d'une motivation et de la présentation du projet. Ensuite, nous présentons l'étude de l'existant et la solution proposée.
+Dans ce chapitre, nous nous intéresserons à l'introduction du cadre global du projet et à la description des exigences. Il s'agit en fait d'une introduction de l'organisme d'accueil, suivie d'une motivation et de la présentation du projet. Ensuite, nous présentons l'étude de l'existant et la solution proposée. 
 
 \section{Présentation de la société d'accueil}
-Acteur indépendant et à dimension internationale, NeoLedge est une société française en forte croissance, qui s'appuie sur un réseau de partenaires privilégiés en Europe, en Amérique du Nord et en Afrique. Éditeur spécialisé dans la gestion électronique de documents, NeoLedge compte à son actif des centaines de clients, des dizaines de milliers d'utilisateurs quotidiens et des millions de documents gérés par ses solutions, dans le secteur public comme dans le secteur privé.
+Acteur indépendant et à dimension internationale, NeoLedge est une société française en forte croissance, qui s'appuie sur un réseau de partenaires privilégiés en Europe, en Amérique du Nord et en Afrique.
+\medskip
+Éditeur spécialisé dans la gestion électronique de documents, NeoLedge compte à son actif des centaines de clients, des dizaines de milliers d'utilisateurs quotidiens et des millions de documents gérés par ses solutions, dans le secteur public comme dans le secteur privé.
 
 \medskip
 
@@ -33,7 +35,7 @@ NeoLedge s'appuie depuis ses débuts sur les techniques développées par Micros
 
 \subsection{Historique}
 
-Archimed est un éditeur de logiciels français, créé en 1993 par trois fondateurs (Mongi Zidi, Olivier Walbecq et Eric Ruyffelaere) et dont le siège social est établi à Lille.
+Archimed\cite{archimed} est un éditeur de logiciels français, créé en 1993 par trois fondateurs (Mongi Zidi, Olivier Walbecq et Eric Ruyffelaere) et dont le siège social est établi à Lille.
 \medskip
 
 Archimed est un éditeur indépendant spécialisé dans les logiciels de gestion documentaire depuis près de 25 ans. Elle a étendu son activité ECM ces dernières années à travers l'Afrique, l'Europe et l'Amérique du Nord.
@@ -48,14 +50,14 @@ NeoLedge propose une gamme complète de solutions de gestion électronique de do
 \medskip
 % listr
 \begin{itemize}
-\item \textbf{ECM Elise} : Pour les entreprises de toutes tailles, qui sont confrontées à une gestion complexe des flux d'informations nécessitant de nombreuses interactions avec des tiers, la solution ECM Elise, éditée par NeoLedge, propose des fonctions automatisées pour la capture des flux multicanaux, la gestion des dossiers et l'orchestration des processus métiers.
+\item \textbf{ECM Elise}\cite{eliseECM} : Pour les entreprises de toutes tailles, qui sont confrontées à une gestion complexe des flux d'informations nécessitant de nombreuses interactions avec des tiers, la solution ECM Elise, éditée par NeoLedge, propose des fonctions automatisées pour la capture des flux multicanaux, la gestion des dossiers et l'orchestration des processus métiers.
 
-\item \textbf{DocFactory} : Pour les entreprises à la recherche d'une solution performante capable de les aider dans leur transformation numérique et leur passage au zéro papier, DocFactory est une solution numérique tout-en-un offrant des fonctions centralisées de numérisation, conversion, et capture de documents électroniques, ainsi que d'export et de signature électronique.\\
+\item \textbf{DocFactory}\cite{docFactory} : Pour les entreprises à la recherche d'une solution performante capable de les aider dans leur transformation numérique et leur passage au zéro papier, DocFactory est une solution numérique tout-en-un offrant des fonctions centralisées de numérisation, conversion, et capture de documents électroniques, ainsi que d'export et de signature électronique.\\
 Contrairement aux solutions propriétaires ne gérant pas le processus de dématérialisation dans sa globalité, DocFactory permet d'industrialiser l'ensemble des opérations de capture des flux de documents jusqu'à leur intégration dans votre système d'information.
 
 
 
-\item \textbf{Illico} : Pour les élus et dirigeants de villes de toutes tailles, engagées dans une politique de transition numérique grâce à des outils innovants qui simplifient leur fonctionnement, illico offre aux citoyens et aux équipes de la ville des services de confiance pour la dématérialisation, le traitement des requêtes, la gestion du courrier et l'automatisation des processus métiers. Contrairement aux solutions en silos ne gérant pas la continuité des processus entre les citoyens et les agents, “illico powered by Elise” est un service illimité, rapide à mettre en œuvre, conçu pour les villes et les réseaux de villes.
+\item \textbf{Illico}\cite{illico} : Pour les élus et dirigeants de villes de toutes tailles, engagées dans une politique de transition numérique grâce à des outils innovants qui simplifient leur fonctionnement, illico offre aux citoyens et aux équipes de la ville des services de confiance pour la dématérialisation, le traitement des requêtes, la gestion du courrier et l'automatisation des processus métiers. Contrairement aux solutions en silos ne gérant pas la continuité des processus entre les citoyens et les agents, “illico powered by Elise” est un service illimité, rapide à mettre en œuvre, conçu pour les villes et les réseaux de villes.
 
 
 \end{itemize}
@@ -65,8 +67,16 @@ Le présent projet intitulé « Elise Mobile » est réalisé dans le cadre de p
 
 Ce projet a été réalisé dans la société NeoLedge durant la période s'étalant du 06 février 2022 jusqu'à 28 mai 2022
 
+\begin{figure}
+\centering
+\fbox{\includegraphics[width=0.5\textwidth]{elisemobile_logo}}
+\caption{Logo de Elise Mobile}
+\label{fig:logoEliseMobile}
+\end{figure}
+
 \subsection{Motivation}
-Comme nous l'avons déjà indiqué, la société d'accueil dispose d'une application web de Gestion Électronique de Documents (GED) intitulée Elise et qui est développée avec les technologies Vue.js pour la partie front et C\# pour la partie back fournissant des API Rest et services web SOAP. Cette application est commercialisée depuis presque 20 ans sous plusieurs versions, dont la sixième version actuellement. La conception actuelle de l'application ne permet pas aux utilisateurs d'accéder aux différentes informations (documents) pour les nomades, que ce soit via des smartphones/tablettes sous iOS/Android.
+Comme nous l'avons déjà indiqué, la société d'accueil dispose d'une application web de Gestion Électronique de Documents (GED) intitulée Elise et qui est développée avec les technologies Vue.js pour la partie front et C\# pour la partie back fournissant des API Rest et services web SOAP.\\
+Cette application est commercialisée depuis presque 20 ans sous plusieurs versions, dont la sixième version actuellement. La conception actuelle de l'application ne permet pas aux utilisateurs d'accéder aux différentes informations (documents) et gérer leurs tâches à partir de leurs téléphones mobiles (Signature, Validation, etc), que ce soit via des smartphones/tablettes sous iOS/Android.
 L'objectif de ce projet est alors la mise en place d'une solution mobile responsive du Elise tout en gardant les mêmes exigences fonctionnelles, non fonctionnelles et les expériences utilisateurs. Cette application permettra aux utilisateurs d'Elise d'accéder à leurs profils à travers leurs smartphones/tablettes.
 
 \section{Étude de l'existant}
@@ -187,7 +197,7 @@ Elise Mobile est une application mobile pour plateformes iOS et Android :
 \item \textbf{Au ROI immédiat} : Elise Mobile permet de gagner du temps et de l'argent en permettant aux utilisateurs de gérer leurs documents et leurs tâches.
 \end{itemize}
 
-Elle a été développée en Xamarin avec Backend en Asp.Net Core 4 depuis le 10 octobre 2018. Elle est en version 1.1.6 jusqu'à présent.
+Elle a été développée en Xamarin depuis le 10 octobre 2018. Elle est en version 1.2.1 jusqu'à présent.
 
 Avec Elise Mobile, les utilisateurs de la solution de Gestion électronique de Contenu Elise peuvent :
 
@@ -225,39 +235,8 @@ Avec Elise Mobile, les utilisateurs de la solution de Gestion électronique de C
   \end{itemize}
 \end{itemize}
 
-\subsection{Critique de l'existant}
-L'étude de l'application existante nous a permis de porter des jugements objectifs afin de projeter de fournir ainsi un système plus fiable.
 
-Parmi les lacunes rencontrées, nous citons :
-\begin{itemize}
-  % \item Elise est une solution développée de base en ASP. Net Back et front de l'ancienne version d'Asp. Net c'est pour cela l'application actuelle est non responsive et c'est à partir de la version 6 de Elise que NeoLedge a décidé de migrer le front vers les nouvelles technologies. 
-  % \item Elise utilise une base de données locale qui est SIMWebPack et qui est une solution proposée par NeoLedge pour enregistrer les documents sous la forme de XML.
-  \item La version actuelle d'Elise mobile ne répond pas aux besoins des utilisateurs par rapport à Elise web ce qui invoque de mauvaises expériences utilisateurs.
-  \item La version actuelle d'Elise mobile ne renferme pas toutes les fonctionnalités du Elise version web.
-\end{itemize}
-
-\subsection{Solution proposée}
-Notre solution consiste à mettre en place une solution responsive de Elise qui offre les mêmes fonctionnalités que la version web actuelle d'Elise tout en gardant les mêmes interfaces pour améliorer l'expérience d'utilisateur. Parmi les fonctionnalités que nous allons traiter, nous citons :
-
-\begin{itemize}
-  \item Connecter un utilisateur de Elise à son profil
-  \item Consulter les espaces de travail
-  \item	Consulter les tableaux de bord
-  \item	Créer un nouveau document
-  \item Accéder à un document
-  \item Rechercher un document / un service ou un utilisateur spécifique
-  \item Signer des documents
-  \item	Gestion des documents
-  \begin{itemize}
-    \item Possibilité d'approuver et de signer des documents.
-    \item Signature possible en utilisant des signatures antérieures ou manuellement.
-    \item Possibilité d'utiliser des signatures électroniques avancées.
-  \end{itemize}
-  \item Notifications push : Possibilité de recevoir des notifications push pour les mises à jour de documents ou les tâches à effectuer.
-\end{itemize}
-
-\section{Étude technique}
-\subsection{Architecture système}
+\subsection{Étude technique}
 Elise est une solution d'architecture architecture 3 tiers, illustrée par la figure ci-dessous 
 % image architecture_elise
 \begin{figure}[H]
@@ -279,12 +258,57 @@ Elle contient les données de l'application. Pour notre solution nous avons deux
 
 Cette architecture nous offre la séparation entre l'interface utilisateur, la logique métier et la couche de stockage de données. Cela donne une plus grande flexibilité aux équipes de développement en leur permettant de mettre à jour une partie spécifique d'une application indépendamment des autres parties.
 
-\section{Méthodologie de gestion de projet}
+
+\subsection{Critique de l'existant}
+L'étude de l'application existante nous a permis de porter des jugements objectifs afin de projeter de fournir ainsi un système plus fiable.
+
+Parmi les lacunes rencontrées, nous citons :
+\begin{itemize}
+  % \item Elise est une solution développée de base en ASP. Net Back et front de l'ancienne version d'Asp. Net c'est pour cela l'application actuelle est non responsive et c'est à partir de la version 6 de Elise que NeoLedge a décidé de migrer le front vers les nouvelles technologies. 
+  % \item Elise utilise une base de données locale qui est SIMWebPack et qui est une solution proposée par NeoLedge pour enregistrer les documents sous la forme de XML.
+  \item La version actuelle d'Elise mobile ne répond pas aux besoins des utilisateurs par rapport à Elise web ce qui invoque de mauvaises expériences utilisateurs.
+  \item La version actuelle d'Elise mobile ne renferme pas toutes les fonctionnalités du Elise version web.
+\end{itemize}
+
+\subsection{Solution proposée}
+Notre solution consiste à mettre en place une solution responsive de Elise qui offre une grande partie des fonctionnalités de la version web actuelle d'Elise tout en gardant les mêmes interfaces pour améliorer l'expérience d'utilisateur. Parmi les fonctionnalités que nous allons traiter, nous citons :
+
+\begin{itemize}
+  \item Connecter un utilisateur de Elise à son profil
+  \item Consulter les espaces de travail
+  \item Accéder à un document
+  \item Rechercher un document / un service ou un utilisateur spécifique
+  \item Gérer les signatures
+  \item Gérer l'abscence
+  \item Gérer les documents
+  \begin{itemize}
+    \item Gérer les tâches d'un document
+    \item Possibilité de signer des documents.
+    \item Signature possible en utilisant des signatures antérieures ou manuellement.
+    \item Possibilité d'utiliser des signatures électroniques.
+    \item	Ajouter des fichiers aux documents
+  \end{itemize}
+  \item Notifications push : Possibilité de recevoir des notifications push pour les mises à jour de documents ou les tâches à effectuer.
+\end{itemize}
+
+\section{Méthodologies adoptées}
+Au cours de cette section, nous détaillons les méthodologies utilisées qui nous ont permis d'avancer dans la réalisation de notre projet.
+
+\subsection{Méthodologie de modélisation et de conception}
+Pour la réalisation d'un projet informatique, une méthodologie de modélisation et de conception est un procédé qui a pour objectif de permettre de formaliser les étapes préliminaires du développement d'un système afin de rendre ce développement plus fidèle aux besoins du client. C'est pour cela qu'on a choisi UML (Unified Modeling Language) pour la conception de notre projet.\\
+
+\medskip
+
+UML\cite{umlCite} est un langage de modélisation graphique à base de pictogrammes conçu comme une méthode normalisée de visualisation dans les domaines du développement logiciel et en conception orientée objet .
+
+
+
+\subsection{Méthodologie de gestion de projet}
 Avec les progrès en technologie de l'information et les investissements dans les infrastructures, beaucoup de méthodes de gestion de projet ont vu le jour. Certes, ces méthodes jouent un rôle primordial dans la réussite ou l'échec d'un projet, d'où le choix, représente une décision importante pour les entreprises. Dans cette partie, nous allons expliquer notre choix de la méthode. Il existe en fait deux grandes familles de méthodes de la gestion du projet : les méthodes dites classiques et les méthodes agiles. Nous privilégierons plutôt les méthodes classiques lorsqu'on a une idée précise du projet, avec un planning bien détaillé et où nous avons anticipé tous les risques possibles. Quant aux méthodes Agiles, nous les choisirons plutôt pour les gros projets, celles-ci permettent une meilleure adaptabilité, visibilité et gestion des risques. Nous privilégierons également les méthodes Agiles pour les projets où il n'y a pas de documents détaillés, ou quand le client est indécis. Le client pourra alors voir l'évolution du projet et l'adapter à ses besoins sans pour autant nous obliger à recommencer tout le travail que nous avons fourni depuis le début. Elles sont menées dans un esprit collaboratif et elles s'adaptent aux approches incrémentales. Elles engendrent des produits de haute qualité tout en tenant compte de l'évolution des besoins du client.
 
-\subsection{Choix méthodologique}
+\subsubsection{Choix méthodologique}
 Notre choix méthodologique et en convenance à notre projet, nous avons opté pour l'utilisation du framework Scrum. C'est en fait le framework le plus utilisé, le plus éprouvé, documenté et supporté. Il s'agit d'un cadre de travail en équipe pluridisciplinaire permettant de répondre à des problèmes complexes et changeants, centré sur l'architecture.
-\subsection{Pourquoi Scrum}
+\subsubsection{Pourquoi Scrum}
 Dans le cadre de notre projet et afin d'assurer le bon déroulement des différentes phases de ce dernier, nous avons opté pour le framework agile Scrum pour la conception et le développement de notre système pour des raisons bien déterminées. En effet, le framework Scrum s'adapte parfaitement à la décomposition de notre projet de fin d'études.
 
 Il se base sur les avantages suivants :
@@ -414,10 +438,7 @@ Au cours de cette section, nous dresserons une liste des outils utilisés pour �
       \vspace{-0.5cm}
       \includegraphics[width=1\linewidth]{win10.jpg} 
     \end{wrapfigure}
-    Windows 10 est un système d'exploitation de Microsoft. Cette nouvelle
-version introduit plusieurs changements importants. Elle est la
-première à fonctionner sur tou
-tes les plateformes existantes.
+    Windows 10 est un système d'exploitation de la famille Windows NT développé par la société américaine Microsoft.\cite{windows10}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -429,7 +450,7 @@ tes les plateformes existantes.
       \includegraphics[width=0.9\linewidth]{vscode.png} 
     \end{wrapfigure}
     Un éditeur de code extensible développé par Microsoft pour Windows, Linux et macOS. Les fonctionnalités incluent
-     la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégrer.
+     la prise en charge du débogage, la mise en évidence de la syntaxe, la complétion intelligente du code, les snippets, la refactorisation du code et Git intégrer. \cite{vscode}
   \end{minipage}
     
   \item \textbf{XCode} :\\
@@ -438,7 +459,7 @@ tes les plateformes existantes.
       \vspace{-0.5cm}
       \includegraphics[width=0.9\linewidth]{xcode} 
     \end{wrapfigure}
-    Xcode est un environnement de développement pour macOS, ainsi que pour iOS, watchOS et tvOS. 
+    Xcode est un environnement de développement pour macOS, ainsi que pour iOS, watchOS et tvOS. \cite{xcode}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -448,7 +469,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{android.png} 
       \end{wrapfigure}
-      Android Studio est un environnement de développement intégré (IDE) pour le développement d'applications Android. Il est basé sur IntelliJ IDEA et est développé par Google.
+      Android Studio est un environnement de développement intégré (IDE) pour le développement d'applications Android. Il est basé sur IntelliJ IDEA et est développé par Google. \cite{androidStudio}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -459,7 +480,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{postman.jpg} 
       \end{wrapfigure}
-      Postman est un outil de développement de logiciels qui permet de tester et de déboguer des API. Il permet de créer des requêtes HTTP et de les envoyer à un serveur. Il permet également de créer des collections de requêtes et de les organiser en dossiers.
+      Postman est un outil de développement de logiciels qui permet de tester et de déboguer des API. Il permet de créer des requêtes HTTP et de les envoyer à un serveur. Il permet également de créer des collections de requêtes et de les organiser en dossiers. \cite{postman}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -469,7 +490,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{git.jpg} 
       \end{wrapfigure}
-      Git est un logiciel de gestion de versions décentralisé. Il permet de gérer les versions d'un projet informatique et de collaborer avec d'autres développeurs.
+      Git est un logiciel de gestion de versions décentralisé. Il permet de gérer les versions d'un projet informatique et de collaborer avec d'autres développeurs. \cite{git}
     \end{minipage}
     
 
@@ -480,7 +501,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{AzureDevOps.png} 
       \end{wrapfigure}
-      Azure DevOps est un ensemble d'outils de développement logiciel en tant que service (SaaS) fourni par Microsoft. Il fournit des services de gestion de projets, de gestion de code source, de gestion de tests et de gestion de la qualité du logiciel.
+      Azure DevOps est un ensemble d'outils de développement logiciel en tant que service (SaaS) fourni par Microsoft. Il fournit des services de gestion de projets, de gestion de code source, de gestion de tests et de gestion de la qualité du logiciel. \cite{azureDevOps}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -490,7 +511,7 @@ tes les plateformes existantes.
         \vspace{-0.8cm}
         \includegraphics[width=0.9\linewidth]{figma.jpg} 
       \end{wrapfigure}
-      Figma est un outil de conception graphique. Il permet de créer des maquettes de sites web et d'applications mobiles.
+      Figma est un outil de conception graphique. Il permet de créer des maquettes de sites web et d'applications mobiles. \cite{figma}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -500,7 +521,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{drawio.png} 
       \end{wrapfigure}
-      Draw.io est un logiciel de dessin graphique multiplateforme gratuit et open source développé en HTML5 et JavaScript. Son interface peut être utilisée pour créer tous types de diagrammes.
+      Draw.io est un logiciel de dessin graphique multiplateforme gratuit et open source développé en HTML5 et JavaScript. Son interface peut être utilisée pour créer tous types de diagrammes. \cite{drawio}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -510,7 +531,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{teams.png} 
       \end{wrapfigure}
-      Microsoft Teams est un logiciel de messagerie instantanée et de collaboration en ligne développé par Microsoft. Il permet de créer des salons de discussion, de partager des fichiers et de collaborer en temps réel.
+      Microsoft Teams est un logiciel de messagerie instantanée et de collaboration en ligne développé par Microsoft. Il permet de créer des salons de discussion, de partager des fichiers et de collaborer en temps réel. \cite{teams}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -520,7 +541,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{latex.png} 
       \end{wrapfigure}
-      LaTeX est un langage de description de documents. Il permet de créer tous types de documents. Il est utilisé pour la rédaction de livres, de rapports, de thèses, de journaux, de présentations, de documents techniques, etc.
+      LaTeX est un langage de description de documents. Il permet de créer tous types de documents. Il est utilisé pour la rédaction de livres, de rapports, de thèses, de journaux, de présentations, de documents techniques, etc. \cite{latex}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -530,7 +551,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{nodejs.png}
       \end{wrapfigure}
-      Node.js est une plateforme logicielle libre en JavaScript, orientée vers les applications réseau évènementielles hautement concurrentes.
+      Node.js est une plateforme logicielle libre en JavaScript, orientée vers les applications réseau évènementielles hautement concurrentes. \cite{nodejs}
     \end{minipage}
     \vspace{0.5cm}
 
@@ -541,7 +562,7 @@ tes les plateformes existantes.
         \includegraphics[width=0.9\linewidth]{firebase} 
       \end{wrapfigure}
       Firebase est un ensemble de services d'hébergement pour n'importe quel type d'application.
-      Il propose d'héberger en NoSQL et en temps réel des bases de données, du contenu, et des notifications, etc.
+      Il propose d'héberger en NoSQL et en temps réel des bases de données, du contenu, et des notifications, etc. \cite{firebase}
     \end{minipage}
   \vspace{0.5cm}
 
@@ -551,7 +572,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{json-server} 
       \end{wrapfigure}
-      json-server est un outil qui permet de créer un serveur REST à partir d'un fichier JSON ou d'un fichier JavaScript.
+      json-server est un outil qui permet de créer un serveur REST à partir d'un fichier JSON ou d'un fichier JavaScript. \cite{jsonServer}
     \end{minipage}
   \end{itemize}
 
@@ -565,7 +586,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{ionic.png} 
       \end{wrapfigure}
-      Ionic est un UI toolkit open source pour la création d'applications mobiles performantes et de haute qualité à l'aide de technologies web telles que HTML, CSS et JavaScript, avec des intégrations pour des frameworks populaires tels que Angular, React et Vue.
+      Ionic est un UI toolkit open source pour la création d'applications mobiles performantes et de haute qualité à l'aide de technologies web telles que HTML, CSS et JavaScript, avec des intégrations pour des frameworks populaires tels que Angular, React et Vue. \cite{ionic}
     \end{minipage}
   
     \vspace{0.5cm}
@@ -576,7 +597,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{vue.png} 
       \end{wrapfigure}
-      Vue.js est un framework JavaScript open source pour la création d'interfaces utilisateur et d'applications web monopages.
+      Vue.js est un framework JavaScript open source pour la création d'interfaces utilisateur et d'applications web monopages. \cite{vuejs}
     \end{minipage}
   
     \vspace{0.5cm}
@@ -587,7 +608,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{capacitor.png} 
       \end{wrapfigure}
-      Capacitor est un runtime natif open source pour la création d'applications Web natives. Il permet de créer des applications iOS, Android et des applications Web progressives multiplateformes à l'aide de JavaScript, HTML et CSS.
+      Capacitor est un runtime natif open source pour la création d'applications Web natives. Il permet de créer des applications iOS, Android et des applications Web progressives multiplateformes à l'aide de JavaScript, HTML et CSS. \cite{capacitor}
     \end{minipage}
   
     \vspace{0.5cm}
@@ -598,7 +619,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{typescript.png} 
       \end{wrapfigure}
-      TypeScript est un langage de programmation libre et open source développé par Microsoft. Il est un sur-ensemble de JavaScript, c'est-à-dire qu'il ajoute des fonctionnalités à ce dernier.
+      TypeScript est un langage de programmation libre et open source développé par Microsoft. Il est un sur-ensemble de JavaScript, c'est-à-dire qu'il ajoute des fonctionnalités à ce dernier. \cite{typescript}
     \end{minipage}
   
     \vspace{0.5cm}
@@ -609,7 +630,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{javascript.png} 
       \end{wrapfigure}
-      JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web.
+      JavaScript est un langage de programmation de scripts principalement employé dans les pages web interactives et à ce titre est une partie essentielle des applications web. \cite{javascript}
     \end{minipage}
 
     \vspace{0.5cm}
@@ -620,7 +641,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{pinia.png} 
       \end{wrapfigure}
-      Pinia est une bibliothèque de magasin et un framework de gestion d'état pour Vue.js. Conçu principalement pour créer des applications Web frontales, il utilise une syntaxe déclarative et propose sa propre API de gestion d'état.
+      Pinia est une bibliothèque de magasin et un framework de gestion d'état pour Vue.js. Conçu principalement pour créer des applications Web frontales, il utilise une syntaxe déclarative et propose sa propre API de gestion d'état. \cite{pinia}
     \end{minipage}
     
     \vspace{0.5cm}
@@ -631,7 +652,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{plantuml.png} 
       \end{wrapfigure}
-      PlantUML est un outil open-source permettant aux utilisateurs de créer des diagrammes à partir d'un langage de texte simple.
+      PlantUML est un outil open-source permettant aux utilisateurs de créer des diagrammes à partir d'un langage de texte simple. \cite{plantuml}
     \end{minipage}
 
     \item \textbf{Jest} :\\
@@ -640,7 +661,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{jest.png} 
       \end{wrapfigure}
-      Jest est un framework de test JavaScript construit sur Jasmine et maintenu par Meta. Il a été conçu et construit en mettant l'accent sur la simplicité et la prise en charge des grandes applications Web.
+      Jest est un framework de test JavaScript construit sur Jasmine et maintenu par Meta. Il a été conçu et construit en mettant l'accent sur la simplicité et la prise en charge des grandes applications Web. \cite{jest}
     \end{minipage}
   
     \vspace{0.5cm}
@@ -650,7 +671,7 @@ tes les plateformes existantes.
         \vspace{-0.5cm}
         \includegraphics[width=0.9\linewidth]{express.png}
       \end{wrapfigure}
-      Express est un framework pour construire des applications web basées sur Node.js. C'est de fait le framework standard pour le développement de serveur en Node.js. 
+      Express est un framework pour construire des applications web basées sur Node.js. C'est de fait le framework standard pour le développement de serveur en Node.js.  \cite{express}
     \end{minipage}
 
   
