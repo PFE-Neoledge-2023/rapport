@@ -84,6 +84,32 @@
       \verb https://capacitorjs.com/
       \endverb
     \endentry
+    \entry{classConception}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{note}{Description: consulté le 13/03/2023}
+      \field{title}{Diagramme de classes}
+      \verb{urlraw}
+      \verb https://laurent-audibert.developpez.com/Cours-UML/?page=diagramme-classes
+      \endverb
+      \verb{url}
+      \verb https://laurent-audibert.developpez.com/Cours-UML/?page=diagramme-classes
+      \endverb
+    \endentry
+    \entry{sequenceConception}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{note}{Description: consulté le 13/03/2023}
+      \field{title}{Diagramme de séquence}
+      \verb{urlraw}
+      \verb https://www.ibm.com/docs/fr/rsm/7.5.0?topic=uml-sequence-diagrams
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/docs/fr/rsm/7.5.0?topic=uml-sequence-diagrams
+      \endverb
+    \endentry
     \entry{docFactory}{misc}{}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}

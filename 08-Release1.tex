@@ -9,9 +9,10 @@
 \renewcommand{\thepart}{\arabic{part}}
 \renewcommand{\thesection}{\arabic{section}}
 \section*{Introduction}
-Ce chapitre présente la première version de notre application. Il est composé de quatre sprints qui ont été réalisés en 8 semaines. Nous avons commencé par la conception de l'application, puis nous avons implémenté les fonctionnalités de base de l'application tels que la gestion des documents et des signatures. Dans ce chapitre, nous décrirons en détail les fonctionnalités de chaque sprint, les défis que nous avons rencontrés et les solutions que nous avons apportées pour les surmonter.
+Dans ce chapitre, nous allons nous concentrer sur les sprints de la première release de notre projet. Nous allons présenter en détail différents éléments essentiels tels que le diagramme des cas d'utilisation, le diagramme d'analyse, le diagramme des classes participantes, les diagrammes de séquences et les interfaces nécessaires pour chaque sprint. Ces éléments permettront d'assurer une compréhension approfondie de la fonctionnalité de chaque sprint et de guider la réalisation de la première release.
 
-Release 1 : (Du 8 Février Au 19 Avril)
+\section{Organisation des sprints}
+La release 1 (Du 6 Février Au 2 Avril) est composée de quatre sprints : 
 
 \fbox{\begin{minipage}{30em}
   \textbf{Organisation des sprints :} \\
@@ -24,12 +25,16 @@ Release 1 : (Du 8 Février Au 19 Avril)
   \end{itemize}
 \end{minipage}}
 
+
+
 \section{Sprint 1 (Préparation de l'environnement du travail et étude de la solution)}
 
 \subsection{Sprint Goal}
 L'objectif de ce sprint est de préparer l'environnement de travail et d'étudier la solution ainsi que les technologies à utiliser afin de pouvoir commencer le développement de l'application, et ensuite, demarrer le développement de l'application elise mobile contenant les fonctionnalités de base (S'authentifier, Se déconnecter).
 
 \subsection{Sprint Backlog}
+
+Le tableau \ref{tab:sprint-backlog-1} représente le sprint backlog du sprint 1.
 
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
@@ -95,9 +100,15 @@ L'objectif de ce sprint est de préparer l'environnement de travail et d'étudie
 \end{longtable}
 \end{adjustwidth}
 \subsection{Implémentation du Sprint 1}
-\textbf{•	Diagramme de cas d'utilisation du sprint 1}
 
 % add image
+
+\subsubsection{Spécification des besoins}
+Dans cette section, nous allons détailler les besoins de notre premier sprint. Cela inclut la création d'un diagramme des cas d'utilisation, la rédaction de descriptions pour chaque cas d'utilisation, la conception de maquettes, ainsi que l'identification des diagrammes de séquences système.
+
+La figure \ref{fig:UseCaseDiagram1} représente le diagramme de cas d'utilisation du sprint 1.
+
+\textbf{•	Diagramme de cas d'utilisation du sprint 1}
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{use_case_documents_sprint_1}}
@@ -105,7 +116,10 @@ L'objectif de ce sprint est de préparer l'environnement de travail et d'étudie
   \label{fig:UseCaseDiagram1}
 \end{figure}
 
-\subsubsection{Analyse des besoins}
+
+Nous avons choisi de présenter les descriptions textuelles des différents cas d'utilisation plutôt que de se fier uniquement au diagramme des cas d'utilisation, car ce dernier ne détaille pas explicitement les échanges entre les acteurs et les cas d'utilisation. Les tableaux ci-dessous présentent ces descriptions textuelles :
+
+
 \textbf{•	Description textuelle de cas d'utilisation « S'authentifier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -183,7 +197,7 @@ Pour créer notre plateforme, nous avons pensé qu'il était nécessaire de réa
 \end{figure}
 
 
-Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
+Afin d'obtenir une représentation temporelle des interactions entre les objets de notre système, ainsi que la chronologie des messages échangés entre eux et les acteurs, nous avons créé les diagrammes de séquence suivants :
 
 \begin{figure}[H]
   \centering
@@ -201,16 +215,8 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 
 \subsubsection{Analyse détaillée}
-La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
-Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
+Dans cette partie, nous allons analyser notre sprint en nous basant sur un diagramme de classes participantes. Ce diagramme modélisera trois types de classes d'analyse : les Views (dialogues), les ViewModels (contrôles) et les Models (entités), ainsi que leurs relations.
 
-Les objets de diagramme d'analyse sont les suivants :
-% View
-\begin{itemize}
-  \item \textbf{View} : représente la vue de l'application.
-  \item \textbf{ViewModel} : représente le modèle de la vue.
-  \item \textbf{Model} : représente le modèle de l'application.
-\end{itemize}
 
 % spacing between paragraphs
 \setlength{\parskip}{1em}
@@ -230,8 +236,18 @@ Les objets de diagramme d'analyse sont les suivants :
 
 \subsubsection{Conception}
 
-Après la présentation des diagrammes d'analyse, nous allons présenter dans cette partie les diagrammes de conception.\\ 
+
+Une méthode de conception est la phase créative d'un projet d'ingénierie. Son objectif principal est de permettre la création d'un système ou d'un processus qui répond à un besoin tout en tenant compte des contraintes. Dans ce contexte, nous sommes passés à la phase de conception en réalisant les figures ci-dessous, qui comprennent :
+\begin{itemize}
+  
+  \item Un diagramme de classe de conception : il s'agit d'un document essentiel qui représente la vue statique de conception d'un système. Il présente les différentes classes et leurs relations.\cite{classConception}
+  \item Les diagrammes de séquence de conception : il s'agit d'un diagramme d'interaction organisé selon le temps, qui détaille la manière dont les opérations sont effectuées. Il indique quels messages sont envoyés et quand ils le sont. \cite{sequenceConception}
+\end{itemize}
+
+Ces deux diagrammes jouent un rôle important dans la conception du système, en offrant une vision claire de son architecture et de son fonctionnement\\
+
 \textbf{•	Diagramme de classe de conception de sprint 1}
+La figure \ref{fig:class_diagram_auth} représente le diagramme de classe de conception du sprint 1.
 
 % add image
 \begin{figure}[H]
@@ -258,7 +274,7 @@ Après la présentation des diagrammes d'analyse, nous allons présenter dans ce
 
 \subsubsection{Réalisation}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.\\
+Pour concrétiser les phases précédentes, nous entrons maintenant dans l'étape de développement afin de créer les interfaces suivantes
 \textbf{Note :} Voir annexe \ref{appendix:applications} pour plus de détails sur les applications 1, 2, 3 et 4.
 
 
@@ -271,9 +287,8 @@ Après la présentation des diagrammes d'analyse, nous avons présenté dans cet
 \end{figure}
 
 
-
 \subsection{Sprint Review}
-Suite à cette sprint, nous avons préparé notre environnement de travail où nous aurons les possibilités de traiter les prochains sprints.
+Suite à cette sprint, nous avons planifié une réunion avec l'equipe scrum afin de présenter les applications réalisées et de discuter les problèmes rencontrés.
 
 \subsection{Sprint Retrospective}
 
@@ -291,14 +306,15 @@ Suite à cette sprint, nous avons préparé notre environnement de travail où n
   Nous avons remarqué que le temps de formation est très réduit, nous avons donc décidé de suivre des formations sur Youtube pour nous former sur les technologies à utiliser en plus de la formation préparée par la société.
 \end{itemize}
 
-\section{Sprint 2 (Gestion des signatures)}
+\section{Sprint 2 (Gestion des signatures et lancement de la bibliothèque de visualisation de fichiers)}
 
 \subsection{Sprint Goal}
 
-L'objectif de ce sprint est de développer et mettre en place un système de gestion des signatures permettant aux utilisateurs d'ajouter et de visualiser facilement les signatures crée, tout en garantissant la sécurité.
+L'objectif de ce sprint est de développer et mettre en place un système de gestion des signatures permettant aux utilisateurs d'ajouter et de visualiser facilement les signatures crée, tout en garantissant la sécurité des données. En plus, nous allons développer une bibliothèque de visualisation de fichiers qui sera utilisée dans les prochains sprints.
 
 \subsection{Sprint Backlog}
 
+Le tableau \ref{tab:sprint-backlog-2} représente le sprint backlog du sprint 2.
 
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
@@ -351,6 +367,10 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \end{adjustwidth}
 
 \subsection{Implémentation du Sprint 2}
+
+\subsubsection{Spécification des besoins}
+La figure \ref{fig:UseCaseDiagram2} représente le diagramme de cas d'utilisation du sprint 2.
+
 \textbf{•	Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »}
 
 % add image
@@ -361,7 +381,9 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
   \label{fig:UseCaseDiagram}
 \end{figure}
 
-\subsubsection{Analyse des besoins}
+Le diagramme \ref{fig:UseCaseDiagram} nous représente les cas d'utilisation de la gestion des signatures (créer, modifier, supprimer, visualiser et lister les signatures). \\
+Dans les tableaux suivants, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
+
 \textbf{•	Description textuelle de cas d'utilisation « Créer une signature »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -403,9 +425,6 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \label{tab:use_case_create_signature}
 \end{longtable}
 
-% \textbf{Terminologie paragraphe :} \\
-% \textbf{OCR :} signifie Optical Character Recognition (reconnaissance optique de caractères en français). Il s'agit d'un processus de conversion d'images numérisées de textes en fichiers éditables et interprétables par des ordinateurs.
-  
 
 \textbf{•	Description textuelle de cas d'utilisation « Afficher les signatures »}
 
@@ -657,7 +676,7 @@ Après la présentation des diagrammes d'analyse, nous allons présenter dans ce
 \subsubsection{Besoins et spécifications}
 Ce lecteur est conçu pour permettre la visualisation de fichiers PDF dans un environnement Vue.js. Les principaux besoins et spécifications du package étaient les suivants :
 \begin{itemize}
-  \item Chargement et affichage de fichiers PDF locaux sous forme base64.
+  \item Chargement et affichage de fichiers PDF sous forme base64.
   \item Prise en charge de la navigation par page ou l'affichage de tous les pages dans le document PDF.
   \item Gestion des événements liés à l'interaction de l'utilisateur avec le visualiseur PDF.
 \end{itemize}
@@ -674,7 +693,7 @@ Pour réaliser ce lecteur, les choix techniques suivants ont été faits :
 \textbf{•	Architecture du package}\\
 L'architecture du lecteur est basée sur une combinaison de la bibliothèque PDF.js et du framework Vue.js. Le package comprend plusieurs modules qui gèrent le chargement, le rendu et l'interaction avec les fichiers PDF.
 
-\textbf{Développement des fonctionnalités }\\
+\textbf{•	Développement des fonctionnalités }\\
 Les fonctionnalités développées comprennent :
 
 \begin{itemize}
@@ -682,7 +701,7 @@ Les fonctionnalités développées comprennent :
   \item Les fonctionnalités d'interaction avec les fichiers PDF, la navigation par page et l'affichage de tous les pages dans le document PDF.
 \end{itemize}
 
-\textbf{Publication du package}\\
+\textbf{•	Publication du package}\\
 Nous avons choisi de nommer le package neo-pdf-viewer. Il est disponible sur le lien suivant : \url{https://www.npmjs.com/package/neo-pdf-viewer}
 
 \begin{figure}
@@ -738,7 +757,7 @@ Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la 
 \section{Sprint 3 « Gestion des documents »}
 \subsection{Sprint Goal}
 
-L'objectif de ce sprint est de développer et mettre en place un système de gestion des documents permettant aux utilisateurs de consulter les informations du document, consulter et gérer un fichier dans un document, consulter et gérer les tâches dans un document, chercher des documents et consulter la liste des documents en favoris
+L'objectif de ce sprint est de développer et mettre en place un système de gestion des documents permettant aux utilisateurs de consulter les informations du document, consulter et gérer un fichier dans un document, consulter et gérer les tâches dans un document, rechercher des documents et consulter la liste des documents en favoris
 
 \pagebreak
 
@@ -848,7 +867,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \end{figure}
 
 
-\subsubsection{Analyse des besoins}
+\subsubsection{Spécification des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Accéder à un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -1702,7 +1721,7 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
   \caption{Diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier »}
   \label{fig:UseCaseDiagram4}
 \end{figure}
-\subsubsection{Analyse des besoins}
+\subsubsection{Spécification des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Visualiser un fichier  »}
 \begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
