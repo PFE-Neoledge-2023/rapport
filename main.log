@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.5.28)  29 MAY 2023 18:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.5.28)  29 MAY 2023 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5608,31 +5608,31 @@ Overfull \hbox (11.54723pt too wide) in alignment at lines 1566--1584
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 1593.
-LaTeX Info: Redefining \sffamily on input line 1593.
-LaTeX Info: Redefining \ttfamily on input line 1593.
+LaTeX Info: Redefining \rmfamily on input line 1598.
+LaTeX Info: Redefining \sffamily on input line 1598.
+LaTeX Info: Redefining \ttfamily on input line 1598.
  [163]
 File: images_pfe/dca_sprint8.png Graphic file (type bmp)
 <images_pfe/dca_sprint8.png>
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1605--1606
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1603--1604
  [][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1613--1615
+Underfull \hbox (badness 10000) in paragraph at lines 1611--1613
 [][]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1615.
-LaTeX Info: Redefining \sffamily on input line 1615.
-LaTeX Info: Redefining \ttfamily on input line 1615.
+LaTeX Info: Redefining \rmfamily on input line 1613.
+LaTeX Info: Redefining \sffamily on input line 1613.
+LaTeX Info: Redefining \ttfamily on input line 1613.
 [164]
 File: images_pfe/dcc_sprint8.png Graphic file (type bmp)
 <images_pfe/dcc_sprint8.png>
-LaTeX Info: Redefining \rmfamily on input line 1626.
-LaTeX Info: Redefining \sffamily on input line 1626.
-LaTeX Info: Redefining \ttfamily on input line 1626.
+LaTeX Info: Redefining \rmfamily on input line 1624.
+LaTeX Info: Redefining \sffamily on input line 1624.
+LaTeX Info: Redefining \ttfamily on input line 1624.
  [165
 
 ]
@@ -5651,9 +5651,9 @@ ation.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 1648.
-LaTeX Info: Redefining \sffamily on input line 1648.
-LaTeX Info: Redefining \ttfamily on input line 1648.
+LaTeX Info: Redefining \rmfamily on input line 1646.
+LaTeX Info: Redefining \sffamily on input line 1646.
+LaTeX Info: Redefining \ttfamily on input line 1646.
  [166
 
 ]
@@ -5668,26 +5668,26 @@ ation.png Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 1662.
-LaTeX Info: Redefining \sffamily on input line 1662.
-LaTeX Info: Redefining \ttfamily on input line 1662.
+LaTeX Info: Redefining \rmfamily on input line 1660.
+LaTeX Info: Redefining \sffamily on input line 1660.
+LaTeX Info: Redefining \ttfamily on input line 1660.
  [167]
 File: images_pfe/realisation_sprint8.png Graphic file (type bmp)
 <images_pfe/realisation_sprint8.png>
 
-Overfull \hbox (6.91183pt too wide) in paragraph at lines 1680--1681
+Overfull \hbox (6.91183pt too wide) in paragraph at lines 1678--1679
 [][]\TU/lmr/bx/n/12 Note \TU/lmr/m/n/12 : Cette application backend sera certai
 nement remplacée par une application asp.NET[]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 1687.
-LaTeX Info: Redefining \sffamily on input line 1687.
-LaTeX Info: Redefining \ttfamily on input line 1687.
+LaTeX Info: Redefining \rmfamily on input line 1685.
+LaTeX Info: Redefining \sffamily on input line 1685.
+LaTeX Info: Redefining \ttfamily on input line 1685.
 [168]
 File: genaralUseCase.pdf Graphic file (type pdf)
 <use genaralUseCase.pdf>
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 1721--1722
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 1719--1720
  [][][][][][] 
  []
 
@@ -6124,9 +6124,6 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 290FDF4FDF50B6223146C4612FE80A41;1068.
