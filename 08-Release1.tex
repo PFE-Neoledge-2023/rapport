@@ -763,6 +763,8 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 
 \subsection{Sprint Backlog « Gestion des documents »}
 
+Le tableau \ref{tab:sprint-backlog-3} représente le sprint backlog du sprint 3.
+
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
     
@@ -856,6 +858,11 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 
 
 \subsection{Implémentation du Sprint 3}
+
+
+\subsubsection{Spécification des besoins}
+La figure \ref{fig:UseCaseDiagramSprint3} représente le diagramme de cas d'utilisation du sprint 3.
+
 \textbf{•	Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
 
 % add image
@@ -865,9 +872,10 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
   \caption{Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
   \label{fig:UseCaseDiagramSprint3}
 \end{figure}
+Le diagramme des cas d'utilisation décrit le filtrage des documents, l'accès aux documents après une recherche ou un scan de code QR, la gestion des fichiers où il peut ajouter un fichier par scan ou chargement, ainsi que la gestion des tâches où il peut demander une tâche, transmettre ou terminer une tâche.\\
 
+Par la suite, nous allons fournir des descriptions textuelles détaillées de ces cas d'utilisation.
 
-\subsubsection{Spécification des besoins}
 \textbf{•	Description textuelle de cas d'utilisation « Accéder à un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -1065,44 +1073,6 @@ L'objectif de ce sprint est de développer et mettre en place un système de ges
 \label{tab:DescriptionTextuelleDeCasDUtilisationScannerUnFichier}
 
 \end{longtable}
-
-
-% \textbf{•	Description textuelle de cas d'utilisation « supprimer un fichier dans un document »}
-
-% \begin{longtable}{|p{5cm}|p{10cm}|}
-% \hline
-% \textbf{Cas d'utilisation}&Supprimer un fichier d'un document\\
-% \hline
-% \textbf{Acteurs}&Utilisateur\\
-% \hline
-% \textbf{Pré Condition}&Le document existe\\
-% \hline
-% \textbf{Post Condition}&Fichier supprimé\\
-% \hline
-% \textbf{Scénario Nominal}&
-% \vspace{-\baselineskip}
-% \begin{enumerate}
-%     \setcounter{enumi}{1}
-%     \item L'utilisateur clique sur le bouton supprimer.
-%     \item Le système affiche une alerte de confirmation.
-%     \item L'utilisateur clique sur le bouton confirmer.
-%     \item le système supprime le fichier et affiche un message des succès.
-    
-    
-    
-% \end{enumerate}\\
-% \hline
-% \textbf{Scénario Alternatif}&
-% \vspace{-\baselineskip}
-% \begin{enumerate}
-%     \setcounter{enumi}{3}
-%     \item L'utilisateur annule la suppression du fichier.
-% \end{enumerate}\\
-% \hline
-% \textbf{Scénario d'exception}&Erreur de connexion\\
-% \hline
-% \end{longtable}
-
 
 
 \textbf{•	Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »}
@@ -1459,8 +1429,10 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 \end{figure}
 
 \subsubsection{Analyse détaillée}
-\textbf{•	Diagramme de classe d'analyse de sprint "3" }
+Dans cette partie, nous allons présenter les diagrammes d'analyse de cette sprint.
 
+\textbf{•	Diagramme de classe d'analyse de sprint "3" }
+La figure \ref{fig:class_analyse_signatures3} représente le diagramme de classe d'analyse de sprint 3.
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=1\textwidth]{dca_sprint3}}
@@ -1471,8 +1443,7 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \subsubsection{Conception}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 3.
+Après la présentation des diagrammes d'analyse, nous allons présenter dans cette partie les diagrammes de conception de sprint 3.
 \newpage 
 \begin{landscape}
 
@@ -1486,6 +1457,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 \end{figure}
 \end{landscape}
 \newpage
+Dans cette partie, nous allons présenter les diagrammes de séquence de conception de cette sprint.\\
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview/sequence_preview}}
@@ -1652,7 +1624,7 @@ Manque de documentation de l'ionic
 % SPrint 4 visualisation et signature d'un fichier
 \section{Sprint 4 (Visualisation et signature d'un fichier)}
 \subsection{Sprint Goal}
-L'objectif de ce sprint est de développer et mettre en place un système de visualisation et de signature d'un fichier permettant aux utilisateurs de consulter le fichier et le signer par plusieurs méthodes.
+L'objectif de ce sprint est de mettre en place un système de visualisation et de signature d'un fichier permettant aux utilisateurs de consulter le fichier et le signer par plusieurs méthodes.
 
 
 \subsection{Sprint Backlog « Visualisation et signature d'un fichier »}
@@ -1712,8 +1684,9 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
 \end{adjustwidth}
 
 \subsection{Implémentation du Sprint 4}
+\subsubsection{Spécification des besoins}
+La figure \ref{fig:UseCaseDiagram4} représente le diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier ».
 \textbf{•	Diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier »}
-
 % add image
 \begin{figure}[H]
   \centering
@@ -1721,7 +1694,9 @@ L'objectif de ce sprint est de développer et mettre en place un système de vis
   \caption{Diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier »}
   \label{fig:UseCaseDiagram4}
 \end{figure}
-\subsubsection{Spécification des besoins}
+Le diagramme \ref{fig:UseCaseDiagram4} nous représente les cas d'utilisation de la visualisation d'un fichier, la signature d'un fichier et la gestion des signatures d'un fichier.\\
+
+Dans les tableaux suivants, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
 \textbf{•	Description textuelle de cas d'utilisation « Visualiser un fichier  »}
 \begin{longtable}{|p{5cm}|p{10cm}|}
 \hline
@@ -2043,6 +2018,7 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 \subsubsection{Analyse détaillée}
 
 \textbf{•	Diagramme de classe d'analyse de sprint "4" }
+La figure \ref{fig:class_analyse_4} représente le diagramme de classe d'analyse de sprint 4 « Visualisation et signature d'un fichier ».
 
 \begin{figure}[H]
   \centering
@@ -2125,6 +2101,8 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \subsubsection{Réalisation}
 
+Dans cette partie, nous allons présenter les captures d'écran de l'application après la réalisation de ce sprint.
+
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.45\textwidth]{realisation_file1}}
@@ -2172,6 +2150,7 @@ A la fin de ce sprint, nous avons planifié une autre réunion dans la société
 Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
 \begin{itemize}
   \item La visualisation d'un fichier.
+  \item Le téléchargement d'un fichier.
   \item La signature à main d'un fichier.
   \item La signature par glisser et déposer une image dans un fichier.
   \item La modification de la position d'une signature d'un fichier.
@@ -2188,8 +2167,6 @@ Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la 
 Nous avons terminé le sprint dans le délai.
 \noindent\textbf{•	Ce qui s'est mal passé :}
 \begin{itemize}
-  \item Manque de documentation de l'ionic
   \item Difficultés de déposer la signature à la position exacte.
-
 \end{itemize}
 
