@@ -7,10 +7,10 @@
 \renewcommand{\thefigure}{A\arabic{figure}}
 \renewcommand{\thetable}{A\arabic{table}}
 \setcounter{figure}{0}
-\section{Applications développées durant la formation}
-
+\setcounter{table}{0}
 \appendix
 \label{appendix:applications}
+\section{Applications développées durant la formation}
 \subsection{Application 1 }
 \subsubsection{Description}
 Cette application est une application qui permet d'afficher les données de météo de la position géographique de l'utilisateur.
@@ -69,6 +69,8 @@ Nous avons testé deux librairies pour créer des images de signature : \textbf{
 
 % v-perfect-signature vs  vue-signature-pad
 \begin{table}[H]
+    \caption{Comparaison entre v-perfect-signature et vue-signature-pad}
+    \label{tab:v-perfect-signature_vs_vue-signature-pad}
     \centering
     
     \begin{tabular}{|l|l|l|}
@@ -84,8 +86,7 @@ Nous avons testé deux librairies pour créer des images de signature : \textbf{
     \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ compliquée\end{tabular} & 
     \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
     \end{tabular}
-    \caption{Comparaison entre v-perfect-signature et vue-signature-pad}
-    \label{tab:v-perfect-signature_vs_vue-signature-pad}
+    
 \end{table}
 
 Nous avons choisi la librairie \textbf{vue-signature-pad} pour créer des images de signature car elle est bien documentée et maintenue.
@@ -120,6 +121,8 @@ Le but de la developpement de cette application est de découvrir les solutions 
 % vue-pdf vs pdfvuer 
 Pour afficher des fichiers PDF, nous avons testé deux librairies : \textbf{vue-pdf} et \textbf{pdfvuer}.
 \begin{table}[H]
+    \caption{Comparaison entre vue-pdf et pdfvuer}
+    \label{tab:vpdf_pdfvuer}
     \centering
     
     \begin{tabular}{|l|l|l|}
@@ -135,8 +138,7 @@ Pour afficher des fichiers PDF, nous avons testé deux librairies : \textbf{vue-
     \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} & 
     \begin{tabular}[c]{@{}l@{}}L'intégration de la \\ librairie est \\ facile\end{tabular} \\ \hline
     \end{tabular}
-    \caption{Comparaison entre vue-pdf et pdfvuer}
-    \label{tab:vpdf_pdfvuer}
+    
 \end{table}
 
 Nous avons choisi la librairie \textbf{vue-pdf} pour afficher des fichiers PDF car elle est bien documentée et maintenue.
@@ -337,6 +339,8 @@ Le serveur backend de notification est une application Express.js qui utilise le
 Le serveur backend de notification contient 3 routes :
 
 \begin{table}[H]
+    \caption{Les routes du serveur backend de notification}
+    \label{appendix:backend_notification_routes}
     \centering
     \begin{tabular}{|l|l|p{6cm}|p{6cm}|}
     \hline
@@ -345,8 +349,7 @@ Le serveur backend de notification contient 3 routes :
     POST & /register & token, uid, displayName, language & Enregistre un utilisateur \\ \hline
     POST & /unregister & token, uid, displayName, language & Désenregistre un utilisateur \\ \hline
     \end{tabular}
-    \caption{Les routes du serveur backend de notification}
-    \label{appendix:backend_notification_routes}
+    
 \end{table}
 
 \subsection{Structure du code}

@@ -1,6 +1,6 @@
-\chapter*{Release 2}
-\addcontentsline{toc}{chapter}{Release 2}
-\markboth{Release 2}{Release 2}
+\chapter*{Chapitre 4: Release 2}
+\addcontentsline{toc}{chapter}{Chapitre 4: Release 2}
+\markboth{Chapitre 4: Release 2}{Chapitre 4: Release 2}
 \label{chap:release2}
 \setcounter{part}{0}
 \setcounter{chapter}{0}
@@ -41,11 +41,12 @@ Le tableau \ref{tab:sprint-backlog-5} présente le sprint backlog du sprint 5.
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint backlog du Sprint 5} \label{tab:sprint-backlog-5} \\
       % \centering
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
-      \multirow{2}{*}{1} & En tant que membre scrum, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre de maîtriser les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
+      \multirow{2}{*}{1} & En tant que membre scrum, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre d'avoir les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
       & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{2.5 Jour} \\
       \cline{1-5}
       \multirow{1}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter. &  \multirow{1}{*}{2.5 Jour} \\
@@ -57,8 +58,7 @@ Le tableau \ref{tab:sprint-backlog-5} présente le sprint backlog du sprint 5.
       & & 4.2 & Intégrer les fonctions de vérification biométrique dans certaines actions sensibles tels que la gestion de signature, la signature du document et la gestion des taches. & \\
       \cline{1-5}
   \hline
-  \caption{Sprint backlog du Sprint 5}
-  \label{tab:sprint-backlog-5}
+
 \end{longtable}
 \end{adjustwidth}
 
@@ -67,7 +67,7 @@ Le tableau \ref{tab:sprint-backlog-5} présente le sprint backlog du sprint 5.
 
 \subsubsection{Spécification des besoins}
 La figure \ref{fig:UseCaseDiagramSp51} présente le diagramme de cas d'utilisation du sprint 5.
-\textbf{•	Diagramme de cas d'utilisation du sprint 5}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 5}
 
 % add image
 \begin{figure}[H]
@@ -79,11 +79,12 @@ La figure \ref{fig:UseCaseDiagramSp51} présente le diagramme de cas d'utilisati
 
 Le diagramme de cas d'utilisation du sprint 5 nous représente les cas d'utilisation de l'authentification OIDC et de la vérification biométrique.\\
 
-Dans la partie suivante, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
+Dans la partie suivante, nous avons présenté les descriptions textuelles de ces cas d'utilisation.
 
-\textbf{•	Description textuelle de cas d'utilisation « Connexion à l'aide du protocole OIDC  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Connexion à l'aide du protocole OIDC  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Consulter les statistiques »} \label{tab:use_case_oidc_connect} \\
 \hline
 \textbf{Cas d'utilisation}&Connexion à l'aide du protocole OIDC\\
 \hline
@@ -119,13 +120,13 @@ Dans la partie suivante, nous allons présenter les descriptions textuelles de c
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »}
-\label{tab:use_case_oidc_connect}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Vérification biométrique  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Vérification biométrique  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »} \label{tab:use_case_biometric_verification} \\
 \hline
 \textbf{Cas d'utilisation}&Vérification biométrique \\
 \hline
@@ -165,15 +166,14 @@ Dans la partie suivante, nous allons présenter les descriptions textuelles de c
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
-\label{tab:use_case_biometric_verification}
+
 \end{longtable}
 
 La maquette suivante représente la page de connexion à l'aide du protocole OIDC.
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{design_OIDC}}
+  \fbox{\includegraphics[width=0.45\textwidth]{design_OIDC}}
   \caption{Maquette de la page de connexion à l'aide du protocole OIDC}
   \label{fig:design_OIDC}
 \end{figure}
@@ -212,7 +212,7 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 % spacing left
 \setlength{\parindent}{0em}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 5 }
+\subsubsubsection{Diagramme de classe d'analyse de sprint 5 }
 
 
 \begin{figure}[H]
@@ -226,8 +226,8 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 \subsubsection{Conception}
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 5. \\
-\textbf{•	Diagramme de classe de conception de sprint 5}
+Nous avons présenté dans cette partie les diagrammes de conception de sprint 5. \\
+\subsubsubsection{Diagramme de classe de conception de sprint 5}
 % add image
 \begin{figure}[H]
   \centering
@@ -264,7 +264,7 @@ Après la présentation des different diagrammes, nous avons présenté dans cet
 % add image
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_OIDC}}
+  \fbox{\includegraphics[width=1\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_OIDC}}
   \caption{Les interfaces de la page de connexion à l'aide du protocole OIDC}
   \label{fig:realisation_OIDC}
 \end{figure}
@@ -300,6 +300,7 @@ Le tableau \ref{tab:sprint-backlog-6} présente le sprint backlog du sprint 6.
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint backlog du Sprint 6} \label{tab:sprint-backlog-6} \\
       % \centering
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
@@ -335,10 +336,9 @@ Le tableau \ref{tab:sprint-backlog-6} présente le sprint backlog du sprint 6.
       \cline{1-5}
       \multirow{1}{*}{10} & En tant qu'utilisateur, je veux rechercher un utilisateur ou un service et l'affecter comme délégué fin de lui donner les droits nécessaires pour gérer certaines tâches ou projets en mon absence. & 10.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{0.5 Jour} \\
       \cline{1-5}
-      \multirow{1}{*}{11} & En tant qu'utilisateur, je veux supprimer un délégué que j'avais désigné, en cas de besoin ou si je ne suis plus d'accord avec mon choix initial & 11.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{0.5 Jour} \\
+      \multirow{1}{*}{11} & En tant qu'utilisateur, je veux supprimer un délégué que j'avais désigné, en cas de besoin ou si je veux modifier mes choix & 11.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{0.5 Jour} \\
     \hline
-  \caption{Sprint backlog du Sprint 6}
-  \label{tab:sprint-backlog-6}
+
 \end{longtable}
 \end{adjustwidth}
 
@@ -349,7 +349,7 @@ Le tableau \ref{tab:sprint-backlog-6} présente le sprint backlog du sprint 6.
 \subsubsection{Spécification des besoins}
 La figure \ref{fig:UseCaseDiagramSp61} présente le diagramme de cas d'utilisation du sprint 6.
 
-\textbf{•	Diagramme de cas d'utilisation du sprint 6}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 6}
 
 % add image
 \begin{figure}[H]
@@ -361,11 +361,12 @@ La figure \ref{fig:UseCaseDiagramSp61} présente le diagramme de cas d'utilisati
 
 Le diagramme de cas d'utilisation du sprint 6 nous représente les cas d'utilisation de la gestion de paramètres, de la gestion de profil et de la gestion d'absence.\\
 
-Dans la partie suivante, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
+Dans la partie suivante, nous avons présenté les descriptions textuelles de ces cas d'utilisation.
 
-\textbf{•	Description textuelle de cas d'utilisation « Consulter la page de paramétre  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Consulter la page de paramétre  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Consulter la page de paramétre »} \label{tab:use_case_consult_settings_page} \\
 \hline
 \textbf{Cas d'utilisation}&Consulter la page de paramétre\\
 \hline
@@ -383,14 +384,14 @@ Dans la partie suivante, nous allons présenter les descriptions textuelles de c
     \item Le système affiche l'interface de paramètres.
 \end{enumerate}\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Consulter la page de paramétre »}
-\label{tab:use_case_consult_settings_page}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Gérer les préférences d'affichage   »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Gérer les préférences d'affichage   »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Gérer les préférences d'affichage  »} \label{tab:use_case_manage_display_preferences} \\
 \hline
 \textbf{Cas d'utilisation}&Gérer les préférences d'affichage \\
 \hline
@@ -414,13 +415,13 @@ Dans la partie suivante, nous allons présenter les descriptions textuelles de c
  \item [2.1] Le système change le thème clair de l'application.
 \end{enumerate}\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Gérer les préférences d'affichage  »}
-\label{tab:use_case_manage_display_preferences}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Modifier la langue »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Modifier la langue »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Modifier la langue  »} \label{tab:use_case_change_language} \\
 \hline
 \textbf{Cas d'utilisation}&Modifier la langue \\
 \hline
@@ -440,14 +441,14 @@ Dans la partie suivante, nous allons présenter les descriptions textuelles de c
   \item Le système change la langue de l'application
 \end{enumerate}\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Modifier la langue  »}
-\label{tab:use_case_change_language}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Vider le cache »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Vider le cache »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Vider le cache  »} \label{tab:use_case_empty_cache} \\
 \hline
 \textbf{Cas d'utilisation}&Vider le cache  \\
 \hline
@@ -474,14 +475,14 @@ Dans la partie suivante, nous allons présenter les descriptions textuelles de c
  \item [3.2] Le système annule l'opération
 \end{enumerate}\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Vider le cache  »}
-\label{tab:use_case_empty_cache}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « chercher et sélectionner un espace de travail  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « chercher et sélectionner un espace de travail  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « chercher et sélectionner un espace de travail   »} \label{tab:use_case_search_select_workspace} \\
 \hline
 \textbf{Cas d'utilisation}&chercher et sélectionner un espace de travail   \\
 \hline
@@ -513,14 +514,14 @@ Dans la partie suivante, nous allons présenter les descriptions textuelles de c
 \textbf{Scénario d'Exception}&
 Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « chercher et sélectionner un espace de travail   »}
-\label{tab:use_case_search_select_workspace}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Visualiser les informations personnelles  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Visualiser les informations personnelles  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Visualiser les informations personnelles   »} \label{tab:use_case_view_personal_information} \\
 \hline
 \textbf{Cas d'utilisation}&Visualiser les informations personnelles   \\
 \hline
@@ -547,13 +548,13 @@ Erreur de connexion\\
 \textbf{Scénario d'Exception}&
 Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Visualiser les informations personnelles   »}
-\label{tab:use_case_view_personal_information}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Modifier la photo de profil  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Modifier la photo de profil  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Modifier la photo de profil   »} \label{tab:use_case_modify_profile_picture} \\
 \hline
 \textbf{Cas d'utilisation}&Modifier la photo de profil   \\
 \hline
@@ -582,13 +583,13 @@ Erreur de connexion\\
 \textbf{Scénario d'Exception}&
 Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Modifier la photo de profil   »}
-\label{tab:use_case_modify_profile_picture}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Déclarer une absence   »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Déclarer une absence   »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Déclarer une absence    »} \label{tab:use_case_declare_absence} \\
 \hline
 \textbf{Cas d'utilisation}&Déclarer une absence    \\
 \hline
@@ -616,13 +617,13 @@ Erreur de connexion\\
 \textbf{Scénario d'Exception}&
 Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Déclarer une absence    »}
-\label{tab:use_case_declare_absence}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Annuler une absence    »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Annuler une absence    »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Annuler une absence     »} \label{tab:use_case_cancel_absence} \\
 \hline
 \textbf{Cas d'utilisation}&Annuler une absence     \\
 \hline
@@ -649,14 +650,14 @@ Erreur de connexion\\
 \textbf{Scénario d'Exception}&
 Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Annuler une absence     »}
-\label{tab:use_case_cancel_absence}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Chercher et affecter un délégué     »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Chercher et affecter un délégué     »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Chercher et affecter un délégué      »} \label{tab:use_case_search_delegate} \\
 \hline
 \textbf{Cas d'utilisation}&Chercher et affecter un délégué      \\
 \hline
@@ -687,14 +688,14 @@ Erreur de connexion\\
 \textbf{Scénario d'Exception}&
 Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Chercher et affecter un délégué      »}
-\label{tab:use_case_search_delegate}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Annuler une Délégation      »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Annuler une Délégation      »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Annuler une Délégation       »} \label{tab:use_case_cancel_delegate} \\
 \hline
 \textbf{Cas d'utilisation}&Annuler une Délégation       \\
 \hline
@@ -724,8 +725,7 @@ Erreur de connexion\\
 \textbf{Scénario d'Exception}&
 Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Annuler une Délégation       »}
-\label{tab:use_case_cancel_delegate}
+
 \end{longtable}
 
 La figure \ref{fig:MaquetteInterfaceParametrageGestionAbsences} présente la maquette de l'interface de paramétrage et de gestion de profile et d'absence.
@@ -741,14 +741,14 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/consult_settings_page/consult_settings_page}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/consult_settings_page/consult_settings_page}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter la page de paramétre »}
   \label{fig:sequence_consult_settings_page}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/preferance_affichage/preferance_affichage}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/preferance_affichage/preferance_affichage}}
   \caption{Diagramme de séquence de cas d'utilisation « Gérer les préférences d'affichage »}
   \label{fig:sequence_preference_affichage}
 \end{figure}
@@ -756,28 +756,28 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/change_language/change_language}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/change_language/change_language}}
   \caption{Diagramme de séquence de cas d'utilisation « Changer la langue »}
   \label{fig:sequence_change_language}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/clear_cache/clear_cache}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/clear_cache/clear_cache}}
   \caption{Diagramme de séquence de cas d'utilisation « Vider le cache »}
   \label{fig:sequence_clear_cache}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/lister_selectionner_workspaces/lister_selectionner_workspaces}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/lister_selectionner_workspaces/lister_selectionner_workspaces}}
   \caption{Diagramme de séquence de cas d'utilisation « Lister et sélectionner les espaces de travail »}
   \label{fig:sequence_lister_selectionner_workspaces}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/visualiser_profil/visualiser_profil}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/visualiser_profil/visualiser_profil}}
   \caption{Diagramme de séquence de cas d'utilisation « Visualiser les informations personnelles »}
   \label{fig:sequence_visualiser_profil}
 \end{figure}
@@ -798,21 +798,21 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annuler_absence/annuler_absence}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/annuler_absence/annuler_absence}}
   \caption{Diagramme de séquence de cas d'utilisation « Annuler une déclaration d'absence »}
   \label{fig:sequence_annuler_absence}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/search_affect_delegation/search_affect_delegation}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/search_affect_delegation/search_affect_delegation}}
   \caption{Diagramme de séquence de cas d'utilisation « Rechercher et affecter un délégué »}
   \label{fig:sequence_search_affect_delegation}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/annulation_delegation/annulation_delegation}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint6/annulation_delegation/annulation_delegation}}
   \caption{Diagramme de séquence de cas d'utilisation « Supprimer un délégué »}
   \label{fig:sequence_annulation_delegation}
 \end{figure}
@@ -830,7 +830,7 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 % spacing left
 \setlength{\parindent}{0em}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 6 }
+\subsubsubsection{Diagramme de classe d'analyse de sprint 6 }
 
 
 \begin{figure}[H]
@@ -843,10 +843,10 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 
 \subsubsection{Conception}
 Dans cette partie nous allons représenter le diagramme de classe de conception, ainsi que les diagrammes de séquences de conception de notre sixième sprint.
+\subsubsubsection{Diagramme de classe de conception de sprint 6}
 
 \begin{landscape}
 
-\textbf{•	Diagramme de classe de conception de sprint 6}
 
 \begin{figure}[H]
   \centering
@@ -866,70 +866,70 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_preferance_affichage/sequence_preferance_affichage}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_preferance_affichage/sequence_preferance_affichage}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Gérer les préférences d'affichage»}
   \label{fig:conception_sequence_preferance_affichage}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_change_language/sequence_change_language}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_change_language/sequence_change_language}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «Changer la langue »}
   \label{fig:conception_sequence_change_language}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_clear_cache/sequence_clear_cache}}
+  \fbox{\includegraphics[width=0.85\textwidth]{out/diagrams/sprint6/sequence_clear_cache/sequence_clear_cache}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Vider le cache »}
   \label{fig:conception_sequence_clear_cache}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_lister_selectionner_workspaces/sequence_lister_selectionner_workspaces}}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/sequence_lister_selectionner_workspaces/sequence_lister_selectionner_workspaces}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Lister et sélectionner les espaces de travail »}
   \label{fig:conception_sequence_lister_selectionner_workspaces}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_visualiser_profil/sequence_visualiser_profil}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_visualiser_profil/sequence_visualiser_profil}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Visualiser les informations personnelles »}
   \label{fig:conception_sequence_visualiser_profil}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_edit_profil_avatar/sequence_edit_profil_avatar}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_edit_profil_avatar/sequence_edit_profil_avatar}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Modifier la photo de profil »}
   \label{fig:conception_sequence_edit_profil_avatar}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_declare_absence/sequence_declare_absence}}
+  \fbox{\includegraphics[width=0.9\textwidth]{out/diagrams/sprint6/sequence_declare_absence/sequence_declare_absence}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Déclarer l'absence »}
   \label{fig:conception_sequence_declare_absence}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annuler_absence/sequence_annuler_absence}}
+  \fbox{\includegraphics[width=0.9\textwidth]{out/diagrams/sprint6/sequence_annuler_absence/sequence_annuler_absence}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Annuler une déclaration d'absence »}
   \label{fig:conception_sequence_annuler_absence}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_search_affect_delegation/sequence_search_affect_delegation}}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/sequence_search_affect_delegation/sequence_search_affect_delegation}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Rechercher et affecter un délégué »}
   \label{fig:conception_sequence_search_affect_delegation}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_annulation_delegation/sequence_annulation_delegation}}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/sequence_annulation_delegation/sequence_annulation_delegation}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer un délégué »}
   \label{fig:conception_sequence_annulation_delegation}
 \end{figure}
@@ -990,6 +990,7 @@ Le tableau \ref{tab:sprint-backlog-7} représente le sprint backlog du sprint 7.
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint backlog du Sprint 7} \label{tab:sprint-backlog-7} \\
       % \centering
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
@@ -1017,8 +1018,7 @@ Le tableau \ref{tab:sprint-backlog-7} représente le sprint backlog du sprint 7.
       \cline{3-4}
       & & 4.2 & Développer la fonction qui permet de rafraichir les données de chaque page. & \\
   \hline
-  \caption{Sprint backlog du Sprint 7}
-  \label{tab:sprint-backlog-7}
+
 \end{longtable}
 \end{adjustwidth}
 
@@ -1028,7 +1028,7 @@ Le tableau \ref{tab:sprint-backlog-7} représente le sprint backlog du sprint 7.
 \subsubsection{Spécification des besoins}
 La figure \ref{fig:UseCaseDiagramSp71} présente le diagramme de cas d'utilisation du sprint 7.
 
-\textbf{•	Diagramme de cas d'utilisation du sprint 7}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 7}
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.6\textwidth]{use_case_sprint_7}}
@@ -1038,9 +1038,10 @@ La figure \ref{fig:UseCaseDiagramSp71} présente le diagramme de cas d'utilisati
 
 Le diagramme \ref{fig:UseCaseDiagramSp71} représente les cas d'utilisation du sprint 7, nous allons détailler chaque cas d'utilisation dans les tableaux suivants.
 
-\textbf{•	Description textuelle de cas d'utilisation « Consulter les statistiques »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Consulter les statistiques »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Consulter les statistiques »} \label{tab:use_case_consulter_statistiques} \\
 \hline
 \textbf{Cas d'utilisation}&Consulter les statistiques\\
 \hline
@@ -1060,13 +1061,13 @@ Le diagramme \ref{fig:UseCaseDiagramSp71} représente les cas d'utilisation du s
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Consulter les statistiques »}
-\label{tab:use_case_consulter_statistiques}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation «Basculer entre les espaces de travail »}
+\subsubsubsection{Description textuelle de cas d'utilisation «Basculer entre les espaces de travail »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Basculer entre les espaces de travail »} \label{tab:use_case_basculer_espaces_travail} \\
   \hline
   \textbf{Cas d'utilisation}&Basculer entre les espaces de travail\\
   \hline
@@ -1088,14 +1089,14 @@ Le diagramme \ref{fig:UseCaseDiagramSp71} représente les cas d'utilisation du s
   \hline
   \textbf{Scénario d'exception}&Erreur de connexion\\
   \hline
-  \caption{Description textuelle du diagramme de cas d'utilisation « Basculer entre les espaces de travail »}
-  \label{tab:use_case_basculer_espaces_travail}
+
   \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »} \label{tab:use_case_consulter_documents_filtre_rapide} \\
 \hline
 \textbf{Cas d'utilisation}&Consulter les documents a l'aide de filtre rapide\\
 \hline
@@ -1115,17 +1116,17 @@ Le diagramme \ref{fig:UseCaseDiagramSp71} représente les cas d'utilisation du s
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
-\label{tab:use_case_consulter_documents_filtre_rapide}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Refraichissement
+\subsubsubsection{Description textuelle de cas d'utilisation « Refraichissement
 des données »}
 
 % Note :
 
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Refraichissement des données »} \label{tab:use_case_refraichissement_donnees} \\
 \hline
 \textbf{Cas d'utilisation}&Refraichissement des données\\
 \hline
@@ -1145,8 +1146,7 @@ des données »}
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Refraichissement des données »}
-\label{tab:use_case_refraichissement_donnees}
+
 \end{longtable}
 
 \textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter la description textuelle de ce cas d'utilisation.}
@@ -1164,28 +1164,28 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/view_stats/view_stats}}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint7/view_stats/view_stats}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les statistiques »}
   \label{fig:sequence_view_stats}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/switch_workspace/switch_workspace}}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint7/switch_workspace/switch_workspace}}
   \caption{Diagramme de séquence de cas d'utilisation « Basculer entre les espaces de travail »}
   \label{fig:sequence_switch_workspace}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/docs_quick_filter/docs_quick_filter}}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint7/docs_quick_filter/docs_quick_filter}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_docs_quick_filter}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint7/refresh_data/refresh_data}}
+  \fbox{\includegraphics[width=0.65\textwidth]{out/diagrams/sprint7/refresh_data/refresh_data}}
   \caption{Diagramme de séquence de cas d'utilisation « Refraichissement des données »}
   \label{fig:sequence_refresh_data}
 \end{figure}
@@ -1198,7 +1198,7 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 \setlength{\parskip}{1em}
 \setlength{\parindent}{0em}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 7 }
+\subsubsubsection{Diagramme de classe d'analyse de sprint 7 }
 
 
 \begin{figure}[H]
@@ -1212,10 +1212,10 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 \subsubsection{Conception}
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 7. \\
+Nous avons présenté dans cette partie les diagrammes de conception de sprint 7. \\
 \begin{landscape}
 
-\textbf{•	Diagramme de classe de conception de sprint 7}
+\subsubsubsection{Diagramme de classe de conception de sprint 7}
 
 % add image
 \begin{figure}[H]
@@ -1236,7 +1236,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_switch_workspace/sequence_switch_workspace}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint7/sequence_switch_workspace/sequence_switch_workspace}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Basculer entre les espaces de travail »}
   \label{fig:sequence_conception_sequence_switch_workspace}
 \end{figure}
@@ -1244,7 +1244,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filter}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint7/sequence_docs_quick_filter/sequence_docs_quick_filter}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter les documents a l'aide de filtre rapide »}
   \label{fig:sequence_conception_consulter_documents_filtre_rapide}
 \end{figure}
@@ -1263,7 +1263,7 @@ Après la présentation des different diagrammes, nous avons présenté dans cet
 % add image
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_sprint7}}
+  \fbox{\includegraphics[width=0.6\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_sprint7}}
   \caption{Les interfaces de consultation des statistiques et des documents à l'aide de filtre rapide}
   \label{fig:realisation_sprint7}
 \end{figure}
@@ -1327,6 +1327,7 @@ Le tableau \ref{tab:sprint-backlog-8} représente le sprint backlog du sprint 8.
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint backlog du Sprint 8} \label{tab:sprint-backlog-8} \\
       % \centering
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
@@ -1355,8 +1356,7 @@ Le tableau \ref{tab:sprint-backlog-8} représente le sprint backlog du sprint 8.
 
       
   \hline
-  \caption{Sprint backlog du Sprint 8}
-  \label{tab:sprint-backlog-8}
+
 \end{longtable}
 \end{adjustwidth}
 
@@ -1366,7 +1366,7 @@ Le tableau \ref{tab:sprint-backlog-8} représente le sprint backlog du sprint 8.
 \subsubsection{Spécification des besoins}
 La figure \ref{fig:UseCaseDiagramSp81} présente le diagramme de cas d'utilisation du sprint 8.
 
-\textbf{•	Diagramme de cas d'utilisation du sprint 8}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 8}
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.6\textwidth]{use_case_sprint_8}}
@@ -1376,9 +1376,10 @@ La figure \ref{fig:UseCaseDiagramSp81} présente le diagramme de cas d'utilisati
 
 Le diagramme \ref{fig:UseCaseDiagramSp81} représente les cas d'utilisation du sprint 8, nous allons détailler chaque cas d'utilisation dans les tableaux suivants.
 
-\textbf{•	Description textuelle de cas d'utilisation « Activer les notifications »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Activer les notifications »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Activer les notifications »} \label{tab:use_case_activer_notifications} \\
 \hline
 \textbf{Cas d'utilisation}&Activer les notifications\\
 \hline
@@ -1405,13 +1406,13 @@ Le diagramme \ref{fig:UseCaseDiagramSp81} représente les cas d'utilisation du s
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Activer les notifications »}
-\label{tab:use_case_activer_notifications}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Désactiver les notifications »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Désactiver les notifications »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Désactiver les notifications »} \label{tab:use_case_desactiver_notifications} \\
   \hline
   \textbf{Cas d'utilisation}&Désactiver les notifications\\
   \hline
@@ -1432,14 +1433,14 @@ Le diagramme \ref{fig:UseCaseDiagramSp81} représente les cas d'utilisation du s
   \hline
   \textbf{Scénario d'exception}&Erreur de connexion\\
   \hline
-  \caption{Description textuelle du diagramme de cas d'utilisation « Désactiver les notifications »}
-  \label{tab:use_case_desactiver_notifications}
+
   \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Consulter les notifications »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Consulter les notifications »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Consulter les notifications »} \label{tab:use_case_consulter_notifications} \\
 \hline
 \textbf{Cas d'utilisation}&Consulter les notifications\\
 \hline
@@ -1459,13 +1460,13 @@ Le diagramme \ref{fig:UseCaseDiagramSp81} représente les cas d'utilisation du s
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Consulter les notifications »}
-\label{tab:use_case_consulter_notifications}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Envoyer une notification »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Envoyer une notification »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Envoyer une notification »} \label{tab:use_case_envoyer_notifications} \\
 \hline
 \textbf{Cas d'utilisation}&Envoyer une notification\\
 \hline
@@ -1485,18 +1486,18 @@ Le diagramme \ref{fig:UseCaseDiagramSp81} représente les cas d'utilisation du s
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Envoyer une notification »}
-\label{tab:use_case_envoyer_notifications}
+
 \end{longtable}
 
 \textbf{Note} : Le cas d'utilisation « Envoyer une notification » est un cas d'utilisation générique qui peut être utilisé dans plusieurs cas d'utilisation. Jusqu'à maintenant, il est utilisé dans le cas d'utilisation « Demander une tâche », « Tranférer une tâche », « Traiter une tâche ».
 
-\textbf{•	Description textuelle de cas d'utilisation « Supprimer les notifications »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Supprimer les notifications »}
 
 % Note :
 
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Supprimer les notifications »} \label{tab:use_case_supprimer_notifications} \\
 \hline
 \textbf{Cas d'utilisation}&Supprimer les notifications\\
 \hline
@@ -1514,36 +1515,35 @@ Le diagramme \ref{fig:UseCaseDiagramSp81} représente les cas d'utilisation du s
       \item Le système supprime la notification
 \end{enumerate}\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Supprimer les notifications »}
-\label{tab:use_case_supprimer_notifications}
+
 \end{longtable}
 
 Dans les diagrammes de séquence suivants, nous allons détailler les cas d'utilisation de cette sprint.
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint8/activate_notification/activate_notification}}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint8/activate_notification/activate_notification}}
   \caption{Diagramme de séquence de cas d'utilisation « Activer les notifications »}
   \label{fig:sequence_activate_notification}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint8/deactivate_notification/deactivate_notification}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint8/deactivate_notification/deactivate_notification}}
   \caption{Diagramme de séquence de cas d'utilisation « Désactiver les notifications »}
   \label{fig:sequence_deactivate_notification}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint8/lister_notification/lister_notification}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint8/lister_notification/lister_notification}}
   \caption{Diagramme de séquence de cas d'utilisation « Consulter les notifications »}
   \label{fig:sequence_lister_notification}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint8/send_notification/send_notification}}
+  \fbox{\includegraphics[width=0.55\textwidth]{out/diagrams/sprint8/send_notification/send_notification}}
   \caption{Diagramme de séquence de cas d'utilisation « Envoyer une notification »}
   \label{fig:sequence_send_notification}
 \end{figure}
@@ -1564,6 +1564,7 @@ Le tableau \ref{tab:comparaison_fcm_notification_hub} représente la comparaison
 
 % fcm vs notification hub
 \begin{longtable}{|p{5cm}|p{5cm}|p{5cm}|}
+  \caption{Comparaison entre Firebase Cloud Messaging et Notification Hub} \label{tab:comparaison_fcm_notification_hub} \\
 \hline
 \textbf{Critère}&\textbf{Firebase Cloud Messaging}&\textbf{Notification Hub}\\
 \hline
@@ -1579,8 +1580,7 @@ Le tableau \ref{tab:comparaison_fcm_notification_hub} représente la comparaison
 \hline
 \textbf{Résultat}&\multicolumn{2}{p{10cm}|}{Nous avons choisi Firebase Cloud Messaging parce qu'il est gratuit, facile à intégrer avec Capacitor et bien documenté.}\\
 \hline
-\caption{Comparaison entre Firebase Cloud Messaging et Notification Hub}
-\label{tab:comparaison_fcm_notification_hub}
+
 \end{longtable}
 
 Voir l'annexe \ref{appendix:firebase_cloud_messaging} pour plus de détails sur le Démarrage de projet avec Firebase.
@@ -1595,7 +1595,7 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 % spacing left
 \setlength{\parindent}{0em}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 8 }
+\subsubsubsection{Diagramme de classe d'analyse de sprint 8 }
 
 
 \begin{figure}[H]
@@ -1609,10 +1609,10 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 \subsubsection{Conception}
 
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 8. \\
+Nous avons présenté dans cette partie les diagrammes de conception de sprint 8. \\
 \begin{landscape}
 
-\textbf{•	Diagramme de classe de conception de sprint 8}
+\subsubsubsection{Diagramme de classe de conception de sprint 8}
 
 % add image
 \begin{figure}[H]
@@ -1625,21 +1625,21 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint8/sequence_activate_notification/sequence_activate_notification}}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint8/sequence_activate_notification/sequence_activate_notification}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Activer les notifications »}
   \label{fig:sequence_conception_activate_notification}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint8/sequence_deactivate_notification/sequence_deactivate_notification}}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint8/sequence_deactivate_notification/sequence_deactivate_notification}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Désactiver les notifications »}
   \label{fig:sequence_conception_deactivate_notification}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint8/sequence_lister_notification/sequence_lister_notification}}
+  \fbox{\includegraphics[width=0.6\textwidth]{out/diagrams/sprint8/sequence_lister_notification/sequence_lister_notification}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter les notifications »}
   \label{fig:sequence_conception_lister_notification}
 \end{figure}
@@ -1666,7 +1666,7 @@ Après la présentation des different diagrammes, nous avons présenté dans cet
 % add image
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth, height=0.7\textheight,keepaspectratio=true]{realisation_sprint8}}
+  \fbox{\includegraphics[width=1\textwidth, height=1\textheight,keepaspectratio=true]{realisation_sprint8}}
   \caption{Capture d'écran de réception de notification}
   \label{fig:realisation_sprint8}
 \end{figure}
@@ -1709,7 +1709,7 @@ Suite à cette sprint, nous avons pu réaliser les fonctionnalités suivantes :
 
 \section{Documentation globale du projet}
 
-Dans cette partie, nous allons présenter la documentation globale du projet. Nous allons présenter le diagramme de cas d'utilisation global et le diagramme de classe d'analyse global.
+Dans cette partie, nous avons présenté la documentation globale du projet. Nous avons présenté le diagramme de cas d'utilisation global et le diagramme de classe d'analyse global.
 
 \subsection{Diagramme de cas d'utilisation global}
 La figure \ref{fig:UseCaseDiagramGlobal} représente le diagramme de cas d'utilisation global de l'application mobile Elise.
@@ -1720,3 +1720,6 @@ La figure \ref{fig:UseCaseDiagramGlobal} représente le diagramme de cas d'utili
   \caption{Diagramme de cas d'utilisation global}
   \label{fig:UseCaseDiagramGlobal}
 \end{figure}
+
+\section*{Conclusion}
+Au cours de ce chapitre, nous avons entrepris une analyse détaillée, suivi de la conception et de la réalisation du release 2. En conséquence, nous avons achevé la création d'un produit prêt à être livré au client.

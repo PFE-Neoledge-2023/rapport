@@ -53,6 +53,7 @@ urlcolor=blue}
 \usepackage{longtable}
 
 \usepackage{xltabular}
+
 \renewcommand{\tablename}{Tableau}
 \renewcommand{\figurename}{Figure}
 
@@ -277,6 +278,9 @@ urlcolor=blue}
 % \include{01-Dedicace}
 % \include{02-Remerciements}
 % \include{03-Resume}
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
 
 \renewcommand{\cftpartleader}{\cftdotfill{\cftdotsep}} 
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} 
@@ -304,6 +308,7 @@ urlcolor=blue}
 \include{08-Release1}
 \include{09-Release2}
 \include{03-Resume}
+\include{11-Conclusion}
 
 
 
@@ -312,7 +317,6 @@ urlcolor=blue}
 % \include{08-Besoins}
 % \include{09-Conception}
 % \include{10-Realisation}
-% \include{11-Conclusion}
 
 %choix du style de la biblio
 

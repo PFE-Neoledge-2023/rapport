@@ -292,6 +292,19 @@
       \verb https://fr.wikipedia.org/wiki/Microsoft_Teams
       \endverb
     \endentry
+    \entry{mvvm}{misc}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{note}{Key MVVM Components: consulté le 13/03/2023}
+      \field{title}{MVVM}
+      \verb{urlraw}
+      \verb https://builtin.com/software-engineering-perspectives/mvvm-architecture
+      \endverb
+      \verb{url}
+      \verb https://builtin.com/software-engineering-perspectives/mvvm-architecture
+      \endverb
+    \endentry
     \entry{nodejs}{misc}{}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}

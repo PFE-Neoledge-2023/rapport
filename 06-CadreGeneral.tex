@@ -1,7 +1,7 @@
 
-\chapter*{Cadre général du projet}
-\addcontentsline{toc}{chapter}{Cadre général du projet}
-\markboth{Cadre général du projet}{Cadre général du projet}
+\chapter*{Chapitre 1: Cadre général du projet}
+\addcontentsline{toc}{chapter}{Chapitre 1: Cadre général du projet}
+\markboth{Chapitre 1: Cadre général du projet}{Chapitre 1: Cadre général du projet}
 \label{chap:cadreGeneral}
 % reset numbering for parts and chapters
 \setcounter{part}{0}
@@ -80,7 +80,7 @@ Cette application est commercialisée depuis presque 20 ans sous plusieurs versi
 L'objectif de ce projet est alors la mise en place d'une solution mobile responsive du Elise tout en gardant les mêmes exigences fonctionnelles, non fonctionnelles et les expériences utilisateurs. Cette application permettra aux utilisateurs d'Elise d'accéder à leurs profils à travers leurs smartphones/tablettes.
 
 \section{Étude de l'existant}
-Dans cette section, nous allons présenter l'étude de l'existant, c'est-à-dire l'étude de l'application Elise actuelle et de ses fonctionnalités.
+Dans cette section, nous avons présenté l'étude de l'existant, c'est-à-dire l'étude de l'application Elise actuelle et de ses fonctionnalités.
 \subsection{Description de l'existant}
 La solution existante de gestion électronique de documents a plusieurs fonctionnalités très utiles pour l'organisation. En effet, une fois le document répertorié, il est possible de le retrouver très facilement avec certains critères de recherche prédéfinis. C'est ainsi qu'un gain de temps considérable se fait ressentir, lorsque nous avions l'habitude de rechercher nos documents papier dans des dizaines de classeurs. En ce qui concerne l'indexation des documents, le système prend en charge une reconnaissance automatique des informations présentes sur ce document et assure ainsi un classement optimisé et automatisé.
 
@@ -241,28 +241,53 @@ Avec Elise Mobile, les utilisateurs de la solution de Gestion électronique de C
   \end{itemize}
 \end{itemize}
 
-
 \subsection{Étude technique}
-Elise est une solution d'architecture architecture 3 tiers, illustrée par la figure ci-dessous 
-% image architecture_elise
+\subsubsection{Architecture de système}
+L'architecture de notre système se compose de :
+\begin{itemize}
+  \item Serveur d'application  
+  \item Serveur de données  
+  \item Serveur Web 
+  \item Clients \begin{itemize}
+    \item Client web  
+    \item Client mobile 
+  \end{itemize}
+\end{itemize}
+
+D'après cette composition Nous avons constaté que notre architecture correspond à une architecture n-tiers qui divise l'application en trois couches : 
+
+\begin{itemize}
+  \item Couche présentation : Correspondant à l'affichage, la restitution sur le poste de travail, le dialogue avec l'utilisateur. 
+  \item Couche métier (Traitement) : Correspondant à la mise en œuvre de l'ensemble des règles de gestion et de la logique applicative. 
+  \item Couche accès aux données : Correspondant aux données qui sont destinées à être conservées sur la durée, voire de manière définitive. 
+\end{itemize}
+
+Les deux figures \ref{fig:architecture_elise} et \ref{fig:digramme_architecture} représentent l'architecture de Elise.\\
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.8\textwidth]{architecture_elise}}
   \caption{Architecture Elise}
   \label{fig:architecture_elise}
 \end{figure}
-Cette architecture est composée de trois couches (3 tiers) :
 
-\subsubsection{La couche client (ou la couche présentation)}
-C'est la couche frontale de l'application. Elle comprend l'interface utilisateur. Pour notre solution c'est l'application Elise web et les autres applications de ECS : Elise Cloud Service. Et nous allons intégrons notre application mobile à cette couche. Ou toutes les applications de cette couche communiquent avec les autres couches avec des appels web services.
+\begin{figure}[H]
+  \centering
+  \fbox{\includegraphics[width=0.8\textwidth]{diagramme_architecture}}
+  \caption{Diagramme d'architecture Elise}
+  \label{fig:digramme_architecture}
+\end{figure}
 
-\subsubsection{La couche applicative}
-Contient la logique métier fonctionnelle qui pilote les fonctionnalités essentielles d'une application. Dans notre cas, c'est le serveur d'application Elise.
+\subsubsection{Architecture de l'application}
+L'architecture de l'application Elise est basée sur le modèle MVVM (Modèle-Vue-VueModèle) qui est un modèle d'architecture logicielle reconnu par l'industrie qui surmonte tous les inconvénients des modèles de conception MVP et MVC . MVVM suggère de séparer la logique de
+présentation des données (vues ou interface utilisateur) de la partie logique métier principale de l'application.
 
-\subsubsection{	La couche d'accès aux données}
-Elle contient les données de l'application. Pour notre solution nous avons deux types de base de données ; une base de données relationnelles et une base de données XML.
+Les couches de code distinctes de MVVM sont :
+\begin{itemize}
+  \item \textbf{Modèle} : cette couche est responsable de l'abstraction des sources de données. Model et ViewModel fonctionnent ensemble pour obtenir et enregistrer les données.\cite{mvvm}
+  \item \textbf{Vue} : Le but de cette couche est d'informer le ViewModel de l'action de l'utilisateur. Cette couche observe le ViewModel et ne contient aucun type de logique d'application.\cite{mvvm}
+  \item \textbf{ViewModel} : il expose les flux de données qui sont pertinents pour la vue. De plus, il sert de lien entre le modèle et la vue\cite{mvvm}
+\end{itemize}
 
-Cette architecture nous offre la séparation entre l'interface utilisateur, la logique métier et la couche de stockage de données. Cela donne une plus grande flexibilité aux équipes de développement en leur permettant de mettre à jour une partie spécifique d'une application indépendamment des autres parties.
 
 
 \subsection{Critique de l'existant}
@@ -353,6 +378,8 @@ Avant d'entamer la mise en œuvre de notre projet, nous allons d'abord décrire 
 \subsection{Environnement matériel}
 
 \begin{longtable}{|p{0.3\linewidth}|p{0.6\linewidth}|}
+  
+  \caption{Environnement matériel}\label{tab:environnement_materiel}\\
       \hline
       Environnement matériel & Description \\
       \hline
@@ -427,8 +454,6 @@ Avant d'entamer la mise en œuvre de notre projet, nous allons d'abord décrire 
       
 
 
-  \caption{Environnement matériel}
-  \label{tab:environnement_materiel}
 \end{longtable}
 
 \subsection{Environnement logiciel}
@@ -642,7 +667,7 @@ Au cours de cette section, nous dresserons une liste des outils utilisés pour �
     \begin{minipage}{\linewidth}
       \begin{wrapfigure}{l}{0.125\textwidth}
         \vspace{-0.5cm}
-        \includegraphics[width=0.9\linewidth]{pinia.png} 
+        \includegraphics[width=0.8\linewidth]{pinia.png} 
       \end{wrapfigure}
       Pinia est une bibliothèque de magasin et un framework de gestion d'état pour Vue.js. Conçu principalement pour créer des applications Web frontales, il utilise une syntaxe déclarative et propose sa propre API de gestion d'état. \cite{pinia}
     \end{minipage}

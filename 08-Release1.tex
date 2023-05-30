@@ -1,6 +1,6 @@
-\chapter*{Release 1}
-\addcontentsline{toc}{chapter}{Release 1}
-\markboth{Release 1}{Release 1}
+\chapter*{Chapitre 3: Release 1}
+\addcontentsline{toc}{chapter}{Chapitre 3: Release 1}
+\markboth{Chapitre 3: Release 1}{Chapitre 3: Release 1}
 \label{chap:release1}
 \setcounter{part}{0}
 \setcounter{chapter}{0}
@@ -9,7 +9,7 @@
 \renewcommand{\thepart}{\arabic{part}}
 \renewcommand{\thesection}{\arabic{section}}
 \section*{Introduction}
-Dans ce chapitre, nous allons nous concentrer sur les sprints de la première release de notre projet. Nous allons présenter en détail différents éléments essentiels tels que le diagramme des cas d'utilisation, le diagramme d'analyse, le diagramme des classes participantes, les diagrammes de séquences et les interfaces nécessaires pour chaque sprint. Ces éléments permettront d'assurer une compréhension approfondie de la fonctionnalité de chaque sprint et de guider la réalisation de la première release.
+Dans ce chapitre, nous allons nous concentrer sur les sprints de la première release de notre projet. Nous avons présenté en détail différents éléments essentiels tels que le diagramme des cas d'utilisation, le diagramme d'analyse, le diagramme des classes participantes, les diagrammes de séquences et les interfaces nécessaires pour chaque sprint. Ces éléments permettront d'assurer une compréhension approfondie de la fonctionnalité de chaque sprint et de guider la réalisation de la première release.
 
 \section{Organisation des sprints}
 La release 1 (Du 6 Février au 2 Avril) est composée de quatre sprints : 
@@ -40,6 +40,7 @@ Le tableau \ref{tab:sprint-backlog-1} représente le sprint backlog du sprint 1.
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint Backlog du Sprint 1} \label{tab:sprint-backlog-1} \\
       % \centering
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
@@ -48,7 +49,7 @@ Le tableau \ref{tab:sprint-backlog-1} représente le sprint backlog du sprint 1.
     1 & En tant que membre de l'équipe scrum, je
     souhaite comprendre pleinement la fonctionnalité du système Elise afin de reproduire sa logique dans une application mobile. &  1.1 &suivre une formation préparée par la société sur Elise.&3 Jours\\
     \cline{1-5}
-    \multirow{4}{*}{2} & \multirow{4}{6cm}{En tant que scrum team, je souhaite me former au développement mobile en utilisant les technologies Ionic Vue et Capacitor. Cette formation doit me permettre de maîtriser les compétences essentielles pour créer des applications mobiles multiplateformes de qualité.}  &  2.1 &Suivre une formation sur Youtube qui explique les notions de base d'Ionic.&\multirow{4}{2cm}{3.5 Jours}\\
+    \multirow{4}{*}{2} & \multirow{4}{6cm}{En tant que scrum team, je souhaite me former au développement mobile en utilisant les technologies Ionic Vue et Capacitor. Cette formation doit me permettre d'avoir les compétences essentielles pour créer des applications mobiles multiplateformes de qualité.}  &  2.1 &Suivre une formation sur Youtube qui explique les notions de base d'Ionic.&\multirow{4}{2cm}{3.5 Jours}\\
     \cline{3-4}
     &  &  2.2 &Suivre une formation sur Youtube qui explique les notions de base du Capacitor.&\\
     \cline{3-4}
@@ -89,14 +90,13 @@ Le tableau \ref{tab:sprint-backlog-1} représente le sprint backlog du sprint 1.
     \cline{3-4}
     &  &  5.4 & Développer la fonctionnalité d'authentification.&\\
   \hline
-  \multirow{3}{*}{6} & En tant qu'utilisateur, je veux déconnecter de l'application Elise Mobile afin de protéger mes informations et données personnelles. La déconnexion doit être facile d'accès et rapide. &  6.1 &Préparer les interfaces sur Figma.&\multirow{3}{2cm}{2 Jours}\\
+  \multirow{3}{*}{6} & En tant qu'utilisateur, je veux me déconnecter de l'application Elise Mobile afin de protéger mes informations et données personnelles. La déconnexion doit être facile d'accès et rapide. &  6.1 &Préparer les interfaces sur Figma.&\multirow{3}{2cm}{2 Jours}\\
   \cline{3-4}
   &  &  6.2 &Créer la page de déconnexion.&\\
   \cline{3-4}
   &  &  6.3 &Développer la fonctionnalité de déconnexion.&\\
   \hline
-  \caption{Sprint Backlog du Sprint 1}
-  \label{tab:sprint-backlog-1}
+
 \end{longtable}
 \end{adjustwidth}
 \subsection{Implémentation du Sprint 1}
@@ -108,7 +108,7 @@ Dans cette section, nous allons détailler les besoins de notre premier sprint. 
 
 La figure \ref{fig:UseCaseDiagram1} représente le diagramme de cas d'utilisation du sprint 1.
 
-\textbf{•	Diagramme de cas d'utilisation du sprint 1}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 1}
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{use_case_documents_sprint_1}}
@@ -120,9 +120,10 @@ La figure \ref{fig:UseCaseDiagram1} représente le diagramme de cas d'utilisatio
 Nous avons choisi de présenter les descriptions textuelles des différents cas d'utilisation plutôt que de se fier uniquement au diagramme des cas d'utilisation, car ce dernier ne détaille pas explicitement les échanges entre les acteurs et les cas d'utilisation. Les tableaux ci-dessous présentent ces descriptions textuelles :
 
 
-\textbf{•	Description textuelle de cas d'utilisation « S'authentifier »}
+\subsubsubsection{Description textuelle de cas d'utilisation « S'authentifier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « S'authentifier »} \label{tab:use_case_simple_authentification}\\
 \hline
 \textbf{Cas d'utilisation}&S'authentifier (authentification simple)\\
 \hline
@@ -158,13 +159,13 @@ Nous avons choisi de présenter les descriptions textuelles des différents cas 
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « S'authentifier »}
-\label{tab:use_case_simple_authentification}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Se déconnecter »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Se déconnecter »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Se déconnecter »} \label{tab:use_case_logout}\\
 \hline
 \textbf{Cas d'utilisation}&Se déconnecter\\
 \hline
@@ -183,8 +184,7 @@ Nous avons choisi de présenter les descriptions textuelles des différents cas 
 
 \end{enumerate}\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Se déconnecter »}
-\label{tab:use_case_logout}
+
 \end{longtable}
 
 Pour créer notre plateforme, nous avons pensé qu'il était nécessaire de réaliser une maquette. Les maquettes nous aident à concevoir des interfaces qui répondent aux attentes et aux besoins du client. Elles permettent également de s'assurer que les besoins du client sont adaptés au projet. Nous avons réalisé un prototype de notre système, comme le montrent les figures ci-dessous. Tout au long de notre projet, nous présenterons des maquettes.
@@ -223,7 +223,7 @@ Dans cette partie, nous allons analyser notre sprint en nous basant sur un diagr
 % spacing left
 \setlength{\parindent}{0em}
 
-\textbf{•	Diagramme de classe d'analyse de sprint 1 }
+\subsubsubsection{Diagramme de classe d'analyse de sprint 1 }
 
 
 \begin{figure}[H]
@@ -246,7 +246,7 @@ Une méthode de conception est la phase créative d'un projet d'ingénierie. Son
 
 Ces deux diagrammes jouent un rôle important dans la conception du système, en offrant une vision claire de son architecture et de son fonctionnement\\
 
-\textbf{•	Diagramme de classe de conception de sprint 1}
+\subsubsubsection{Diagramme de classe de conception de sprint 1}
 La figure \ref{fig:class_diagram_auth} représente le diagramme de classe de conception du sprint 1.
 
 % add image
@@ -260,14 +260,14 @@ La figure \ref{fig:class_diagram_auth} représente le diagramme de classe de con
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.9\textwidth]{out/diagrams/authentification/sequence_simple_login/sequence_simple_login}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/authentification/sequence_simple_login/sequence_simple_login}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « S'authentifier »}
   \label{fig:sequence_conception_login}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/authentification/sequence_logout/sequence_logout}}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/authentification/sequence_logout/sequence_logout}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Se déconnecter »}
   \label{fig:sequence_conception_logout}
 \end{figure}
@@ -320,6 +320,7 @@ Le tableau \ref{tab:sprint-backlog-2} représente le sprint backlog du sprint 2.
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint backlog du Sprint 2} \label{tab:sprint-backlog-2} \\
       % \centering
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
@@ -361,32 +362,32 @@ Le tableau \ref{tab:sprint-backlog-2} représente le sprint backlog du sprint 2.
       \cline{3-4}
       & & 6.3 & Publier le lecteur de fichier sur npm. & \\
   \hline
-  \caption{Sprint backlog du Sprint 2}
-  \label{tab:sprint-backlog-2}
+
 \end{longtable}
 \end{adjustwidth}
 
 \subsection{Implémentation du Sprint 2}
 
 \subsubsection{Spécification des besoins}
-La figure \ref{fig:use_case_signature_sprint_2} représente le diagramme de cas d'utilisation du sprint 2.
+La figure \ref{fig:UseCaseDiagram} représente le diagramme de cas d'utilisation du sprint 2.
 
-\textbf{•	Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »}
 
 % add image
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{use_case_signature_sprint_2}}
+  \fbox{\includegraphics[width=0.5\textwidth]{use_case_signature_sprint_2}}
   \caption{Diagramme de cas d'utilisation du sprint 2 : « Gestion des signatures »}
   \label{fig:UseCaseDiagram}
 \end{figure}
 
 Le diagramme \ref{fig:UseCaseDiagram} nous représente les cas d'utilisation de la gestion des signatures (créer, modifier, supprimer, visualiser et lister les signatures). \\
-Dans les tableaux suivants, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
+Dans les tableaux suivants, nous avons présenté les descriptions textuelles de ces cas d'utilisation.
 
-\textbf{•	Description textuelle de cas d'utilisation « Créer une signature »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Créer une signature »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Créer une signature »} \label{tab:use_case_create_signature}\\
 \hline
 \textbf{Cas d'utilisation}&Créer une signature\\
 \hline
@@ -421,14 +422,14 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Créer une signature »}
-\label{tab:use_case_create_signature}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Afficher les signatures »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Afficher les signatures »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Afficher les signatures »} \label{tab:use_case_view_signature}\\
 \hline
 \textbf{Cas d'utilisation}&Afficher les signatures\\
 \hline
@@ -454,13 +455,13 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Afficher les signatures »}
-\label{tab:use_case_view_signature}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Modifier une signature »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Modifier une signature »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Créer une signature »} \label{tab:use_case_update_signature}\\
 \hline
 \textbf{Cas d'utilisation}&Modifier une signature\\
 \hline
@@ -492,14 +493,14 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Créer une signature »}
-\label{tab:use_case_update_signature}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Supprimer une signature »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Supprimer une signature »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Supprimer une signature »} \label{tab:use_case_delete_signature} \\
 \hline
 \textbf{Cas d'utilisation}&Supprimer une signature\\
 \hline
@@ -522,14 +523,14 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Supprimer une signature »}
-\label{tab:use_case_delete_signature}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Visualiser une signature »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Visualiser une signature »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Visualiser une signature »} \label{tab:use_case_view_single_signature} \\
 \hline
 \textbf{Cas d'utilisation}&Visualiser une signature\\
 \hline
@@ -549,8 +550,7 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle du diagramme de cas d'utilisation « Visualiser une signature »}
-\label{tab:use_case_view_single_signature}
+
 \end{longtable}
 
 Les maquettes suivantes représentent les interfaces de la page des signatures.
@@ -602,7 +602,7 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 \subsubsection{Analyse détaillée}
 Dans cette partie, nous allons illustrer le diagramme de classes participantes représenté ci-dessous.\\
 
-\textbf{•	Diagramme de classe d'analyse de sprint 2 }
+\subsubsubsection{Diagramme de classe d'analyse de sprint 2 }
 
 \begin{figure}[H]
   \centering
@@ -615,7 +615,7 @@ Dans cette partie, nous allons illustrer le diagramme de classes participantes r
 \subsubsection{Conception}
 Dans cette partie nous allons représenter le diagramme de classe de conception, ainsi que les diagrammes de séquences de conception de notre deuxième Sprint. \\
 
-\textbf{•	Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
+\subsubsubsection{Diagramme de classe de conception de sprint 2 : « Gestion des signatures »}
 
 % add image
 \begin{figure}[H]
@@ -656,7 +656,7 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 
 \subsubsection{Réalisation}
 
-Après la présentation des different diagrammes, nous allons présenter dans cette partie des captures d'écran qui représentent les interfaces de gestion des signatures.
+Après la présentation des different diagrammes, nous avons présenté dans cette partie des captures d'écran qui représentent les interfaces de gestion des signatures.
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{realisation_signatures1}}
@@ -690,10 +690,10 @@ Pour réaliser ce lecteur, les choix techniques suivants ont été faits :
 
 \subsubsection{Réalisation}
 
-\textbf{•	Architecture du package}\\
+\subsubsubsection{Architecture du package}\\
 L'architecture du lecteur est basée sur une combinaison de la bibliothèque PDF.js et du framework Vue.js. Le package comprend plusieurs modules qui gèrent le chargement, le rendu et l'interaction avec les fichiers PDF.
 
-\textbf{•	Développement des fonctionnalités }\\
+\subsubsubsection{Développement des fonctionnalités }\\
 Les fonctionnalités développées comprennent :
 
 \begin{itemize}
@@ -701,7 +701,7 @@ Les fonctionnalités développées comprennent :
   \item Les fonctionnalités d'interaction avec les fichiers PDF, la navigation par page et l'affichage de tous les pages dans le document PDF.
 \end{itemize}
 
-\textbf{•	Publication du package}\\
+\subsubsubsection{Publication du package}\\
 Nous avons choisi de nommer le package neo-pdf-viewer. Il est disponible sur le lien suivant : \url{https://www.npmjs.com/package/neo-pdf-viewer}
 
 \begin{figure}
@@ -724,9 +724,9 @@ En moyenne, pour un fichier de 1-5 pages avec de détails moyens, le temps de ch
 
 
 \subsection{Sprint Review}
-A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
+A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge afin de vérifier notre démarche de travail par rapport aux besoins de client  tout en respectant les délais que nous avons fixés.
 
-Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
+Nous avons fait une démonstration durant laquelle nous avons présenté notre incrément :
 
 \begin{itemize}
   \item La création d'une signature.
@@ -740,13 +740,13 @@ Nous avons fait une démonstration durant laquelle nous allons présenter notre 
 
 Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.
 
-\noindent\textbf{•	Ce qui s'est bien passé :}
+\noindent\textbf{• Ce qui s'est bien passé :}
 \begin{itemize}
   \item Nous avons bien partagé les tâches entre nous à travers le logiciel Azure DevOps. 
-  \item Nous avons terminé le sprint dans le délai.
+  \item Nous avons terminé le sprint dans les délais.
 \end{itemize}
 
-\noindent\textbf{•	Ce qui s'est mal passé :}
+\noindent\textbf{• Ce qui s'est mal passé :}
 \begin{itemize}
   \item L'intégration du bibliothèque vue-signature-pad
   \item Un problème rencontré lors de la sauvegarde de la signature était que l'image enregistrée occupait la totalité de l'espace du pad, ce qui nécessitait ensuite une étape de découpe pour obtenir uniquement la partie signée.
@@ -757,7 +757,7 @@ Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la 
 \section{Sprint 3 « Gestion des documents »}
 \subsection{Sprint Goal}
 
-L'objectif de ce sprint est de développer et mettre en place un système de gestion des documents permettant aux utilisateurs de consulter les informations du document, consulter et gérer un fichier dans un document, consulter et gérer les tâches dans un document, rechercher des documents et consulter la liste des documents en favoris
+L'objectif de ce sprint est de développer et mettre en place un système de gestion de documents permettant aux utilisateurs de consulter les informations autour d'un document, consulter et gérer un fichier dans un document, consulter et gérer les tâches dans un document, rechercher des documents et consulter la liste des documents  favoris
 
 \pagebreak
 
@@ -769,6 +769,7 @@ Le tableau \ref{tab:sprint-backlog-3} représente le sprint backlog du sprint 3.
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint backlog du Sprint 3} \label{tab:sprint-backlog-3} \\
       % \centering
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
@@ -850,8 +851,7 @@ Le tableau \ref{tab:sprint-backlog-3} représente le sprint backlog du sprint 3.
       & & 12.3 & Développer une fonction qui permet de traiter une tâche dans un document. & \\
       \cline{1-5}
   \hline
-  \caption{Sprint backlog du Sprint 3}
-  \label{tab:sprint-backlog-3}
+
 \end{longtable}
 \end{adjustwidth}
 
@@ -863,12 +863,12 @@ Le tableau \ref{tab:sprint-backlog-3} représente le sprint backlog du sprint 3.
 \subsubsection{Spécification des besoins}
 La figure \ref{fig:UseCaseDiagramSprint3} représente le diagramme de cas d'utilisation du sprint 3.
 
-\textbf{•	Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
 
 % add image
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{use_case_documents_sprint_3}}
+  \fbox{\includegraphics[width=1\textwidth]{use_case_documents_sprint_3}}
   \caption{Diagramme de cas d'utilisation du sprint 3 : « Gestion des documents »}
   \label{fig:UseCaseDiagramSprint3}
 \end{figure}
@@ -876,9 +876,10 @@ Le diagramme des cas d'utilisation décrit le filtrage des documents, l'accès a
 
 Par la suite, nous allons fournir des descriptions textuelles détaillées de ces cas d'utilisation.
 
-\textbf{•	Description textuelle de cas d'utilisation « Accéder à un document »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Accéder à un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Accéder à un document »} \label{tab:DescriptionTextuelleDeCasDUtilisationAccéderAUnDocument} \\
 \hline
 \textbf{Cas d'utilisation}&Accéder à un document\\
 \hline
@@ -906,13 +907,13 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Accéder à un document »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationAccéderAUnDocument}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Télécharger un document »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Télécharger un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Télécharger un document »} \label{tab:DescriptionTextuelleDeCasDUtilisationTéléchargerUnDocument} \\
 \hline
 \textbf{Cas d'utilisation}& Télécharger un document\\
 \hline
@@ -942,14 +943,14 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Télécharger un document »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationTéléchargerUnDocument}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »}
+\subsubsubsection{Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »} \label{tab:DescriptionTextuelleDeCasDUtilisationConsulterLaListeDesFichiersDUnDocument} \\
 \hline
 \textbf{Cas d'utilisation}&Consulter la liste des fichiers d'un document\\
 \hline
@@ -977,13 +978,13 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « consulter la liste des fichiers d'un document »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationConsulterLaListeDesFichiersDUnDocument}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « ajouter un fichier à un document »}
+\subsubsubsection{Description textuelle de cas d'utilisation « ajouter un fichier à un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « ajouter un fichier à un document »} \label{tab:DescriptionTextuelleDeCasDUtilisationAjouterUnFichierAUnDocument} \\
 \hline
 \textbf{Cas d'utilisation}&Ajouter un fichier à un document\\
 \hline
@@ -1014,14 +1015,15 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « ajouter un fichier à un document »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationAjouterUnFichierAUnDocument}
+
 
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Scanner un fichier »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Scanner un fichier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Scanner un fichier »} \label{tab:DescriptionTextuelleDeCasDUtilisationScannerUnFichier} \\
+
 \hline
 \textbf{Cas d'utilisation}&Scanner un fichier\\
 \hline
@@ -1035,6 +1037,8 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \vspace{-\baselineskip}
 \begin{enumerate}
     \setcounter{enumi}{1}
+    \itemsep0em 
+
     \item L'utilisateur clique sur le bouton "liste des actions".
     \item Le système affiche la liste des actions.
     \item L'utilisateur clique sur le bouton "scanner un fichier".
@@ -1069,15 +1073,14 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Scanner un fichier »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationScannerUnFichier}
 
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »}
+\subsubsubsection{Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »} \label{tab:DescriptionTextuelleDeCasDUtilisationConsulterLaListeDesTachesDUnDocument} \\
 \hline
 \textbf{Cas d'utilisation}&Consulter la liste des tâches d'un document\\
 \hline
@@ -1105,15 +1108,17 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « consulter la liste des tâches d'un document »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationConsulterLaListeDesTachesDUnDocument}
+
 \end{longtable}
 
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Demander une tâche »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Demander une tâche »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Demander une tâche »} \label{tab:DescriptionTextuelleDeCasDUtilisationDemanderUneTache} \\
+
+
 \hline
 \textbf{Cas d'utilisation}&Demander une tâche\\
 \hline
@@ -1145,14 +1150,13 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Demander une tâche »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationDemanderUneTache}
 \end{longtable}
 
-
-\textbf{•	Description textuelle de cas d'utilisation « Tranférer une tâche »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Tranférer une tâche »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Tranférer une tâche »} \label{tab:DescriptionTextuelleDeCasDUtilisationTranfererUneTache} \\
+
 \hline
 \textbf{Cas d'utilisation}&Tranférer une tâche\\
 \hline
@@ -1184,13 +1188,12 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Tranférer une tâche »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationTranfererUneTache}
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Traiter une tâche »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Traiter une tâche »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Traiter une tâche »} \label{tab:DescriptionTextuelleDeCasDUtilisationTraiterUneTache} \\
 \hline
 \textbf{Cas d'utilisation}&Traiter une tâche\\
 \hline
@@ -1221,15 +1224,15 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Traiter une tâche »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationTraiterUneTache}
+
 \end{longtable}
 
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris  »} \label{tab:DescriptionTextuelleDeCasDUtilisationConsulterLaListeDesDocumentsEnFavoris} \\
 \hline
 \textbf{Cas d'utilisation}&Consulter la liste des documents en favoris\\
 \hline
@@ -1256,16 +1259,16 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Consulter la liste des documents en favoris  »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationConsulterLaListeDesDocumentsEnFavoris}
+
 \end{longtable}
 
 
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Chercher des documents »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Chercher des documents »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Chercher des documents »} \label{tab:DescriptionTextuelleDeCasDUtilisationChercherDesDocuments} \\
 \hline
 \textbf{Cas d'utilisation}&Chercher des documents\\
 \hline
@@ -1294,13 +1297,13 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Chercher des documents »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationChercherDesDocuments}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Recherche a l'aide de code QR »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Recherche a l'aide de code QR »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Chercher des documents »} \label{tab:DescriptionTextuelleDeCasDUtilisationChercherDesDocumentsQR} \\
 \hline
 \textbf{Cas d'utilisation}&Recherche a l'aide de code QR\\
 \hline
@@ -1330,8 +1333,7 @@ Par la suite, nous allons fournir des descriptions textuelles détaillées de ce
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Chercher des documents »}
-\label{tab:DescriptionTextuelleDeCasDUtilisationChercherDesDocumentsQR}
+
 \end{longtable}
 
 
@@ -1339,21 +1341,21 @@ Les maquettes suivantes représentent les interfaces de chaque cas d'utilisation
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.6\textwidth]{design_show_documents}}
+  \fbox{\includegraphics[width=0.55\textwidth]{design_show_documents}}
   \caption{Maquette de l'affichage des documents}
   \label{fig:design_show_documents}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.6\textwidth]{design_content}}
+  \fbox{\includegraphics[width=0.55\textwidth]{design_content}}
   \caption{Maquette de l'affichage de contenu d'un document}
   \label{fig:design_show_document}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.6\textwidth]{design_task_managment}}
+  \fbox{\includegraphics[width=0.55\textwidth]{design_task_managment}}
   \caption{Maquette de l'affichage de gestion des tâches}
   \label{fig:design_manage_tasks}
 \end{figure}
@@ -1399,13 +1401,13 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 \end{figure}
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/documents/add_file/add_file}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/documents/add_file/add_file}}
   \caption{Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document  »}
   \label{fig:sequence_add_file}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[height=1\textheight]{out/diagrams/documents/add_scan_file/add_scan_file}}
+  \fbox{\includegraphics[height=0.9\textheight]{out/diagrams/documents/add_scan_file/add_scan_file}}
   \caption{Diagramme de séquence de cas d'utilisation « Ajoutez un fichier à un document via scan  »}
   \label{fig:sequence_add_scan_file}
 \end{figure}
@@ -1429,9 +1431,9 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 \end{figure}
 
 \subsubsection{Analyse détaillée}
-Dans cette partie, nous allons présenter les diagrammes d'analyse de cette sprint.
+Dans cette partie, nous avons présenté les diagrammes d'analyse de cette sprint.
 
-\textbf{•	Diagramme de classe d'analyse de sprint "3" }
+\subsubsubsection{Diagramme de classe d'analyse de sprint "3" }
 La figure \ref{fig:class_analyse_signatures3} représente le diagramme de classe d'analyse de sprint 3.
 \begin{figure}[H]
   \centering
@@ -1443,11 +1445,11 @@ La figure \ref{fig:class_analyse_signatures3} représente le diagramme de classe
 
 \subsubsection{Conception}
 
-Après la présentation des diagrammes d'analyse, nous allons présenter dans cette partie les diagrammes de conception de sprint 3.
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception de sprint 3.
 \newpage 
 \begin{landscape}
 
-\textbf{•	Diagramme de classe de conception de sprint 3 : « Gestion des documents »}
+\subsubsubsection{Diagramme de classe de conception de sprint 3 : « Gestion des documents »}
 
 \begin{figure}[H]
   \centering
@@ -1457,7 +1459,7 @@ Après la présentation des diagrammes d'analyse, nous allons présenter dans ce
 \end{figure}
 \end{landscape}
 \newpage
-Dans cette partie, nous allons présenter les diagrammes de séquence de conception de cette sprint.\\
+Dans cette partie, nous avons présenté les diagrammes de séquence de conception de cette sprint.\\
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview/sequence_preview}}
@@ -1466,7 +1468,7 @@ Dans cette partie, nous allons présenter les diagrammes de séquence de concept
 \end{figure}
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/documents/sequence_preview_files/sequence_preview_files}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/documents/sequence_preview_files/sequence_preview_files}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter la liste des fichiers d'un document »}
   \label{fig:sequence_conception_previewFiles}
 \end{figure}
@@ -1508,7 +1510,7 @@ Dans cette partie, nous allons présenter les diagrammes de séquence de concept
 \end{figure}
 
 \subsubsection{Réalisation et Tests}
-\textbf{•	Réalisation }
+\subsubsubsection{Réalisation }
 Après la présentation des different diagrammes, nous avons présenté dans cette partie des captures d'écran de l'application.
 
 \begin{figure}[H]
@@ -1541,18 +1543,18 @@ Après la présentation des different diagrammes, nous avons présenté dans cet
 
 Vous pouvez voir dans l'annexe \ref{appendix:ios_view_sign} les captures d'écran de l'application version iOS.
 
-\textbf{•	Test unitaire} \\
+\subsubsubsection{Test unitaire} \\
 Cette section du rapport se concentre sur les outils et les méthodologies utilisés pour l'exécution des tests unitaires, tels que les frameworks de test, les bibliothèques et les simulateurs.
 
 Nous présenterons également la planification, l'exécution et l'évaluation des tests unitaires réalisés dans le cadre du troisième sprint de développement.
 
-\textbf{•	Environnement de test unitaire}
+\subsubsubsection{Environnement de test unitaire}
 
 La figure suivante présente l'environnement de test unitaire utilisé pour tester les composants de l'application.
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.5\textwidth]{testingtech}}
+  \fbox{\includegraphics[width=0.3\textwidth]{testingtech}}
   \caption{Environnement de test unitaire}
   \label{fig:environnementdetestunitaire}
 \end{figure}
@@ -1563,7 +1565,7 @@ La figure suivante présente l'environnement de test unitaire utilisé pour test
 \end{itemize}
 
 
-\textbf{•	Cycle de développement du test unitaire}
+\subsubsubsection{Cycle de développement du test unitaire}
 
 La figure suivante présente le cycle de développement du test unitaire utilisé pour tester les composants de l'application.
 
@@ -1574,7 +1576,7 @@ La figure suivante présente le cycle de développement du test unitaire utilis�
   \label{fig:cyclededveloppementdutestunitaire}
 \end{figure}
 
-\textbf{•	Planification des tests unitaires}
+\subsubsubsection{Planification des tests unitaires}
 
 \textbf{Note : } Jusqu'à présent, nous avons couvrés :
 \begin{itemize}
@@ -1583,7 +1585,7 @@ La figure suivante présente le cycle de développement du test unitaire utilis�
   \item Le composant des actions du document.
 \end{itemize}
 
-\textbf{•	Exécution des tests unitaires}
+\subsubsubsection{Exécution des tests unitaires}
 
 La figure suivante présente les résultats des tests unitaires réalisés dans le cadre du troisième sprint de développement.
 
@@ -1598,8 +1600,8 @@ Comme le montre la figure ci-dessus, tous les tests unitaires ont réussi.
 
 
 \subsection{Sprint Review}
-A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge avec le vise avis à Lille, France afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
-Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
+A la fin de ce sprint, nous avons planifié une réunion dans la société Neoledge avec le vise avis à Lille, France afin de vérifier notre démarche de travail par rapport aux besoins de client  tout en respectant les délais que nous avons fixés.
+Nous avons fait une démonstration durant laquelle nous avons présenté notre incrément :
 \begin{itemize}
   \item La consultation d'un document.
   \item La gestion des fichiers d'un document.
@@ -1612,12 +1614,12 @@ Nous avons fait une démonstration durant laquelle nous allons présenter notre 
 \subsection{Sprint Retrospective}
 
 Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.\\
-\noindent\textbf{•	Ce qui a bien passé :}
+\noindent\textbf{•Ce qui a bien passé :}
 \begin{itemize}
-  \item Nous avons terminé le sprint dans le délai.
+  \item Nous avons terminé le sprint dans les délais.
   \item Nous avons bien appris le test unitaire dans VueJS.
 \end{itemize}
-\noindent\textbf{•	Ce qui s'est mal passé :}
+\noindent\textbf{•Ce qui s'est mal passé :}
 Manque de documentation de l'ionic 
 
 
@@ -1633,6 +1635,7 @@ L'objectif de ce sprint est de mettre en place un système de visualisation et d
   % \usepackage{longtable}
     
     \begin{longtable}{|c|p{6cm}|c|p{6cm}|c|}
+      \caption{Sprint backlog du Sprint 4} \label{tab:sprint-backlog-4} \\
       \hline
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
@@ -1678,15 +1681,14 @@ L'objectif de ce sprint est de mettre en place un système de visualisation et d
       \cline{1-5}
       
   \hline
-  \caption{Sprint backlog du Sprint 4}
-  \label{tab:sprint-backlog-4}
+
 \end{longtable}
 \end{adjustwidth}
 
 \subsection{Implémentation du Sprint 4}
 \subsubsection{Spécification des besoins}
 La figure \ref{fig:UseCaseDiagram4} représente le diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier ».
-\textbf{•	Diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier »}
+\subsubsubsection{Diagramme de cas d'utilisation du sprint 4 « Visualisation et signature d'un fichier »}
 % add image
 \begin{figure}[H]
   \centering
@@ -1696,9 +1698,10 @@ La figure \ref{fig:UseCaseDiagram4} représente le diagramme de cas d'utilisatio
 \end{figure}
 Le diagramme \ref{fig:UseCaseDiagram4} nous représente les cas d'utilisation de la visualisation d'un fichier, la signature d'un fichier et la gestion des signatures d'un fichier.\\
 
-Dans les tableaux suivants, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
-\textbf{•	Description textuelle de cas d'utilisation « Visualiser un fichier  »}
+Dans les tableaux suivants, nous avons présenté les descriptions textuelles de ces cas d'utilisation.
+\subsubsubsection{Description textuelle de cas d'utilisation « Visualiser un fichier  »}
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Visualiser un fichier  »} \label{tab:description-textuelle-de-cas-d-utilisation-visualiser-un-fichier} \\
 \hline
 \textbf{Cas d'utilisation}&Visualiser un fichier\\
 \hline
@@ -1725,13 +1728,13 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Visualiser un fichier  »}
-\label{tab:description-textuelle-de-cas-d-utilisation-visualiser-un-fichier}
+
 
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Télécharger un fichier »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Télécharger un fichier »}
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Télécharger un fichier »} \label{tab:description-textuelle-de-cas-d-utilisation-telecharger-un-fichier} \\
 \hline
 \textbf{Cas d'utilisation}&Télécharger un fichier\\
 \hline
@@ -1774,14 +1777,14 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
   \item [3.2] Le système affiche un message d'erreur.
 \end{enumerate}\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Télécharger un fichier »}
-\label{tab:description-textuelle-de-cas-d-utilisation-telecharger-un-fichier}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »} \label{tab:description-textuelle-de-cas-d-utilisation-signer-par-glisser-et-deposer-une-image-dans-un-fichier} \\
 \hline
 \textbf{Cas d'utilisation}&Signer par glisser et déposer une image dans un fichier\\
 \hline
@@ -1809,13 +1812,13 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
     \item [4.2] Le système ne place pas la signature dans le fichier.
 \end{enumerate}\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Signer par glisser et déposer une image dans un fichier »}
-\label{tab:description-textuelle-de-cas-d-utilisation-signer-par-glisser-et-deposer-une-image-dans-un-fichier}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Signer à main un fichier »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Signer à main un fichier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Signer à main un fichier »} \label{tab:description-textuelle-de-cas-d-utilisation-signer-a-main-un-fichier} \\
 \hline
 \textbf{Cas d'utilisation}&Signer à main un fichier\\
 \hline
@@ -1846,14 +1849,14 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
     \item [6.2]Le tracé de la signature est effacé.
 \end{enumerate}\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Signer à main un fichier »}
-\label{tab:description-textuelle-de-cas-d-utilisation-signer-a-main-un-fichier}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »} \label{tab:description-textuelle-de-cas-d-utilisation-modifier-la-position-d-une-signature-d-un-fichier} \\
 \hline
 \textbf{Cas d'utilisation}&Modifier la position d'une signature d'un fichier\\
 \hline
@@ -1879,13 +1882,13 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
     \item [2.2]Le système annule les changements.
 \end{enumerate}\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Modifier la position d'une signature d'un fichier »}
-\label{tab:description-textuelle-de-cas-d-utilisation-modifier-la-position-d-une-signature-d-un-fichier}
+
 \end{longtable}
 
-\textbf{•	Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier  »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier  »} \label{tab:description-textuelle-de-cas-d-utilisation-supprimer-une-signature-d-un-fichier} \\
 \hline
 \textbf{Cas d'utilisation}&Supprimer une signature d'un fichier \\
 \hline
@@ -1910,14 +1913,14 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
     \item [1.2]Le système annule les changements.
 \end{enumerate}\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Supprimer une signature d'un fichier  »}
-\label{tab:description-textuelle-de-cas-d-utilisation-supprimer-une-signature-d-un-fichier}
+
 \end{longtable}
 
 
-\textbf{•	Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
+\subsubsubsection{Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
+  \caption{Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »} \label{tab:description-textuelle-de-cas-d-utilisation-confirmer-ou-annuler-les-changements-d-un-fichier} \\
 \hline
 \textbf{Cas d'utilisation}&Confirmer ou annuler les changements d'un fichier\\
 \hline
@@ -1946,8 +1949,7 @@ Dans les tableaux suivants, nous allons présenter les descriptions textuelles d
 \hline
 \textbf{Scénario d'exception}&Erreur de connexion\\
 \hline
-\caption{Description textuelle de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
-\label{tab:description-textuelle-de-cas-d-utilisation-confirmer-ou-annuler-les-changements-d-un-fichier}
+
 \end{longtable}
 
 
@@ -1955,7 +1957,7 @@ Les maquettes suivantes représentent les interfaces de chaque cas d'utilisation
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{design_file}}
+  \fbox{\includegraphics[width=0.7\textwidth]{design_file}}
   \caption{Maquette de l'affichage d'un fichier}
   \label{fig:design_file_preview}
 \end{figure}
@@ -1963,7 +1965,7 @@ Les maquettes suivantes représentent les interfaces de chaque cas d'utilisation
 Dans les diagrammes de séquence suivants, nous allons détailler les cas d'utilisation de cette sprint.\\
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/view_file/view_file}}
+  \fbox{\includegraphics[width=0.5\textwidth]{out/diagrams/sprint4/view_file/view_file}}
   \caption{Diagramme de séquence de cas d'utilisation « Visualiser un fichier   »}
   \label{fig:sequence_view_file}
 \end{figure}
@@ -2001,14 +2003,14 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 % Supprimer une signature d'un fichier 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/delete_signature/delete_signature}}
+  \fbox{\includegraphics[width=0.65\textwidth]{out/diagrams/sprint4/delete_signature/delete_signature}}
   \caption{Diagramme de séquence de cas d'utilisation « Supprimer une signature d'un fichier »}
   \label{fig:sequence_delete_signature_sp4}
 \end{figure}
 % Confirmer ou annuler les changements d'un fichier 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint4/save_cancel_siganture/save_cancel_siganture}}
+  \fbox{\includegraphics[width=0.65\textwidth]{out/diagrams/sprint4/save_cancel_siganture/save_cancel_siganture}}
   \caption{Diagramme de séquence de cas d'utilisation « Confirmer ou annuler les changements d'un fichier »}
   \label{fig:sequence_save_cancel_siganture}
 \end{figure}
@@ -2017,7 +2019,7 @@ Dans les diagrammes de séquence suivants, nous allons détailler les cas d'util
 
 \subsubsection{Analyse détaillée}
 
-\textbf{•	Diagramme de classe d'analyse de sprint "4" }
+\subsubsubsection{Diagramme de classe d'analyse de sprint "4" }
 La figure \ref{fig:class_analyse_4} représente le diagramme de classe d'analyse de sprint 4 « Visualisation et signature d'un fichier ».
 
 \begin{figure}[H]
@@ -2031,12 +2033,11 @@ La figure \ref{fig:class_analyse_4} représente le diagramme de classe d'analyse
 
 \subsubsection{Conception}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 4.
+Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception de sprint 4.
 \newpage 
 \begin{landscape}
 
-\textbf{•	Diagramme de classe de conception de sprint 4 « Visualisation et signature d'un fichier »}
+\subsubsubsection{Diagramme de classe de conception de sprint 4 « Visualisation et signature d'un fichier »}
 
 \begin{figure}[H]
   \centering
@@ -2101,23 +2102,23 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \subsubsection{Réalisation}
 
-Dans cette partie, nous allons présenter les captures d'écran de l'application après la réalisation de ce sprint.
+Dans cette partie, nous avons présenté les captures d'écran de l'application après la réalisation de ce sprint.
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.45\textwidth]{realisation_file1}}
+  \fbox{\includegraphics[width=0.4\textwidth]{realisation_file1}}
   \caption{Captures de l'affichage d'un fichier (par page ou par liste)}
   \label{fig:realisation_file_1}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.5\textwidth]{realisation_file2}}
+  \fbox{\includegraphics[width=0.4\textwidth]{realisation_file2}}
   \caption{Captures de l'affichage d'un fichier (partie signature)}
   \label{fig:realisation_file_2}
 \end{figure}
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.5\textwidth]{realisation_file3}}
+  \fbox{\includegraphics[width=0.4\textwidth]{realisation_file3}}
   \caption{Captures de l'affichage d'un fichier (validation/annulation des signatures et téléchargement)}
   \label{fig:realisation_file_3}
 \end{figure}
@@ -2125,13 +2126,13 @@ Dans cette partie, nous allons présenter les captures d'écran de l'application
 \begin{figure}[H]
   \begin{subfigure}[t]{0.4\textwidth}
   \centering
-  \fbox{\includegraphics[width=\linewidth]{prendre_en_charge_image}}
+  \fbox{\includegraphics[width=0.5\linewidth]{prendre_en_charge_image}}
   \caption{Capture de la prise en charge de l'affichage d'une image.}
   \label{fig:prendre_en_charge_image}
   \end{subfigure}\hfill
   \begin{subfigure}[t]{0.4\textwidth}
   \centering
-  \fbox{\includegraphics[width=\linewidth]{zoom}}
+  \fbox{\includegraphics[width=0.5\linewidth]{zoom}}
   \caption{Capture de l'affichage d'un fichier (zoom).}
   \label{fig:zoom}
   \end{subfigure}
@@ -2145,9 +2146,9 @@ Voir annexe \ref{appendix:neo-pdf-viewer} pour plus de détails sur l'améliorat
 \subsection{Sprint Review}
 
 
-A la fin de ce sprint, nous avons planifié une autre réunion dans la société Neoledge  afin de vérifier notre démarche de travail par rapport au besoin de client tout en respectant le délai que nous avons prévu.
+A la fin de ce sprint, nous avons planifié une autre réunion dans la société Neoledge  afin de vérifier notre démarche de travail par rapport aux besoins de client  tout en respectant les délais que nous avons fixés.
 
-Nous avons fait une démonstration durant laquelle nous allons présenter notre incrément :
+Nous avons fait une démonstration durant laquelle nous avons présenté notre incrément :
 \begin{itemize}
   \item La visualisation d'un fichier.
   \item Le téléchargement d'un fichier.
@@ -2163,7 +2164,11 @@ Nous avons fait une démonstration durant laquelle nous allons présenter notre 
 Après la Sprint Review, nous avons réfléchi à des pistes pour améliorer la qualité et l'efficacité de notre application.
 
 
-\noindent\textbf{•	Ce qui s'est bien passé :}
-Nous avons terminé le sprint dans le délai.\\
-\noindent\textbf{•	Ce qui s'est mal passé :}   Difficultés de déposer la signature à la position exacte.
+\noindent\textbf{• Ce qui s'est bien passé :}
+Nous avons terminé le sprint dans les délais.\\
+\noindent\textbf{• Ce qui s'est mal passé :}   Difficultés de déposer la signature à la position exacte.
 
+
+\section*{Conclusion}
+
+Dans ce chapitre, nous avons procédé à une analyse approfondie, suivi de la conception et de la mise en œuvre de la release 1. En conséquence, nous avons accompli la création d'un incrément qui offre une valeur significative pour le client.
