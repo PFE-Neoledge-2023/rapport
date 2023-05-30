@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.5.28)  30 MAY 2023 19:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.5.28)  30 MAY 2023 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5865,30 +5865,30 @@ LaTeX Info: Redefining \ttfamily on input line 309.
 
  (03-Resume.tex
 LaTeX Font Info:    Font shape `TU/ScheherazadeNew-Regular(0)/m/n' will be
-(Font)              scaled to size 13.00003pt on input line 35.
+(Font)              scaled to size 13.00003pt on input line 36.
 LaTeX Font Info:    Font shape `TU/ScheherazadeNew-Regular(0)/b/n' will be
-(Font)              scaled to size 13.00003pt on input line 35.
+(Font)              scaled to size 13.00003pt on input line 36.
 Package polyglossia Info: Option: French, variant=french.
-LaTeX Info: Redefining \rmfamily on input line 36.
-LaTeX Info: Redefining \sffamily on input line 36.
-LaTeX Info: Redefining \ttfamily on input line 36.
+LaTeX Info: Redefining \rmfamily on input line 37.
+LaTeX Info: Redefining \sffamily on input line 37.
+LaTeX Info: Redefining \ttfamily on input line 37.
 
 
-Package polyglossia Warning: Failed to patch part for French on input line 36.
-
-Package polyglossia Info: Option: French, variant=french.
-LaTeX Info: Redefining \rmfamily on input line 48.
-LaTeX Info: Redefining \sffamily on input line 48.
-LaTeX Info: Redefining \ttfamily on input line 48.
-
-Package polyglossia Warning: Failed to patch part for French on input line 48.
+Package polyglossia Warning: Failed to patch part for French on input line 37.
 
 Package polyglossia Info: Option: French, variant=french.
-LaTeX Info: Redefining \rmfamily on input line 56.
-LaTeX Info: Redefining \sffamily on input line 56.
-LaTeX Info: Redefining \ttfamily on input line 56.
+LaTeX Info: Redefining \rmfamily on input line 49.
+LaTeX Info: Redefining \sffamily on input line 49.
+LaTeX Info: Redefining \ttfamily on input line 49.
 
-Package polyglossia Warning: Failed to patch part for French on input line 56.
+Package polyglossia Warning: Failed to patch part for French on input line 49.
+
+Package polyglossia Info: Option: French, variant=french.
+LaTeX Info: Redefining \rmfamily on input line 57.
+LaTeX Info: Redefining \sffamily on input line 57.
+LaTeX Info: Redefining \ttfamily on input line 57.
+
+Package polyglossia Warning: Failed to patch part for French on input line 57.
 
 )
 LaTeX Info: Redefining \rmfamily on input line 310.
@@ -5963,7 +5963,13 @@ LaTeX Info: Redefining \ttfamily on input line 331.
 ] (12-Annexe.tex
 File: images_pfe/capture_application_1.png Graphic file (type bmp)
 <images_pfe/capture_application_1.png>
- [169] [170]
+ [169]
+Overfull \hbox (8.85985pt too wide) in paragraph at lines 68--69
+[][]\TU/lmr/m/n/12 Nous avons testé deux librairies pour créer des images de si
+gnature : \TU/lmr/bx/n/12 v-perfect-signature[]
+ []
+
+[170]
 File: images_pfe/capture_application_2.png Graphic file (type bmp)
 <images_pfe/capture_application_2.png>
 
