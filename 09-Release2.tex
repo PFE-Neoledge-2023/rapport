@@ -47,13 +47,13 @@ Le tableau \ref{tab:sprint-backlog-5} présente le sprint backlog du sprint 5.
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
       \multirow{2}{*}{1} & En tant que membre scrum, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre d'avoir les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.
-      & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{2.5 Jour} \\
+      & 1.1 & Étudier les spécifications techniques d'OIDC pour comprendre comment les implémenter dans notre application mobile. & \multirow{3}{*}{4 Jours} \\
       \cline{1-5}
-      \multirow{1}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter. &  \multirow{1}{*}{2.5 Jour} \\
+      \multirow{1}{*}{2} & En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile a l'aide d'un compte OIDC. & 2.1 & Développer la fonction qui permet de connecter. &  \multirow{1}{*}{2.5 Jours} \\
       \cline{1-5}
       \multirow{1}{*}{3} & En tant qu'utilisateur, je veux me déconnecter de l'application Elise Mobile. & 3.1 & Mettre à jour la fonction de déconnexion. & \multirow{1}{*}{0.5 Jour} \\
       \cline{1-5}
-      \multirow{2}{*}{4} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).} & 4.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{0.5 Jour} \\
+      \multirow{2}{*}{4} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).} & 4.1.& Développer la fonctionnalité d'authentification biométrique pour l'empreinte digitale et la reconnaissance faciale. & \multirow{2}{*}{7 Jours} \\
       \cline{3-4}
       & & 4.2 & Intégrer les fonctions de vérification biométrique dans certaines actions sensibles tels que la gestion de signature, la signature du document et la gestion des taches. & \\
       \cline{1-5}
@@ -246,14 +246,14 @@ Nous avons présenté dans cette partie les diagrammes de conception de sprint 5
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_Logout/sequence_Logout}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint5/sequence_Logout/sequence_Logout}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Déconnexion »}
   \label{fig:sequence_conception_logout_OIDC}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint5/sequence_verification_biometrique/sequence_verification_biometrique}}
+  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint5/sequence_verification_biometrique/sequence_verification_biometrique}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Vérification biométrique »}
   \label{fig:sequence_conception_verification_biometrique}
 \end{figure}
@@ -306,27 +306,27 @@ Le tableau \ref{tab:sprint-backlog-6} présente le sprint backlog du sprint 6.
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
       \multirow{2}{*}{1} & En tant qu'utilisateur, je veux accéder à la page des paramètres afin de personnaliser mon interface et pouvoir accéder a mon profil.
-      & 1.1 & Préparer l'interface de paramètres sur Figma. & \multirow{3}{*}{2.5 Jour} \\
+      & 1.1 & Préparer l'interface de paramètres sur Figma. & \multirow{3}{*}{2.5 Jours} \\
       \cline{3-4}
       & & 1.2 & Développer l'interface de paramètres	. & \\
       \cline{1-5}
-      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux gérer mes préférences d'aﬀichage de l'application la couleur du thème afin de personnaliser mon application.&2.1&Intégrer la fonctionnalité de mettre à jour les préférences d'affichage de l'utilisateur dans l'application &  \multirow{3}{*}{2.5 Jour} \\
+      \multirow{2}{*}{2} & En tant qu'utilisateur, je veux gérer mes préférences d'aﬀichage de l'application la couleur du thème afin de personnaliser mon application.&2.1&Intégrer la fonctionnalité de mettre à jour les préférences d'affichage de l'utilisateur dans l'application &  \multirow{3}{*}{2 Jours} \\
       \cline{1-5}
-      \multirow{1}{*}{3} & En tant qu'utilisateur, je souhaite pouvoir choisir la langue de l'application afin de personnaliser mon expérience utilisateur et que l'application se mette automatiquement à jour pour afficher tous les éléments dans la langue sélectionnée. & 3.1 &Intégrer la fonctionnalité de choix de la langue de l'application. & \multirow{1}{*}{0.5 Jour} \\
+      \multirow{1}{*}{3} & En tant qu'utilisateur, je souhaite pouvoir choisir la langue de l'application afin de personnaliser mon expérience utilisateur et que l'application se mette automatiquement à jour pour afficher tous les éléments dans la langue sélectionnée. & 3.1 &Intégrer la fonctionnalité de choix de la langue de l'application. & \multirow{1}{*}{2.5 Jours} \\
       \cline{1-5}
       \multirow{1}{*}{4} & En tant qu'utilisateur, je souhaite pouvoir vider le cache de l'application afin d'Améliorer les performances de l'application en supprimant les données stockées dans le cache. & 4.1 &Développer la fonction qui permet de Supprimer le cache. & \multirow{1}{*}{0.5 Jour} \\
       \cline{1-5}
-      \multirow{1}{*}{5} & En tant qu'utilisateur, je souhaite pouvoir chercher et sélectionner les espaces de travail afin de consulter les différents documents de chaque espace de travail & 5.1 & Développer la fonction qui permet de récupérer et sélectionner des espaces de travail & \multirow{1}{*}{0.5 Jour} \\
+      \multirow{1}{*}{5} & En tant qu'utilisateur, je souhaite pouvoir chercher et sélectionner les espaces de travail afin de consulter les différents documents de chaque espace de travail & 5.1 & Développer la fonction qui permet de récupérer et sélectionner des espaces de travail & \multirow{1}{*}{1 Jour} \\
       \cline{1-5}
-      \multirow{3}{*}{6} & En tant qu'utilisateur, je veux visualiser mes informations personnelles tels que les services et les licences que je possède pour vérifier leur exactitude et leur actualisation & 6.1 & Préparer l'interface de profil sur Figma & \multirow{3}{*}{2.5 Jour} \\
+      \multirow{3}{*}{6} & En tant qu'utilisateur, je veux visualiser mes informations personnelles tels que les services et les licences que je possède pour vérifier leur exactitude et leur actualisation & 6.1 & Préparer l'interface de profil sur Figma & \multirow{3}{*}{0.5 Jour} \\
       \cline{3-4}
       & & 6.2 & Développer l'interface de profil & \\
       \cline{3-4}
       & & 6.3 & Développer la fonction qui permet de récupérer les données & \\
       \cline{1-5}
-      \multirow{1}{*}{7} & En tant qu'utilisateur, je veux modifier ma photo de profil pour qu'elle reflète mieux mon image professionnelle ou personnelle actuelle.& 7.1 & Développer la fonction qui permet de modifier mon avatar. & \multirow{1}{*}{0.5 Jour} \\
+      \multirow{1}{*}{7} & En tant qu'utilisateur, je veux modifier ma photo de profil pour qu'elle reflète mieux mon image professionnelle ou personnelle actuelle.& 7.1 & Développer la fonction qui permet de modifier mon avatar. & \multirow{1}{*}{1 Jour} \\
       \cline{1-5}
-      \multirow{3}{*}{8} & En tant qu'utilisateur, je veux déclarer une absence en spécifiant la date de début et la date de fin de mon absence, afin d'informer mes collègues et mes supérieurs hiérarchiques.& 8.1 & Préparer l'interface de gestion d'absence sur Figma & \multirow{3}{*}{2.5 Jour} \\
+      \multirow{3}{*}{8} & En tant qu'utilisateur, je veux déclarer une absence en spécifiant la date de début et la date de fin de mon absence, afin d'informer mes collègues et mes supérieurs hiérarchiques.& 8.1 & Préparer l'interface de gestion d'absence sur Figma & \multirow{3}{*}{2 Jours} \\
       \cline{3-4}
       & & 8.2 & Développer l'interface de gestion d'absence & \\
       \cline{3-4}
@@ -334,7 +334,7 @@ Le tableau \ref{tab:sprint-backlog-6} présente le sprint backlog du sprint 6.
       \cline{1-5}
       \multirow{1}{*}{9} & En tant qu'utilisateur, je veux annuler ma déclaration d'absence si ma situation change et que je suis en mesure de travailler pendant la période initialement déclarée, afin de mettre à jour l'ensemble des parties prenantes informées de mon absence. & 9.1 & Développer la fonction qui permet d'annuler une absence & \multirow{1}{*}{0.5 Jour} \\
       \cline{1-5}
-      \multirow{1}{*}{10} & En tant qu'utilisateur, je veux rechercher un utilisateur ou un service et l'affecter comme délégué fin de lui donner les droits nécessaires pour gérer certaines tâches ou projets en mon absence. & 10.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{0.5 Jour} \\
+      \multirow{1}{*}{10} & En tant qu'utilisateur, je veux rechercher un utilisateur ou un service et l'affecter comme délégué fin de lui donner les droits nécessaires pour gérer certaines tâches ou projets en mon absence. & 10.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{1 Jour} \\
       \cline{1-5}
       \multirow{1}{*}{11} & En tant qu'utilisateur, je veux supprimer un délégué que j'avais désigné, en cas de besoin ou si je veux modifier mes choix & 11.1 & Développer la fonction qui permet de d'affecter un utilisateur ou un service comme délégué   & \multirow{1}{*}{0.5 Jour} \\
     \hline
@@ -859,7 +859,7 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=1\textwidth]{out/diagrams/sprint6/sequence_consult_settings_page/sequence_consult_settings_page}}
+  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_consult_settings_page/sequence_consult_settings_page}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Consulter la page de paramétre »}
   \label{fig:conception_sequence_consult_settings_page}
 \end{figure}
@@ -873,42 +873,42 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_change_language/sequence_change_language}}
+  \fbox{\includegraphics[width=1.1\textwidth]{out/diagrams/sprint6/sequence_change_language/sequence_change_language}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «Changer la langue »}
   \label{fig:conception_sequence_change_language}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.85\textwidth]{out/diagrams/sprint6/sequence_clear_cache/sequence_clear_cache}}
+  \fbox{\includegraphics[width=1.1\textwidth]{out/diagrams/sprint6/sequence_clear_cache/sequence_clear_cache}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Vider le cache »}
   \label{fig:conception_sequence_clear_cache}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/sequence_lister_selectionner_workspaces/sequence_lister_selectionner_workspaces}}
+  \fbox{\includegraphics[width=0.815\textwidth]{out/diagrams/sprint6/sequence_lister_selectionner_workspaces/sequence_lister_selectionner_workspaces}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Lister et sélectionner les espaces de travail »}
   \label{fig:conception_sequence_lister_selectionner_workspaces}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_visualiser_profil/sequence_visualiser_profil}}
+  \fbox{\includegraphics[width=0.815\textwidth]{out/diagrams/sprint6/sequence_visualiser_profil/sequence_visualiser_profil}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Visualiser les informations personnelles »}
   \label{fig:conception_sequence_visualiser_profil}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{out/diagrams/sprint6/sequence_edit_profil_avatar/sequence_edit_profil_avatar}}
+  \fbox{\includegraphics[width=0.8  \textwidth]{out/diagrams/sprint6/sequence_edit_profil_avatar/sequence_edit_profil_avatar}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Modifier la photo de profil »}
   \label{fig:conception_sequence_edit_profil_avatar}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.9\textwidth]{out/diagrams/sprint6/sequence_declare_absence/sequence_declare_absence}}
+  \fbox{\includegraphics[width=\textwidth]{out/diagrams/sprint6/sequence_declare_absence/sequence_declare_absence}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Déclarer l'absence »}
   \label{fig:conception_sequence_declare_absence}
 \end{figure}
@@ -922,14 +922,14 @@ Dans cette partie nous allons représenter le diagramme de classe de conception,
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/sequence_search_affect_delegation/sequence_search_affect_delegation}}
+  \fbox{\includegraphics[width=0.9\textwidth]{out/diagrams/sprint6/sequence_search_affect_delegation/sequence_search_affect_delegation}}
   \caption{Diagramme de séquence de conception de cas d'utilisation «  Rechercher et affecter un délégué »}
   \label{fig:conception_sequence_search_affect_delegation}
 \end{figure}
 
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.7\textwidth]{out/diagrams/sprint6/sequence_annulation_delegation/sequence_annulation_delegation}}
+  \fbox{\includegraphics[width=0.9\textwidth]{out/diagrams/sprint6/sequence_annulation_delegation/sequence_annulation_delegation}}
   \caption{Diagramme de séquence de conception de cas d'utilisation « Supprimer un délégué »}
   \label{fig:conception_sequence_annulation_delegation}
 \end{figure}
@@ -996,7 +996,7 @@ Le tableau \ref{tab:sprint-backlog-7} représente le sprint backlog du sprint 7.
       \textbf{ID} & \textbf{User story} & \textbf{ID}  & \textbf{Tâche} & \textbf{Durée} \\
       \hline
       \multirow{5}{*}{1} & \multirow{5}{6cm}{En tant qu'utilisateur, je veux visualiser les statistiques de l'application afin de suivre l'évolution de l'application.}
-      & 1.1 & Préparer les interfaces sur Figma. & \multirow{5}{*}{2.5 Jour} \\
+      & 1.1 & Préparer les interfaces sur Figma. & \multirow{5}{*}{5 Jours} \\
       \cline{3-4}
       & & 1.2 & Développer les différents types de widgets & \\
       \cline{3-4}
@@ -1010,11 +1010,11 @@ Le tableau \ref{tab:sprint-backlog-7} représente le sprint backlog du sprint 7.
       \cline{3-4}
       & &  2.2 & Développer la fonction qui permet de basculer entre les espaces de travail. & \\
       \cline{1-5}
-      \multirow{2}{*}{3} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux consulter les documents a l'aide de filtre rapide afin de trouver les documents que je cherche.} & 3.1.& Ajouter la fonction de filtre a l'interface de consultation des statistiques. & \multirow{2}{*}{0.5 Jour} \\
+      \multirow{2}{*}{3} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux consulter les documents a l'aide de filtre rapide afin de trouver les documents que je cherche.} & 3.1.& Ajouter la fonction de filtre a l'interface de consultation des statistiques. & \multirow{2}{*}{1.5 Jours} \\
       \cline{3-4}
       & & 3.2 & Développer la fonction qui permet de filtrer les documents par statistique. & \\
       \cline{1-5}
-      \multirow{2}{*}{4} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux refraichir les données de l'application afin de voir les dernières informations.} & 4.1.& Ajouter l'interface de rafraichissement des données a chaque page possible. & \multirow{2}{*}{0.5 Jour} \\
+      \multirow{2}{*}{4} & \multirow{2}{6cm}{En tant qu'utilisateur, je veux refraichir les données de l'application afin de voir les dernières informations.} & 4.1.& Ajouter l'interface de rafraichissement des données a chaque page possible. & \multirow{2}{*}{7 Jours} \\
       \cline{3-4}
       & & 4.2 & Développer la fonction qui permet de rafraichir les données de chaque page. & \\
   \hline

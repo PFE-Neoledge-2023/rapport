@@ -85,157 +85,157 @@ Le product backlog, selon le guide Scrum, est une liste émergente et ordonnée 
   \begin{adjustwidth}{-1cm}{}
     % \usepackage{longtable}
       
-      \begin{longtable}{|c|p{5cm}|p{12cm}|c|c|}
+      \begin{longtable}{|c|p{4cm}|p{11cm}|c|c|c|}
         \caption{Product Backlog}\label{tab:product_backlog}\\
         \hline
-    ID  & Nom & User Story     &  Compléxité  &  Release  \\
+    ID  & Nom & User Story     &  Compléxité  & Priorité &  Release  \\
     \hline
-    TS1  &  Formation sur la solution Elise  &  En tant que membre de l'équipe scrum, je souhaite comprendre pleinement la fonctionnalité du système Elise afin de reproduire sa logique dans une application mobile.   &  Moyenne  &  \multirow{21}{2.5cm}[-10.5ex]{\textbf{Release 1}}  \\
-    \cline{1-4}
-    TS2  &  Formation en développement mobile avec Ionic Vue et Capacitor  &  En tant que scrum team, je souhaite me former au développement mobile en utilisant les technologies Ionic Vue et Capacitor. Cette formation doit me permettre d'avoir les compétences essentielles pour créer des applications mobiles multi-plateformes de qualité.  &  Moyenne  & \\
-    \cline{1-4}
-    TS3  &  Installer et configurer l'environnement de développement  &  En tant que développeur, je veux installer et configurer le logiciel Visual Studio Code et Android studio pour travailler sur le projet en utilisant les technologies suivantes : Ionic Vue, .NET Core 6 et Capacitor.  &  Facile  &  \\
-    \cline{1-4}
-    TS4  &  Développer des prototypes  &  En tant que développeur, je veux développer des prototypes de l'application mobile afin de tester les fonctionnalités et de valider les choix techniques.  &  Moyenne  &   \\
-    \cline{1-4}
-    US1&Connexion simple avec le mot de passe et l'email&En tant qu'utilisateur, je veux connecter à l'application Elise Mobile en utilisant mes identifiants (adresse e-mail et mot de passe).&Moyenne&\\
-    \cline{1-4}
-    US2&Déconnexion&En tant qu'utilisateur, je veux me déconnecter de l'application Elise Mobile afin de protéger mes informations et données personnelles. La déconnexion doit être facile d'accès et rapide.&Moyenne&\\
-    \cline{1-4}
+    TS1  &  Formation sur la solution Elise  &  En tant que membre de l'équipe scrum, je souhaite comprendre pleinement la fonctionnalité du système Elise afin de reproduire sa logique dans une application mobile.   &  Moyenne & Élevé &  \multirow{21}{2.5cm}[-10.5ex]{\textbf{Release 1}}  \\
+    \cline{1-5  }
+    TS2  &  Formation en développement mobile avec Ionic Vue et Capacitor  &  En tant que scrum team, je souhaite me former au développement mobile en utilisant les technologies Ionic Vue et Capacitor. Cette formation doit me permettre d'avoir les compétences essentielles pour créer des applications mobiles multi-plateformes de qualité.  &  Moyenne & Élevé & \\
+    \cline{1-5  }
+    TS3  &  Installer et configurer l'environnement de développement  &  En tant que développeur, je veux installer et configurer le logiciel Visual Studio Code et Android studio pour travailler sur le projet en utilisant les technologies suivantes : Ionic Vue, .NET Core 6 et Capacitor.  &  Facile & Élevé &  \\
+    \cline{1-5  }
+    TS4  &  Développer des prototypes  &  En tant que développeur, je veux développer des prototypes de l'application mobile afin de tester les fonctionnalités et de valider les choix techniques.  &  Moyenne & Élevé &   \\
+    \cline{1-5  }
+    US1&Connexion simple avec le mot de passe et l'email&En tant qu'utilisateur, je veux connecter à l'application Elise Mobile en utilisant mes identifiants (adresse e-mail et mot de passe).&Moyenne&Élevé&\\
+    \cline{1-5  }
+    US2&Déconnexion&En tant qu'utilisateur, je veux me déconnecter de l'application Elise Mobile afin de protéger mes informations et données personnelles. La déconnexion doit être facile d'accès et rapide.&Moyenne&Élevé&\\
+    \cline{1-5  }
 
-    US3 & Création de signature & En tant qu'utilisateur, je veux créer une signature électronique en dessinant ma signature à l'aide de mon doigt ou de mon stylet sur l'écran tactile de mon appareil mobile, afin de la réutiliser facilement lors de la signature de documents. & Moyenne & \\
+    US3 & Création de signature & En tant qu'utilisateur, je veux créer une signature électronique en dessinant ma signature à l'aide de mon doigt ou de mon stylet sur l'écran tactile de mon appareil mobile, afin de la réutiliser facilement lors de la signature de documents. & Moyenne &Élevé& \\
 
     % afficher la liste des signatures
-    \cline{1-4}
-    US4 & Affichage de la liste des signatures & En tant qu'utilisateur, je veux afficher la liste des signatures que j'ai créées auparavant, afin de pouvoir les utiliser pour signer un document. & Facile &  \\
+    \cline{1-5  }
+    US4 & Affichage de la liste des signatures & En tant qu'utilisateur, je veux afficher la liste des signatures que j'ai créées auparavant, afin de pouvoir les utiliser pour signer un document. & Facile&Élevé &  \\
 
-    \cline{1-4}
-    US5 & Modification de signature & En tant qu'utilisateur, je veux modifier le nom, la description et si elle est par défaut d'une signature que j'ai créée auparavant, afin de la mettre à jour ou de la rendre plus facile à identifier & Facile & \\
-    \cline{1-4}
-    US6 & Suppression de signature & En tant qu'utilisateur, je veux supprimer une signature électronique que j'ai créée auparavant, en cas de besoin ou si ma signature a changé, afin de ne pas utiliser une signature obsolète ou inexacte. & Facile & \\
+    \cline{1-5  }
+    US5 & Modification de signature & En tant qu'utilisateur, je veux modifier le nom, la description et si elle est par défaut d'une signature que j'ai créée auparavant, afin de la mettre à jour ou de la rendre plus facile à identifier & Facile&Élevé & \\
+    \cline{1-5  }
+    US6 & Suppression de signature & En tant qu'utilisateur, je veux supprimer une signature électronique que j'ai créée auparavant, en cas de besoin ou si ma signature a changé, afin de ne pas utiliser une signature obsolète ou inexacte. & Facile& Élevé& \\
 
-    \cline{1-4}
-    US7 & Visualisation de signature & En tant qu'utilisateur, je veux visualiser ma signature électronique, pour m'assurer qu'elle est correcte. & Moyenne & \\
-    \cline{1-4}
-    US8 & Développer le lecteur de fichier dédier a Elise Mobile & En tant que développeur, je veux développer un lecteur de fichier afin de l'utiliser pour la lecture des fichiers d'Elise Mobile. & Difficile & \\
-    \cline{1-4}
+    \cline{1-5  }
+    US7 & Visualisation de signature & En tant qu'utilisateur, je veux visualiser ma signature électronique, pour m'assurer qu'elle est correcte. & Moyenne &Élevé& \\
+    \cline{1-5  }
+    US8 & Développer le lecteur de fichier dédier a Elise Mobile & En tant que développeur, je veux développer un lecteur de fichier afin de l'utiliser pour la lecture des fichiers d'Elise Mobile. & Difficile &Élevé& \\
+    \cline{1-5  }
 
-    US9&Recherche de documents&En tant qu'utilisateur, je veux rechercher des documents en utilisant différents critères, afin de trouver rapidement les documents dont j'ai besoin.&Difficile&\\
+    US9&Recherche de documents&En tant qu'utilisateur, je veux rechercher des documents en utilisant différents critères, afin de trouver rapidement les documents dont j'ai besoin.&Difficile&Élevé&\\
 
-    \cline{1-4}
-    US10&Recherche a l'aide de code QR&En tant qu'utilisateur, je veux rechercher un document en scannant son code QR, afin de le trouver rapidement.&Moyenne&\\
-    \cline{1-4}
-    US11&Afficher documents favoris&En tant qu'utilisateur, je veux affiches mes documents favoris, afin de trouver rapidement les documents dont j'ai besoin. &Moyenne&\\
+    \cline{1-5  }
+    US10&Recherche a l'aide de code QR&En tant qu'utilisateur, je veux rechercher un document en scannant son code QR, afin de le trouver rapidement.&Moyenne&Moyenne&\\
+    \cline{1-5  }
+    US11&Afficher documents favoris&En tant qu'utilisateur, je veux affiches mes documents favoris, afin de trouver rapidement les documents dont j'ai besoin. &Moyenne&Élevé&\\
 
-    \cline{1-4}
+    \cline{1-5  }
     US12&Accès aux documents&En tant qu'utilisateur, je veux récupérer les informations relatives à un document, telles que la date de création, les utilisateurs qui ont accédé au document et les tâches associées, afin de suivre l'historique du document et de mieux comprendre son contexte, les modifier ou de les signer.&Moyenne&\\
-    \cline{1-4}
-    US13&Télécharger un document&En tant qu'utilisateur, je veux télécharger les fichiers attachés à un document, afin de garder une copie locale.&Moyenne&\\
+    \cline{1-5  }
+    US13&Télécharger un document&En tant qu'utilisateur, je veux télécharger les fichiers attachés à un document, afin de garder une copie locale.&Moyenne&Moyenne&\\
 
-    \cline{1-4}
+    \cline{1-5  }
     
-    US14&Consulter la liste des fichiers d'un document&En tant qu'utilisateur, je veux consulter la liste des fichiers attachés à un document, afin de les visualiser. &Moyenne&\\
+    US14&Consulter la liste des fichiers d'un document&En tant qu'utilisateur, je veux consulter la liste des fichiers attachés à un document, afin de les visualiser. &Moyenne&Élevé&\\
     
-    \cline{1-4}
-    US15&Ajout de fichiers à un document&En tant qu'utilisateur, je veux ajouter des fichiers supplémentaires à un document existant, afin de rassembler toutes les informations nécessaires dans un seul document et de faciliter le partage des informations.&Moyenne&\\
-    \cline{1-4}
-    US16&Scanner un fichier&En tant qu'utilisateur, je veux scanner un fichier à l'aide de la caméra de mon appareil, afin de le joindre à un document.&Moyenne&\\
-    \cline{1-4}
+    \cline{1-5  }
+    US15&Ajout de fichiers à un document&En tant qu'utilisateur, je veux ajouter des fichiers supplémentaires à un document existant, afin de rassembler toutes les informations nécessaires dans un seul document et de faciliter le partage des informations.&Moyenne&Élevé&\\
+    \cline{1-5  }
+    US16&Scanner un fichier&En tant qu'utilisateur, je veux scanner un fichier à l'aide de la caméra de mon appareil, afin de le joindre à un document.&Moyenne&Moyenne&\\
+    \cline{1-5  }
 
-    US17&Consulter les tâches&En tant qu'utilisateur, je veux consulter la liste des tâches associées à un document, afin de suivre l'état d'avancement des tâches et de savoir qui est responsable de chaque tâche. &Moyenne&\\
-    \cline{1-4}
-    US18&Demander une tâche&En tant qu'utilisateur, je veux demander une tâche dans un document en assignant une personne responsable, afin de faciliter la collaboration et le suivi des tâches.&Moyenne&\\
+    US17&Consulter les tâches&En tant qu'utilisateur, je veux consulter la liste des tâches associées à un document, afin de suivre l'état d'avancement des tâches et de savoir qui est responsable de chaque tâche. &Moyenne&Élevé&\\
+    \cline{1-5  }
+    US18&Demander une tâche&En tant qu'utilisateur, je veux demander une tâche dans un document en assignant une personne responsable, afin de faciliter la collaboration et le suivi des tâches.&Moyenne&Élevé&\\
     
-    \cline{1-4}
+    \cline{1-5  }
     % Transferer une tache a un autre utilisateur
-    US19&Transferer une tâche&En tant qu'utilisateur, je veux transferer une tâche dans un document a un autre utilisateur, afin que ce dernier puisse la prendre en charge.&Moyenne&\\
-    \cline{1-4}
-    US20&Traitment d'une tâche dans un document&En tant qu'utilisateur, je veux terminer une tâche dans un document en la marquant comme terminée et en ajoutant des commentaires sur le travail effectué, afin de clôturer la tâche et de faciliter le suivi du projet. &Moyenne&\\
+    US19&Transferer une tâche&En tant qu'utilisateur, je veux transferer une tâche dans un document a un autre utilisateur, afin que ce dernier puisse la prendre en charge.&Moyenne&Élevé&\\
+    \cline{1-5  }
+    US20&Traitment d'une tâche dans un document&En tant qu'utilisateur, je veux terminer une tâche dans un document en la marquant comme terminée et en ajoutant des commentaires sur le travail effectué, afin de clôturer la tâche et de faciliter le suivi du projet. &Moyenne&Élevé&\\
 
 
-    \cline{1-4}
+    \cline{1-5  }
 
-    US21&Visualisation de fichiers&En tant qu'utilisateur, je veux visualiser des fichiers stockés dans le document, afin de consulter leur contenu sans avoir besoin d'une autre application ou d'un autre dispositif.&Difficile&\\
+    US21&Visualisation de fichiers&En tant qu'utilisateur, je veux visualiser des fichiers stockés dans le document, afin de consulter leur contenu sans avoir besoin d'une autre application ou d'un autre dispositif.&Difficile&Élevé&\\
 
-    \cline{1-4}
-    US22&Téléchargement de fichier&En tant qu'utilisateur, je veux télécharger un fichier, afin d'avoir une copie locale du fichier sur mon appareil.&Difficile&\\
-    \cline{1-4}
+    \cline{1-5  }
+    US22&Téléchargement de fichier&En tant qu'utilisateur, je veux télécharger un fichier, afin d'avoir une copie locale du fichier sur mon appareil.&Difficile&Élevé&\\
+    \cline{1-5  }
 
-    US23&Signature de fichier avec image&En tant qu'utilisateur, je souhaite signer des fichiers avec image, Je veux être en mesure de sélectionner une signature pré-enregistrée parmi celles que j'ai créées précédemment, en utilisant simplement un système de glisser-déposer pour l'appliquer au document à signer.&Difficile&\\
-    \cline{1-4}
+    US23&Signature de fichier avec image&En tant qu'utilisateur, je souhaite signer des fichiers avec image, Je veux être en mesure de sélectionner une signature pré-enregistrée parmi celles que j'ai créées précédemment, en utilisant simplement un système de glisser-déposer pour l'appliquer au document à signer.&Difficile&Élevé&\\
+    \cline{1-5  }
 
-    US24&Signature de fichier a main&En tant qu'utilisateur, je souhaite signer des fichiers a main. Je veux signer le document directement en utilisant une méthode de signature manuscrite, en dessinant ma signature.&Difficile&\\
+    US24&Signature de fichier a main&En tant qu'utilisateur, je souhaite signer des fichiers a main. Je veux signer le document directement en utilisant une méthode de signature manuscrite, en dessinant ma signature.&Difficile&Moyenne&\\
     
-    \cline{1-4}
+    \cline{1-5  }
     % Deplacer signature non enregistrée
-    US25&Deplacer les signatures non confirmées&En tant qu'utilisateur, je souhaite déplacer les signatures non confirmées, afin de les positionner correctement.&Difficile&\\
+    US25&Deplacer les signatures non confirmées&En tant qu'utilisateur, je souhaite déplacer les signatures non confirmées, afin de les positionner correctement.&Difficile&Élevé&\\
     
-    \cline{1-4}
+    \cline{1-5  }
     % Supprimer signature non enregistrée
-    US26&Supprimer les signatures non confirmées&En tant qu'utilisateur, je souhaite supprimer les signatures non confirmées, afin d'annuler la signature.&Difficile&\\
+    US26&Supprimer les signatures non confirmées&En tant qu'utilisateur, je souhaite supprimer les signatures non confirmées, afin d'annuler la signature.&Difficile&Élevé&\\
 
     % Confirmer ou annuler la signature
-    \cline{1-4}
-    US27&Confirmer ou annuler la signature&En tant qu'utilisateur, je souhaite confirmer ou annuler la signature, afin de la valider ou de la supprimer.&Difficile&\\
+    \cline{1-5  }
+    US27&Confirmer ou annuler la signature&En tant qu'utilisateur, je souhaite confirmer ou annuler la signature, afin de la valider ou de la supprimer.&Difficile&Élevé&\\
     
 
-    \cline{1-5}
-    TS5&Formation sur le protocole OIDC&En tant que scrum team, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre d'avoir les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.&Difficile&\multirow{11}{2.5cm}{Release 2}\\
-    \cline{1-4}
-    US28&Connexion à l'aide du protocole OIDC&En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile en utilisant mon compte Microsoft.&Difficle&\\
-    \cline{1-4}
+    \cline{1-6}
+    TS5&Formation sur le protocole OIDC&En tant que scrum team, je souhaite me former sur le protocole OIDC. Cette formation doit me permettre d'avoir les compétences essentielles pour mettre en place une authentification et une autorisation sécurisées dans notre application mobile.&Difficile&Moyenne&\multirow{11}{2.5cm}{Release 2}\\
+    \cline{1-5  }
+    US28&Connexion à l'aide du protocole OIDC&En tant qu'utilisateur, je veux me connecter à l'application Elise Mobile en utilisant mon compte Microsoft.&Difficle&Moyenne&\\
+    \cline{1-5  }
 
 
-    \cline{1-4}
-    US29&Vérification biométrique&En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).&Difficile&\\
-    \cline{1-4}
+    \cline{1-5  }
+    US29&Vérification biométrique&En tant qu'utilisateur, je veux sécuriser les actions sensibles de l'application Elise Mobile en utilisant la vérification biométrique (empreinte digitale, reconnaissance faciale).&Difficile&Élevé&\\
+    \cline{1-5  }
      
-    US30&Gestion des préférences d'affichage&En tant qu'utilisateur, je veux gérer mes préférences d'affichage de l'application la couleur du thème  afin de personnaliser l'expérience utilisateur.&Moyenne&\\
+    US30&Gestion des préférences d'affichage&En tant qu'utilisateur, je veux gérer mes préférences d'affichage de l'application la couleur du thème  afin de personnaliser l'expérience utilisateur.&Moyenne&Moyenne&\\
 
-    \cline{1-4}
-    US31&Internationalisation &En tant qu'utilisateur, Je souhaite pouvoir choisir la langue de l'application afin de personnaliser mon expérience utilisateur et que l'application se mette automatiquement à jour pour afficher tous les éléments dans la langue sélectionnée.& Difficile&\\
+    \cline{1-5  }
+    US31&Internationalisation &En tant qu'utilisateur, Je souhaite pouvoir choisir la langue de l'application afin de personnaliser mon expérience utilisateur et que l'application se mette automatiquement à jour pour afficher tous les éléments dans la langue sélectionnée.& Difficile&Élevé&\\
      
-    \cline{1-4}
-    US32&Vide le cache&En tant qu'utilisateur, je souhaite pouvoir vider le cache de l'application afin d'Améliorer les performances de l'application en supprimant les données stockées dans le cache.& Facile&\\
+    \cline{1-5  }
+    US32&Vide le cache&En tant qu'utilisateur, je souhaite pouvoir vider le cache de l'application afin d'Améliorer les performances de l'application en supprimant les données stockées dans le cache.& Facile&Moyenne&\\
 
-    \cline{1-4}
-    US33&Choix des espaces de travail&En tant qu'utilisateur, je souhaite pouvoir chercher et sélectionner les espaces de travail afin de consulter les différents documents de chaque espace de travail.& Moyenne&\\
+    \cline{1-5  }
+    US33&Choix des espaces de travail&En tant qu'utilisateur, je souhaite pouvoir chercher et sélectionner les espaces de travail afin de consulter les différents documents de chaque espace de travail.& Moyenne&Moyenne&\\
 
     
-    \cline{1-4}
-    US34&Visualisation des informations personnelles&En tant qu'utilisateur, je veux visualiser mes informations personnelles telles que mon nom, mon adresse email afin de vérifier leur exactitude et leur actualisation.&Moyenne&\\
+    \cline{1-5  }
+    US34&Visualisation des informations personnelles&En tant qu'utilisateur, je veux visualiser mes informations personnelles telles que mon nom, mon adresse email afin de vérifier leur exactitude et leur actualisation.&Moyenne&Moyenne&\\
     
     
-    \cline{1-4}
-    US35&Modification de la photo de profil&En tant qu'utilisateur, je veux modifier ma photo de profil pour qu'elle reflète mieux mon image professionnelle ou personnelle actuelle.&Moyenne&\\
+    \cline{1-5  }
+    US35&Modification de la photo de profil&En tant qu'utilisateur, je veux modifier ma photo de profil pour qu'elle reflète mieux mon image professionnelle ou personnelle actuelle.&Moyenne&Moyenne&\\
     
-    \cline{1-4}
-    US36&Déclaration d'absence&En tant qu'utilisateur, je veux déclarer une absence en spécifiant la date de début et la date de fin de mon absence, afin d'informer mes collègues et mes supérieurs hiérarchiques.&Moyenne&\\
+    \cline{1-5  }
+    US36&Déclaration d'absence&En tant qu'utilisateur, je veux déclarer une absence en spécifiant la date de début et la date de fin de mon absence, afin d'informer mes collègues et mes supérieurs hiérarchiques.&Moyenne&Élevé&\\
     
-    \cline{1-4}
-    US37&Annulation d'une déclaration d'absence&En tant qu'utilisateur, je veux annuler ma déclaration d'absence si ma situation change et que je suis en mesure de travailler pendant la période initialement déclarée, afin de mettre à jour l'ensemble des parties prenantes informées de mon absence.&Moyenne& \\
-    \cline{1-4}
+    \cline{1-5  }
+    US37&Annulation d'une déclaration d'absence&En tant qu'utilisateur, je veux annuler ma déclaration d'absence si ma situation change et que je suis en mesure de travailler pendant la période initialement déclarée, afin de mettre à jour l'ensemble des parties prenantes informées de mon absence.&Moyenne&Élevé& \\
+    \cline{1-5  }
     
-    \cline{1-4}
-    US38&Recherche et affectation de délégué&En tant qu'utilisateur, je veux rechercher un utilisateur ou un service et l'affecter comme délégué pendant mon absence afin de lui donner les droits nécessaires pour gérer certaines tâches ou projets en mon absence.&Moyenne& \\
-    \cline{1-4}
-    US39&Suppression d'un délégué pendant l'absence&En tant qu'utilisateur, je veux supprimer un délégué que j'avais désigné pendant mon absence, en cas de besoin ou si je veux modifier mes choix.&Moyenne&\\
+    \cline{1-5  }
+    US38&Recherche et affectation de délégué&En tant qu'utilisateur, je veux rechercher un utilisateur ou un service et l'affecter comme délégué pendant mon absence afin de lui donner les droits nécessaires pour gérer certaines tâches ou projets en mon absence.&Moyenne&Élevé& \\
+    \cline{1-5  }
+    US39&Suppression d'un délégué pendant l'absence&En tant qu'utilisateur, je veux supprimer un délégué que j'avais désigné pendant mon absence, en cas de besoin ou si je veux modifier mes choix.&Moyenne&Élevé&\\
     
-    \cline{1-4}
-    US40&Visualisation des statistiques&En tant qu'utilisateur, je veux visualiser les statistiques de l'application afin de suivre l'évolution de l'application.&Moyenne&\\
+    \cline{1-5  }
+    US40&Visualisation des statistiques&En tant qu'utilisateur, je veux visualiser les statistiques de l'application afin de suivre l'évolution de l'application.&Moyenne&Moyenne&\\
 
-    \cline{1-4}
-    US41&Basculer entre les espaces de travail&En tant qu’utilisateur, je veux basculer entre mes espaces de travail selectionné a fin de consulter les differents statistiques. &Moyenne&\\
+    \cline{1-5  }
+    US41&Basculer entre les espaces de travail&En tant qu’utilisateur, je veux basculer entre mes espaces de travail selectionné a fin de consulter les differents statistiques. &Moyenne&Moyenne&\\
     
     
-    \cline{1-4}
-    US42&consulter les documents a l'aide de filtre rapide&En tant qu’utilisateur, je veux consulter les documents a l’aide de filtre rapide afin de trouver les documents que je cherche. &Facile&\\
+    \cline{1-5  }
+    US42&consulter les documents a l'aide de filtre rapide&En tant qu’utilisateur, je veux consulter les documents a l’aide de filtre rapide afin de trouver les documents que je cherche. &Facile&Moyenne&\\
     
-    \cline{1-4}
-    US43&Refraichissement des données&En tant qu'utilisateur, je veux refraichir les données de l'application afin de voir les dernières informations.&Moyenne&\\
+    \cline{1-5  }
+    US43&Refraichissement des données&En tant qu'utilisateur, je veux refraichir les données de l'application afin de voir les dernières informations.&Moyenne&Moyenne&\\
     
-    \cline{1-4}
-    US44&Gestion des préférences de notification&En tant qu'utilisateur, je veux gérer mes préférences de notification pour choisir de recevoir ou non des notifications sur mon appareil mobile.&Moyenne&\\
+    \cline{1-5  }
+    US44&Gestion des préférences de notification&En tant qu'utilisateur, je veux gérer mes préférences de notification pour choisir de recevoir ou non des notifications sur mon appareil mobile.&Moyenne&Faible&\\
     
     \hline
   \end{longtable}
