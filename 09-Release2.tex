@@ -11,28 +11,31 @@
 
 \section*{Introduction}
 
-Ce chapitre présente la deuxieme version de notre application. Il est composé de quatre sprints qui ont été réalisés en 8 semaines. Nous avons commencé par l'ajout de la fonctionnalité d'authentification a l'aide en utilisant l'OIDC, puis nous avons ajouté la fonctionnalité de gestion de profil, absence et de delegation. Enfin, nous avons ajouté la fonctionnalité de consultation des statistiques. Dans ce chapitre, nous décrirons en détail les fonctionnalités de chaque sprint, les défis que nous avons rencontrés et les solutions que nous avons apportées pour les surmonter.
+Une fois que nous avons achevé la première release de notre application, nous pouvons désormais nous concentrer sur les travaux nécessaires pour produire le deuxième déploiement. Ce deuxième déploiement sera composé de quatre sprints, qui nous permettront de livrer un produit fonctionnel et prêt à être utilisé à la fin du processus.
 
-Release 2 : (Du 3 Avril au 27 Mai 2023)
+\section{Organisation des sprints}
+La release 1 (Du 3 Avril au 27 Mai 2023) est composée de quatre sprints : 
+
 
 \fbox{\begin{minipage}{30em}
   \textbf{Organisation des sprints :} \\
   Cette release contient les quatre sprints :
   \begin{itemize}
-    \item \textbf{Sprint 5 :} Gestion d'authentification OIDC et verification biometrique.
+    \item \textbf{Sprint 5 :} Authentification OIDC et verification biometrique.
     \item \textbf{Sprint 6 :} Paramétrage des applications et gestion de profil et absence.
     \item \textbf{Sprint 7 :} Consultation des statistique.
-    \item \textbf{Sprint 8 :} Notification push.
+    \item \textbf{Sprint 8 :} Notifications.
   \end{itemize}
 \end{minipage}}
 
-\section{Sprint 5 (Gestion d'authentification OIDC et verification biometrique)}
+\section{Sprint 5 (Authentification OIDC et verification biometrique)}
 
 \subsection{Sprint Goal}
-Le sprint actuel a pour objectif de présenter une analyse approfondie de l'authentification OIDC et de la vérification biométrique en tant que méthodes d'identification de l'utilisateur.
+Le sprint actuel a pour objectif de présenter une analyse approfondie de l'authentification OIDC et de la vérification biométrique.
 
 \subsection{Sprint Backlog}
 
+Le tableau \ref{tab:sprint-backlog-5} présente le sprint backlog du sprint 5.
 
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
@@ -61,6 +64,9 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 
 
 \subsection{Implémentation du Sprint 5}
+
+\subsubsection{Spécification des besoins}
+La figure \ref{fig:UseCaseDiagramSp51} présente le diagramme de cas d'utilisation du sprint 5.
 \textbf{•	Diagramme de cas d'utilisation du sprint 5}
 
 % add image
@@ -71,7 +77,10 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
   \label{fig:UseCaseDiagramSp51}
 \end{figure}
 
-\subsubsection{Spécification des besoins}
+Le diagramme de cas d'utilisation du sprint 5 nous représente les cas d'utilisation de l'authentification OIDC et de la vérification biométrique.\\
+
+Dans la partie suivante, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
+
 \textbf{•	Description textuelle de cas d'utilisation « Connexion à l'aide du protocole OIDC  »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -160,6 +169,8 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
 \label{tab:use_case_biometric_verification}
 \end{longtable}
 
+La maquette suivante représente la page de connexion à l'aide du protocole OIDC.
+
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{design_OIDC}}
@@ -167,8 +178,7 @@ Le sprint actuel a pour objectif de présenter une analyse approfondie de l'auth
   \label{fig:design_OIDC}
 \end{figure}
 
-
-Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
+Dans les diagrammes de séquence suivants, nous allons détailler les cas d'utilisation de cette sprint.
 
 \begin{figure}[H]
   \centering
@@ -195,9 +205,7 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 
 \subsubsection{Analyse détaillée}
-La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
-Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
-
+Dans cette partie, nous allons illustrer le diagramme de classes participantes représenté ci-dessous.
 
 % spacing between paragraphs
 \setlength{\parskip}{1em}
@@ -220,7 +228,6 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
 Nous allons présenter dans cette partie les diagrammes de conception de sprint 5. \\
 \textbf{•	Diagramme de classe de conception de sprint 5}
-
 % add image
 \begin{figure}[H]
   \centering
@@ -253,8 +260,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \subsubsection{Réalisation}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
-
+Après la présentation des different diagrammes, nous avons présenté dans cette partie des captures d'écran de la réalisation de sprint 5.\\
 % add image
 \begin{figure}[H]
   \centering
@@ -266,6 +272,7 @@ Voir l'annexe \ref{appendix:verification_biometrique} pour plus des captures d'�
 
 \subsection{Sprint Review}
 Dans ce sprint, nous avons travaillé sur la gestion de l'authentification OIDC et de la vérification biométrique en tant que méthodes d'identification de l'utilisateur.
+
 \subsection{Sprint Retrospective}
 Nous avons atteint tous les objectifs fixés pour ce sprint :
 \begin{itemize}
@@ -273,9 +280,7 @@ Nous avons atteint tous les objectifs fixés pour ce sprint :
   \begin{itemize}
     \item Nous avons produit une analyse complète de l'authentification OIDC et de la vérification biométrique, qui a permis d'identifier les avantages et les limites de chaque méthode d'identification de l'utilisateur.
     \item Offrir une solution plus robuste et plus fiable pour les applications qui requièrent un haut niveau de sécurité.
-    
   \end{itemize}
-
     \item \textbf{Ce qui n'a pas bien fonctionné :}
     \begin{itemize}
       \item Nous avons rencontré des difficultés lors de la mise en œuvre de la fonctionnalité de vérification biométrique et l'authentification OIDC dans l'application Elise Mobile,
@@ -289,6 +294,7 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
 
 \subsection{Sprint Backlog}
 
+Le tableau \ref{tab:sprint-backlog-6} présente le sprint backlog du sprint 6.
 
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
@@ -338,6 +344,11 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
 
 
 \subsection{Implémentation du Sprint 6}
+
+
+\subsubsection{Spécification des besoins}
+La figure \ref{fig:UseCaseDiagramSp61} présente le diagramme de cas d'utilisation du sprint 6.
+
 \textbf{•	Diagramme de cas d'utilisation du sprint 6}
 
 % add image
@@ -348,8 +359,9 @@ Le sprint actuel a pour objectif de gerer les paramétres de l'application, le p
   \label{fig:UseCaseDiagramSp61}
 \end{figure}
 
+Le diagramme de cas d'utilisation du sprint 6 nous représente les cas d'utilisation de la gestion de paramètres, de la gestion de profil et de la gestion d'absence.\\
 
-\subsubsection{Spécification des besoins}
+Dans la partie suivante, nous allons présenter les descriptions textuelles de ces cas d'utilisation.
 
 \textbf{•	Description textuelle de cas d'utilisation « Consulter la page de paramétre  »}
 
@@ -716,6 +728,7 @@ Erreur de connexion\\
 \label{tab:use_case_cancel_delegate}
 \end{longtable}
 
+La figure \ref{fig:MaquetteInterfaceParametrageGestionAbsences} présente la maquette de l'interface de paramétrage et de gestion de profile et d'absence.
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{design_sprint_6}}
@@ -724,7 +737,7 @@ Erreur de connexion\\
 \end{figure}
 
 
-Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
+Dans les diagrammes de séquence suivants, nous allons détailler les cas d'utilisation de cette sprint.
 
 \begin{figure}[H]
   \centering
@@ -808,8 +821,8 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 
 \subsubsection{Analyse détaillée}
-La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
-Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
+
+Dans cette partie, nous allons illustrer le diagramme de classes participantes représenté ci-dessous.
 
 
 % spacing between paragraphs
@@ -829,9 +842,8 @@ Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant
 
 
 \subsubsection{Conception}
+Dans cette partie nous allons représenter le diagramme de classe de conception, ainsi que les diagrammes de séquences de conception de notre sixième sprint.
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie les diagrammes de conception.\\ 
-Nous allons présenter dans cette partie les diagrammes de conception de sprint 6. 
 \begin{landscape}
 
 \textbf{•	Diagramme de classe de conception de sprint 6}
@@ -927,7 +939,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \subsubsection{Réalisation}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
+Après la présentation des different diagrammes, nous avons présenté dans cette partie des captures d'écran de l'application.
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.7\textwidth]{realisation_sprint61}}
@@ -972,6 +984,7 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 
 \subsection{Sprint Backlog}
 
+Le tableau \ref{tab:sprint-backlog-7} représente le sprint backlog du sprint 7.
 
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
@@ -1011,9 +1024,11 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
 
 
 \subsection{Implémentation du Sprint 7}
-\textbf{•	Diagramme de cas d'utilisation du sprint 7}
 
-% add image
+\subsubsection{Spécification des besoins}
+La figure \ref{fig:UseCaseDiagramSp71} présente le diagramme de cas d'utilisation du sprint 7.
+
+\textbf{•	Diagramme de cas d'utilisation du sprint 7}
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.6\textwidth]{use_case_sprint_7}}
@@ -1021,7 +1036,8 @@ L'objectif de ce sprint est de permettre à l'utilisateur de consulter les stati
   \label{fig:UseCaseDiagramSp71}
 \end{figure}
 
-\subsubsection{Spécification des besoins}
+Le diagramme \ref{fig:UseCaseDiagramSp71} représente les cas d'utilisation du sprint 7, nous allons détailler chaque cas d'utilisation dans les tableaux suivants.
+
 \textbf{•	Description textuelle de cas d'utilisation « Consulter les statistiques »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -1135,6 +1151,8 @@ des données »}
 
 \textbf{Note : Cette fonctionnalité est disponible sur la page d'accueil, la page de consultation des documents favoris, la page de consultation d'un document et la page des signatures, mais pour des raisons de lisibilité, nous avons choisi de ne pas répéter la description textuelle de ce cas d'utilisation.}
 
+La figure \ref{fig:design_statistique} présente la maquette de l'interface de consultation des statistiques et de choix d'espace de travail.
+
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.5\textwidth]{design_statistique}}
@@ -1142,8 +1160,7 @@ des données »}
   \label{fig:design_statistique}
 \end{figure}
 
-
-Pour avoir une représentation temporelle des interactions entre les objets de notre système et de la chronologie des messages échangés entre eux et avec les acteurs nous avons réalisé les diagrammes de séquence représentés ci-dessous
+Dans les diagrammes de séquence suivants, nous allons détailler les cas d'utilisation de cette sprint.
 
 \begin{figure}[H]
   \centering
@@ -1175,13 +1192,10 @@ Pour avoir une représentation temporelle des interactions entre les objets de n
 
 
 \subsubsection{Analyse détaillée}
-La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
-Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
 
+Dans cette partie, nous allons illustrer le diagramme de classes participantes représenté ci-dessous.
 
-% spacing between paragraphs
 \setlength{\parskip}{1em}
-% spacing left
 \setlength{\parindent}{0em}
 
 \textbf{•	Diagramme de classe d'analyse de sprint 7 }
@@ -1244,7 +1258,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \subsubsection{Réalisation}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
+Après la présentation des different diagrammes, nous avons présenté dans cette partie des captures d'écran de l'application.
 
 % add image
 \begin{figure}[H]
@@ -1296,17 +1310,18 @@ Suite à cette sprint, nous avons pu réaliser les fonctionnalités suivantes :
 
     \item \textbf{Ce qui n'a pas bien fonctionné :}
     \begin{itemize}
-      \item Nous avons eu des difficultés à réaliser la fonctionnalité de consultation des statistiques.
+      \item Nous avons eu des difficultés à implémenter la fonctionnalité de rafraichissement des données, parce qu'il faudra l'ajouter aux fonctionnalités déjà développées.
     \end{itemize}
       
 \end{itemize}
-\section{Sprint 8 (Notification push)}
+\section{Sprint 8 (Notifications)}
 
 \subsection{Sprint Goal}
 L'objectif de ce sprint est de permettre à l'utilisateur d'envoyer et de recevoir des notifications push.
 
 \subsection{Sprint Backlog}
 
+Le tableau \ref{tab:sprint-backlog-8} représente le sprint backlog du sprint 8.
 
 \begin{adjustwidth}{-1cm}{}
   % \usepackage{longtable}
@@ -1347,9 +1362,11 @@ L'objectif de ce sprint est de permettre à l'utilisateur d'envoyer et de recevo
 
 
 \subsection{Implémentation du Sprint 8}
-\textbf{•	Diagramme de cas d'utilisation du sprint 8}
 
-% add image
+\subsubsection{Spécification des besoins}
+La figure \ref{fig:UseCaseDiagramSp81} présente le diagramme de cas d'utilisation du sprint 8.
+
+\textbf{•	Diagramme de cas d'utilisation du sprint 8}
 \begin{figure}[H]
   \centering
   \fbox{\includegraphics[width=0.6\textwidth]{use_case_sprint_8}}
@@ -1357,7 +1374,8 @@ L'objectif de ce sprint est de permettre à l'utilisateur d'envoyer et de recevo
   \label{fig:UseCaseDiagramSp81}
 \end{figure}
 
-\subsubsection{Spécification des besoins}
+Le diagramme \ref{fig:UseCaseDiagramSp81} représente les cas d'utilisation du sprint 8, nous allons détailler chaque cas d'utilisation dans les tableaux suivants.
+
 \textbf{•	Description textuelle de cas d'utilisation « Activer les notifications »}
 
 \begin{longtable}{|p{5cm}|p{10cm}|}
@@ -1500,6 +1518,7 @@ L'objectif de ce sprint est de permettre à l'utilisateur d'envoyer et de recevo
 \label{tab:use_case_supprimer_notifications}
 \end{longtable}
 
+Dans les diagrammes de séquence suivants, nous allons détailler les cas d'utilisation de cette sprint.
 
 \begin{figure}[H]
   \centering
@@ -1541,6 +1560,8 @@ L'objectif de ce sprint est de permettre à l'utilisateur d'envoyer et de recevo
 \subsubsection{Choix de service de notification}
 Pour envoyer des notifications, nous ne savions pas quel service de notification utiliser, nous avons donc fait des recherches et découvert que firebase cloud messaging et notification hub sont les meilleurs choix. Dans le tableau suivant, nous décrirons comment nous avons trouvé lequel choisir.
 
+Le tableau \ref{tab:comparaison_fcm_notification_hub} représente la comparaison entre Firebase Cloud Messaging et Notification Hub.
+
 % fcm vs notification hub
 \begin{longtable}{|p{5cm}|p{5cm}|p{5cm}|}
 \hline
@@ -1567,9 +1588,7 @@ Voir l'annexe \ref{appendix:firebase_cloud_messaging} pour plus de détails sur 
 
 
 \subsubsection{Analyse détaillée}
-La présentation de démarche d'analyse fonctionnelle d'un sprint est très importante pour la satisfaction d'un client parce qu'elle consiste à caractériser les fonctions offertes par un produit.
-Donc, nous allons faire l'analyse des différents cas d'utilisation en utilisant le diagramme de classes d'analyse.
-
+Dans cette partie, nous allons illustrer le diagramme de classes participantes représenté ci-dessous.
 
 % spacing between paragraphs
 \setlength{\parskip}{1em}
@@ -1642,7 +1661,7 @@ Nous allons présenter dans cette partie les diagrammes de conception de sprint 
 
 \subsubsection{Réalisation}
 
-Après la présentation des diagrammes d'analyse, nous avons présenté dans cette partie des captures d'écran de l'application.
+Après la présentation des different diagrammes, nous avons présenté dans cette partie des captures d'écran de l'application.
 
 % add image
 \begin{figure}[H]
