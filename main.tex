@@ -269,11 +269,16 @@ urlcolor=blue}
 \def\thesection{\arabic{section}}
 \def\thesubsection{\arabic{section}.\arabic{subsection}}
 \def\thesubsubsection{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
 \begin{document}
 
 
-\includepdf[pages=-]{00-Page-de-garde.pdf}
+
+% \includepdf[pages=-]{00-Page-de-garde.pdf}
 \pagenumbering{Roman}
+\include{01-Raed}
+\include{01-Youssef}
+\include{02-Remerciements}
 % \include{00-Note}
 % \include{01-Dedicace}
 % \include{02-Remerciements}
@@ -303,6 +308,7 @@ urlcolor=blue}
 
 \pagenumbering{arabic}
 \include{05-Introduction}
+
 \include{06-CadreGeneral}
 \include{07-AnalyseEtConception}
 \include{08-Release1}

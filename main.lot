@@ -7,7 +7,7 @@
 \setforeignlanguage {french}
 \contentsline {table}{\numberline {1}{\ignorespaces Environnement matériel\relax }}{14}{table.0.1}%
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {2}{\ignorespaces Acteurs de l'application\relax }}{19}{table.caption.37}%
+\contentsline {table}{\numberline {2}{\ignorespaces Acteurs de l'application\relax }}{19}{table.caption.40}%
 \contentsline {table}{\numberline {3}{\ignorespaces Product Backlog\relax }}{21}{table.0.3}%
 \contentsline {table}{\numberline {4}{\ignorespaces Sprint Backlog du Sprint 1\relax }}{29}{table.0.4}%
 \setforeignlanguage {french}
@@ -216,13 +216,10 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {A1}{\ignorespaces Comparaison entre v-perfect-signature et vue-signature-pad\relax }}{168}{table.caption.197}%
+\contentsline {table}{\numberline {A1}{\ignorespaces Comparaison entre v-perfect-signature et vue-signature-pad\relax }}{168}{table.caption.200}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {A2}{\ignorespaces Comparaison entre vue-pdf et pdfvuer\relax }}{169}{table.caption.199}%
-\setforeignlanguage {french}
-\setforeignlanguage {french}
-\setforeignlanguage {french}
+\contentsline {table}{\numberline {A2}{\ignorespaces Comparaison entre vue-pdf et pdfvuer\relax }}{169}{table.caption.202}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
@@ -235,6 +232,9 @@
 \setforeignlanguage {french}
 \setforeignlanguage {french}
 \setforeignlanguage {french}
-\contentsline {table}{\numberline {A3}{\ignorespaces Les routes du serveur backend de notification\relax }}{178}{table.caption.214}%
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\setforeignlanguage {french}
+\contentsline {table}{\numberline {A3}{\ignorespaces Les routes du serveur backend de notification\relax }}{178}{table.caption.217}%
 \setforeignlanguage {french}
 \setforeignlanguage {french}

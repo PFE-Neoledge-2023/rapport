@@ -1,9 +1,9 @@
 \selectlanguage *{french}
 \selectlanguage *{french}
 \select@language {french}
-\contentsline {chapter}{Introduction générale}{1}{chapter*.1}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.4}%
 \select@language {french}
-\contentsline {chapter}{Chapitre 1: Cadre général du projet}{2}{chapter*.2}%
+\contentsline {chapter}{Chapitre 1: Cadre général du projet}{2}{chapter*.5}%
 \select@language {french}
 \contentsline {section}{\numberline {1}\bgroup \beginL \latintext Présentation de la société d'accueil\endL \egroup }{2}{section.0.1}%
 \select@language {french}
@@ -47,7 +47,7 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {4.3}\bgroup \beginL \latintext Technologies utilisées\endL \egroup }{17}{subsection.0.4.3}%
 \select@language {french}
-\contentsline {chapter}{Chapitre 2: Planification du Backlog Product}{19}{chapter*.35}%
+\contentsline {chapter}{Chapitre 2: Planification du Backlog Product}{19}{chapter*.38}%
 \select@language {french}
 \contentsline {section}{\numberline {1}\bgroup \beginL \latintext Identifications des acteurs\endL \egroup }{19}{section.0.1}%
 \select@language {french}
@@ -57,7 +57,7 @@
 \select@language {french}
 \contentsline {section}{\numberline {4}\bgroup \beginL \latintext Spécifications des besoins non fonctionnels\endL \egroup }{27}{section.0.4}%
 \select@language {french}
-\contentsline {chapter}{Chapitre 3: Release 1}{28}{chapter*.39}%
+\contentsline {chapter}{Chapitre 3: Release 1}{28}{chapter*.42}%
 \select@language {french}
 \contentsline {section}{\numberline {1}\bgroup \beginL \latintext Organisation des sprints\endL \egroup }{28}{section.0.1}%
 \select@language {french}
@@ -245,7 +245,7 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {5.5}\bgroup \beginL \latintext Sprint Retrospective\endL \egroup }{99}{subsection.0.5.5}%
 \select@language {french}
-\contentsline {chapter}{Chapitre 4: Release 2}{100}{chapter*.122}%
+\contentsline {chapter}{Chapitre 4: Release 2}{100}{chapter*.125}%
 \select@language {french}
 \contentsline {section}{\numberline {1}\bgroup \beginL \latintext Organisation des sprints\endL \egroup }{100}{section.0.1}%
 \select@language {french}
@@ -405,10 +405,10 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {6.1}\bgroup \beginL \latintext Diagramme de cas d'utilisation global\endL \egroup }{159}{subsection.0.6.1}%
 \select@language {french}
-\contentsline {chapter}{Conclusion Générale et perspectives}{162}{chapter*.193}%
+\contentsline {chapter}{Conclusion Générale et perspectives}{162}{chapter*.196}%
 \select@language {french}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Annexes}{165}{section*.195}%
+\contentsline {chapter}{Annexes}{165}{section*.198}%
 \setcounter {tocdepth}{0}
 \select@language {french}
 \contentsline {section}{\numberline {1}\bgroup \beginL \latintext Applications développées durant la formation\endL \egroup }{166}{section.Alph0.1}%
