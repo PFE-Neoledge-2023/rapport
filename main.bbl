@@ -58,6 +58,19 @@
       \verb fr.wikipedia.org/wiki/Archimed
       \endverb
     \endentry
+    \entry{microservice}{misc}{}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeltitlesource}{title}
+      \field{note}{consulté le 10/04/2023}
+      \field{title}{Architecture microservice}
+      \verb{urlraw}
+      \verb https://docs.oracle.com/en/solutions/learn-architect-microservice
+      \endverb
+      \verb{url}
+      \verb https://docs.oracle.com/en/solutions/learn-architect-microservice
+      \endverb
+    \endentry
     \entry{azureDevOps}{misc}{}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}

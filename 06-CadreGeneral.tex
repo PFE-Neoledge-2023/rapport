@@ -237,48 +237,41 @@ Avec Elise Mobile, les utilisateurs de la solution de Gestion électronique de C
 \item \textbf{Superviser leurs espaces de travail} :
   \begin{itemize}
     \item Accéder aux espaces de travail de leurs différents services
-    \item Visualiser les tâches en cours o Contrôler les échéances
+    \item Visualiser les tâches en cours
+    \item Contrôler les échéances
   \end{itemize}
 \end{itemize}
 
 \subsection{Étude technique}
-\subsubsection{Architecture de système}
-L'architecture de notre système se compose de :
+\subsubsection{Architecture backend}
+L'architecture backend se compose de :
 \begin{itemize}
   \item Serveur d'application  
   \item Serveur de données  
   \item Serveur Web 
-  \item Clients \begin{itemize}
-    \item Client web  
-    \item Client mobile 
-  \end{itemize}
 \end{itemize}
 
-D'après cette composition Nous avons constaté que notre architecture correspond à une architecture n-tiers qui divise l'application en trois couches : 
+D'après cette composition nous avons constaté que notre architecture correspond à une architecture microservice.
+Dans une architecture de microservices, chaque microservice possède une tâche simple et communique avec les clients ou avec d'autres microservices en utilisant des mécanismes de communication légers tels que les requêtes REST API \cite{microservice}.
 
-\begin{itemize}
-  \item Couche présentation : Correspondant à l'affichage, la restitution sur le poste de travail, le dialogue avec l'utilisateur. 
-  \item Couche métier (Traitement) : Correspondant à la mise en œuvre de l'ensemble des règles de gestion et de la logique applicative. 
-  \item Couche accès aux données : Correspondant aux données qui sont destinées à être conservées sur la durée, voire de manière définitive. 
-\end{itemize}
-
-Les deux figures \ref{fig:architecture_elise} et \ref{fig:digramme_architecture} représentent l'architecture de Elise.\\
+La figure ci-dessous représente l'architecture microservices. \\
+\pagebreak
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{architecture_elise}}
-  \caption{Architecture Elise}
-  \label{fig:architecture_elise}
+  \fbox{\includegraphics[width=0.38\textwidth]{microservice_architecture}}
+  \caption{Example d'architecture microservices}
+  \label{fig:microservice_architecture}
 \end{figure}
-
+La figure ci-dessous représente l'architecture d'Elise. \\
 \begin{figure}[H]
   \centering
-  \fbox{\includegraphics[width=0.8\textwidth]{deploiement}}
+  \fbox{\includegraphics[width=0.57\textwidth]{architecture_elise}}
   \caption{Diagramme d'architecture Elise}
   \label{fig:digramme_architecture}
 \end{figure}
 
-\subsubsection{Architecture de l'application}
-L'architecture de l'application Elise est basée sur le modèle MVVM (Modèle-Vue-VueModèle) qui est un modèle d'architecture logicielle reconnu par l'industrie qui surmonte tous les inconvénients des modèles de conception MVP et MVC . MVVM suggère de séparer la logique de
+\subsubsection{Architecture de l'application mobile (la partie front end)}
+L'architecture de l'application Elise Mobile est basée sur le modèle MVVM (Modèle-Vue-VueModèle) qui est un modèle d'architecture logicielle reconnu par l'industrie qui surmonte tous les inconvénients des modèles de conception MVP et MVC . MVVM suggère de séparer la logique de
 présentation des données (vues ou interface utilisateur) de la partie logique métier principale de l'application.
 
 Les couches de code distinctes de MVVM sont :
@@ -288,15 +281,11 @@ Les couches de code distinctes de MVVM sont :
   \item \textbf{ViewModel} : il expose les flux de données qui sont pertinents pour la vue. De plus, il sert de lien entre le modèle et la vue\cite{mvvm}
 \end{itemize}
 
-
-
 \subsection{Critique de l'existant}
 L'étude de l'application existante nous a permis de porter des jugements objectifs afin de projeter de fournir ainsi un système plus fiable.
 
 Parmi les lacunes rencontrées, nous citons :
 \begin{itemize}
-  % \item Elise est une solution développée de base en ASP. Net Back et front de l'ancienne version d'Asp. Net c'est pour cela l'application actuelle est non responsive et c'est à partir de la version 6 de Elise que NeoLedge a décidé de migrer le front vers les nouvelles technologies. 
-  % \item Elise utilise une base de données locale qui est SIMWebPack et qui est une solution proposée par NeoLedge pour enregistrer les documents sous la forme de XML.
   \item La version actuelle d'Elise mobile ne répond pas aux besoins des utilisateurs par rapport à Elise web ce qui invoque de mauvaises expériences utilisateurs.
   \item La version actuelle d'Elise mobile ne renferme pas toutes les fonctionnalités du Elise version web.
 \end{itemize}

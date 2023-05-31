@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.5.28)  31 MAY 2023 10:54
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.5) (preloaded format=xelatex 2023.5.28)  31 MAY 2023 15:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3577,6 +3577,15 @@ LaTeX Info: Redefining \rmfamily on input line 234.
 LaTeX Info: Redefining \sffamily on input line 234.
 LaTeX Info: Redefining \ttfamily on input line 234.
  [8]
+File: images_pfe/microservice_architecture.png Graphic file (type bmp)
+<images_pfe/microservice_architecture.png>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \rmfamily on input line 264.
+LaTeX Info: Redefining \sffamily on input line 264.
+LaTeX Info: Redefining \ttfamily on input line 264.
+ [9]
 File: images_pfe/architecture_elise.png Graphic file (type bmp)
 <images_pfe/architecture_elise.png>
 
@@ -3584,32 +3593,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--271
 [][]
  []
 
-LaTeX Info: Redefining \rmfamily on input line 272.
-LaTeX Info: Redefining \sffamily on input line 272.
-LaTeX Info: Redefining \ttfamily on input line 272.
-[9]
-File: images_pfe/deploiement.png Graphic file (type bmp)
-<images_pfe/deploiement.png>
-LaTeX Info: Redefining \rmfamily on input line 287.
-LaTeX Info: Redefining \sffamily on input line 287.
-LaTeX Info: Redefining \ttfamily on input line 287.
- [10]
-LaTeX Info: Redefining \rmfamily on input line 323.
-LaTeX Info: Redefining \sffamily on input line 323.
-LaTeX Info: Redefining \ttfamily on input line 323.
+LaTeX Info: Redefining \rmfamily on input line 280.
+LaTeX Info: Redefining \sffamily on input line 280.
+LaTeX Info: Redefining \ttfamily on input line 280.
+[10]
+LaTeX Info: Redefining \rmfamily on input line 312.
+LaTeX Info: Redefining \sffamily on input line 312.
+LaTeX Info: Redefining \ttfamily on input line 312.
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 [][]
  []
 
 
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
-LaTeX Info: Redefining \rmfamily on input line 342.
-LaTeX Info: Redefining \sffamily on input line 342.
-LaTeX Info: Redefining \ttfamily on input line 342.
+LaTeX Info: Redefining \rmfamily on input line 331.
+LaTeX Info: Redefining \sffamily on input line 331.
+LaTeX Info: Redefining \ttfamily on input line 331.
  [12]
-Overfull \hbox (2.59184pt too wide) in paragraph at lines 362--364
+Overfull \hbox (2.59184pt too wide) in paragraph at lines 351--353
 [][]\TU/lmr/bx/n/12 L’équipe de développement \TU/lmr/m/n/12 (L’équipe de proje
 t) : L’équipe de réalisation contient[]
  []
@@ -3619,9 +3622,9 @@ File: images_pfe/cycle_de_vie_scrum.png Graphic file (type bmp)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-LaTeX Info: Redefining \rmfamily on input line 377.
-LaTeX Info: Redefining \sffamily on input line 377.
-LaTeX Info: Redefining \ttfamily on input line 377.
+LaTeX Info: Redefining \rmfamily on input line 366.
+LaTeX Info: Redefining \sffamily on input line 366.
+LaTeX Info: Redefining \ttfamily on input line 366.
 [13]
 File: images_pfe/pc.jpg Graphic file (type bmp)
 <images_pfe/pc.jpg>
@@ -3631,9 +3634,9 @@ File: images_pfe/samsungs20.jpg Graphic file (type bmp)
 <images_pfe/samsungs20.jpg>
 File: images_pfe/iphone11.jpg Graphic file (type bmp)
 <images_pfe/iphone11.jpg>
-LaTeX Info: Redefining \rmfamily on input line 457.
-LaTeX Info: Redefining \sffamily on input line 457.
-LaTeX Info: Redefining \ttfamily on input line 457.
+LaTeX Info: Redefining \rmfamily on input line 446.
+LaTeX Info: Redefining \sffamily on input line 446.
+LaTeX Info: Redefining \ttfamily on input line 446.
  [14]
 File: images_pfe/win10.jpg Graphic file (type bmp)
 <images_pfe/win10.jpg>
@@ -3645,9 +3648,9 @@ File: images_pfe/android.png Graphic file (type bmp)
 <images_pfe/android.png>
 File: images_pfe/postman.jpg Graphic file (type bmp)
 <images_pfe/postman.jpg>
-LaTeX Info: Redefining \rmfamily on input line 515.
-LaTeX Info: Redefining \sffamily on input line 515.
-LaTeX Info: Redefining \ttfamily on input line 515.
+LaTeX Info: Redefining \rmfamily on input line 504.
+LaTeX Info: Redefining \sffamily on input line 504.
+LaTeX Info: Redefining \ttfamily on input line 504.
  [15]
 File: images_pfe/git.jpg Graphic file (type bmp)
 <images_pfe/git.jpg>
@@ -3665,9 +3668,9 @@ File: images_pfe/nodejs.png Graphic file (type bmp)
 <images_pfe/nodejs.png>
 File: images_pfe/firebase.png Graphic file (type bmp)
 <images_pfe/firebase.png>
-LaTeX Info: Redefining \rmfamily on input line 596.
-LaTeX Info: Redefining \sffamily on input line 596.
-LaTeX Info: Redefining \ttfamily on input line 596.
+LaTeX Info: Redefining \rmfamily on input line 585.
+LaTeX Info: Redefining \sffamily on input line 585.
+LaTeX Info: Redefining \ttfamily on input line 585.
  [16]
 File: images_pfe/json-server.png Graphic file (type bmp)
 <images_pfe/json-server.png>
@@ -3683,9 +3686,9 @@ File: images_pfe/javascript.png Graphic file (type bmp)
 <images_pfe/javascript.png>
 File: images_pfe/pinia.png Graphic file (type bmp)
 <images_pfe/pinia.png>
-LaTeX Info: Redefining \rmfamily on input line 677.
-LaTeX Info: Redefining \sffamily on input line 677.
-LaTeX Info: Redefining \ttfamily on input line 677.
+LaTeX Info: Redefining \rmfamily on input line 666.
+LaTeX Info: Redefining \sffamily on input line 666.
+LaTeX Info: Redefining \ttfamily on input line 666.
  [17]
 File: images_pfe/plantuml.png Graphic file (type bmp)
 <images_pfe/plantuml.png>
@@ -6111,23 +6114,17 @@ Package polyglossia Warning: Failed to patch part for French on input line 29.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 757ECACDF301D595B4103786614341CF;29171
-(rerunfilecheck)             After:  E8DFA44D6E0F3831FBC5F2471084348F;1314.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: E8DFA44D6E0F3831FBC5F2471084348F;1314.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45865 strings out of 411511
- 1052207 string characters out of 5818566
+ 45841 strings out of 411511
+ 1052169 string characters out of 5818566
  1940476 words of memory out of 5000000
- 64886 multiletter control sequences out of 15000+600000
+ 64862 multiletter control sequences out of 15000+600000
  524589 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,17n,96p,1428b,5829s stack positions out of 10000i,1000n,20000p,200000b,200000s

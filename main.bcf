@@ -2366,38 +2366,39 @@
     <bcf:citekey order="2" intorder="1">eliseECM</bcf:citekey>
     <bcf:citekey order="3" intorder="1">docFactory</bcf:citekey>
     <bcf:citekey order="4" intorder="1">illico</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">mvvm</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">microservice</bcf:citekey>
     <bcf:citekey order="6" intorder="1">mvvm</bcf:citekey>
     <bcf:citekey order="7" intorder="1">mvvm</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">umlCite</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">windows10</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">vscode</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">xcode</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">androidStudio</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">postman</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">git</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">azureDevOps</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">figma</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">drawio</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">teams</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">latex</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">nodejs</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">firebase</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">jsonServer</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">ionic</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">vuejs</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">capacitor</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">typescript</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">javascript</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">pinia</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">plantuml</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">jest</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">express</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">acteurUml</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">productBacklog</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">caracteristiquesProductBacklog</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">classConception</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">sequenceConception</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">mvvm</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">umlCite</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">windows10</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">vscode</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">xcode</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">androidStudio</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">postman</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">git</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">azureDevOps</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">figma</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">drawio</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">teams</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">latex</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">nodejs</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">firebase</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">jsonServer</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">ionic</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">vuejs</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">capacitor</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">typescript</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">javascript</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">pinia</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">plantuml</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">jest</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">express</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">acteurUml</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">productBacklog</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">caracteristiquesProductBacklog</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">classConception</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">sequenceConception</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

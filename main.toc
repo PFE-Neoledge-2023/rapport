@@ -21,9 +21,9 @@
 \select@language {french}
 \contentsline {subsection}{\numberline {2.2}\bgroup \beginL \latintext Étude technique\endL \egroup }{9}{subsection.0.2.2}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {2.2.1}\bgroup \beginL \latintext Architecture de système\endL \egroup }{9}{subsubsection.0.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}\bgroup \beginL \latintext Architecture backend\endL \egroup }{9}{subsubsection.0.2.2.1}%
 \select@language {french}
-\contentsline {subsubsection}{\numberline {2.2.2}\bgroup \beginL \latintext Architecture de l'application\endL \egroup }{10}{subsubsection.0.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}\bgroup \beginL \latintext Architecture de l'application mobile (la partie front end)\endL \egroup }{10}{subsubsection.0.2.2.2}%
 \select@language {french}
 \contentsline {subsection}{\numberline {2.3}\bgroup \beginL \latintext Critique de l'existant\endL \egroup }{11}{subsection.0.2.3}%
 \select@language {french}
